@@ -27,6 +27,7 @@ uname -v = #88~16.04.1-Ubuntu SMP Wed Feb 12 04:19:15 UTC 2020
 /usr/bin/oslevel       = unknown
 /bin/universe          = unknown
 
+PATH: /home/nishanth/.rbenv/versions/2.5.7/bin
 PATH: /home/nishanth/.rbenv/libexec
 PATH: /home/nishanth/.rbenv/plugins/ruby-build/bin
 PATH: /home/nishanth/.rbenv/shims

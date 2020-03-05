@@ -10,8 +10,10 @@
     <meta charset="utf-8">
 
 <!-- begin _includes/seo.html --><title>Nishanth J. Kumar</title>
-<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description. ">
+<meta name="description" content="My personal homepage and blog for non-fictional musings ">
 
+
+  <meta name="author" content="Nishanth J. Kumar">
 
 
 <meta property="og:type" content="website">
@@ -21,7 +23,7 @@
 <meta property="og:url" content="http://localhost:4000/">
 
 
-  <meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description. ">
+  <meta property="og:description" content="My personal homepage and blog for non-fictional musings ">
 
 
 
@@ -32,6 +34,10 @@
 
 
 
+
+  
+
+  
 
 
 <link rel="canonical" href="http://localhost:4000/">
@@ -44,7 +50,7 @@
     "@context": "https://schema.org",
     
       "@type": "Person",
-      "name": null,
+      "name": "Nishanth J. Kumar",
       "url": "http://localhost:4000/"
     
   }
@@ -118,9 +124,11 @@
         
         <a class="site-title" href="/">
           Nishanth J. Kumar
-          
+          <span class="site-subtitle">Researcher, Entrepreneur, Author</span>
         </a>
-        <ul class="visible-links"></ul>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/index.html" >About</a>
+            </li></ul>
         
         <button class="greedy-nav__toggle hidden" type="button">
           <span class="visually-hidden">Toggle menu</span>
@@ -140,6 +148,120 @@
 
 <div id="main" role="main">
   
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Nishanth J. Kumar</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>AI + Robotics Research and SWE, Author, Entrepreneur</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Providence, RI</span>
+        </li>
+      
+
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+
+      
+
+      
+        <li>
+          <a href="mailto:nishanth.kumar20@gmail.com">
+            <meta itemprop="email" content="nishanth.kumar20@gmail.com" />
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
 
   <div class="archive">
     
@@ -147,29 +269,9 @@
     
     
 
-
-<h3 class="archive__subtitle">Recent Posts</h3>
-
+<h3 class="archive__subtitle">Recent posts</h3>
 
 
-
-  
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        <a href="/jekyll/update/2020/03/03/welcome-to-jekyll.html" rel="permalink">Welcome to Jekyll!
-</a>
-      
-    </h2>
-    
-    <p class="archive__item-excerpt" itemprop="description">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different wa...</p>
-  </article>
-</div>
 
 
 
@@ -190,7 +292,23 @@
         <div class="page__footer-follow">
   <ul class="social-icons">
     
+      <li><strong>Follow:</strong></li>
+    
 
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
 
     <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>

@@ -64,6 +64,9 @@ This work received the highest possible grade for ‘The Great Ideas in Computer
 <br/> Brown Undergraduate Research Journal, Page 5, Volume 1, Issue 1, Spring 2019.
 
 ## Talks
+What I'm working on now: Task Scoping and Parameterized Imitation Learning
+<br/> Intelligent Robot Lab meeting, November, 2019.
+
 [Action-Oriented Semantic Maps via Mixed Reality](http://awards.cs.brown.edu/2019/08/13/undergrad-nishanth-kumar-wins-best-plenary-presentation-ilurs/)
 <br/> The Second Ivy-League Undergraduate Research Symposuim (ILURS). Best Plenary Presentation Award.
 <br/> The University of Pennsylvania. April, 2019.
@@ -72,6 +75,13 @@ This work received the highest possible grade for ‘The Great Ideas in Computer
 <br/> Machine Intelligence Conference 2019
 <br/> Boston University. September 2019.
 
+
 ## Awards
 - [CRA Outstanding Undergraduate Research Award Honorable Mention](http://awards.cs.brown.edu/2020/02/04/bayazit-galgana-kumar-and-safranchik-win-cra-outstanding-undergraduate-researcher-honorable-mentions/), 2019
 - The Second Ivy League Undergraduate Research Symposium, Best Plenary Presentation, 2019
+
+## Teaching
+- **Head Teaching Assistant**, [CSCI 2951-F: Learning and Sequential Decision Making](http://cs.brown.edu/courses/cs2951f/)
+<br/> Brown University, Fall 2019
+- **Teaching Assistant**, [ENGN 0031: Honors Intro to Engineering](https://selfservice.brown.edu/ss/bwckctlg.p_disp_course_detail?cat_term_in=201610&subj_code_in=ENGN&crse_numb_in=0031)
+<br/> Brown University School of Engineering, Fall 2018

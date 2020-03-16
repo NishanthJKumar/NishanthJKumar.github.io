@@ -100,6 +100,7 @@ social:
   - "https://twitter.com/nishanthkumar23"
   - "https://www.facebook.com/people/Nishanth-Kumar/100014347320551"
   - "https://github.com/NishanthJKumar"
+  - "https://www.quora.com/profile/Nishanth-Jay-Kumar"
 
 # Analytics
 analytics:
@@ -142,6 +143,9 @@ footer:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: mailto:nishanth_kumar@brown.com
+    - label: "Quora"
+      icon: "fab fa-quora"
+      url: "https://www.quora.com/profile/Nishanth-Jay-Kumar"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/nishanthkumar23"

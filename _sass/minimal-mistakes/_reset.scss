@@ -74,6 +74,7 @@ audio:not([controls]) {
   display: none;
 }
 
+// Enable link coloring and remove underlining of links
 a {
   color: $link-color;
   text-decoration: none;

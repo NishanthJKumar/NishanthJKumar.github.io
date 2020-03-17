@@ -7,7 +7,7 @@ permalink: /
 
 ![Me](/images/me_circle.png){:style="float: right;padding:30px;"}
 
-Hi there, and welcome to my personal website! My name's Nishanth and I'm an AI + Robotics researcher and software engineer that doubles as an author and entrepreneur in my spare time.
+Hi there, and welcome to my personal website! My name's Nishanth and I'm an AI + Robotics Research Scientist and Software Engineer who moonlights as an author and entrepreneur.
 
 Presently, I'm a Junior at [Brown University](https://www.brown.edu/) who's *officially* concentrating in Computer Engineering and researching AI within the Computer Science department, but *unofficially* does everything from [novel writing](https://orgsync.com/126728/chapter) to [promoting undergrad research](https://cs.brown.edu/people/meta-ura/) within the CS department. In the past, I've helped develop and run Brown's [Graduate-Level Reinforcement Learning course](http://cs.brown.edu/courses/cs2951f/), [launched high-altitude balloons](https://brownspace.org/rd/) with Brown Space Engineering and even served as a [Science Tour Guide](https://www.brown.edu/admission/undergraduate/visit/physical-sciences-tour). Outside of CS and Engineering, I run a [coaching and college-counseling company](https://www.paragon.school/) for high-school students and sometimes try to make progress on a young-adult sci-fi novel I've been writing for the last 6 years (that will hopefully be done *someday*...).
 

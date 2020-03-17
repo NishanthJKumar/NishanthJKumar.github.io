@@ -1,3 +1,6 @@
+---
+tags: Meditations Research
+---
 Ever since my parents bought me my first robotic toy as a kid, I’ve been excited about robots. Over the years, I’ve been lucky enough to have had numerous opportunities to work with robots. I’ve played with toys, spent multiple years building Lego and heavy-metal robots for competitions, and most-recently done research with robots. So, when it came time for me to seriously consider what I want to do with the rest of my life, ‘work with robots’ was the first and natural choice.
 
 A while ago, a friend asked me a simple question: ‘why robots?’. I was quite surprised that this was a question at all: there are so many obvious answers. The more relevant question should’ve been ‘why not robots?’. When my friend pointed out that that wasn’t a sufficient answer, I realized I hadn’t really thought through all my reasons for wanting to work with robots. I’m a big believer in carefully and consciously reasoning from first principles when it comes to major life decisions, so it was quite alarming that I didn’t have a satisfactory answer to the simple question of ‘why robots?’.

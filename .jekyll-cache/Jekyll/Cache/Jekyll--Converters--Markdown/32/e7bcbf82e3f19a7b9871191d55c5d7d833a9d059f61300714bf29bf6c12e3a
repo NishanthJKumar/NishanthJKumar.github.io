@@ -1,0 +1,117 @@
+I"�I<p>Some weeks ago, I had the pleasure of attending the 36th International Conference on Robotics and Automation (ICRA) in Montreal, Canada. This was my first major Robotics and AI focused conference and it was probably one of the most interesting and learning-intensive weeks I’ve ever had. This post is an overview of my conference experience, most-interesting things I learnt, most-exciting research directions I saw and cool robots that were on display!</p>
+
+<p>(If you’d prefer a tl;dr summary and my big takeaways from the conference, scroll all the way down)</p>
+
+<h1 id="interesting-ideas-and-learnings">Interesting ideas and learnings</h1>
+<h2 id="1-causal-inference-for-deep-learning">1. Causal Inference for Deep Learning</h2>
+<p>Yoshua Bengio opened the conference with a talk that was about his current thoughts on Machine Learning – specifically Deep Learning – as a field and some corresponding research his group (MILA) has been working on. The big idea he presented was this: all current ML methods – Deep Learning included – cannot generalize from a distribution. Bengio believes the way to do this is to disentangle input data to discover causal relationships that will hold for other data. He believes this causal inference is a key feature of human intelligence and hat incorporating it could not only make Deep Learning generalize better, but also be more explainable.</p>
+
+<p>He believes incorporating general priors/assumptions into ML models will help us learn with more sample-efficiency and discover causality. In particular, he wants to use the ‘independent mechanism’ idea which is inspired from Physics and the general independence of objects in the world and laid out in this paper. Some early experiments he’s conducted have shown that correct causal models leads to much faster adaptation to new tasks (I.e, better Transfer Learning) and much greater sample-efficiency – which is as one would expect. He also talked about achieving meta-learning with causal-inference agents: he envisions an outer loop that uses evolution to optimize an inner-loops causal-learning objective.</p>
+
+<p>Given that Bengio is one of the people that invented modern Deep Learning (and recently won the Turing Award for it too!), I was hoping for more big-ideas and high-level thoughts and insights from his talk. However, he ended up getting pretty technical and moving fairly quickly, which made it difficult to really appreciate all the concepts he showed.</p>
+
+<p>I definitely agree with Bengio’s motivation to incorporate more causal-inference into Deep Learning and ML in general. While I think there are many other things one might work on within Deep Learning, causal inference could very well be the ‘next big thing’ that pushes the field forward. I personally have not yet read too much about the theory of causal inference, but I have read some of Judea Pearl’s work and am convinced the lack of a causal model is a significant theoretical limitation of how intelligent our AI agents can actually become. Seeing that Bengio (and evidently many others) appear to be heeding Pearl’s latest call for more ML researchers to work on causal models makes me want to take a deep-dive into the theory of causality and into the current efforts to algorithmitize it.</p>
+
+<h2 id="2-drones">2. Drones</h2>
+<p>Robotics is a staggeringly huge field and consequently, there’s so many interesting sub-fields I just haven’t had the bandwidth to look into. Drones are one of these. Still, before this conference, I’d never really thought that drones had real-world applications the military or taking Facebook-worthy selfies. Boy was I wrong…</p>
+
+<p>Vijay Kumar of UPenn’s GRASP Lab delivered perhaps my favorite plenary of the conference. He started off giving a brief representative diagram of where he thinks drone research is at the moment:</p>
+
+<p><img src="/images/ICRA-pics/VijayKumar.png" alt="Vijay Kumar" class="align-center" /></p>
+
+<p>Evidently, no one thought drones would have significant commercial application until around 2010, when a low buzz of VC and consumer interest began. This grew until an explosion in 2015, when DJI (who happened to be at ICRA) sold tens of millions of drones worldwide buoyed by significant interest in drone selfies and photography/video in general. Interest in drones followed the Garner Hype Cycle [link!] till it petered out in 2018. Apparently, all the investors and entrepreneurs interested in the space didn’t give up; they simply moved to flying cars instead.</p>
+
+<p>Kumar himself has a rather interesting opinion on drones both from a commercial and research perspective. As an entrepreneur, he believes there’s still significant business opportunity for drones: just not for personal or military applications. He’s excited by the opportunity to use drones to make solutions for large businesses, which apparently almost no one else is doing at the moment. In fact, he runs a startup that uses drones to create detailed maps of mines for mining companies: something that is incredibly painstaking and dangerous today (evidently, the company is very successful so far). As a researcher and professor, he believes the incremental improvements in drones (things like flight-stabilization and very reliable people/face-tracking, etc.) should be left to industry. He’s interested in what drones will need to be really good at for applications 10 years out from hitting the markets.</p>
+
+<p>Vijay spent a significant portion of his talk explaining why drones are so hard. Essentially, there’s all the problems you would have with a mobile robot (partially-observable environments, noisy sensor data, etc.) plus the fact that the drone needs to remain in flight: a high-dimensional and difficult problem in of itself. However, at the end of the talk, he explained why drones still excite him despite all these issues. Aside from things like automated, quick deliveries, he’s extremely excited about the potential for swarms of drones to coordinate and create large-scale, highly-detailed semantic maps. This may not seem like a world-changing application at first, but Vijay pointed out efforts to apply such technology to search-and-rescue, exploration of difficult environments and even disaster recovery at Fukushima. He thinks that this is just one of the many use-cases for large-scale drone deployment.</p>
+
+<p>While I still think mobile, ground based robots are cooler than drones, Vijay Kumar’s talk and work makes me think I could see myself working with drones if given the right opportunity.</p>
+
+<h2 id="3-robotics-as-the-maturation-of-machine-learning">3. Robotics as the maturation of Machine Learning</h2>
+<p>Perhaps the most unique (and totally unexpected) experience I had at ICRA was when I got the opportunity to meet a personal idol: <a href="https://en.wikipedia.org/wiki/Ian_Goodfellow">Ian Goodfellow</a>. If you haven’t heard of him, Ian invented GAN’s (Generative Adversarial Networks), was a high-profile researcher at Google and OpenAI and is , generally considered one of the foremost Machine Learning experts on the planet. He recently left his job at Google to join Apple, which is why he was at the conference (Apple had a booth there).</p>
+
+<p>Ian talked a bit about his views on current GAN and neural network research in general, along with other technical topics, but what I found most interesting was when we began talking about robotics. Ian wasn’t allowed to say much about the project(s) he joined Apple to work on, but it evidently has a lot to do with robotics; and I really wanted to know why. Why would he leave a high-ranking role at Google where he was doing what he worked on during his PhD?</p>
+
+<p>Ian obviously had numerous reasons. Firstly, he views robotics as the next big frontier for machine learning. Thus far, most of ML and AI has progressed in the virtual world: run and evaluated in simulated worlds with often highly-controlled environments. But robots operate in the real world, where things aren’t perfectly deterministic, information is heavily noisy and every problem is incredibly high-dimensional. Goodfellow thinks that scaling ML up to tackle these problems is akin to the field “growing up” from infancy. Secondly, Ian is convinced that creating robust, real-world autonomous systems is the most significant engineering project humanity has ever undertaken. He referenced an article by Vinod Khosla [Link!] where Khosla attempted to answer the question “How much money would it take to create really good healthcare in India?”. The article essentially concludes it would take more than 100 billion dollars. Khosla consequently concludes that we can’t solve current major problems like healthcare with just policy solutions. Goodfellow believes that real-world autonomous systems like robots could be the technology that enables not only this, but helps us deal with climate change and aging populations. Finally, Ian said that he’s always really like robots. Apparently, just after he graduated from Stanford, he got an internship at Willow Garage. He loved the company and mission so much that his “Plan A” in life was to simply work for Willow. However, they wouldn’t hire him without a PhD, so he went to go do that with the full intent to come back and get the job he was promised. However, Willow Garage unfortunately went bankrupt and (fortunately), Ian’s deep learning research really took off. So, he stayed a deep learning researcher for a while until he got the opportunity from Apple to come back to doing what he originally intended to do.</p>
+
+<p>Hearing this from Goodfellow was both surprising and incredibly reassuring. I’ve believed in robotics’ potential for a while now, but I do often wonder if I’m wrong, or if it will take longer than my lifetime for us to begin to see intelligent robots. The fact that Goodfellow and others like him believe in robotics as well seems to be a good sign that the field’s potential is bright and also soon-to-come.</p>
+
+<h2 id="4-if-running-a-startup-is-a-marathon-running-a-robotics-startup-is-a-decathlon">4. If running a startup is a marathon, running a robotics startup is a decathlon</h2>
+<p>At the start of the conference, the Greg Dudek (the General Chair), stated that this year’s ICRA was the largest robotics conference in history (2163 total paper submissions). A good portion of these attendees were people interested in business/industry applications of robotics and AI. Apparently, the organizing committee had sold out the original space planned for company booths, re-planned and doubled the space, and then sold that out too. So there were a lot of companies and thus a general interest in commercialization of the technologies being displayed.</p>
+
+<p>Ryan Gariepy is the CTO of Clearpath Robotics and has been a serial robotics entrepreneur for decades now. I got to attend his keynote talk where he talked about what starting a robotics company is like and how to be successful at one.</p>
+
+<p>Here’s some points I thought were particularly insightful:</p>
+
+<ul>
+  <li>Robotics startups are hard because robots are often complicated and need hardware and software to work together seamlessly. This requires engineers that know both hardware and software</li>
+  <li>Lots of robotics companies pitch themselves as a ‘platform’. They point to successes like Apple’s App Store or YouTube. However, a key thing they forget is that platform companies need to start with users. Apple sold millions of iPhones before the App Store launched. Launching a platform for developers/customers without first having users is generally not a good idea</li>
+  <li>Companies should be very clear about how they plan to make money. They should validate the fact that people will pay for their robots/services before building them. One way to build a valid business is to be not just a robotics company. For example, Walmart is a profitable store chain, but they also have an invincible supply chain. Companies should explore models beyond simply building and selling robots</li>
+  <li>Common failure modes for robotics companies:
+    <ul>
+      <li>There is no real value proposition</li>
+      <li>The company is perpetually in pilot mode / research and the money eventually runs out</li>
+    </ul>
+  </li>
+  <li>Many people starting robotics companies come from academia / research. It’s easy to fall into the trap of thinking that running a company is like running a research lab, but this is not true.
+    <ul>
+      <li>Remember that you are running a company, not just building cool robots. The customer matters more than the robot’s technical complexity</li>
+      <li>Know exactly where robotics fits into your businesses</li>
+      <li>Don’t just declare a competitive advantage, validate it!</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Despite constantly reiterating that robotics companies are difficult, Ryan ended with some reasons why he thinks they present unparalleled opportunity</p>
+
+<ul>
+  <li>Climate change will have massive economic side effects in the need for quick and significant infrastructure changes. It’s going to be incredibly difficult if not impossible to meet these requirements with manual labor. We need robots!</li>
+  <li>The space of the three D’s (Dull, Dirty and Dangerous) tasks that robots could take over could disrupt trillion dollar industries like mining, transportation and construction. Demand for these services (and others in Maslow’s hierarchy of needs) isn’t going anywhere, so this could be extremely profitable in the long term.</li>
+</ul>
+
+<p>As someone who wanted to build a direct to consumer ‘platform’ robotics company, this talk was both educational and demoralizing. I stayed after the talk to chat with Ryan and am fairly convinced that he’s extremely knowledgeable about the robotics space and gave sound advice (so maybe I’ll start a robotics company that focuses on one of the 3 D’s instead). It was also incredibly exciting to hear about both the economic and world-changing potential of robotics (so perhaps I’m in the right field after all).</p>
+
+<h2 id="5-dealing-with-failure-as-a-robotics-researcher">5. Dealing with failure as a robotics researcher</h2>
+
+<p>This isn’t something technical at all, but I wanted to include it because I found it really significant. Matthew Mason – a long time roboticist and Professor at CMU’s legendary Robotics Institute – delivered a funny and interesting keynote that was all about failure. My takeaways from it were:</p>
+
+<ul>
+  <li>Ideas are cheap – success in research is all about the work you put into it</li>
+  <li>If you talk a lot about your own failures, people will generally think that you’re cool</li>
+  <li>When to give up on an idea: never! But that doesn’t mean keep bashing your head against the wall: simply move the idea lower in your priority queue.</li>
+  <li>Don’t trust ideas from smart people (especially yourself). If you hear a good idea from a smart person, it may be that you think it’s good because of the person’s reputation. But if you hear a good idea from a person you think is generally stupid, then you can be fairly certain this is genuinely a good idea.</li>
+  <li>Failure drives research and also the field. What doesn’t work is valuable knowledge because it guides the search for what does. So fail often and don’t be sad!</li>
+</ul>
+
+<h1 id="my-general-takeaways-from-the-conference">My general takeaways from the conference</h1>
+
+<ul>
+  <li>
+    <p>This field is happening now! Lots of opportunity</p>
+  </li>
+  <li>
+    <p>This year’s ICRA was the biggest every robotics conference, with over 100 different companies attending and (most) attempting to recruit people. There seems to be so much opportunity and (perhaps more importantly) plenty of people willing to invest heavily in the field, both in terms of time and money.</p>
+  </li>
+  <li>
+    <p>AI + ML integrating more and more into robotics</p>
+
+    <p>The top category of papers submitted was in Deep Learning for Robotics and Automation (and if you’re interested, here’s a really well-made tableau board allowing you to visualize all data about the people and papers from the conference). ‘Learning and Adaptive Systems’ and ‘Learning from Demonstration’ were also in the top 10 popular topics. It used to be that robotics conferences were dominated by work in controls, mechanics, etc. But more and more, they’re becoming dominated by AI and ML methods. I think this is a good idea for all fields involved; perhaps robotics truly is the ‘growing up’ of ML.</p>
+  </li>
+  <li>
+    <p>Self driving cars are the elephant in the room</p>
+
+    <p>From Waymo  to Uber, almost every single self-driving company I know of was at ICRA. And all of them are pushing hard to be first-to-market. Many people seem to share the opinion that self-driving cars could be the first massively-successful and widespread consumer-facing robotics project to succeed. While this is exciting indeed, I’d be careful not to count my chickens before they hatch. Many technologies (and even many robots) have gone through a phase of hype and seemed like the ‘next big thing’. It remains to be seen whether self-driving cars will actually live up to the hype.</p>
+  </li>
+</ul>
+
+<p>All in all, the conference made me extremely excited to be a researcher in the field (which is perhaps by design). While it was great to see exciting new research and such interest from industry, there was also what seemed like a clear divide between the two (both at the conference venue and in general). Despite all the interesting papers, a lot of the research work was quite specific and seemed difficult to reproduce either because there was no shared code or because the setup would be too difficult to recreate. It doesn’t seem like most of the work will be integrated into work being done in industry anytime soon. While this isn’t the immediate explicit intent of research, I think we would benefit from creating more robust and reproducible systems that industry could use in the near future.</p>
+
+<p>As insightful and eye-opening as this conference was for me, it also left me with some questions I hope to make some progress on.</p>
+
+<ul>
+  <li>What support systems and architecture (along the line of things like ROS) would we need to enable more robust and reproducible research? How could we build platforms that the entire community would agree upon, adopt and build their own projects on?</li>
+  <li>What do we need to work on to push the boundaries of robotics? How can we make widespread, intelligent and collaborative robots a reality?</li>
+</ul>
+
+<p>I’m excited to see all the new things robots will be capable of doing in the coming years!</p>
+:ET

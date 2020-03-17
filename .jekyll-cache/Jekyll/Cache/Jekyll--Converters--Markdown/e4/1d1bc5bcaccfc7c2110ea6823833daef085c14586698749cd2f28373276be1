@@ -1,0 +1,21 @@
+I"�<p>Some weeks ago, I had the pleasure of attending the 36th International Conference on Robotics and Automation (ICRA) in Montreal, Canada. This was my first major Robotics and AI focused conference and it was probably one of the most interesting and learning-intensive weeks I’ve ever had. This post is an overview of my conference experience, most-interesting things I learnt, most-exciting research directions I saw and cool robots that were on display!</p>
+
+<p>(If you’d prefer a tl;dr summary and my big takeaways from the conference, scroll all the way down)</p>
+
+<h1 id="interesting-ideas-and-learnings">Interesting ideas and learnings</h1>
+<h2 id="1-causal-inference-for-deep-learning">1. Causal Inference for Deep Learning</h2>
+<p>Yoshua Bengio opened the conference with a talk that was about his current thoughts on Machine Learning – specifically Deep Learning – as a field and some corresponding research his group (MILA) has been working on. The big idea he presented was this: all current ML methods – Deep Learning included – cannot generalize from a distribution. Bengio believes the way to do this is to disentangle input data to discover causal relationships that will hold for other data. He believes this causal inference is a key feature of human intelligence and hat incorporating it could not only make Deep Learning generalize better, but also be more explainable.</p>
+
+<p>He believes incorporating general priors/assumptions into ML models will help us learn with more sample-efficiency and discover causality. In particular, he wants to use the ‘independent mechanism’ idea which is inspired from Physics and the general independence of objects in the world and laid out in this paper. Some early experiments he’s conducted have shown that correct causal models leads to much faster adaptation to new tasks (I.e, better Transfer Learning) and much greater sample-efficiency – which is as one would expect. He also talked about achieving meta-learning with causal-inference agents: he envisions an outer loop that uses evolution to optimize an inner-loops causal-learning objective.</p>
+
+<p>Given that Bengio is one of the people that invented modern Deep Learning (and recently won the Turing Award for it too!), I was hoping for more big-ideas and high-level thoughts and insights from his talk. However, he ended up getting pretty technical and moving fairly quickly, which made it difficult to really appreciate all the concepts he showed.</p>
+
+<p>I definitely agree with Bengio’s motivation to incorporate more causal-inference into Deep Learning and ML in general. While I think there are many other things one might work on within Deep Learning, causal inference could very well be the ‘next big thing’ that pushes the field forward. I personally have not yet read too much about the theory of causal inference, but I have read some of Judea Pearl’s work and am convinced the lack of a causal model is a significant theoretical limitation of how intelligent our AI agents can actually become. Seeing that Bengio (and evidently many others) appear to be heeding Pearl’s latest call for more ML researchers to work on causal models makes me want to take a deep-dive into the theory of causality and into the current efforts to algorithmitize it.</p>
+
+<h2 id="2-drones">2. Drones</h2>
+<p>Robotics is a staggeringly huge field and consequently, there’s so many interesting sub-fields I just haven’t had the bandwidth to look into. Drones are one of these. Still, before this conference, I’d never really thought that drones had real-world applications the military or taking Facebook-worthy selfies. Boy was I wrong…</p>
+
+<p>Vijay Kumar of UPenn’s GRASP Lab delivered perhaps my favorite plenary of the conference. He started off giving a brief representative diagram of where he thinks drone research is at the moment:</p>
+
+<p><img src="/images/ICRA-pics/VijayKumar.png" alt="Vijay Kumar" class="align-center" /></p>
+:ET

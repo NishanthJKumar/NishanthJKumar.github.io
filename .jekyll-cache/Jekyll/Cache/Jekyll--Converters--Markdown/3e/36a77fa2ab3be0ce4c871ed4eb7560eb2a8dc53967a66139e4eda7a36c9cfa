@@ -1,0 +1,42 @@
+I"�<p>Over winter break, I had the opportunity to write an extended abstract (my first first-author thing!) for an idea I’d been kicking around with some other members of my lab. We ended up submitting said abstract to VAM-HRI 2019: a workshop centered on Mixed-Reality for Human-Robot Interaction. Fortunately enough, our work got accepted (find it here!) and I had the incredible opportunity to miss a week of classes to attend Human-Robot Interaction 2019 in South Korea! This was my first ever robotics conference and what follows will be my thoughts from the conference, roughly organized as below:</p>
+
+<ul>
+  <li>Major takeaways + trends from HRI 2019</li>
+  <li>Robot companies + demos!</li>
+  <li>Overall thoughts</li>
+</ul>
+
+<h1 id="major-takeaways-and-trends-from-hri-2019">Major Takeaways and Trends from HRI 2019</h1>
+<h2 id="1-the-rise-of-virtual-augmented-and-mixed-reality">1. The rise of Virtual, Augmented and Mixed Reality</h2>
+<p>I admit that this may be my own biased opinion. After all, my primary purpose behind going to this conference was to attend the VAM (Virtual, Augmented and Mixed-Reality) workshop where I myself had authored work that heavily relied on Mixed Reality. But, I was (pleasantly) surprised to see quite a few people that weren’t just part of VAM-HRI actually use VR, AR or MR for things from robot learning to conducting experiments on social robots.</p>
+
+<p><img src="/images/HRI-pics/AR_small.jpg" alt="AR Robot" class="align-center" /></p>
+
+<p>Some used VR or AR for prototyping and design, and many others used it for experiments. Of particular interest was the fact that three different works attempted to use VAM technologies to facilitate robot Learning from Demonstration (LfD). Two of these focused on methods to build large-scale VR simulations of environments and tasks to collect a very large amount of training data from users via the internet.  This idea has been around for a while (there has even been some work from our lab about it!) but it was encouraging to see other people attempting to take it forward. Indeed, it would be incredible if we could have some sort of game where players could record themselves doing common tasks and we could then use these recordings to train a robot (in simulation) to do the same tasks (and hopefully eventually do them in real life!). The third LfD work was unique in that it proposed to use Mixed Reality holograms to provide constraints on demonstrations being collected. This was an incredibly fascinating (and apt!) use of MR for robot learning and I ended up tracking down the authors and attempting to pick their brains on how they’d come up with this idea and what they planned to do with it in the future.</p>
+
+<p><img src="/images/HRI-pics/AR_Prezi.jpg" alt="AR Prezi" class="align-center" /></p>
+
+<p>Overall however, there were many more works that used VR, AR or MR than I’d expected. Earlier this year, some (smarter) lab members made me have the key realization that VR, AR and MR could act like new communication modalities between humans and robots. It was interesting and very exciting to see others realize this too and use these modalities in significant and unique ways!</p>
+
+<h2 id="2-ethics-and-accountability">2. Ethics and Accountability</h2>
+
+<p>This probably stuck with me because of how surprised I was to hear about it. As a (still-developing) robotics researcher, I’m used to hearing technical computer science or engineering fueled discussions. So hearing someone raise ethical concerns and begin talking about public policy and law while describing human-robot experiments was surprising to say the least.</p>
+
+<p>Before attending the conference, I didn’t think ethics or accountability were major problems that deserved attention – primarily because robots aren’t sufficiently advanced to be significantly dangerous yet. ‘We can figure this out after we have intelligent and generally-capable robots’ – I thought. I’m really glad multiple people have devoted more thought to this issue than I had. People raised important issues regarding self-driving cars and drones and pointed out that these inventions are already here and are already being used to do <a href="https://www.bbc.com/news/uk-46827542">questionable things</a>. At one point, there was an interesting debate about the difference between a robot and a pencil. Is a robot only a tool who’s accountability lies solely with the wielder? Or – given these are intelligent, decision-making agents – are the programmers or makers accountable?</p>
+
+<p>While people debated back and forth on what the legal and ethical status of robots should be, most concurred that we as researchers need to be thinking about these problems as we build our robots and not after the fact.</p>
+
+<h2 id="3-robots-as-caregivers">3. Robots as caregivers</h2>
+
+<p>Before the conference, I’d been tangentially aware that people were thinking about using robots to care for seniors, patients and children. What I didn’t know was just how many people were working on this and how serious they were about it. And it turns out there are quite a lot of people that are very serious about this.</p>
+
+<p>There turned out to be two entire sessions of the conference dedicated to caregiving robots: “Robots in care” and “Robots engaging children”. I was consistently surprised by the kind of challenges people were solving for these domains; the conference’s best paper ended up being about the best way for a robot to feed a human – something I’d never even considered was a challenging technical problem (and one that had an interesting and quite innovative solution at that!). There were quite a few people that conducted large-scale studies on what users would want from a robot caregiver, and while results differed, the common fact was that almost every user wants a caregiving robot. This was incredibly interesting because I’m used to people being afraid that robots will steal their jobs; but here is a legitimate, real-world domain where people overwhelmingly want robots.</p>
+
+<h1 id="robot-companies--demos">Robot companies + demos!</h1>
+<p>One of the coolest things I got to see at the conference was all the companies and demos they’d brought. There were a lot, but I only got to visit and take pictures of a few, which I’ll try to summarize them (with pictures!) below.</p>
+
+<h2 id="a-simulated-robot-arm-for-cad">A simulated robot arm for CAD</h2>
+<p>So I unfortunately forgot this company’s name – but their demo was one of the coolest I’ve seen. They had a physical robotic arm with a simulation where you could create virtual objects but feel them for real using the physical arm. Unfortunately, we were informed we’d have to ask for a quote if we’d like to own one…</p>
+
+<p><img src="/images/HRI-pics/CAD_arm.jpg" alt="CAD Arm demo" class="align-center" /></p>
+:ET

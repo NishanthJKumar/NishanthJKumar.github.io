@@ -5,8 +5,6 @@ main:
   - title: "Research"
     url: /research/
   - title: "Blog"
-    url: /year-archive/
-  - title: "Random"
-    url: /collection-archive/
+    url: /blog/
  # - title: "Sitemap"
  #   url: /sitemap/

@@ -23,4 +23,9 @@ var store = [{
         "excerpt":"A while ago, I was attempting to run last-minute experiments to finish up a paper just in time for a conference deadline. Our project essentially involved getting our beautiful white robot-arm shown above to press the buttons on the panel in front of it. Unfortunately for us, our approach required...","categories": [],
         "tags": ["Research","For-Laughs"],
         "url": "https://nishanthjkumar.com/Innovation-at-its-finest/",
+        "teaser":null},{
+        "title": "My Main College Essay",
+        "excerpt":"I’ve been asked this a bunch of times and here it finally is: the essay I wrote for the CommonApp. I think it’s really representative of the headspace I was in at the time (and admittedly still am in, to some degree). If you’re reading this and struggling with college...","categories": [],
+        "tags": ["Meditations"],
+        "url": "https://nishanthjkumar.com/My-Main-College-Essay/",
         "teaser":null}]

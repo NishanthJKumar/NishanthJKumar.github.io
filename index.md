@@ -16,7 +16,8 @@ I grew up playing street-cricket and learning to love Dosa in [Coimbatore, India
 If you're interested in reaching out or learning more about me, check out my social links in the website footer. If you'd like me to respond directly, I'm probably most available by email. I always love meeting new people and discussing, collaborating or advising in any way I can, so don't hesitate to contact!
 
 ## Recent News
-* Starting next semester I'll be an [MURA]((https://cs.brown.edu/people/meta-ura/)) with Brown CS, working to encourage undergrad research within the department!
+* I was named a [2020 Goldwater Scholar](https://goldwater.scholarsapply.org/) for my research into Robotics and AI over the last few years! 
+* Starting next semester I'll be an [MURA](https://cs.brown.edu/people/meta-ura/) with Brown CS, working to encourage undergrad research within the department!
 * My company, [Paragon.school](https://www.paragon.school/), is accepting applications from new students! If you're an ambitious high-school student looking to improve your grades, time-management, extra-curriculars and college application, consider applying.
 * I was at AAAI 2020! I had a blast attending the [Undergrad Consortium](https://aaai.org/Conferences/AAAI-20/undergraduate-consortium/), presenting my [Student Abstract](http://posts.cs.brown.edu/2020/02/14/undergraduate-nishanth-kumars-abstract-has-been-accepted-aaai-20/) and meeting amazing people.
 * I've accepted a summer internship at [Uber ATG Research](https://www.uber.com/us/en/atg/research-and-development/)! From May to August 2020, I'll be in Toronto working with [Prof. Raquel Urtasun](http://www.cs.toronto.edu/~urtasun/) doing research to make safe Self-Driving Vehicles a reality!

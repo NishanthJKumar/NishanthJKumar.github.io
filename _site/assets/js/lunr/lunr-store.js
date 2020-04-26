@@ -28,4 +28,9 @@ var store = [{
         "excerpt":"I’ve been asked this a bunch of times and here it finally is: the essay I wrote for the CommonApp. I think it’s really representative of the headspace I was in at the time (and admittedly still am in, to some degree). If you’re reading this and struggling with college...","categories": [],
         "tags": ["Meditations"],
         "url": "http://localhost:4000/My-Main-College-Essay/",
+        "teaser":null},{
+        "title": "What I Learned From 500 Days Of Meditation",
+        "excerpt":"Here’s a screenshot from my profile page on the 10% Happier guided meditation App: It's been a lot of sitting-with-my-eyes-closed As of today, I’ve meditated for just over 500 days total with this app. My meditation habit actually started before getting the app, and I didn’t log a few days...","categories": [],
+        "tags": ["Meditations"],
+        "url": "http://localhost:4000/What-I-Learned-From-500-Days-Of-Meditation/",
         "teaser":null}]

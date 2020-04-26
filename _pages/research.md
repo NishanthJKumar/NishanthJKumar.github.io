@@ -77,8 +77,9 @@ What I'm working on now: Task Scoping and Parameterized Imitation Learning
 
 
 ## Awards
+- [Heidelberg Laureate](https://www.heidelberg-laureate-forum.org/), 2020
 - [Goldwater Scholarship](https://goldwater.scholarsapply.org/), 2020
-- [2019 CRA Outstanding Undergraduate Research Award Honorable Mention](http://awards.cs.brown.edu/2020/02/04/bayazit-galgana-kumar-and-safranchik-win-cra-outstanding-undergraduate-researcher-honorable-mentions/), 2019
+- [CRA Outstanding Undergraduate Research Award Honorable Mention](http://awards.cs.brown.edu/2020/02/04/bayazit-galgana-kumar-and-safranchik-win-cra-outstanding-undergraduate-researcher-honorable-mentions/), 2019
 - The Second Ivy League Undergraduate Research Symposium, Best Plenary Presentation, 2019
 
 ## Teaching

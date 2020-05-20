@@ -64,7 +64,7 @@ This work received the highest possible grade for ‘The Great Ideas in Computer
 <br/> Brown Undergraduate Research Journal, Page 5, Volume 1, Issue 1, Spring 2019.
 
 ## Talks
-What I'm working on now: Task Scoping and Parameterized Imitation Learning
+[What I'm working on now: Task Scoping and Parameterized](http://nishanthjkumar.com/research/) Imitation Learning
 <br/> Intelligent Robot Lab meeting, November, 2019.
 
 [Let's Talk about AI and Robotics](https://www.youtube.com/watch?v=OOAPni0ZUW8)

@@ -30,7 +30,7 @@ Other current things I’m interested in / working on include Learning from Demo
 <br/> IEEE International Conference on Robotics and Automation (ICRA), 2019.
 
 ### Workshop Papers and Extended Abstracts
-Task Scoping for Efficient Planning in Open Worlds
+[Task Scoping for Efficient Planning in Open Worlds](https://www.aaai.org/Papers/AAAI/2020GB/SA-KumarN.682.pdf)
 <br/> **Nishanth Kumar**\*, Michael Fishman\*, Natasha Danas, Michael Littman, Stefanie Tellex and George Konidaris. AAAI 2020 <br/> Student Abstract Workshop, New York, USA, February 2020.
 <br/> [\* denotes equal contribution]
 
@@ -69,7 +69,7 @@ What I'm working on now: Task Scoping and Parameterized Imitation Learning
 
 [Let's Talk about AI and Robotics](https://www.youtube.com/watch?v=OOAPni0ZUW8)
 <br/> I gave an interview about my work, experiences and advice on research for an episode of the interSTEM YouTube channel.
- 
+
 [Action-Oriented Semantic Maps via Mixed Reality](http://awards.cs.brown.edu/2019/08/13/undergrad-nishanth-kumar-wins-best-plenary-presentation-ilurs/)
 <br/> The Second Ivy-League Undergraduate Research Symposuim (ILURS). Best Plenary Presentation Award.
 <br/> The University of Pennsylvania. April, 2019.

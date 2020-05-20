@@ -67,11 +67,14 @@ This work received the highest possible grade for ‘The Great Ideas in Computer
 What I'm working on now: Task Scoping and Parameterized Imitation Learning
 <br/> Intelligent Robot Lab meeting, November, 2019.
 
+[Let's Talk about AI and Robotics](https://www.youtube.com/watch?v=OOAPni0ZUW8)
+<br/> I gave an interview about my work, experiences and advice on research for an episode of the interSTEM YouTube channel.
+ 
 [Action-Oriented Semantic Maps via Mixed Reality](http://awards.cs.brown.edu/2019/08/13/undergrad-nishanth-kumar-wins-best-plenary-presentation-ilurs/)
 <br/> The Second Ivy-League Undergraduate Research Symposuim (ILURS). Best Plenary Presentation Award.
 <br/> The University of Pennsylvania. April, 2019.
 
-[Building intelligent, collaborative robots](https://drive.google.com/file/d/1CbYq511GLGLIY31LvuDz6L4iNBaXtnET/view?ts=5d7bb46c)
+[Building intelligent, collaborative robots](https://www.youtube.com/watch?v=FziEfTBAwvg)
 <br/> Machine Intelligence Conference 2019
 <br/> Boston University. September 2019.
 

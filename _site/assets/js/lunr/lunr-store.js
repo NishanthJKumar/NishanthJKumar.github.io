@@ -33,4 +33,9 @@ var store = [{
         "excerpt":"Here’s a screenshot from my profile page on the 10% Happier guided meditation App: It's been a lot of sitting-with-my-eyes-closed As of today, I’ve meditated for just over 500 days total with this app. My meditation habit actually started before getting the app, and I didn’t log a few days...","categories": [],
         "tags": ["Meditations"],
         "url": "http://localhost:4000/What-I-Learned-From-500-Days-Of-Meditation/",
+        "teaser":null},{
+        "title": "My Goldwater Application Sample",
+        "excerpt":"Earlier this year, I had the incredible privilege of being named a Goldwater Scholar. While winning the scholarship was rather validating and motivating, I thought the application process worthwhile in of itself because it forced me to think hard about my research direction and career goals for the future. During...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/My-Goldwater-Application-Sample/",
         "teaser":null}]

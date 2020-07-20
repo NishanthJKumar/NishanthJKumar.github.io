@@ -13,8 +13,6 @@ Welcome to my Research page!
 I’m currently an Undergraduate Research Assistant in the [Humans 2 Robots](https://h2r.cs.brown.edu/) and [Intelligent Robot](http://irl.cs.brown.edu/) Labs at Brown University. I work within Brown’s [BigAI initiative](http://bigai.cs.brown.edu/) and am advised by Professors [Stefanie Tellex](https://cs.brown.edu/people/stellex/), [George Konidaris](http://cs.brown.edu/people/gdk/) and [Michael Littman](http://cs.brown.edu/~mlittman/).
 {: style="text-align: center;font-size: 120%"}
 
-I've also had the distinct honor of collaborating with and being advised by brilliant researchers from other institutions. In particular, I've gotten to work with [Diego Romeres](https://www.merl.com/people/romeres), [Devesh Jha](https://www.merl.com/people/jha) and [Daniel Nikovski](https://www.merl.com/people/nikovski) at [MERL](https://www.merl.com/research/) in Cambridge. I've also worked with [Sean Sega](https://www.uber.com/us/en/atg/research-and-development/researchers/sean-segal/), [Sergio Casas](https://www.uber.com/us/en/atg/research-and-development/researchers/sergio-casas/), [Wenyuan Zheng](https://www.uber.com/us/en/atg/research-and-development/researchers/wenyuan-zeng/) and others at [Uber ATG Research](https://www.uber.com/us/en/atg/research-and-development/) where I was advised by [Prof. Raquel Urtasun](http://www.cs.toronto.edu/~urtasun/).
-
 [Google Scholar](https://scholar.google.com/citations?user=FE512o4AAAAJ&hl=en) \| [GitHub](https://github.com/NishanthJKumar) \| [Twitter](https://twitter.com/nishanthkumar23)
 {: style="text-align: center;font-size: 90%"}
 
@@ -85,6 +83,10 @@ This work received the highest possible grade for ‘The Great Ideas in Computer
 - [Goldwater Scholarship](https://goldwater.scholarsapply.org/), 2020.
 - [CRA Outstanding Undergraduate Research Award Honorable Mention](http://awards.cs.brown.edu/2020/02/04/bayazit-galgana-kumar-and-safranchik-win-cra-outstanding-undergraduate-researcher-honorable-mentions/), 2019
 - The Second Ivy League Undergraduate Research Symposium, Best Plenary Presentation, 2019
+
+## Industry Experience and Research Collaborations
+- [MERL](https://www.merl.com/research/), Cambridge, USA. Worked with [Diego Romeres](https://www.merl.com/people/romeres), [Devesh Jha](https://www.merl.com/people/jha) and [Daniel Nikovski](https://www.merl.com/people/nikovski) on furthering Learning from Demonstration for industrial robots.
+- [Uber ATG Research](https://www.uber.com/us/en/atg/research-and-development/), Toronto, Canada. Worked with [Sean Sega](https://www.uber.com/us/en/atg/research-and-development/researchers/sean-segal/), [Sergio Casas](https://www.uber.com/us/en/atg/research-and-development/researchers/sergio-casas/), [Wenyuan Zheng](https://www.uber.com/us/en/atg/research-and-development/researchers/wenyuan-zeng/) and others on a project that's currently under NDA (but will hopefully be published soon!). I had the honor of being advised by [Prof. Raquel Urtasun](http://www.cs.toronto.edu/~urtasun/).
 
 ## Teaching
 - **Head Teaching Assistant**, [CSCI 2951-F: Learning and Sequential Decision Making](http://cs.brown.edu/courses/cs2951f/)

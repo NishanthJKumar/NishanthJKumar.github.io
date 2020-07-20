@@ -67,7 +67,7 @@ This work received the highest possible grade for ‘The Great Ideas in Computer
 <br/> Intelligent Robot Lab meeting, November, 2019.
 
 [Let's Talk about AI and Robotics](https://www.youtube.com/watch?v=OOAPni0ZUW8)
-<br/> I gave an interview about my work, experiences and advice on research for an episode of the interSTEM YouTube channel.
+<br/> I was interviewed about my work, experiences and advice on research for an episode of the [interSTEM](https://www.youtube.com/channel/UC-qYS_P9NvSRoWYUsV2FmYQ) YouTube channel.
 
 [Action-Oriented Semantic Maps via Mixed Reality](http://awards.cs.brown.edu/2019/08/13/undergrad-nishanth-kumar-wins-best-plenary-presentation-ilurs/)
 <br/> The Second Ivy-League Undergraduate Research Symposuim (ILURS). Best Plenary Presentation Award.
@@ -85,8 +85,9 @@ This work received the highest possible grade for ‘The Great Ideas in Computer
 - The Second Ivy League Undergraduate Research Symposium, Best Plenary Presentation, 2019
 
 ## Industry Experience and Research Collaborations
-- [MERL](https://www.merl.com/research/), Cambridge, USA. Worked with [Diego Romeres](https://www.merl.com/people/romeres), [Devesh Jha](https://www.merl.com/people/jha) and [Daniel Nikovski](https://www.merl.com/people/nikovski) on furthering Learning from Demonstration for industrial robots.
-- [Uber ATG Research](https://www.uber.com/us/en/atg/research-and-development/), Toronto, Canada. Worked with [Sean Sega](https://www.uber.com/us/en/atg/research-and-development/researchers/sean-segal/), [Sergio Casas](https://www.uber.com/us/en/atg/research-and-development/researchers/sergio-casas/), [Wenyuan Zheng](https://www.uber.com/us/en/atg/research-and-development/researchers/wenyuan-zeng/) and others on a project that's currently under NDA (but will hopefully be published soon!). I had the honor of being advised by [Prof. Raquel Urtasun](http://www.cs.toronto.edu/~urtasun/).
+- [MERL](https://www.merl.com/research/), Cambridge, USA. <br/>Work with [Diego Romeres](https://www.merl.com/people/romeres), [Devesh Jha](https://www.merl.com/people/jha) and [Daniel Nikovski](https://www.merl.com/people/nikovski) on furthering Learning from Demonstration for industrial robots.
+- [Uber ATG Research](https://www.uber.com/us/en/atg/research-and-development/), Toronto, Canada.
+<br/>Work with [Sean Sega](https://www.uber.com/us/en/atg/research-and-development/researchers/sean-segal/), [Sergio Casas](https://www.uber.com/us/en/atg/research-and-development/researchers/sergio-casas/), [Wenyuan Zheng](https://www.uber.com/us/en/atg/research-and-development/researchers/wenyuan-zeng/) and others on a project that's currently under NDA (but will hopefully be published soon!). I had the honor of being advised by [Prof. Raquel Urtasun](http://www.cs.toronto.edu/~urtasun/).
 
 ## Teaching
 - **Head Teaching Assistant**, [CSCI 2951-F: Learning and Sequential Decision Making](http://cs.brown.edu/courses/cs2951f/)

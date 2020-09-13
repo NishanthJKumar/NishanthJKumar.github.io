@@ -27,7 +27,7 @@ Other current things I’m interested in / working on include Active Learning, L
 ### Conference Papers
 [Building Plannable Representations with Mixed Reality](https://www.researchgate.net/publication/331571661_Bridging_the_Semantic_Gap_for_Robots_Action-Oriented_Semantic_Maps_via_Mixed_Reality).
 <br/> Eric Rosen, **Nishanth Kumar**, Daniel Ullman, David Whitney, George Konidaris, Stefanie Tellex.
-<br/> Accepted. IEEE International Conference on Intelligent Robots and Systems, 2020. To appear.
+<br/> IEEE/RSJ International Conference on Intelligent Robots and Systems, 2020. To appear.
 
 [Multi-Object Search using Object-Oriented POMDPs](https://h2r.cs.brown.edu/wp-content/uploads/wandzel19.pdf).
 <br/> Arthur Wandzel, Yoonseon Oh, Michael Fishman, **Nishanth Kumar**, Lawson L. S. Wong, and Stefanie Tellex
@@ -35,7 +35,7 @@ Other current things I’m interested in / working on include Active Learning, L
 
 ### Workshop Papers and Extended Abstracts
 [Task Scoping for Efficient Planning in Open Worlds](https://www.aaai.org/Papers/AAAI/2020GB/SA-KumarN.682.pdf)
-<br/> **Nishanth Kumar**\*, Michael Fishman\*, Natasha Danas, Michael Littman, Stefanie Tellex and George Konidaris. AAAI 2020 <br/> Student Abstract Workshop, New York, USA, February 2020.
+<br/> **Nishanth Kumar**\*, Michael Fishman\*, Natasha Danas, Michael Littman, Stefanie Tellex and George Konidaris. AAAI 2020 <br/> Student Abstract, New York, USA, February 2020.
 <br/> [\* denotes equal contribution]
 
 [Knowledge Acquisition for Robots through Mixed Reality Head-Mounted Displays](https://www.researchgate.net/publication/331563746_Knowledge_Acquisition_for_Robots_Through_Mixed_Reality_Head-Mounted_Displays).
@@ -44,6 +44,12 @@ Other current things I’m interested in / working on include Active Learning, L
 <br/> [* denotes equal contribution]
 
 ### Preprints
+[<Title Obscured>](https://nishanthjkumar.com/research)
+<br/> **Nishanth Kumar**\*, Michael Fishman\*, Natasha Danas, Michael Littman, Stefanie Tellex and George Konidaris.
+<br/> Preprint.
+<br/> (Under review at AAAI 2021, title obscured to preserve double-blind review)
+<br/> [* denotes equal contribution]
+
 [Learning Deep Parameterized Skills from Demonstration for Re-targetable Visuomotor Control](https://arxiv.org/abs/1910.10628)
 <br/> Jonathan Chang\*, **Nishanth Kumar**\*, Sean Hastings, Aaron Gokaslan, Diego Romeres, Devesh K. Jha, Daniel Nikovski, George Konidaris, Stefanie Tellex.
 <br/> Preprint.

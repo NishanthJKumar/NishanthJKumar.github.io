@@ -44,7 +44,7 @@ Other current things I’m interested in / working on include Active Learning, L
 <br/> [* denotes equal contribution]
 
 ### Preprints
-[<Title Obscured>](https://nishanthjkumar.com/research)
+[Title Obscured](https://nishanthjkumar.com/research)
 <br/> **Nishanth Kumar**\*, Michael Fishman\*, Natasha Danas, Michael Littman, Stefanie Tellex and George Konidaris.
 <br/> Preprint.
 <br/> (Under review at AAAI 2021, title obscured to preserve double-blind review)

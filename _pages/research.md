@@ -47,7 +47,7 @@ Other current things I’m interested in / working on include Active Learning, L
 [Title Obscured](https://nishanthjkumar.com/research)
 <br/> **Nishanth Kumar**\*, Michael Fishman\*, Natasha Danas, Michael Littman, Stefanie Tellex and George Konidaris.
 <br/> Preprint.
-<br/> (Under review at AAAI 2021, title obscured to preserve double-blind review)
+<br/> (Under review at AAAI 2021, title obscured to preserve integrity of double-blind review)
 <br/> [* denotes equal contribution]
 
 [Learning Deep Parameterized Skills from Demonstration for Re-targetable Visuomotor Control](https://arxiv.org/abs/1910.10628)
@@ -93,7 +93,7 @@ This work received the highest possible grade for ‘The Great Ideas in Computer
 ## Industry Experience and Research Collaborations
 - [MERL](https://www.merl.com/research/), Cambridge, USA. <br/>Work with [Diego Romeres](https://www.merl.com/people/romeres), [Devesh Jha](https://www.merl.com/people/jha) and [Daniel Nikovski](https://www.merl.com/people/nikovski) on furthering Learning from Demonstration for industrial robots.
 - [Uber ATG Research](https://www.uber.com/us/en/atg/research-and-development/), Toronto, Canada.
-<br/>Work with [Sean Segal](https://www.uber.com/us/en/atg/research-and-development/researchers/sean-segal/), [Sergio Casas](https://www.uber.com/us/en/atg/research-and-development/researchers/sergio-casas/), [Wenyuan Zeng](https://www.uber.com/us/en/atg/research-and-development/researchers/wenyuan-zeng/) and others on a project that's currently under NDA (but will hopefully be published soon!). I had the honor of being advised by [Prof. Raquel Urtasun](http://www.cs.toronto.edu/~urtasun/).
+<br/>Work with [Sean Segal](https://www.uber.com/us/en/atg/research-and-development/researchers/sean-segal/), [Sergio Casas](https://www.uber.com/us/en/atg/research-and-development/researchers/sergio-casas/), [Wenyuan Zeng](https://www.uber.com/us/en/atg/research-and-development/researchers/wenyuan-zeng/), [Jingkang Wang](http://www.cs.toronto.edu/~wangjk/), [Mengye Ren](https://www.cs.toronto.edu/~mren/) and others on a project exploring Active Learning that's currently under NDA (but will hopefully be published soon!). I had the honor of being advised by [Prof. Raquel Urtasun](http://www.cs.toronto.edu/~urtasun/).
 
 ## Teaching
 - **Head Teaching Assistant**, [CSCI 2951-F: Learning and Sequential Decision Making](http://cs.brown.edu/courses/cs2951f/)

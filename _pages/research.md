@@ -13,15 +13,14 @@ Welcome to my Research page!
 I’m currently an Undergraduate Research Assistant in the [Humans 2 Robots](https://h2r.cs.brown.edu/) and [Intelligent Robot](http://irl.cs.brown.edu/) Labs at Brown University. I work within Brown’s [BigAI initiative](http://bigai.cs.brown.edu/) and am advised by Professors [Stefanie Tellex](https://cs.brown.edu/people/stellex/), [George Konidaris](http://cs.brown.edu/people/gdk/) and [Michael Littman](http://cs.brown.edu/~mlittman/).
 {: style="text-align: center;font-size: 120%"}
 
+In the past, I've had the opportunity to be a research intern at Uber ATG under [Prof. Raquel Urtasun](http://www.cs.toronto.edu/~urtasun/) and collaborate with wonderful researchers at [MERL](https://www.merl.com/research/).
+
 [Google Scholar](https://scholar.google.com/citations?user=FE512o4AAAAJ&hl=en) \| [GitHub](https://github.com/NishanthJKumar) \| [Twitter](https://twitter.com/nishanthkumar23)
 {: style="text-align: center;font-size: 90%"}
 
 ## Research Interests
-I’m broadly interested in the fields of Artificial Intelligence (AI) and Robotics. More specifically, I’m drawn to the sub-fields of Reinforcement Learning, Deep Learning, Classical AI Planning, Representation and Heuristics for Planning and Mixed Reality for Robotics. I’m particularly interested in working towards intelligent, collaborative robots; which lies at the intersection of all my different interests.
+I’m broadly interested in the fields of Artificial Intelligence (AI) and Robotics. More specifically, I’m drawn to the sub-fields of Reinforcement Learning, Deep Learning, Classical AI Planning, Representation and Heuristics for Planning and Mixed Reality for Robotics. I’m particularly interested in working towards both intelligent and collaborative robots: which lies at the intersection of all my different interests.
 
-My current work involves thinking about good representations for AI agents and enabling efficient planning within them. Specifically, I’m focusing on object-oriented representations and how their inherent structure can be used to speed-up decision making under uncertainty. I believe that creating representations that are both highly-structured while also being intuitive to humans will enable more sample-efficient and explainable AI.
-
-Other current things I’m interested in / working on include Active Learning, Learning from Demonstrations (LfD) and Transfer Learning, and using Mixed Reality to enable robots to effectively collaborate with and acquire multi-modal knowledge from humans.
 
 ## Publications
 ### Conference Papers

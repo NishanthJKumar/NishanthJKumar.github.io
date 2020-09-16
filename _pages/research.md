@@ -11,15 +11,21 @@ Welcome to my Research page!
 {: style="text-align: center;font-size: 120%;padding-top: 40px"}
 
 I’m currently an Undergraduate Research Assistant in the [Humans 2 Robots](https://h2r.cs.brown.edu/) and [Intelligent Robot](http://irl.cs.brown.edu/) Labs at Brown University. I work within Brown’s [BigAI initiative](http://bigai.cs.brown.edu/) and am advised by Professors [Stefanie Tellex](https://cs.brown.edu/people/stellex/), [George Konidaris](http://cs.brown.edu/people/gdk/) and [Michael Littman](http://cs.brown.edu/~mlittman/).
-
-In the past, I've had the opportunity to be a Research Intern at [Uber ATG](https://www.uber.com/ca/en/atg/research-and-development/) under [Prof. Raquel Urtasun](http://www.cs.toronto.edu/~urtasun/) and collaborate with wonderful researchers at [MERL](https://www.merl.com/research/).
 {: style="text-align: center;font-size: 120%"}
 
 [Google Scholar](https://scholar.google.com/citations?user=FE512o4AAAAJ&hl=en) \| [GitHub](https://github.com/NishanthJKumar) \| [Twitter](https://twitter.com/nishanthkumar23)
 {: style="text-align: center;font-size: 90%"}
 
 ## Research Interests
-I’m broadly interested in the fields of Artificial Intelligence (AI) and Robotics. More specifically, I’m drawn to the sub-fields of Reinforcement Learning, Deep Learning, Classical AI Planning, Representation and Heuristics for Planning and Mixed Reality for Robotics. I’m particularly interested in working towards both intelligent and collaborative robots: which lies at the intersection of all my different interests.
+My research interest is to combine ideas from classical AI with modern machine learning techniques
+to contribute to the development of more general-purpose robots. I have a specific interest in improving
+Imitation and Deep Reinforcement Learning algorithms to be more explainable, sample-efficient and
+generalizable by attempting to incorporate models and leverage ideas such as hierarchy, abstraction and
+priors. Additionally, I believe that effective human collaboration can drastically improve agents’
+capabilities and thus am interested in exploiting emerging modalities for human-AI communication such
+as Mixed Reality and Natural Language. I envision that the integration and development of these
+disciplines will accelerate the advent of intelligent, collaborative robots that will be of great service to
+humanity.
 
 
 ## Publications

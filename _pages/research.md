@@ -11,9 +11,9 @@ Welcome to my Research page!
 {: style="text-align: center;font-size: 120%;padding-top: 40px"}
 
 I’m currently an Undergraduate Research Assistant in the [Humans 2 Robots](https://h2r.cs.brown.edu/) and [Intelligent Robot](http://irl.cs.brown.edu/) Labs at Brown University. I work within Brown’s [BigAI initiative](http://bigai.cs.brown.edu/) and am advised by Professors [Stefanie Tellex](https://cs.brown.edu/people/stellex/), [George Konidaris](http://cs.brown.edu/people/gdk/) and [Michael Littman](http://cs.brown.edu/~mlittman/).
-{: style="text-align: center;font-size: 120%"}
 
-In the past, I've had the opportunity to be a research intern at Uber ATG under [Prof. Raquel Urtasun](http://www.cs.toronto.edu/~urtasun/) and collaborate with wonderful researchers at [MERL](https://www.merl.com/research/).
+In the past, I've had the opportunity to be a Research Intern at [Uber ATG](https://www.uber.com/ca/en/atg/research-and-development/) under [Prof. Raquel Urtasun](http://www.cs.toronto.edu/~urtasun/) and collaborate with wonderful researchers at [MERL](https://www.merl.com/research/).
+{: style="text-align: center;font-size: 120%"}
 
 [Google Scholar](https://scholar.google.com/citations?user=FE512o4AAAAJ&hl=en) \| [GitHub](https://github.com/NishanthJKumar) \| [Twitter](https://twitter.com/nishanthkumar23)
 {: style="text-align: center;font-size: 90%"}

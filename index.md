@@ -13,7 +13,7 @@ Presently, I'm a Senior at [Brown University](https://www.brown.edu/) concentrat
 
 I grew up playing street-cricket and learning to love Dosa in [Coimbatore, India](https://www.google.com/maps/place/Coimbatore,+Tamil+Nadu,+India/@11.0116773,76.8268011,11z/data=!3m1!4b1!4m5!3m4!1s0x3ba859af2f971cb5:0x2fc1c81e183ed282!8m2!3d11.0168445!4d76.9558321). During my time in India, [I studied and eventually taught the IB](http://tipskovai.com/news-events/maths-geek-nishanth-kumar/), wrote and semi self-published [a novel](https://books.google.com/books/about/The_Book_of_the_Heavens.html?id=U_AKZPObpxsC), built and competed with [robots](https://www.thehindu.com/news/cities/Coimbatore/coimbatore-students-bag-award-in-robotics-contest/article7258141.ece), and even built a [popular science fair project](https://www.youtube.com/watch?v=QvA7EftdSak).
 
-To get in touch or learn more about me, check out my social links in the website footer and feel free to shoot me an email!
+To get in touch or learn more about me, check out my [resume](/misc_files/Resume_September_2020.pdf) or social links in the website footer and feel free to shoot me an email!
 
 ## Recent News
 * My incredible summer internship at [Uber ATG Research](https://www.uber.com/us/en/atg/research-and-development/) has come to an end. I'm extremely grateful to [Prof. Raquel Urtasun](http://www.cs.toronto.edu/~urtasun/) and my collaborators at ATG for such a positive and enriching experience despite the challenges of being remote.

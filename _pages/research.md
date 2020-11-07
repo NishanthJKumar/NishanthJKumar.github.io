@@ -49,10 +49,10 @@ humanity.
 <br/> [* denotes equal contribution]
 
 ### Preprints
-[Title Obscured](https://nishanthjkumar.com/research)
+[Task Scoping: Building Goal-Specific Abstractions for Planning in Complex Domains](https://arxiv.org/abs/2010.08869)
 <br/> **Nishanth Kumar**\*, Michael Fishman\*, Natasha Danas, Michael Littman, Stefanie Tellex and George Konidaris.
 <br/> Preprint.
-<br/> (Under review at AAAI 2021, title obscured to preserve integrity of double-blind review)
+<br/> (In preparation, IJCAI 2021)
 <br/> [* denotes equal contribution]
 
 [Learning Deep Parameterized Skills from Demonstration for Re-targetable Visuomotor Control](https://arxiv.org/abs/1910.10628)

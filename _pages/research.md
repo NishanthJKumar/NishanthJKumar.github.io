@@ -24,8 +24,7 @@ generalizable by attempting to incorporate models and leverage ideas such as hie
 priors. Additionally, I believe that effective human collaboration can drastically improve agents’
 capabilities and thus am interested in exploiting emerging modalities for human-AI communication such
 as Mixed Reality and Natural Language. I envision that the integration and development of these
-disciplines will accelerate the advent of intelligent, collaborative robots that will be of great service to
-humanity.
+disciplines will accelerate the advent of intelligent, collaborative robots that will be of great service to humanity.
 
 
 ## Publications

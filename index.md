@@ -16,6 +16,7 @@ I grew up playing street-cricket and learning to love Dosa in [Coimbatore, India
 To get in touch or learn more about me, check out my [resume](/misc_files/Resume_September_2020.pdf) or social links in the website footer and feel free to shoot me an email!
 
 ## Recent News
+* In January 2021, I'll be giving an invited talk on Task Scoping at the [Learning and Intelligent Systems Group](https://lis.csail.mit.edu/) at MIT!
 * My incredible summer internship at [Uber ATG Research](https://www.uber.com/us/en/atg/research-and-development/) has come to an end. I'm extremely grateful to [Prof. Raquel Urtasun](http://www.cs.toronto.edu/~urtasun/) and my collaborators at ATG for such a positive and enriching experience despite the challenges of being remote.
 * I was named a [2020 Heidelberg Laureate](https://www.heidelberg-laureate-forum.org/) and invited to the 2021 HLF in Germany!
 * I was named a [2020 Goldwater Scholar](https://goldwater.scholarsapply.org/) for my research into Robotics and AI over the last few years!

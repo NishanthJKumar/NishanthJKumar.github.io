@@ -16,15 +16,10 @@ I’m currently an Undergraduate Research Assistant in the [Humans 2 Robots](htt
 [Resume](/misc_files/Resume_September_2020.pdf) \| [CV](/misc_files/Nishanth_CV_September_2020.pdf) \| [Google Scholar](https://scholar.google.com/citations?user=FE512o4AAAAJ&hl=en) \| [GitHub](https://github.com/NishanthJKumar) \| [Twitter](https://twitter.com/nishanthkumar23)
 {: style="text-align: center;font-size: 90%"}
 
-## Research Interests
-My research interest is to combine ideas from classical AI with modern machine learning techniques
-to contribute to the development of more general-purpose robots. I have a specific interest in improving
-Imitation and Deep Reinforcement Learning algorithms to be more explainable, sample-efficient and
-generalizable by attempting to incorporate models and leverage ideas such as hierarchy, abstraction and
-priors. Additionally, I believe that effective human collaboration can drastically improve agents’
-capabilities and thus am interested in exploiting emerging modalities for human-AI communication such
-as Mixed Reality and Natural Language. I envision that the integration and development of these
-disciplines will accelerate the advent of intelligent, collaborative robots that will be of great service to humanity.
+## Research Areas
+I'm broadly interested in enabling intelligent robots to solve a variety of tasks under the complex and dynamic conditions of the real world.
+Thus far, I've worked towards this goal by pursuing a range of different topics including Imitation Learning, Planning and Abstraction, Active Learning,
+Reinforcement Learning and Mixed Reality for Human-Robot collaboration.
 
 
 ## Publications

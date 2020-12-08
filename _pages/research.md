@@ -84,10 +84,13 @@ This work received the highest possible grade for ‘The Great Ideas in Computer
 
 
 ## Awards
+- [Tau Beta Pi](https://www.tbp.org/recruit/recruitHome.cfm)
 - [Heidelberg Laureate](https://www.heidelberg-laureate-forum.org/), 2020
 - [Goldwater Scholarship](https://goldwater.scholarsapply.org/), 2020.
 - [CRA Outstanding Undergraduate Research Award Honorable Mention](http://awards.cs.brown.edu/2020/02/04/bayazit-galgana-kumar-and-safranchik-win-cra-outstanding-undergraduate-researcher-honorable-mentions/), 2019
+- [Karen T. Romer Undergraduate Teaching and Research Award](https://www.brown.edu/academics/college/fellowships/utra/named)
 - The Second Ivy League Undergraduate Research Symposium, Best Plenary Presentation, 2019
+
 
 ## Industry Experience and Research Collaborations
 - [MERL](https://www.merl.com/research/), Cambridge, USA. <br/>Work with [Diego Romeres](https://www.merl.com/people/romeres), [Devesh Jha](https://www.merl.com/people/jha) and [Daniel Nikovski](https://www.merl.com/people/nikovski) on furthering Learning from Demonstration for industrial robots.

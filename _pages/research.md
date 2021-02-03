@@ -46,7 +46,7 @@ Reinforcement Learning and Mixed Reality for Human-Robot collaboration.
 [Task Scoping: Building Goal-Specific Abstractions for Planning in Complex Domains](https://arxiv.org/abs/2010.08869)
 <br/> **Nishanth Kumar**\*, Michael Fishman\*, Natasha Danas, Michael Littman, Stefanie Tellex and George Konidaris.
 <br/> Preprint.
-<br/> (In preparation, IJCAI 2021)
+<br/> (In preparation)
 <br/> [* denotes equal contribution]
 
 [Learning Deep Parameterized Skills from Demonstration for Re-targetable Visuomotor Control](https://arxiv.org/abs/1910.10628)
@@ -68,8 +68,11 @@ This work received the highest possible grade for ‘The Great Ideas in Computer
 <br/> Brown Undergraduate Research Journal, Page 5, Volume 1, Issue 1, Spring 2019.
 
 ## Talks
+[Task Scoping: Generating Task-Specific Abstractions for Planning](http://nishanthjkumar.com/research/)
+<br/> [MIT LIS Group Meeting](https://lis.csail.mit.edu/). February, 2021.
+
 [What I'm working on now: Task Scoping and Parameterized Imitation Learning](http://nishanthjkumar.com/research/)
-<br/> Intelligent Robot Lab meeting, November, 2019.
+<br/> Intelligent Robot Lab meeting. November, 2019.
 
 [Let's Talk about AI and Robotics](https://www.youtube.com/watch?v=OOAPni0ZUW8)
 <br/> I was interviewed about my work, experiences and advice on research for an episode of the [interSTEM](https://www.youtube.com/channel/UC-qYS_P9NvSRoWYUsV2FmYQ) YouTube channel.
@@ -103,3 +106,10 @@ This work received the highest possible grade for ‘The Great Ideas in Computer
 <br/> Brown University, Fall 2019
 - **Teaching Assistant**, [ENGN 0031: Honors Intro to Engineering](https://selfservice.brown.edu/ss/bwckctlg.p_disp_course_detail?cat_term_in=201610&subj_code_in=ENGN&crse_numb_in=0031)
 <br/> Brown University School of Engineering, Fall 2018
+
+## Selected Press Coverage
+- [Bawabe, Kumar, Sam, And Walke Receive CRA Outstanding Undergraduate Researcher Honors](https://cs.brown.edu/news/2021/01/13/bawabe-kumar-sam-walker-receive-cra-undergraduate-outstanding-researcher-honors/)
+- [Nishanth Kumar named 2020 Barry M. Goldwater Scholar](https://engineering.brown.edu/news/2020-04-15/student-awards)
+- [2020 Barry Goldwater Scholars Include Many Impressive Indian American Researchers ](https://www.indiawest.com/news/global_indian/2020-barry-goldwater-scholars-include-many-impressive-indian-american-researchers/article_38eaa6d6-88bd-11ea-842a-b3d73797025a.html)
+- [Undergrad Nishanth Kumar Wins Best Plenary Presentation At ILURS](https://cs.brown.edu/news/2019/08/13/undergrad-nishanth-kumar-wins-best-plenary-presentation-ilurs/)
+- [Bayazit, Galgana, Kumar, And Safranchik Win CRA Outstanding Undergraduate Researcher Honorable Mentions ](http://cs.brown.edu/news/2020/02/04/bayazit-galgana-kumar-and-safranchik-win-cra-outstanding-undergraduate-researcher-honorable-mentions/)

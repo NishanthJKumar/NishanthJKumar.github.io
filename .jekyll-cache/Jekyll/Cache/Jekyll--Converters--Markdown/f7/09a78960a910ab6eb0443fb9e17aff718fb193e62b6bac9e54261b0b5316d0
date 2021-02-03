@@ -1,19 +1,13 @@
-I"�!<p style="text-align: center;font-size: 120%;padding-top: 40px">Welcome to my Research page!</p>
+I""<p style="text-align: center;font-size: 120%;padding-top: 40px">Welcome to my Research page!</p>
 
 <p style="text-align: center;font-size: 120%">I’m currently an Undergraduate Research Assistant in the <a href="https://h2r.cs.brown.edu/">Humans 2 Robots</a> and <a href="http://irl.cs.brown.edu/">Intelligent Robot</a> Labs at Brown University. I work within Brown’s <a href="http://bigai.cs.brown.edu/">BigAI initiative</a> and am advised by Professors <a href="https://cs.brown.edu/people/stellex/">Stefanie Tellex</a>, <a href="http://cs.brown.edu/people/gdk/">George Konidaris</a> and <a href="http://cs.brown.edu/~mlittman/">Michael Littman</a>.</p>
 
 <p style="text-align: center;font-size: 90%"><a href="/misc_files/Resume_September_2020.pdf">Resume</a> | <a href="/misc_files/Nishanth_CV_September_2020.pdf">CV</a> | <a href="https://scholar.google.com/citations?user=FE512o4AAAAJ&amp;hl=en">Google Scholar</a> | <a href="https://github.com/NishanthJKumar">GitHub</a> | <a href="https://twitter.com/nishanthkumar23">Twitter</a></p>
 
-<h2 id="research-interests">Research Interests</h2>
-<p>My research interest is to combine ideas from classical AI with modern machine learning techniques
-to contribute to the development of more general-purpose robots. I have a specific interest in improving
-Imitation and Deep Reinforcement Learning algorithms to be more explainable, sample-efficient and
-generalizable by attempting to incorporate models and leverage ideas such as hierarchy, abstraction and
-priors. Additionally, I believe that effective human collaboration can drastically improve agents’
-capabilities and thus am interested in exploiting emerging modalities for human-AI communication such
-as Mixed Reality and Natural Language. I envision that the integration and development of these
-disciplines will accelerate the advent of intelligent, collaborative robots that will be of great service to
-humanity.</p>
+<h2 id="research-areas">Research Areas</h2>
+<p>I’m broadly interested in enabling intelligent robots to solve a variety of tasks under the complex and dynamic conditions of the real world.
+Thus far, I’ve worked towards this goal by pursuing a range of different topics including Imitation Learning, Planning and Abstraction, Active Learning,
+Reinforcement Learning and Mixed Reality for Human-Robot collaboration.</p>
 
 <h2 id="publications">Publications</h2>
 <h3 id="conference-papers">Conference Papers</h3>
@@ -36,10 +30,10 @@ humanity.</p>
 <br /> [* denotes equal contribution]</p>
 
 <h3 id="preprints">Preprints</h3>
-<p><a href="https://nishanthjkumar.com/research">Title Obscured</a>
+<p><a href="https://arxiv.org/abs/2010.08869">Task Scoping: Building Goal-Specific Abstractions for Planning in Complex Domains</a>
 <br /> <strong>Nishanth Kumar</strong>*, Michael Fishman*, Natasha Danas, Michael Littman, Stefanie Tellex and George Konidaris.
 <br /> Preprint.
-<br /> (Under review at AAAI 2021, title obscured to preserve integrity of double-blind review)
+<br /> (In preparation, IJCAI 2021)
 <br /> [* denotes equal contribution]</p>
 
 <p><a href="https://arxiv.org/abs/1910.10628">Learning Deep Parameterized Skills from Demonstration for Re-targetable Visuomotor Control</a>
@@ -76,9 +70,12 @@ humanity.</p>
 
 <h2 id="awards">Awards</h2>
 <ul>
+  <li><a href="http://awards.cs.brown.edu/2020/02/04/bayazit-galgana-kumar-and-safranchik-win-cra-outstanding-undergraduate-researcher-honorable-mentions/">CRA Outstanding Undergraduate Research Award Finalist</a>, 2021</li>
+  <li><a href="https://www.tbp.org/recruit/recruitHome.cfm">Tau Beta Pi Inductee</a></li>
   <li><a href="https://www.heidelberg-laureate-forum.org/">Heidelberg Laureate</a>, 2020</li>
   <li><a href="https://goldwater.scholarsapply.org/">Goldwater Scholarship</a>, 2020.</li>
-  <li><a href="http://awards.cs.brown.edu/2020/02/04/bayazit-galgana-kumar-and-safranchik-win-cra-outstanding-undergraduate-researcher-honorable-mentions/">CRA Outstanding Undergraduate Research Award Honorable Mention</a>, 2019</li>
+  <li><a href="http://awards.cs.brown.edu/2020/02/04/bayazit-galgana-kumar-and-safranchik-win-cra-outstanding-undergraduate-researcher-honorable-mentions/">CRA Outstanding Undergraduate Research Award Honorable Mention</a>, 2020</li>
+  <li><a href="https://www.brown.edu/academics/college/fellowships/utra/named">Karen T. Romer Undergraduate Teaching and Research Award</a></li>
   <li>The Second Ivy League Undergraduate Research Symposium, Best Plenary Presentation, 2019</li>
 </ul>
 
@@ -86,7 +83,7 @@ humanity.</p>
 <ul>
   <li><a href="https://www.merl.com/research/">MERL</a>, Cambridge, USA. <br />Work with <a href="https://www.merl.com/people/romeres">Diego Romeres</a>, <a href="https://www.merl.com/people/jha">Devesh Jha</a> and <a href="https://www.merl.com/people/nikovski">Daniel Nikovski</a> on furthering Learning from Demonstration for industrial robots.</li>
   <li><a href="https://www.uber.com/us/en/atg/research-and-development/">Uber ATG Research</a>, Toronto, Canada.
-<br />Work with <a href="https://www.uber.com/us/en/atg/research-and-development/researchers/sean-segal/">Sean Segal</a>, <a href="https://www.uber.com/us/en/atg/research-and-development/researchers/sergio-casas/">Sergio Casas</a>, <a href="https://www.uber.com/us/en/atg/research-and-development/researchers/wenyuan-zeng/">Wenyuan Zeng</a>, <a href="http://www.cs.toronto.edu/~wangjk/">Jingkang Wang</a>, <a href="https://www.cs.toronto.edu/~mren/">Mengye Ren</a> and others on a project exploring Active Learning that’s currently under NDA (but will hopefully be published soon!). I had the honor of being advised by <a href="http://www.cs.toronto.edu/~urtasun/">Prof. Raquel Urtasun</a>.</li>
+<br />Worked with <a href="https://www.uber.com/us/en/atg/research-and-development/researchers/sean-segal/">Sean Segal</a>, <a href="https://www.uber.com/us/en/atg/research-and-development/researchers/sergio-casas/">Sergio Casas</a>, <a href="https://www.uber.com/us/en/atg/research-and-development/researchers/wenyuan-zeng/">Wenyuan Zeng</a>, <a href="http://www.cs.toronto.edu/~wangjk/">Jingkang Wang</a>, <a href="https://www.cs.toronto.edu/~mren/">Mengye Ren</a> and others on a project exploring Active Learning for Self-Driving Vehicles that’s currently under NDA (but will hopefully be published soon!). I had the honor of being advised by <a href="http://www.cs.toronto.edu/~urtasun/">Prof. Raquel Urtasun</a>.</li>
 </ul>
 
 <h2 id="teaching">Teaching</h2>

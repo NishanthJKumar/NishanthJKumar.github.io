@@ -1,4 +1,4 @@
-I"N<p><img src="/images/me_circle.png" alt="Me" style="float: right;padding:30px;" /></p>
+I"^<p><img src="/images/me_circle.png" alt="Me" style="float: right;padding:30px;" /></p>
 
 <p>Hi there, and welcome to my personal website! My name’s Nishanth and I’m a researcher and engineer focused on AI and ML applications to robotics. I also moonlight as a writer and entrepreneur.</p>
 
@@ -10,6 +10,8 @@
 
 <h2 id="recent-news">Recent News</h2>
 <ul>
+  <li>I was named a Finalist for the 2021 CRA Outstanding Undergraduate Research Awards!</li>
+  <li>In January 2021, I’ll be giving an invited talk on Task Scoping at the <a href="https://lis.csail.mit.edu/">Learning and Intelligent Systems Group</a> at MIT CSAIL!</li>
   <li>My incredible summer internship at <a href="https://www.uber.com/us/en/atg/research-and-development/">Uber ATG Research</a> has come to an end. I’m extremely grateful to <a href="http://www.cs.toronto.edu/~urtasun/">Prof. Raquel Urtasun</a> and my collaborators at ATG for such a positive and enriching experience despite the challenges of being remote.</li>
   <li>I was named a <a href="https://www.heidelberg-laureate-forum.org/">2020 Heidelberg Laureate</a> and invited to the 2021 HLF in Germany!</li>
   <li>I was named a <a href="https://goldwater.scholarsapply.org/">2020 Goldwater Scholar</a> for my research into Robotics and AI over the last few years!</li>

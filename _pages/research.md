@@ -68,8 +68,8 @@ This work received the highest possible grade for ‘The Great Ideas in Computer
 <br/> Brown Undergraduate Research Journal, Page 5, Volume 1, Issue 1, Spring 2019.
 
 ## Talks
-[Task Scoping: Generating Task-Specific Abstractions for Planning](http://nishanthjkumar.com/research/)
-<br/> [MIT LIS Group Meeting](https://lis.csail.mit.edu/). February, 2021.
+[Task Scoping: Generating Task-Specific Abstractions for Planning](https://drive.google.com/file/d/1eshvDUiBJJIbLqqRusdgCv5O7wK076f8/view)
+<br/> [MIT LIS Group Meeting](https://lis.csail.mit.edu/). February 12, 2021.
 
 [What I'm working on now: Task Scoping and Parameterized Imitation Learning](http://nishanthjkumar.com/research/)
 <br/> Intelligent Robot Lab meeting. November, 2019.

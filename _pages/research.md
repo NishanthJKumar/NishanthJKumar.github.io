@@ -108,6 +108,7 @@ This work received the highest possible grade for ‘The Great Ideas in Computer
 <br/> Brown University School of Engineering, Fall 2018
 
 ## Selected Press Coverage
+- [Engineering’s Dwyer, Dastin-van Rijn and Kumar Selected as NSF Graduate Research Fellows](https://engineering.brown.edu/news/2021-03-29/nsf-graduate-research-award)
 - [Bawabe, Kumar, Sam, And Walke Receive CRA Outstanding Undergraduate Researcher Honors](https://cs.brown.edu/news/2021/01/13/bawabe-kumar-sam-walker-receive-cra-undergraduate-outstanding-researcher-honors/)
 - [Nishanth Kumar named 2020 Barry M. Goldwater Scholar](https://engineering.brown.edu/news/2020-04-15/student-awards)
 - [2020 Barry Goldwater Scholars Include Many Impressive Indian American Researchers ](https://www.indiawest.com/news/global_indian/2020-barry-goldwater-scholars-include-many-impressive-indian-american-researchers/article_38eaa6d6-88bd-11ea-842a-b3d73797025a.html)

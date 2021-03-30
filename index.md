@@ -16,10 +16,10 @@ I grew up playing street-cricket and learning to love Dosa in [Coimbatore, India
 To get in touch or learn more about me, check out my [resume](/misc_files/Resume_September_2020.pdf) or social links in the website footer and feel free to shoot me an email!
 
 ## Recent News
+* I've accepted an offer to become a Ph.D. student in the [Learning and Intelligent Systems Group](https://lis.csail.mit.edu/) at [MIT CSAIL](https://www.csail.mit.edu/). This is a personal dream come true, and I'm beyond excited for all the opportunity and collaboration to come!
+* I've been selected as a 2021 [NSF GRFP](https://engineering.brown.edu/news/2021-03-29/nsf-graduate-research-award) recipient!
 * I was named a Finalist for the 2021 CRA Outstanding Undergraduate Research Awards!
-* In February 2021, I'll be giving an invited talk on Task Scoping at the [Learning and Intelligent Systems Group](https://lis.csail.mit.edu/) at MIT CSAIL!
-* My incredible summer internship at [Uber ATG Research](https://www.uber.com/us/en/atg/research-and-development/) has come to an end. I'm extremely grateful to [Prof. Raquel Urtasun](http://www.cs.toronto.edu/~urtasun/) and my collaborators at ATG for such a positive and enriching experience despite the challenges of being remote.
+* In February 2021, I gave an invited talk on Task Scoping at the [Learning and Intelligent Systems Group](https://lis.csail.mit.edu/) at MIT CSAIL!
 * I was named a [2020 Heidelberg Laureate](https://www.heidelberg-laureate-forum.org/) and invited to the 2021 HLF in Germany!
 * I was named a [2020 Goldwater Scholar](https://goldwater.scholarsapply.org/) for my research into Robotics and AI over the last few years!
-* I've been appointed a new [MURA](https://cs.brown.edu/people/meta-ura/) with Brown CS, working to encourage undergrad research within the department!
 * My company, [Paragon.school](https://www.paragon.school/), is accepting applications from new students! If you're an ambitious high-school student looking to improve your grades, time-management, extra-curriculars and college application, consider applying.

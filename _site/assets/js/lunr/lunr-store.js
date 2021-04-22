@@ -24,10 +24,10 @@ var store = [{
         "tags": ["Research","For-Laughs"],
         "url": "http://localhost:4000/Innovation-at-its-finest/",
         "teaser":null},{
-        "title": "My Main College Essay",
+        "title": "My Main Undergrad College Essay",
         "excerpt":"I’ve been asked this a bunch of times and here it finally is: the essay I wrote for the CommonApp. I think it’s really representative of the headspace I was in at the time (and admittedly still am in, to some degree). If you’re reading this and struggling with college...","categories": [],
         "tags": ["Meditations"],
-        "url": "http://localhost:4000/My-Main-College-Essay/",
+        "url": "http://localhost:4000/My-Main-Undergrad-College-Essay/",
         "teaser":null},{
         "title": "What I Learned From 500 Days Of Meditation",
         "excerpt":"Here’s a screenshot from my profile page on the 10% Happier guided meditation App: It's been a lot of sitting-with-my-eyes-closed As of today, I’ve meditated for just over 500 days total with this app. My meditation habit actually started before getting the app, and I didn’t log a few days...","categories": [],
@@ -43,4 +43,9 @@ var store = [{
         "excerpt":"One of my favorite blogs in the whole wide Internet is the MIT Admissions Blog. Admittedly, this used to be because I wanted nothing more than to become an MIT undergrad. However, I’ve continued to keep up with these blogs even after being rejected from MIT because many of the...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/Featured-on-the-MIT-Admissions-Blogs!/",
+        "teaser":null},{
+        "title": "My Nsf Grfp Application Materials",
+        "excerpt":"Recently, I was incredibly excited and humbled to learn that I was selected as a 2021 NSF GRFP Fellow. Like most of my accomplishments, this one was only made possible by the support of friends and colleagues, and the mentorship of my incredible advisors at Brown. One resource I found...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/My-NSF-GRFP-Application-Materials/",
         "teaser":null}]

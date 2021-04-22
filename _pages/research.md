@@ -46,13 +46,18 @@ Reinforcement Learning and Mixed Reality for Human-Robot collaboration.
 [Task Scoping: Building Goal-Specific Abstractions for Planning in Complex Domains](https://arxiv.org/abs/2010.08869)
 <br/> **Nishanth Kumar**\*, Michael Fishman\*, Natasha Danas, Michael Littman, Stefanie Tellex and George Konidaris.
 <br/> Preprint.
-<br/> (In preparation)
+<br/> (In submission)
 <br/> [* denotes equal contribution]
+
+[Just Label What You Need: Fine-Grained Active Selection for Perception and Prediction through Partially Labeled Scenes](https://arxiv.org/abs/2104.03956)
+<br/> Sean Segal\*, **Nishanth Kumar**\*, Sergio Casas, Wenyuan Zeng, Mengye Ren, Jingkang Wang, Raquel Urtasun.
+<br/> Preprint.
+<br/> (In submission.)
+<br/> [* denotes equal contribution. Work was done while at Uber ATG]
 
 [Learning Deep Parameterized Skills from Demonstration for Re-targetable Visuomotor Control](https://arxiv.org/abs/1910.10628)
 <br/> Jonathan Chang\*, **Nishanth Kumar**\*, Sean Hastings, Aaron Gokaslan, Diego Romeres, Devesh K. Jha, Daniel Nikovski, George Konidaris, Stefanie Tellex.
 <br/> Preprint.
-<br/> (To be submitted)
 <br/> [* denotes equal contribution. Work was done in collaboration with Mitsubishi Electric Research Laboratories]
 
 ### Other Publications
@@ -87,6 +92,9 @@ This work received the highest possible grade for ‘The Great Ideas in Computer
 
 
 ## Awards
+- [NSF GRFP Fellow](https://www.nsfgrfp.org/)
+- [Berkeley Fellowship](https://grad.berkeley.edu/admissions/apply/fellowships-entering/) (declined)
+- [Sigma Xi Inductee](https://www.sigmaxi.org/)
 - [CRA Outstanding Undergraduate Research Award Finalist](http://awards.cs.brown.edu/2020/02/04/bayazit-galgana-kumar-and-safranchik-win-cra-outstanding-undergraduate-researcher-honorable-mentions/), 2021
 - [Tau Beta Pi Inductee](https://www.tbp.org/recruit/recruitHome.cfm)
 - [Heidelberg Laureate](https://www.heidelberg-laureate-forum.org/), 2020
@@ -99,7 +107,7 @@ This work received the highest possible grade for ‘The Great Ideas in Computer
 ## Industry Experience and Research Collaborations
 - [MERL](https://www.merl.com/research/), Cambridge, USA. <br/>Work with [Diego Romeres](https://www.merl.com/people/romeres), [Devesh Jha](https://www.merl.com/people/jha) and [Daniel Nikovski](https://www.merl.com/people/nikovski) on furthering Learning from Demonstration for industrial robots.
 - [Uber ATG Research](https://www.uber.com/us/en/atg/research-and-development/), Toronto, Canada.
-<br/>Worked with [Sean Segal](https://www.uber.com/us/en/atg/research-and-development/researchers/sean-segal/), [Sergio Casas](https://www.uber.com/us/en/atg/research-and-development/researchers/sergio-casas/), [Wenyuan Zeng](https://www.uber.com/us/en/atg/research-and-development/researchers/wenyuan-zeng/), [Jingkang Wang](http://www.cs.toronto.edu/~wangjk/), [Mengye Ren](https://www.cs.toronto.edu/~mren/) and others on a project exploring Active Learning for Self-Driving Vehicles that's currently under NDA (but will hopefully be published soon!). I had the honor of being advised by [Prof. Raquel Urtasun](http://www.cs.toronto.edu/~urtasun/).
+<br/>Worked with [Sean Segal](https://www.uber.com/us/en/atg/research-and-development/researchers/sean-segal/), [Sergio Casas](https://www.uber.com/us/en/atg/research-and-development/researchers/sergio-casas/), [Wenyuan Zeng](https://www.uber.com/us/en/atg/research-and-development/researchers/wenyuan-zeng/), [Jingkang Wang](http://www.cs.toronto.edu/~wangjk/), [Mengye Ren](https://www.cs.toronto.edu/~mren/) and others on a project exploring Active Learning for Self-Driving Vehicles that lead to a paper (read it [here](https://arxiv.org/abs/2104.03956)!). I had the honor of being advised by [Prof. Raquel Urtasun](http://www.cs.toronto.edu/~urtasun/).
 
 ## Teaching
 - **Head Teaching Assistant**, [CSCI 2951-F: Learning and Sequential Decision Making](http://cs.brown.edu/courses/cs2951f/)

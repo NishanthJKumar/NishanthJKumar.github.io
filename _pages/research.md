@@ -10,7 +10,7 @@ header:
 Welcome to my Research page!
 {: style="text-align: center;font-size: 120%;padding-top: 40px"}
 
-I’m currently an Undergraduate Research Assistant in the [Humans 2 Robots](https://h2r.cs.brown.edu/) and [Intelligent Robot](http://irl.cs.brown.edu/) Labs at Brown University. I work within Brown’s [BigAI initiative](http://bigai.cs.brown.edu/) and am advised by Professors [Stefanie Tellex](https://cs.brown.edu/people/stellex/), [George Konidaris](http://cs.brown.edu/people/gdk/) and [Michael Littman](http://cs.brown.edu/~mlittman/).
+I'm currently a Research Intern at [Vicarious AI](https://www.vicarious.com/) and an incoming Ph.D. student at the [LIS Group](https://lis.csail.mit.edu/) within [MIT CSAIL](https://www.csail.mit.edu/), where I'll be supported by the [NSF Graduate Research Fellowship](https://engineering.brown.edu/news/2021-03-29/nsf-graduate-research-award).
 {: style="text-align: center;font-size: 120%"}
 
 [Resume](/misc_files/Nishanth_Resume.pdf) \| [CV](/misc_files/Nishanth_CV.pdf) \| [Google Scholar](https://scholar.google.com/citations?user=FE512o4AAAAJ&hl=en) \| [GitHub](https://github.com/NishanthJKumar) \| [Twitter](https://twitter.com/nishanthkumar23)

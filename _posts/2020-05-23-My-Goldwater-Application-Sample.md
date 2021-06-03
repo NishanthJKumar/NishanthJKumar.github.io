@@ -1,3 +1,7 @@
+---
+tags: Research Resources
+---
+
 Earlier this year, I had the incredible privilege of being named a Goldwater Scholar. While winning the scholarship was rather validating and motivating, I thought the application process worthwhile in of itself because it forced me to think hard about my research direction and career goals for the future. During the application process, I found it incredibly helpful to read past sample applications. However, such samples are pretty few and far between, especially within the Computer Science or Mathematics categories.
 
 Given this, I thought I'd put my own application online in the hopes that future Goldwater applicants find it helpful. Below, you'll find my responses to all the short essay questions + my research essay; which represent the bulk of the Goldwater application. If you're reading this and considering applying to the Goldwater but currently on the fence, I'd highly recommend you try it (especially if you're a sophomore because you can apply again next year!). If you're in no way planning to apply for the scholarship but just reading this anyways, I hope it's at least mildly interesting / entertaining...

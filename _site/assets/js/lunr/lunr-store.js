@@ -36,16 +36,21 @@ var store = [{
         "teaser":null},{
         "title": "My Goldwater Application Sample",
         "excerpt":"Earlier this year, I had the incredible privilege of being named a Goldwater Scholar. While winning the scholarship was rather validating and motivating, I thought the application process worthwhile in of itself because it forced me to think hard about my research direction and career goals for the future. During...","categories": [],
-        "tags": [],
+        "tags": ["Research","Resources"],
         "url": "http://localhost:4000/My-Goldwater-Application-Sample/",
         "teaser":null},{
         "title": "Featured On The Mit Admissions Blogs!",
         "excerpt":"One of my favorite blogs in the whole wide Internet is the MIT Admissions Blog. Admittedly, this used to be because I wanted nothing more than to become an MIT undergrad. However, I’ve continued to keep up with these blogs even after being rejected from MIT because many of the...","categories": [],
-        "tags": [],
+        "tags": ["Meditations","Resources"],
         "url": "http://localhost:4000/Featured-on-the-MIT-Admissions-Blogs!/",
         "teaser":null},{
         "title": "My Nsf Grfp Application Materials",
         "excerpt":"Recently, I was incredibly excited and humbled to learn that I was selected as a 2021 NSF GRFP Fellow. Like most of my accomplishments, this one was only made possible by the support of friends and colleagues, and the mentorship of my incredible advisors at Brown. One resource I found...","categories": [],
-        "tags": [],
+        "tags": ["Research","Resources"],
         "url": "http://localhost:4000/My-NSF-GRFP-Application-Materials/",
+        "teaser":null},{
+        "title": "Strange Python List Multiplication Behavior",
+        "excerpt":"I recently spent on the order of 2 hours debugging some code that it only took me 1 hour to write. This post is partially intended to be informational for a reader and partially intended to serve as a future warning/reminder for me. Let’s suppose you want to create a...","categories": [],
+        "tags": ["Resources","Technical"],
+        "url": "http://localhost:4000/Strange-Python-List-Multiplication-Behavior/",
         "teaser":null}]

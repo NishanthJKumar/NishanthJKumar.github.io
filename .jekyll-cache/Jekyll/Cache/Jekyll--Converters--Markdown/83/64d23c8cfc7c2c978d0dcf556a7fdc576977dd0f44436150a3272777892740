@@ -1,0 +1,32 @@
+I" <p>I recently spent on the order of 2 hours debugging some code that it only took me 1 hour to write. This post is partially intended to be informational for a reader and partially intended to serve as a future warning/reminder for me.</p>
+
+<p>Let’s suppose you want to create a new Python list and initialize it with all 0’s. Python provides a nice, intuitive and convenient way to do this with the <code class="highlighter-rouge">*</code> operator:</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt;&gt;&gt; my_list = [0] * 5
+</code></pre></div></div>
+<p>Great, and now you can edit/insert a value into any list index like you’d expect:</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt;&gt;&gt; my_list[0] = 23
+&gt;&gt;&gt; print(my_list)
+[23, 0, 0, 0, 0, 0]
+</code></pre></div></div>
+<p>Now, suppose you want to kick it up a dimension and initialize a 2D list (i.e, a list of lists) with all 0’s. It’s only natural to use the nice and convenient <code class="highlighter-rouge">*</code> operator right?</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt;&gt;&gt; my_2d_list = [[0] * 5] * 5
+</code></pre></div></div>
+<p>Unfortunately, this doesn’t do what you intuitively think it does. To illustrate, let’s go and edit the top-left element</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt;&gt;&gt; my_2d_list[0][0] = 1
+&gt;&gt;&gt; print(my_2d_list)
+[[1, 0, 0, 0, 0], 
+[1, 0, 0, 0, 0], 
+[1, 0, 0, 0, 0], 
+[1, 0, 0, 0, 0], 
+[1, 0, 0, 0, 0]]
+</code></pre></div></div>
+<p>Notice how not just the top-left element, but <em>all</em> elements in the first column got edited to the same value! What gives?</p>
+
+<p>As it turns out, using the <code class="highlighter-rouge">*</code> operator to duplicate a list multiple times doesn’t create new lists, but just references the same underlying list object. This is almost <em>never</em> what someone wants when making a 2D (or multi-dimensional) list. But the behavior has to be this way for compatibility reasons (as explained in <a href="https://stackoverflow.com/questions/240178/list-of-lists-changes-reflected-across-sublists-unexpectedly">these nice StackOverflow answers</a>).</p>
+
+<p>If you didn’t know about any of this before, don’t feel bad - I’d been using the <code class="highlighter-rouge">*</code> operator to make Python lists for ~5 years before this and somehow never realized this particular quirk…</p>
+
+<p>So, in conclusion, <em>never</em> make a more-than-1D Python list with the <code class="highlighter-rouge">*</code> operator. If you want to be extra safe, stop using the <code class="highlighter-rouge">*</code> operator to make lists at all.</p>
+
+<p>If you’re here because you’re trying to debug strange Python behavior (hi future me!), and the quirk mentioned here wasn’t at the root of it, check out <a href="https://github.com/satwikkansal/wtfpython">this GitHub repo</a> for an exhaustive illustration of Python’s weirdnesses.</p>
+:ET

@@ -140,9 +140,6 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: mailto:nishanth.kumar20@gmail.com
     - label: "Quora"
       icon: "fab fa-quora"
       url: "https://www.quora.com/profile/Nishanth-Jay-Kumar"

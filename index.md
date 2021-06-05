@@ -15,7 +15,7 @@ In the recent past, I graduated from [Brown University](https://www.brown.edu/) 
 
 I grew up playing street-cricket and learning to love Dosa in [Coimbatore, India](https://www.google.com/maps/place/Coimbatore,+Tamil+Nadu,+India/@11.0116773,76.8268011,11z/data=!3m1!4b1!4m5!3m4!1s0x3ba859af2f971cb5:0x2fc1c81e183ed282!8m2!3d11.0168445!4d76.9558321). During my time in India, [I studied and eventually taught the IB](http://tipskovai.com/news-events/maths-geek-nishanth-kumar/), wrote and semi self-published [a novel](https://books.google.com/books/about/The_Book_of_the_Heavens.html?id=U_AKZPObpxsC), built and competed with [robots](https://www.thehindu.com/news/cities/Coimbatore/coimbatore-students-bag-award-in-robotics-contest/article7258141.ece), and even built a [popular science fair project](https://www.youtube.com/watch?v=QvA7EftdSak).
 
-To get in touch or learn more about me, check out my [resume](/misc_files/Nishanth_Resume.pdf) or social links in the website footer. I always enjoy hearing from people who have come across my website, so please do reach out! 
+If you're interested in learning more about me or reading some of my writing, check out my [resume](/misc_files/Nishanth_Resume.pdf), blog or social links in the website footer. If you'd like to get in contact, check out [this page here](/contact-me/).
 
 ## Recent News
 * I recently started a Research Internship at [Vicarious AI](https://www.vicarious.com/), working with [Stannis Zhou](https://stanniszhou.github.io/) and [Miguel Lazaro-Gredilla](https://www.linkedin.com/in/miguel-l%C3%A1zaro-gredilla-133759a) on an exciting project. Stay tuned!

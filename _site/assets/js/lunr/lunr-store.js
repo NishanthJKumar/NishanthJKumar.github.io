@@ -53,4 +53,9 @@ var store = [{
         "excerpt":"I recently spent on the order of 2 hours debugging some code that it only took me 1 hour to write. This post is partially intended to be informational for a reader and partially intended to serve as a future warning/reminder for me. Let’s suppose you want to create a...","categories": [],
         "tags": ["Resources","Technical"],
         "url": "http://localhost:4000/Strange-Python-List-Multiplication-Behavior/",
+        "teaser":null},{
+        "title": "A Beginner's Guide To Undergrad Cs Research",
+        "excerpt":"Computer Science has become quite the popular field these days, especially amongst undergraduates. As a result, there are a lot more CS-related resources now than there ever were before. There are tons of books, lecture videos, guides, articles, and even memes about everything from understanding difficult CS concepts for coursework,...","categories": [],
+        "tags": ["Resources","Advice","Research","Grad-School"],
+        "url": "http://localhost:4000/A-Beginner's-Guide-to-Undergrad-CS-Research/",
         "teaser":null}]

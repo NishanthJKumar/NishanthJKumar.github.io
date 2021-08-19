@@ -20,4 +20,4 @@ Email me at **nishanth.kumar20[at]gmail.com** if:
 - you met me somewhere/saw me give a talk (unrelated to research) and want to follow-up
 - you're interested in getting my professional help with anything related to college applications (essays, where to apply, etc.)
 - you're interested in chatting with me for some other professional reason
-- you have good YA sci-fi recommendations for me or funny memes :)
+- you have good YA sci-fi novel/short story recommendations or funny memes you'd like to share with me :)

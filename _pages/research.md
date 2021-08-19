@@ -10,7 +10,7 @@ header:
 Welcome to my Research page!
 {: style="text-align: center;font-size: 120%;padding-top: 40px"}
 
-I'm currently a Research Intern at [Vicarious AI](https://www.vicarious.com/) and an incoming Ph.D. student at the [LIS Group](https://lis.csail.mit.edu/) within [MIT CSAIL](https://www.csail.mit.edu/), where I'll be supported by the [NSF Graduate Research Fellowship](https://engineering.brown.edu/news/2021-03-29/nsf-graduate-research-award).
+I'm currently an incoming Ph.D. student at the [LIS Group](https://lis.csail.mit.edu/) within [MIT CSAIL](https://www.csail.mit.edu/), where I'll be supported by the [NSF Graduate Research Fellowship](https://engineering.brown.edu/news/2021-03-29/nsf-graduate-research-award).
 {: style="text-align: center;font-size: 120%"}
 
 [Resume](/misc_files/Nishanth_Resume.pdf) \| [CV](/misc_files/Nishanth_CV.pdf) \| [Google Scholar](https://scholar.google.com/citations?user=FE512o4AAAAJ&hl=en) \| [GitHub](https://github.com/NishanthJKumar) \| [Twitter](https://twitter.com/nishanthkumar23)
@@ -105,7 +105,8 @@ This work received the highest possible grade for ‘The Great Ideas in Computer
 
 
 ## Industry Experience and Research Collaborations
-- [MERL](https://www.merl.com/research/), Cambridge, USA. <br/>Work with [Diego Romeres](https://www.merl.com/people/romeres), [Devesh Jha](https://www.merl.com/people/jha) and [Daniel Nikovski](https://www.merl.com/people/nikovski) on furthering Learning from Demonstration for industrial robots.
+- [Vicarious AI](https://www.vicarious.com/), Union City, USA. <br/>Worked with [Stannis Zhou](https://stanniszhou.github.io/), [Wolfgang Lehrach](https://scholar.google.com/citations?user=0vHt-XYAAAAJ&hl=en), and [Miguel Lazaro-Gredilla](https://www.linkedin.com/in/miguel-l%C3%A1zaro-gredilla-133759a) on a research project related to Probabilistic Graphical Models (PGM's). The details are currently under NDA, but more info coming soon!
+- [MERL](https://www.merl.com/research/), Cambridge, USA. <br/>Worked with [Diego Romeres](https://www.merl.com/people/romeres), [Devesh Jha](https://www.merl.com/people/jha) and [Daniel Nikovski](https://www.merl.com/people/nikovski) on furthering Learning from Demonstration for industrial robots.
 - [Uber ATG Research](https://www.uber.com/us/en/atg/research-and-development/), Toronto, Canada.
 <br/>Worked with [Sean Segal](https://www.uber.com/us/en/atg/research-and-development/researchers/sean-segal/), [Sergio Casas](https://www.uber.com/us/en/atg/research-and-development/researchers/sergio-casas/), [Wenyuan Zeng](https://www.uber.com/us/en/atg/research-and-development/researchers/wenyuan-zeng/), [Jingkang Wang](http://www.cs.toronto.edu/~wangjk/), [Mengye Ren](https://www.cs.toronto.edu/~mren/) and others on a project exploring Active Learning for Self-Driving Vehicles that lead to a paper (read it [here](https://arxiv.org/abs/2104.03956)!). I had the honor of being advised by [Prof. Raquel Urtasun](http://www.cs.toronto.edu/~urtasun/).
 

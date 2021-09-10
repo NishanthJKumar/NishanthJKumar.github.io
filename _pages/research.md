@@ -61,6 +61,10 @@ Reinforcement Learning and Mixed Reality for Human-Robot collaboration.
 <br/> [* denotes equal contribution. Work was done in collaboration with Mitsubishi Electric Research Laboratories]
 
 ### Other Publications
+[You Only Need What’s in Scope: Generating Task-Specific Abstractions for Efficient AI Planning](/misc_files/Nishanth_Undergrad_Honors_Thesis.pdf))
+<br/> **Nishanth Kumar**
+<br/> Undergraduate Honors Thesis, Brown University. May 2021.
+
 [The Past and Present of Imitation Learning: A Citation Chain Study](https://arxiv.org/abs/2001.02328)
 <br/> **Nishanth Kumar**
 <br/> Preprint. January 2020.

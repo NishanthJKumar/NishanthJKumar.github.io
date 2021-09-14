@@ -24,6 +24,11 @@ Reinforcement Learning and Mixed Reality for Human-Robot collaboration.
 
 ## Publications
 ### Conference Papers
+[Just Label What You Need: Fine-Grained Active Selection for Perception and Prediction through Partially Labeled Scenes](https://arxiv.org/abs/2104.03956)
+<br/> Sean Segal\*, **Nishanth Kumar**\*, Sergio Casas, Wenyuan Zeng, Mengye Ren, Jingkang Wang, Raquel Urtasun.
+<br/> Conference on Robot Learning, 2021.
+<br/> [* denotes equal contribution. Work was done while at Uber ATG]
+
 [Building Plannable Representations with Mixed Reality](https://www.researchgate.net/publication/331571661_Bridging_the_Semantic_Gap_for_Robots_Action-Oriented_Semantic_Maps_via_Mixed_Reality).
 <br/> Eric Rosen, **Nishanth Kumar**, Daniel Ullman, David Whitney, George Konidaris, Stefanie Tellex.
 <br/> IEEE/RSJ International Conference on Intelligent Robots and Systems, 2020. To appear.
@@ -48,12 +53,6 @@ Reinforcement Learning and Mixed Reality for Human-Robot collaboration.
 <br/> Preprint.
 <br/> (In submission)
 <br/> [* denotes equal contribution]
-
-[Just Label What You Need: Fine-Grained Active Selection for Perception and Prediction through Partially Labeled Scenes](https://arxiv.org/abs/2104.03956)
-<br/> Sean Segal\*, **Nishanth Kumar**\*, Sergio Casas, Wenyuan Zeng, Mengye Ren, Jingkang Wang, Raquel Urtasun.
-<br/> Preprint.
-<br/> (In submission.)
-<br/> [* denotes equal contribution. Work was done while at Uber ATG]
 
 [Learning Deep Parameterized Skills from Demonstration for Re-targetable Visuomotor Control](https://arxiv.org/abs/1910.10628)
 <br/> Jonathan Chang\*, **Nishanth Kumar**\*, Sean Hastings, Aaron Gokaslan, Diego Romeres, Devesh K. Jha, Daniel Nikovski, George Konidaris, Stefanie Tellex.

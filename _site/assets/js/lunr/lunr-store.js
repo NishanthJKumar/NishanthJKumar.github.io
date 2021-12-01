@@ -58,4 +58,9 @@ var store = [{
         "excerpt":"Computer Science has become quite the popular field these days, especially amongst undergraduates. As a result, there are a lot more CS-related resources now than there ever were before. There are tons of books, lecture videos, guides, articles, and even memes about everything from understanding difficult CS concepts for coursework,...","categories": [],
         "tags": ["Resources","Advice","Research","Grad-School"],
         "url": "http://localhost:4000/A-Beginner's-Guide-to-Undergrad-CS-Research/",
+        "teaser":null},{
+        "title": "My Phd Sop",
+        "excerpt":"Writing a good PhD SoP can be a daunting task. Fortunately, there are plenty of good posts out there about how to approach the writing process and what a good SoP looks like (in particular, I followed the structure laid out by this post by Tim Dettmers and this post...","categories": [],
+        "tags": ["Research","Resources"],
+        "url": "http://localhost:4000/My-PhD-SoP/",
         "teaser":null}]

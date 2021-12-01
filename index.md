@@ -17,9 +17,8 @@ Outside of all this, I help run a [coaching and college-counseling company](http
 If you're interested in learning more about me or reading some of my writing, check out my [resume](/misc_files/Nishanth_Resume.pdf), [blog]() or social links in the website footer. If you'd like to get in contact, check out [this page here](/contact-me/).
 
 ## Recent News
-* Our [paper](https://arxiv.org/abs/2104.03956) on 'Fine-Grained' Active Learning for Self-Driving Vehicles is accepted to CoRL 2021!
+* Our [paper](https://arxiv.org/abs/2104.03956) on 'Fine-Grained' Active Learning for Self-Driving Vehicles was accepted to CoRL 2021!
 * I've started at MIT and can't wait for all the new projects and collaborations to come!
 * I completed a Research Internship at [Vicarious AI](https://www.vicarious.com/), working with [Stannis Zhou](https://stanniszhou.github.io/) and [Miguel Lazaro-Gredilla](https://www.linkedin.com/in/miguel-l%C3%A1zaro-gredilla-133759a), where I got to work on an exciting project that will be announced soon. Stay tuned!
 * I've accepted an offer to become a Ph.D. student in the [Learning and Intelligent Systems Group](https://lis.csail.mit.edu/) at [MIT CSAIL](https://www.csail.mit.edu/). This is a personal dream come true, and I'm beyond excited for all the opportunity and collaboration to come!
 * I've been selected as a 2021 [NSF GRFP](https://engineering.brown.edu/news/2021-03-29/nsf-graduate-research-award) recipient!
-* I was named a Finalist for the 2021 CRA Outstanding Undergraduate Research Awards!

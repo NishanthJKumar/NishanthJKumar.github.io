@@ -125,7 +125,7 @@ This work received the highest possible grade for ‘The Great Ideas in Computer
 - [Goldwater Scholarship](https://goldwater.scholarsapply.org/), 2020.
 - [CRA Outstanding Undergraduate Research Award Honorable Mention](http://awards.cs.brown.edu/2020/02/04/bayazit-galgana-kumar-and-safranchik-win-cra-outstanding-undergraduate-researcher-honorable-mentions/), 2020
 - [Karen T. Romer Undergraduate Teaching and Research Award](https://www.brown.edu/academics/college/fellowships/utra/named)
-- The Second Ivy League Undergraduate Research Symposium, Best Plenary Presentation, 2019
+- Best Plenary Presentation, The Second Ivy League Undergraduate Research Symposium, 2019
 
 
 ## Industry Experience and Research Collaborations

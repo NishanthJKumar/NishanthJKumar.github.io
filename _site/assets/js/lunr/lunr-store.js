@@ -59,8 +59,8 @@ var store = [{
         "tags": ["Resources","Advice","Research","Grad-School"],
         "url": "http://localhost:4000/A-Beginner's-Guide-to-Undergrad-CS-Research/",
         "teaser":null},{
-        "title": "My Phd Sop",
+        "title": "My Phd Statement Of Purpose",
         "excerpt":"Writing a good PhD SoP can be a daunting task. Fortunately, there are plenty of good posts out there about how to approach the writing process and what a good SoP looks like (in particular, I followed the structure laid out by this post by Tim Dettmers and this post...","categories": [],
         "tags": ["Research","Resources"],
-        "url": "http://localhost:4000/My-PhD-SoP/",
+        "url": "http://localhost:4000/My-PhD-Statement-of-Purpose/",
         "teaser":null}]

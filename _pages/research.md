@@ -2,19 +2,13 @@
 title: "Research"
 layout: splash
 permalink: /research/
-header:
-  overlay_image: /images/cover_image.jpg
-  overlay_filter: rgba(0, 0, 0, 0.6)
 ---
 
-Welcome to my Research page!
-{: style="text-align: center;font-size: 120%;padding-top: 40px"}
-
-I'm currently a Ph.D. student at the [LIS Group](https://lis.csail.mit.edu/) within [MIT CSAIL](https://www.csail.mit.edu/). I'm officially advised by [Leslie Kaelbling](https://www.csail.mit.edu/person/leslie-kaelbling) and [Tomas Lozano-Perez](https://people.csail.mit.edu/tlp/), though I frequently collaborate with many wonderful people within CSAIL's [Embodied Intelligence Initiative](https://ei.csail.mit.edu/). I'm extremely grateful for support from the [NSF Graduate Research Fellowship](https://engineering.brown.edu/news/2021-03-29/nsf-graduate-research-award).
-{: style="text-align: center;font-size: 120%"}
+Welcome to my Research page! I'm currently a Ph.D. student at the [LIS Group](https://lis.csail.mit.edu/) within [MIT CSAIL](https://www.csail.mit.edu/). I'm officially advised by [Leslie Kaelbling](https://www.csail.mit.edu/person/leslie-kaelbling) and [Tomas Lozano-Perez](https://people.csail.mit.edu/tlp/), though I frequently collaborate with [Dylan Hadfield-Menell](https://scholar.google.com/citations?user=4mVPFQ8AAAAJ&hl=en), [Josh Tenenbaum](http://web.mit.edu/cocosci/josh.html), and many other wonderful people within CSAIL's [Embodied Intelligence Initiative](https://ei.csail.mit.edu/). I'm extremely grateful for support from the [NSF Graduate Research Fellowship](https://engineering.brown.edu/news/2021-03-29/nsf-graduate-research-award).
+{: style="text-align: center;font-size:120%;padding-top:40px"}
 
 [Resume](/misc_files/Nishanth_Resume.pdf) \| [CV](/misc_files/Nishanth_CV.pdf) \| [Google Scholar](https://scholar.google.com/citations?user=FE512o4AAAAJ&hl=en) \| [GitHub](https://github.com/NishanthJKumar) \| [Twitter](https://twitter.com/nishanthkumar23)
-{: style="text-align: center;font-size: 90%"}
+{: style="text-align: center;font-size: 100%"}
 
 ## Research Areas
 I'm broadly interested in enabling intelligent robots to solve a variety of tasks under the complex and dynamic conditions of the real world.

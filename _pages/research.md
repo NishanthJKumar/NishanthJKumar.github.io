@@ -5,23 +5,54 @@ permalink: /research/
 ---
 
 Welcome to my Research page! I'm currently a Ph.D. student at the [LIS Group](https://lis.csail.mit.edu/) within [MIT CSAIL](https://www.csail.mit.edu/). I'm officially advised by [Leslie Kaelbling](https://www.csail.mit.edu/person/leslie-kaelbling) and [Tomas Lozano-Perez](https://people.csail.mit.edu/tlp/), though I frequently collaborate with [Dylan Hadfield-Menell](https://scholar.google.com/citations?user=4mVPFQ8AAAAJ&hl=en), [Josh Tenenbaum](http://web.mit.edu/cocosci/josh.html), and many other wonderful people within CSAIL's [Embodied Intelligence Initiative](https://ei.csail.mit.edu/). I'm extremely grateful for support from the [NSF Graduate Research Fellowship](https://engineering.brown.edu/news/2021-03-29/nsf-graduate-research-award).
-{: style="text-align: center;font-size:120%;padding-top:40px"}
+{: style="text-align: center;font-size:110%;padding-top:40px"}
 
 [Resume](/misc_files/Nishanth_Resume.pdf) \| [CV](/misc_files/Nishanth_CV.pdf) \| [Google Scholar](https://scholar.google.com/citations?user=FE512o4AAAAJ&hl=en) \| [GitHub](https://github.com/NishanthJKumar) \| [Twitter](https://twitter.com/nishanthkumar23)
 {: style="text-align: center;font-size: 100%"}
 
 ## Research Areas
-I'm broadly interested in enabling intelligent robots to solve a variety of tasks under the complex and dynamic conditions of the real world.
+I'm broadly interested in enabling robots to operate robustly in long-horizon, multi-task settings like multi-object manipulation, cooking, or even household chores.
 Thus far, I've worked towards this goal by pursuing a range of different topics including Imitation Learning, Planning and Abstraction, Active Learning,
 Reinforcement Learning and Mixed Reality for Human-Robot collaboration.
 
 
 ## Publications
 ### Conference Papers
-[Just Label What You Need: Fine-Grained Active Selection for Perception and Prediction through Partially Labeled Scenes](https://arxiv.org/abs/2104.03956)
-<br/> Sean Segal\*, **Nishanth Kumar**\*, Sergio Casas, Wenyuan Zeng, Mengye Ren, Jingkang Wang, Raquel Urtasun.
-<br/> Conference on Robot Learning, 2021.
-<br/> [* denotes equal contribution. Work was done while at Uber ATG]
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <tbody>
+          <!-- <tr bgcolor="#ffffd0"> -->
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div>
+                <img src='/images/paper-images/active-learning.png' width="160">
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <p style="font-family:'Lato',Verdana,Helvetica,sans-serif; font-size:14px;font-weight:700">
+              Just Label What You Need: Fine-Grained Active Selection for Perception and Prediction through Partially Labeled Scenes
+              </p>
+              <strong>Nishanth Kumar*</strong>,
+              <a href="http://www.seansegal.com/">Sean Segal*</a>,
+              <a href="http://www.cs.toronto.edu/~sergio/">Sergio Casas</a>,
+              <a href="https://www.cs.toronto.edu/~mren/">Mengye Ren</a>,
+              <a href="http://www.cs.toronto.edu/~wangjk/">Jingkang Wang</a>,
+              <a href="http://www.cs.toronto.edu/~urtasun/">Raquel Urtasun</a>
+              <br>
+							<em>Conference on Robot Learning (CoRL)</em> poster, 2021.
+              <br>
+              <a href="https://openreview.net/forum?id=xQ8rr3-zpiH">OpenReview</a>
+              /
+              <a href="https://arxiv.org/abs/2104.03956">arXiv</a>
+              /
+              <a href="https://openreview.net/attachment?id=xQ8rr3-zpiH&name=poster">poster</a>
+              <br>
+              <p>Introduces fine-grained active selection via partial labeling for efficient labeling for perception and prediction. <br>
+              [* denotes equal contribution. Work was done while at Uber ATG]
+              </p>
+            </td>
+          </tr>
+        </tbody>
+</table> 
 
 [Building Plannable Representations with Mixed Reality](https://www.researchgate.net/publication/331571661_Bridging_the_Semantic_Gap_for_Robots_Action-Oriented_Semantic_Maps_via_Mixed_Reality).
 <br/> Eric Rosen, **Nishanth Kumar**, Daniel Ullman, David Whitney, George Konidaris, Stefanie Tellex.
@@ -70,20 +101,16 @@ This work received the highest possible grade for ‘The Great Ideas in Computer
 <br/> Brown Undergraduate Research Journal, Page 5, Volume 1, Issue 1, Spring 2019.
 
 ## Talks
-[Task Scoping: Generating Task-Specific Abstractions for Planning](https://drive.google.com/file/d/1eshvDUiBJJIbLqqRusdgCv5O7wK076f8/view)
+- [Task Scoping: Generating Task-Specific Abstractions for Planning](https://drive.google.com/file/d/1eshvDUiBJJIbLqqRusdgCv5O7wK076f8/view)
 <br/> [MIT LIS Group Meeting](https://lis.csail.mit.edu/). February 12, 2021.
-
-[What I'm working on now: Task Scoping and Parameterized Imitation Learning](http://nishanthjkumar.com/research/)
+- [What I'm working on now: Task Scoping and Parameterized Imitation Learning](http://nishanthjkumar.com/research/)
 <br/> Intelligent Robot Lab meeting. November, 2019.
-
-[Let's Talk about AI and Robotics](https://www.youtube.com/watch?v=OOAPni0ZUW8)
+- [Let's Talk about AI and Robotics](https://www.youtube.com/watch?v=OOAPni0ZUW8)
 <br/> I was interviewed about my work, experiences and advice on research for an episode of the [interSTEM](https://www.youtube.com/channel/UC-qYS_P9NvSRoWYUsV2FmYQ) YouTube channel.
-
-[Action-Oriented Semantic Maps via Mixed Reality](http://awards.cs.brown.edu/2019/08/13/undergrad-nishanth-kumar-wins-best-plenary-presentation-ilurs/)
+- [Action-Oriented Semantic Maps via Mixed Reality](http://awards.cs.brown.edu/2019/08/13/undergrad-nishanth-kumar-wins-best-plenary-presentation-ilurs/)
 <br/> The Second Ivy-League Undergraduate Research Symposuim (ILURS). Best Plenary Presentation Award.
 <br/> The University of Pennsylvania. April, 2019.
-
-[Building intelligent, collaborative robots](https://www.youtube.com/watch?v=FziEfTBAwvg)
+- [Building intelligent, collaborative robots](https://www.youtube.com/watch?v=FziEfTBAwvg)
 <br/> Machine Intelligence Conference 2019
 <br/> Boston University. September 2019.
 
@@ -102,7 +129,7 @@ This work received the highest possible grade for ‘The Great Ideas in Computer
 
 
 ## Industry Experience and Research Collaborations
-- [Vicarious AI](https://www.vicarious.com/), Union City, USA. <br/>Worked with [Stannis Zhou](https://stanniszhou.github.io/), [Wolfgang Lehrach](https://scholar.google.com/citations?user=0vHt-XYAAAAJ&hl=en), and [Miguel Lazaro-Gredilla](https://www.linkedin.com/in/miguel-l%C3%A1zaro-gredilla-133759a) on a research project related to Probabilistic Graphical Models (PGM's). The details are currently under NDA, but more info coming soon!
+- [Vicarious AI](https://www.vicarious.com/), Union City, USA. <br/>Worked with [Stannis Zhou](https://stanniszhou.github.io/), [Wolfgang Lehrach](https://scholar.google.com/citations?user=0vHt-XYAAAAJ&hl=en), and [Miguel Lazaro-Gredilla](https://www.linkedin.com/in/miguel-l%C3%A1zaro-gredilla-133759a) on developing [PGMax](https://pgmax.readthedocs.io/) - an open-source framework for ML with PGM's.
 - [MERL](https://www.merl.com/research/), Cambridge, USA. <br/>Worked with [Diego Romeres](https://www.merl.com/people/romeres), [Devesh Jha](https://www.merl.com/people/jha) and [Daniel Nikovski](https://www.merl.com/people/nikovski) on furthering Learning from Demonstration for industrial robots.
 - [Uber ATG Research](https://www.uber.com/us/en/atg/research-and-development/), Toronto, Canada.
 <br/>Worked with [Sean Segal](https://www.uber.com/us/en/atg/research-and-development/researchers/sean-segal/), [Sergio Casas](https://www.uber.com/us/en/atg/research-and-development/researchers/sergio-casas/), [Wenyuan Zeng](https://www.uber.com/us/en/atg/research-and-development/researchers/wenyuan-zeng/), [Jingkang Wang](http://www.cs.toronto.edu/~wangjk/), [Mengye Ren](https://www.cs.toronto.edu/~mren/) and others on a project exploring Active Learning for Self-Driving Vehicles that lead to a paper (read it [here](https://arxiv.org/abs/2104.03956)!). I had the honor of being advised by [Prof. Raquel Urtasun](http://www.cs.toronto.edu/~urtasun/).

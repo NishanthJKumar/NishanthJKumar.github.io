@@ -7,7 +7,7 @@ permalink: /research/
 Welcome to my Research page! I'm currently a 1st Year Ph.D. student with the [LIS Group](https://lis.csail.mit.edu/) within [MIT CSAIL](https://www.csail.mit.edu/). I'm officially advised by [Leslie Kaelbling](https://www.csail.mit.edu/person/leslie-kaelbling) and [Tomas Lozano-Perez](https://people.csail.mit.edu/tlp/), though I frequently collaborate with [Dylan Hadfield-Menell](https://scholar.google.com/citations?user=4mVPFQ8AAAAJ&hl=en), [Josh Tenenbaum](http://web.mit.edu/cocosci/josh.html), and many other wonderful people within CSAIL's [Embodied Intelligence Initiative](https://ei.csail.mit.edu/). I'm extremely grateful for support from the [NSF Graduate Research Fellowship](https://engineering.brown.edu/news/2021-03-29/nsf-graduate-research-award).
 {: style="text-align: center;font-size:110%;padding-top:40px"}
 
-[Resume](/misc_files/Nishanth_Resume.pdf) \| [CV](/misc_files/Nishanth_CV.pdf) \| [Google Scholar](https://scholar.google.com/citations?user=FE512o4AAAAJ&hl=en) \| [GitHub](https://github.com/NishanthJKumar) \| [Twitter](https://twitter.com/nishanthkumar23)
+[Resume](/misc_files/Nishanth_Resume.pdf) \| [CV](/misc_files/Nishanth_CV.pdf) \| [Google Scholar](https://scholar.google.com/citations?user=FE512o4AAAAJ&hl=en) \| [Bio](/misc_files/njk-bio.txt) \| [GitHub](https://github.com/NishanthJKumar) \| [Twitter](https://twitter.com/nishanthkumar23)
 {: style="text-align: center;font-size: 100%"}
 
 ## Research Areas
@@ -54,13 +54,70 @@ Reinforcement Learning and Mixed Reality for Human-Robot collaboration.
         </tbody>
 </table> 
 
-[Building Plannable Representations with Mixed Reality](https://www.researchgate.net/publication/331571661_Bridging_the_Semantic_Gap_for_Robots_Action-Oriented_Semantic_Maps_via_Mixed_Reality).
-<br/> Eric Rosen, **Nishanth Kumar**, Daniel Ullman, David Whitney, George Konidaris, Stefanie Tellex.
-<br/> IEEE/RSJ International Conference on Intelligent Robots and Systems, 2020. To appear.
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <tbody>
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div>
+                <img src='/images/paper-images/aosm-paper.png' width="160">
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <p style="font-family:'Lato',Verdana,Helvetica,sans-serif; font-size:14px;font-weight:700">
+              Building Plannable Representations with Mixed Reality
+              </p>
+              <a href="http://cs.brown.edu/people/er35/">Eric Rosen</a>,
+              <strong>Nishanth Kumar</strong>,
+              <a href="https://nakulgopalan.github.io/">Nakul Gopalan</a>,
+              <a href="https://scholar.google.com/citations?user=k3Oh9D0AAAAJ&hl=en">Daniel Ullman</a>,
+              <a href="https://cs.brown.edu/people/gdk/">George Konidaris</a>,
+              <a href="https://cs.brown.edu/people/stellex/">Stefanie Tellex</a>
+              <br>
+							<em>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</em>, 2020.
+              <br>
+              <a href="https://h2r.cs.brown.edu/wp-content/uploads/rosen20.pdf">paper</a>
+              /
+              <a href="https://www.youtube.com/watch?v=dcFod--RMSI">video</a>
+              <br>
+              <p>Introduces Action-Oriented Semantic Maps (AOSM's) and a system to specify these with mixed reality, which robots can use to perform a wide-variety of household tasks.
+              </p>
+            </td>
+          </tr>
+        </tbody>
+</table> 
 
-[Multi-Object Search using Object-Oriented POMDPs](https://h2r.cs.brown.edu/wp-content/uploads/wandzel19.pdf).
-<br/> Arthur Wandzel, Yoonseon Oh, Michael Fishman, **Nishanth Kumar**, Lawson L. S. Wong, and Stefanie Tellex
-<br/> IEEE International Conference on Robotics and Automation (ICRA), 2019.
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <tbody>
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div>
+                <img src='/images/paper-images/oopomcp.png' width="160">
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <p style="font-family:'Lato',Verdana,Helvetica,sans-serif; font-size:14px;font-weight:700">
+              Multi-Object Search using Object-Oriented POMDPs
+              </p>
+              <a href="https://scholar.google.com/citations?user=5v2t5L0AAAAJ&hl=en">Arthur Wandzel</a>,
+              <a href="https://sites.google.com/view/robots-oh/yoonseon-oh">Yoonseon Oh</a>,
+              <a href="https://www.linkedin.com/in/michael-fishman-9a0a11160/">Michael Fishman</a>,
+              <strong>Nishanth Kumar</strong>,
+              <a href="https://www.khoury.northeastern.edu/people/lawson-wong/">Lawson L.S Wong</a>,
+              <a href="https://cs.brown.edu/people/stellex/">Stefanie Tellex</a>
+              <br>
+							<em>IEEE/ International Conference on Robotics and Automation (ICRA)</em>, 2019.
+              <br>
+              <a href="https://h2r.cs.brown.edu/wp-content/uploads/wandzel19.pdf">paper</a>
+              /
+              <a href="https://www.youtube.com/watch?v=ssmez0rjF1Y">video</a>
+              <br>
+              <p>Introduces the Object-Oriented Partially Observable Monte-Carlo Planning (OO-POMCP) algorithm for efficiently solving Object-Oriented Partially Observable Markov Decision Processes (OO-POMDPs) and shows how this can enable a robot to efficiently find multiple objects in a home environment.
+              </p>
+            </td>
+          </tr>
+        </tbody>
+</table> 
+
 
 ### Workshop Papers and Extended Abstracts
 [Task Scoping for Efficient Planning in Open Worlds](https://www.aaai.org/Papers/AAAI/2020GB/SA-KumarN.682.pdf)

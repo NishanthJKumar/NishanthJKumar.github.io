@@ -11,9 +11,7 @@ Welcome to my Research page! I'm currently a 1st Year Ph.D. student with the [LI
 {: style="text-align: center;font-size: 100%"}
 
 ## Research Areas
-I'm broadly interested in enabling robots to operate robustly in long-horizon, multi-task settings like multi-object manipulation, cooking, or even household chores.
-Thus far, I've worked towards this goal by pursuing a range of different topics including Imitation Learning, Planning and Abstraction, Active Learning,
-Reinforcement Learning and Mixed Reality for Human-Robot collaboration.
+I'm broadly interested in enabling robots to operate robustly in long-horizon, multi-task settings so that they can accomplish tasks like multi-object manipulation, cooking, or even performing household chores. To this end, I'm interested in combining classical AI planning and reasoning approaches with modern machine learning techniques. My research draws on ideas from reinforcement learning, task and motion planning (TAMP), continual learning, and neurosymbolic AI, though I've dabbled in many other sub-fields!
 
 
 ## Publications

@@ -135,7 +135,7 @@ Reinforcement Learning and Mixed Reality for Human-Robot collaboration.
               <strong>Nishanth Kumar*</strong>,
               <a href="https://www.linkedin.com/in/michael-fishman-9a0a11160/">Michael Fishman*</a>,
               <a href="https://scholar.google.com/citations?user=1HIu1uQAAAAJ&hl=en">Natasha Danas</a>,
-              <a href="https://sites.google.com/view/robots-oh/yoonseon-oh">Michael Littman</a>,
+              <a href="https://www.littmania.com/">Michael Littman</a>,
               <a href="https://cs.brown.edu/people/stellex/">Stefanie Tellex</a>
               <a href="https://cs.brown.edu/people/gdk/">George Konidaris</a>              
               <br>
@@ -186,26 +186,29 @@ Reinforcement Learning and Mixed Reality for Human-Robot collaboration.
 ### Preprints
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
     <tbody>
-      <tr>
+      <tr bgcolor="#ffffd0">
         <td style="padding:20px;width:25%;vertical-align:middle">
           <div>
-            <img src='/images/paper-images/mr-pick-place.png' width="160">
+            <img src='/images/paper-images/task-scoping-image.png' width="160">
           </div>
         </td>
         <td style="padding:20px;width:75%;vertical-align:middle">
           <p style="font-family:'Lato',Verdana,Helvetica,sans-serif; font-size:14px;font-weight:700">
-          Knowledge Acquisition for Robots through Mixed Reality Head-Mounted Displays
+          Task Scoping: Building Goal-Specific Abstractions for Planning in Complex Domains
           </p>
           <strong>Nishanth Kumar*</strong>,
-          <a href="http://cs.brown.edu/people/er35/">Eric Rosen*</a>,              
+          <a href="https://www.linkedin.com/in/michael-fishman-9a0a11160/">Michael Fishman*</a>,
+          <a href="https://scholar.google.com/citations?user=1HIu1uQAAAAJ&hl=en">Natasha Danas</a>,
+          <a href="https://www.littmania.com/">Michael Littman</a>,
           <a href="https://cs.brown.edu/people/stellex/">Stefanie Tellex</a>
+          <a href="https://cs.brown.edu/people/gdk/">George Konidaris</a>
           <br>
-          <em>The Second International Workshop on Virtual, Augmented and Mixed Reality for Human Robot Interaction</em>, 2019.
+          <em>arXiv</em>, 2020.
           <br>
-          <a href="https://ojs.aaai.org/index.php/AAAI/article/view/7195">paper</a>
+          <a href="https://arxiv.org/pdf/2010.08869">arxiv</a>
           <br>
           <p>
-          Sketches high level ideas for how a mixed reality system might enable users to specify information for a robot to perform pick-place and other household tasks. This work is subsumed by our AOSM work.
+          Introduces a method for how large classical planning problems can be efficiently pruned to exclude states and actions that are irrelevant to a particular goal so that agents can solve very large, 'open-scope' domains that are capable of supporting multiple goals.
           <br>
           [* denotes equal contribution]
           </p>
@@ -214,16 +217,42 @@ Reinforcement Learning and Mixed Reality for Human-Robot collaboration.
     </tbody>
 </table>
 
-[Task Scoping: Building Goal-Specific Abstractions for Planning in Complex Domains](https://arxiv.org/abs/2010.08869)
-<br/> **Nishanth Kumar**\*, Michael Fishman\*, Natasha Danas, Michael Littman, Stefanie Tellex and George Konidaris.
-<br/> Preprint.
-<br/> (In submission)
-<br/> [* denotes equal contribution]
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tbody>
+      <tr>
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <div>
+            <img src='/images/paper-images/parameterized-bc.png' width="160">
+          </div>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <p style="font-family:'Lato',Verdana,Helvetica,sans-serif; font-size:14px;font-weight:700">
+          Learning Deep Parameterized Skills from Demonstration for Re-targetable Visuomotor Control
+          </p>
+          <strong>Nishanth Kumar*</strong>,
+          <a href="https://jdchang1.github.io/">Jonathan Chang*</a>,
+          <a href="https://scholar.google.com/citations?user=JsWiJPcAAAAJ&hl=en">Sean Hastings</a>,
+          <a href="https://skylion007.github.io/">Aaron Gokaslan</a>,
+          <a href="https://www.merl.com/people/romeres">Diego Romeres</a>,
+          <a href="https://www.merl.com/people/jha">Devesh Jha</a>,
+          <a href="https://www.merl.com/people/nikovski">Daniel Nikovski</a>,
+          <a href="https://cs.brown.edu/people/gdk/">George Konidaris</a>,
+          <a href="https://cs.brown.edu/people/stellex/">Stefanie Tellex</a>
+          <br>
+          <em>arXiv</em>, 2020.
+          <br>
+          <a href="https://arxiv.org/abs/1910.10628">arxiv</a>
+          <br>
+          <p>
+          Shows how the generalization capabilities of Behavior Cloning (BC) can be improved by learning a policy parameterized by some input that enables the agent to distinguish different goals (e.g. different buttons to press in a grid). Includes several exhaustive experiments in simulation and on two different robots.
+          <br>
+          [* denotes equal contribution. Work was done in collaboration with Mitsubishi Electric Research Laboratories]
+          </p>
+        </td>
+      </tr>
+    </tbody>
+</table>
 
-[Learning Deep Parameterized Skills from Demonstration for Re-targetable Visuomotor Control](https://arxiv.org/abs/1910.10628)
-<br/> Jonathan Chang\*, **Nishanth Kumar**\*, Sean Hastings, Aaron Gokaslan, Diego Romeres, Devesh K. Jha, Daniel Nikovski, George Konidaris, Stefanie Tellex.
-<br/> Preprint.
-<br/> [* denotes equal contribution. Work was done in collaboration with Mitsubishi Electric Research Laboratories]
 
 ### Other Publications
 [You Only Need What’s in Scope: Generating Task-Specific Abstractions for Efficient AI Planning](/misc_files/Nishanth_Undergrad_Honors_Thesis.pdf))

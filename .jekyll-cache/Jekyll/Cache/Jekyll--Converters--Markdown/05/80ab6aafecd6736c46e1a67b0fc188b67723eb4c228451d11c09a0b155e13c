@@ -1,173 +1,4 @@
-<!doctype html>
-<!--
-  Minimal Mistakes Jekyll Theme 4.18.1 by Michael Rose
-  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
-  Free for personal and commercial use under the MIT license
-  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
--->
-<html lang="en" class="no-js">
-  <head>
-    <meta charset="utf-8">
-
-<!-- begin _includes/seo.html --><title>Research | Nishanth J. Kumar</title>
-<meta name="description" content="My personal homepage and blog for non-fictional musings ">
-
-
-  <meta name="author" content="Nishanth J. Kumar">
-
-
-<meta property="og:type" content="website">
-<meta property="og:locale" content="en_US">
-<meta property="og:site_name" content="Nishanth J. Kumar">
-<meta property="og:title" content="Research">
-<meta property="og:url" content="http://localhost:4000/research/">
-
-
-  <meta property="og:description" content="My personal homepage and blog for non-fictional musings ">
-
-
-
-
-
-
-
-
-
-
-
-  
-
-  
-
-
-<link rel="canonical" href="http://localhost:4000/research/">
-
-
-
-
-<script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    
-      "@type": "Person",
-      "name": "Nishanth Kumar",
-      "url": "http://localhost:4000/",
-      "sameAs": ["https://www.linkedin.com/in/nishanth-kumar/","https://twitter.com/nishanthkumar23","https://www.facebook.com/people/Nishanth-Kumar/100014347320551","https://github.com/NishanthJKumar","https://www.quora.com/profile/Nishanth-Jay-Kumar"]
-    
-  }
-</script>
-
-
-
-
-
-
-<!-- end _includes/seo.html -->
-
-
-<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Nishanth J. Kumar Feed">
-
-<!-- https://t.co/dKP3o1e -->
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<script>
-  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
-</script>
-
-<!-- For all browsers -->
-<link rel="stylesheet" href="/assets/css/main.css">
-
-<!--[if IE]>
-  <style>
-    /* old IE unsupported flexbox fixes */
-    .greedy-nav .site-title {
-      padding-right: 3em;
-    }
-    .greedy-nav button {
-      position: absolute;
-      top: 0;
-      right: 0;
-      height: 100%;
-    }
-  </style>
-<![endif]-->
-
-
-
-    <!-- start custom head snippets -->
-
-<!-- insert favicons. use https://realfavicongenerator.net/ -->
-
-
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff">
-
-
-
-<!-- end custom head snippets -->
-
-  </head>
-
-  <body class="layout--splash">
-    <nav class="skip-links">
-  <h2 class="screen-reader-text">Skip links</h2>
-  <ul>
-    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
-    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
-    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
-  </ul>
-</nav>
-
-    <!--[if lt IE 9]>
-<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
-<![endif]-->
-
-    
-
-<div class="masthead">
-  <div class="masthead__inner-wrap">
-    <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        
-        <a class="site-title" href="/">
-          Nishanth J. Kumar
-          
-        </a>
-        <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="/" >About Me</a>
-            </li><li class="masthead__menu-item">
-              <a href="/research/" >Research</a>
-            </li><li class="masthead__menu-item">
-              <a href="/blog" >Blog</a>
-            </li></ul>
-        
-        <button class="greedy-nav__toggle hidden" type="button">
-          <span class="visually-hidden">Toggle menu</span>
-          <div class="navicon"></div>
-        </button>
-        <ul class="hidden-links hidden"></ul>
-      </nav>
-    </div>
-  </div>
-</div>
-
-
-    <div class="initial-content">
-      
-
-<div id="main" role="main">
-  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Research">
-    
-    
-    
-
-    <section class="page__content" itemprop="text">
-      <p style="text-align: center;font-size:110%;padding-top:40px">Welcome to my Research page! I’m currently a 1st Year Ph.D. student with the <a href="https://lis.csail.mit.edu/">LIS Group</a> within <a href="https://www.csail.mit.edu/">MIT CSAIL</a>. I’m officially advised by <a href="https://www.csail.mit.edu/person/leslie-kaelbling">Leslie Kaelbling</a> and <a href="https://people.csail.mit.edu/tlp/">Tomas Lozano-Perez</a>, though I frequently collaborate with <a href="https://scholar.google.com/citations?user=4mVPFQ8AAAAJ&amp;hl=en">Dylan Hadfield-Menell</a>, <a href="http://web.mit.edu/cocosci/josh.html">Josh Tenenbaum</a>, and many other wonderful people within CSAIL’s <a href="https://ei.csail.mit.edu/">Embodied Intelligence Initiative</a>. I’m extremely grateful for support from the <a href="https://engineering.brown.edu/news/2021-03-29/nsf-graduate-research-award">NSF Graduate Research Fellowship</a>.</p>
+I"�M<p style="text-align: center;font-size:110%;padding-top:40px">Welcome to my Research page! I’m currently a 1st Year Ph.D. student with the <a href="https://lis.csail.mit.edu/">LIS Group</a> within <a href="https://www.csail.mit.edu/">MIT CSAIL</a>. I’m officially advised by <a href="https://www.csail.mit.edu/person/leslie-kaelbling">Leslie Kaelbling</a> and <a href="https://people.csail.mit.edu/tlp/">Tomas Lozano-Perez</a>, though I frequently collaborate with <a href="https://scholar.google.com/citations?user=4mVPFQ8AAAAJ&amp;hl=en">Dylan Hadfield-Menell</a>, <a href="http://web.mit.edu/cocosci/josh.html">Josh Tenenbaum</a>, and many other wonderful people within CSAIL’s <a href="https://ei.csail.mit.edu/">Embodied Intelligence Initiative</a>. I’m extremely grateful for support from the <a href="https://engineering.brown.edu/news/2021-03-29/nsf-graduate-research-award">NSF Graduate Research Fellowship</a>.</p>
 
 <p style="text-align: center;font-size: 100%"><a href="/misc_files/Nishanth_Resume.pdf">Resume</a> | <a href="/misc_files/Nishanth_CV.pdf">CV</a> | <a href="https://scholar.google.com/citations?user=FE512o4AAAAJ&amp;hl=en">Google Scholar</a> | <a href="/misc_files/njk-bio.txt">Bio</a> | <a href="https://github.com/NishanthJKumar">GitHub</a> | <a href="https://twitter.com/nishanthkumar23">Twitter</a></p>
 
@@ -294,7 +125,7 @@ Reinforcement Learning and Mixed Reality for Human-Robot collaboration.</p>
               <strong>Nishanth Kumar*</strong>,
               <a href="https://www.linkedin.com/in/michael-fishman-9a0a11160/">Michael Fishman*</a>,
               <a href="https://scholar.google.com/citations?user=1HIu1uQAAAAJ&amp;hl=en">Natasha Danas</a>,
-              <a href="https://www.littmania.com/">Michael Littman</a>,
+              <a href="https://sites.google.com/view/robots-oh/yoonseon-oh">Michael Littman</a>,
               <a href="https://cs.brown.edu/people/stellex/">Stefanie Tellex</a>
               <a href="https://cs.brown.edu/people/gdk/">George Konidaris</a>              
               <br />
@@ -345,10 +176,10 @@ Reinforcement Learning and Mixed Reality for Human-Robot collaboration.</p>
 <h3 id="preprints">Preprints</h3>
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
     <tbody>
-      <tr bgcolor="#ffffd0">
+      <tr>
         <td style="padding:20px;width:25%;vertical-align:middle">
           <div>
-            <img src="/images/paper-images/task-scoping-image.png" width="160" />
+            <img src="/images/paper-images/mr-pick-place.png" width="160" />
           </div>
         </td>
         <td style="padding:20px;width:75%;vertical-align:middle">
@@ -356,18 +187,15 @@ Reinforcement Learning and Mixed Reality for Human-Robot collaboration.</p>
           Task Scoping: Building Goal-Specific Abstractions for Planning in Complex Domains
           </p>
           <strong>Nishanth Kumar*</strong>,
-          <a href="https://www.linkedin.com/in/michael-fishman-9a0a11160/">Michael Fishman*</a>,
-          <a href="https://scholar.google.com/citations?user=1HIu1uQAAAAJ&amp;hl=en">Natasha Danas</a>,
-          <a href="https://www.littmania.com/">Michael Littman</a>,
+          <a href="http://cs.brown.edu/people/er35/">Eric Rosen*</a>,              
           <a href="https://cs.brown.edu/people/stellex/">Stefanie Tellex</a>
-          <a href="https://cs.brown.edu/people/gdk/">George Konidaris</a>
           <br />
-          <em>arXiv</em>, 2020.
+          <em>The Second International Workshop on Virtual, Augmented and Mixed Reality for Human Robot Interaction</em>, 2019.
           <br />
-          <a href="https://arxiv.org/pdf/2010.08869">arxiv</a>
+          <a href="https://ojs.aaai.org/index.php/AAAI/article/view/7195">paper</a>
           <br />
           <p>
-          Introduces a method for how large classical planning problems can be efficiently pruned to exclude states and actions that are irrelevant to a particular goal so that agents can solve very large, 'open-scope' domains that are capable of supporting multiple goals.
+          Sketches high level ideas for how a mixed reality system might enable users to specify information for a robot to perform pick-place and other household tasks. This work is subsumed by our AOSM work.
           <br />
           [* denotes equal contribution]
           </p>
@@ -376,41 +204,16 @@ Reinforcement Learning and Mixed Reality for Human-Robot collaboration.</p>
     </tbody>
 </table>
 
-<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-    <tbody>
-      <tr>
-        <td style="padding:20px;width:25%;vertical-align:middle">
-          <div>
-            <img src="/images/paper-images/parameterized-bc.png" width="160" />
-          </div>
-        </td>
-        <td style="padding:20px;width:75%;vertical-align:middle">
-          <p style="font-family:'Lato',Verdana,Helvetica,sans-serif; font-size:14px;font-weight:700">
-          Learning Deep Parameterized Skills from Demonstration for Re-targetable Visuomotor Control
-          </p>
-          <strong>Nishanth Kumar*</strong>,
-          <a href="https://jdchang1.github.io/">Jonathan Chang*</a>,
-          <a href="https://scholar.google.com/citations?user=JsWiJPcAAAAJ&amp;hl=en">Sean Hastings</a>,
-          <a href="https://skylion007.github.io/">Aaron Gokaslan</a>,
-          <a href="https://www.merl.com/people/romeres">Diego Romeres</a>,
-          <a href="https://www.merl.com/people/jha">Devesh Jha</a>,
-          <a href="https://www.merl.com/people/nikovski">Daniel Nikovski</a>,
-          <a href="https://cs.brown.edu/people/gdk/">George Konidaris</a>,
-          <a href="https://cs.brown.edu/people/stellex/">Stefanie Tellex</a>
-          <br />
-          <em>arXiv</em>, 2020.
-          <br />
-          <a href="https://arxiv.org/abs/1910.10628">arxiv</a>
-          <br />
-          <p>
-          Shows how the generalization capabilities of Behavior Cloning (BC) can be improved by learning a policy parameterized by some input that enables the agent to distinguish different goals (e.g. different buttons to press in a grid). Includes several exhaustive experiments in simulation and on two different robots.
-          <br />
-          [* denotes equal contribution. Work was done in collaboration with Mitsubishi Electric Research Laboratories]
-          </p>
-        </td>
-      </tr>
-    </tbody>
-</table>
+<p><a href="https://arxiv.org/abs/2010.08869">Task Scoping: Building Goal-Specific Abstractions for Planning in Complex Domains</a>
+<br /> <strong>Nishanth Kumar</strong>*, Michael Fishman*, Natasha Danas, Michael Littman, Stefanie Tellex and George Konidaris.
+<br /> Preprint.
+<br /> (In submission)
+<br /> [* denotes equal contribution]</p>
+
+<p><a href="https://arxiv.org/abs/1910.10628">Learning Deep Parameterized Skills from Demonstration for Re-targetable Visuomotor Control</a>
+<br /> Jonathan Chang*, <strong>Nishanth Kumar</strong>*, Sean Hastings, Aaron Gokaslan, Diego Romeres, Devesh K. Jha, Daniel Nikovski, George Konidaris, Stefanie Tellex.
+<br /> Preprint.
+<br /> [* denotes equal contribution. Work was done in collaboration with Mitsubishi Electric Research Laboratories]</p>
 
 <h3 id="other-publications">Other Publications</h3>
 <p><a href="/misc_files/Nishanth_Undergrad_Honors_Thesis.pdf">You Only Need What’s in Scope: Generating Task-Specific Abstractions for Efficient AI Planning</a>)
@@ -478,71 +281,4 @@ Reinforcement Learning and Mixed Reality for Human-Robot collaboration.</p>
   <li><a href="https://cs.brown.edu/news/2019/08/13/undergrad-nishanth-kumar-wins-best-plenary-presentation-ilurs/">Undergrad Nishanth Kumar Wins Best Plenary Presentation At ILURS</a></li>
   <li><a href="http://cs.brown.edu/news/2020/02/04/bayazit-galgana-kumar-and-safranchik-win-cra-outstanding-undergraduate-researcher-honorable-mentions/">Bayazit, Galgana, Kumar, And Safranchik Win CRA Outstanding Undergraduate Researcher Honorable Mentions </a></li>
 </ul>
-
-    </section>
-  </article>
-</div>
-
-    </div>
-
-    
-
-    <div id="footer" class="page__footer">
-      <footer>
-        <!-- start custom footer snippets -->
-
-<!-- end custom footer snippets -->
-        <div class="page__footer-follow">
-  <ul class="social-icons">
-    
-      <li><strong>Follow:</strong></li>
-    
-
-    
-      
-        
-          <li><a href="https://www.quora.com/profile/Nishanth-Jay-Kumar" rel="nofollow noopener noreferrer"><i class="fab fa-quora" aria-hidden="true"></i> Quora</a></li>
-        
-      
-        
-          <li><a href="https://twitter.com/nishanthkumar23" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
-        
-      
-        
-          <li><a href="https://www.facebook.com/people/Nishanth-Kumar/100014347320551" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
-        
-      
-        
-          <li><a href="https://github.com/NishanthJKumar" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
-        
-      
-        
-          <li><a href="https://www.linkedin.com/in/nishanth-kumar/" rel="nofollow noopener noreferrer"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
-        
-      
-    
-
-    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
-  </ul>
-</div>
-
-<div class="page__footer-copyright">&copy; 2021 Nishanth J. Kumar. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a>, <a href="https://github.com/NishanthJKumar/Nishanth-Minimal-Mistakes-Customized" rel="nofollow">my customization of </a> <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>, and some inspiration + code from <a href="https://github.com/jonbarron/website" rel="nofollow">Jon Barron's webpage</a>.</div>
-
-      </footer>
-    </div>
-
-    
-  <script src="/assets/js/main.min.js"></script>
-  <script src="https://kit.fontawesome.com/4eee35f757.js"></script>
-
-
-
-
-
-
-
-
-
-
-  </body>
-</html>
+:ET

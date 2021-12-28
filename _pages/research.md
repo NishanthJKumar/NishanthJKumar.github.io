@@ -105,7 +105,7 @@ Reinforcement Learning and Mixed Reality for Human-Robot collaboration.
               <a href="https://www.khoury.northeastern.edu/people/lawson-wong/">Lawson L.S Wong</a>,
               <a href="https://cs.brown.edu/people/stellex/">Stefanie Tellex</a>
               <br>
-							<em>IEEE/ International Conference on Robotics and Automation (ICRA)</em>, 2019.
+							<em>IEEE International Conference on Robotics and Automation (ICRA)</em>, 2019.
               <br>
               <a href="https://h2r.cs.brown.edu/wp-content/uploads/wandzel19.pdf">paper</a>
               /
@@ -116,20 +116,104 @@ Reinforcement Learning and Mixed Reality for Human-Robot collaboration.
             </td>
           </tr>
         </tbody>
-</table> 
+</table>
 
 
 ### Workshop Papers and Extended Abstracts
-[Task Scoping for Efficient Planning in Open Worlds](https://www.aaai.org/Papers/AAAI/2020GB/SA-KumarN.682.pdf)
-<br/> **Nishanth Kumar**\*, Michael Fishman\*, Natasha Danas, Michael Littman, Stefanie Tellex and George Konidaris. AAAI 2020 <br/> Student Abstract, New York, USA, February 2020.
-<br/> [\* denotes equal contribution]
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <tbody>
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div>
+                <img src='/images/paper-images/taxi-scoping.png' width="160">
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <p style="font-family:'Lato',Verdana,Helvetica,sans-serif; font-size:14px;font-weight:700">
+              Task Scoping for Efficient Planning in Open Worlds
+              </p>
+              <strong>Nishanth Kumar*</strong>,
+              <a href="https://www.linkedin.com/in/michael-fishman-9a0a11160/">Michael Fishman*</a>,
+              <a href="https://scholar.google.com/citations?user=1HIu1uQAAAAJ&hl=en">Natasha Danas</a>,
+              <a href="https://sites.google.com/view/robots-oh/yoonseon-oh">Michael Littman</a>,
+              <a href="https://cs.brown.edu/people/stellex/">Stefanie Tellex</a>
+              <a href="https://cs.brown.edu/people/gdk/">George Konidaris</a>              
+              <br>
+							<em>AAAI Conference on Artificial Intelligence, Student Workshop,</em>, 2020.
+              <br>
+              <a href="https://ojs.aaai.org/index.php/AAAI/article/view/7195">paper</a>
+              <br>
+              <p>
+              Introduces high-level ideas for how large Markov Decision Processes (MPDs) might be efficiently pruned to include only states and actions relevant to a particular reward function. This paper is subsumed by our arxiv preprint on task scoping.
+              <br>
+              [* denotes equal contribution]
+              </p>
+            </td>
+          </tr>
+        </tbody>
+</table>
 
-[Knowledge Acquisition for Robots through Mixed Reality Head-Mounted Displays](https://www.researchgate.net/publication/331563746_Knowledge_Acquisition_for_Robots_Through_Mixed_Reality_Head-Mounted_Displays).
-<br/> **Nishanth Kumar**\*, Eric Rosen\* and Stefanie Tellex.
-<br/> The Second International Workshop on Virtual, Augmented and Mixed Reality for Human Robot Interaction, Daegu, Korea March 2019.
-<br/> [* denotes equal contribution]
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <tbody>
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div>
+                <img src='/images/paper-images/mr-pick-place.png' width="160">
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <p style="font-family:'Lato',Verdana,Helvetica,sans-serif; font-size:14px;font-weight:700">
+              Knowledge Acquisition for Robots through Mixed Reality Head-Mounted Displays
+              </p>
+              <strong>Nishanth Kumar*</strong>,
+              <a href="http://cs.brown.edu/people/er35/">Eric Rosen*</a>,              
+              <a href="https://cs.brown.edu/people/stellex/">Stefanie Tellex</a>
+              <br>
+							<em>The Second International Workshop on Virtual, Augmented and Mixed Reality for Human Robot Interaction</em>, 2019.
+              <br>
+              <a href="https://ojs.aaai.org/index.php/AAAI/article/view/7195">paper</a>
+              <br>
+              <p>
+              Sketches high level ideas for how a mixed reality system might enable users to specify information for a robot to perform pick-place and other household tasks. This work is subsumed by our AOSM work.
+              <br>
+              [* denotes equal contribution]
+              </p>
+            </td>
+          </tr>
+        </tbody>
+</table>
 
 ### Preprints
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tbody>
+      <tr>
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <div>
+            <img src='/images/paper-images/mr-pick-place.png' width="160">
+          </div>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <p style="font-family:'Lato',Verdana,Helvetica,sans-serif; font-size:14px;font-weight:700">
+          Knowledge Acquisition for Robots through Mixed Reality Head-Mounted Displays
+          </p>
+          <strong>Nishanth Kumar*</strong>,
+          <a href="http://cs.brown.edu/people/er35/">Eric Rosen*</a>,              
+          <a href="https://cs.brown.edu/people/stellex/">Stefanie Tellex</a>
+          <br>
+          <em>The Second International Workshop on Virtual, Augmented and Mixed Reality for Human Robot Interaction</em>, 2019.
+          <br>
+          <a href="https://ojs.aaai.org/index.php/AAAI/article/view/7195">paper</a>
+          <br>
+          <p>
+          Sketches high level ideas for how a mixed reality system might enable users to specify information for a robot to perform pick-place and other household tasks. This work is subsumed by our AOSM work.
+          <br>
+          [* denotes equal contribution]
+          </p>
+        </td>
+      </tr>
+    </tbody>
+</table>
+
 [Task Scoping: Building Goal-Specific Abstractions for Planning in Complex Domains](https://arxiv.org/abs/2010.08869)
 <br/> **Nishanth Kumar**\*, Michael Fishman\*, Natasha Danas, Michael Littman, Stefanie Tellex and George Konidaris.
 <br/> Preprint.
@@ -153,9 +237,6 @@ Reinforcement Learning and Mixed Reality for Human-Robot collaboration.
 This work received the highest possible grade for ‘The Great Ideas in Computer Science’ offered at Brown University in Fall 2019.
 {: style="font-size: 80%"}
 
-[Knowledge Acquisition for Robots through Mixed Reality Head-Mounted Displays](https://brownresearchclub.weebly.com/brown-undergraduate-research-journal.html)
-<br/> **Nishanth Kumar**, Stefanie Tellex
-<br/> Brown Undergraduate Research Journal, Page 5, Volume 1, Issue 1, Spring 2019.
 
 ## Talks
 - [Task Scoping: Generating Task-Specific Abstractions for Planning](https://drive.google.com/file/d/1eshvDUiBJJIbLqqRusdgCv5O7wK076f8/view)

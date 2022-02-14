@@ -184,6 +184,43 @@ I'm broadly interested in enabling robots to operate robustly in long-horizon, m
 ### Preprints
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
     <tbody>
+      <tr>
+      <!-- <tr bgcolor="#ffffd0"> -->
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <div>
+            <img src='/images/paper-images/pgmax.png' width="160">
+          </div>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <p style="font-family:'Lato',Verdana,Helvetica,sans-serif; font-size:14px;font-weight:700">
+          PGMax: Factor Graphs for Discrete Probabilistic Graphical Models and Loopy Belief Propagation in JAX
+          </p>
+          <a href="https://stanniszhou.github.io/">Guangyao Zhou*</a>,
+          <strong>Nishanth Kumar*</strong>,
+          <a href="https://www.linkedin.com/in/miguel-l%C3%A1zaro-gredilla-133759a">Miguel Lázaro-Gredilla</a>,
+          <a href="https://scholar.google.com/citations?user=8RYloKYAAAAJ&hl=fr">Shrinu Kushagra</a>,
+          <a href="https://www.linkedin.com/in/dileep-george/">Dileep George</a>
+          <br>
+          <em>arXiv</em>, 2022.
+          <br>
+          <a href="https://arxiv.org/abs/2202.04110">arxiv</a>
+          /
+          <a href="https://www.vicarious.com/posts/pgmax-factor-graphs-for-discrete-probabilistic-graphical-models-and-loopy-belief-propagation-in-jax/">blog post</a>
+          /
+          <a href="https://github.com/vicariousinc/PGMax">code</a>
+          <br>
+          <p>
+          Introduces a new JAX-based framework that aims to make it easy to build and run inference on probabilistic graphical models (PGM's).
+          <br>
+          [* denotes equal contribution]
+          </p>
+        </td>
+      </tr>
+    </tbody>
+</table>
+
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tbody>
       <tr bgcolor="#ffffd0">
         <td style="padding:20px;width:25%;vertical-align:middle">
           <div>

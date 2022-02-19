@@ -63,4 +63,9 @@ var store = [{
         "excerpt":"Writing a good PhD SoP can be a daunting task. Fortunately, there are plenty of good posts out there about how to approach the writing process and what a good SoP looks like (in particular, I followed the structure laid out by this post by Tim Dettmers and this post...","categories": [],
         "tags": ["Research","Resources"],
         "url": "http://localhost:4000/My-PhD-Statement-of-Purpose/",
+        "teaser":null},{
+        "title": "A Beginner's Guide To Creating An Open Source Python Package",
+        "excerpt":"A while ago, I had the opportunity to develop and release a new open-source Python library: PGMax. Since this was to be my first open-source library release, I spent a lot of time figuring out a good set of developer tools to speed up development and enable (hopefully) lots of...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/A-Beginner's-Guide-To-Creating-An-Open-Source-Python-Package/",
         "teaser":null}]

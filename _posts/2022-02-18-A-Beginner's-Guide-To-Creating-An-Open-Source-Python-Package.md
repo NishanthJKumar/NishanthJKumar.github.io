@@ -56,6 +56,7 @@ Now, it can be somewhat painful to install and use all these formatting and type
 1. Add a `.pre-commit-config.yaml` file to specify the tools you want `pre-commit` to run
     1. You can have the terminal spit out a sample `.pre-commit-config.yaml` using the command `pre-commit sample-config`. Copy pase the output of this command into `.pre-commit-config.yaml`
     1. If you want you'd like to use all the nice tools specified above (black, isort, flake8 and mypy), copy paste the below into your `.pre-commit-config.yaml` file
+
         ```
         repos:
         -   repo: https://github.com/PyCQA/isort
@@ -92,6 +93,7 @@ Now, it can be somewhat painful to install and use all these formatting and type
             -   id: mypy
                 additional_dependencies: [tokenize-rt==3.2.0]
         ```
+        
     1. Setup `pre-commit` to run whenever you commit to GitHub by running the `pre-commit install` command
         1. If you're using poetry, be sure to run this command within your poetry shell. Alternatively, you can run `poetry run pre-commit install`.
     1. (Optional) Integrate `pre-commit` with your IDE so you can run these checks for any file on save, etc. ([VSCode extension](https://marketplace.visualstudio.com/items?itemName=MarkLarah.pre-commit-vscode), [IntelliJ Plugin](https://plugins.jetbrains.com/plugin/9278-pre-commit-hook-plugin))

@@ -1,4 +1,208 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-02-14T11:32:17-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Nishanth J. Kumar</title><subtitle>My personal homepage and blog for non-fictional musings</subtitle><author><name>Nishanth J. Kumar</name><email>nishanth.kumar20@gmail.com</email></author><entry><title type="html">My Phd Statement Of Purpose</title><link href="http://localhost:4000/My-PhD-Statement-of-Purpose/" rel="alternate" type="text/html" title="My Phd Statement Of Purpose" /><published>2021-11-12T00:00:00-05:00</published><updated>2021-11-12T00:00:00-05:00</updated><id>http://localhost:4000/My-PhD-Statement-of-Purpose</id><content type="html" xml:base="http://localhost:4000/My-PhD-Statement-of-Purpose/">&lt;p&gt;Writing a good PhD SoP can be a daunting task. Fortunately, there are plenty of good posts out there about how to approach the writing process and what a good SoP looks like (in particular, I followed the structure laid out by &lt;a href=&quot;https://timdettmers.com/2018/11/26/phd-applications/&quot;&gt;this post&lt;/a&gt; by &lt;a href=&quot;https://timdettmers.com/&quot;&gt;Tim Dettmers&lt;/a&gt; and &lt;a href=&quot;https://h2r.cs.brown.edu/writing-a-research-statement-for-graduate-school-and-fellowships/&quot;&gt;this post&lt;/a&gt; by my undergrad advisor &lt;a href=&quot;https://scholar.google.com/citations?user=Pd8-ju0AAAAJ&amp;amp;hl=en&quot;&gt;Stefanie Tellex&lt;/a&gt;). When I was writing my own SoP, what I probably found most-helpful on top of the above-linked posts was reading SoP’s by students in related areas who had been successful with the PhD application process (in particular &lt;a href=&quot;https://blog.nelsonliu.me/2020/11/11/phd-personal-statement/&quot;&gt;this one&lt;/a&gt; from &lt;a href=&quot;https://cs.stanford.edu/~nfliu/&quot;&gt;Nelson Liu&lt;/a&gt;). Given how much I benefitted from these, I figured I’d try to give back and contribute to the genre. Below, you can read the SoP that helped me get admitted to MIT:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-02-18T22:18:46-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Nishanth J. Kumar</title><subtitle>My personal homepage and blog for non-fictional musings</subtitle><author><name>Nishanth J. Kumar</name><email>nishanth.kumar20@gmail.com</email></author><entry><title type="html">A Beginner&amp;#8217;s Guide To Creating An Open Source Python Package</title><link href="http://localhost:4000/A-Beginner's-Guide-To-Creating-An-Open-Source-Python-Package/" rel="alternate" type="text/html" title="A Beginner's Guide To Creating An Open Source Python Package" /><published>2022-02-18T00:00:00-05:00</published><updated>2022-02-18T00:00:00-05:00</updated><id>http://localhost:4000/A-Beginner's-Guide-To-Creating-An-Open-Source-Python-Package</id><content type="html" xml:base="http://localhost:4000/A-Beginner's-Guide-To-Creating-An-Open-Source-Python-Package/">&lt;p&gt;A while ago, I had the opportunity to develop and release a new open-source Python library: &lt;a href=&quot;https://github.com/vicariousinc/PGMax&quot;&gt;PGMax&lt;/a&gt;. Since this was to be my first open-source library release, I spent a lot of time figuring out a good set of developer tools to speed up development and enable (hopefully) lots of people to use and contribute to the project in the future. While there are already &lt;a href=&quot;https://towardsdatascience.com/build-your-first-open-source-python-project-53471c9942a7&quot;&gt;so&lt;/a&gt; &lt;a href=&quot;https://d39l7znklsxxzt.cloudfront.net/zh/blog/2021/01/19/publishing-a-proprietary-python-package-on-pypi-using-poetry/&quot;&gt;many&lt;/a&gt; &lt;a href=&quot;https://www.martinmcbride.org/post/2021/creating-python-oss-project/&quot;&gt;different&lt;/a&gt; &lt;a href=&quot;https://medium.com/free-code-camp/from-a-python-project-to-an-open-source-package-an-a-to-z-guide-c34cb7139a22&quot;&gt;articles&lt;/a&gt;, blog posts and resources on setting up open-source Python packages, none of them really presented a good integrated suite of tools for the various pieces (dependency management, documentation generation, continuous integration, etc.) that a well-engineered open-source project might want. So, I thought I would describe PGMax’s setup in the hopes that it might help others interested in setting up their own open-source library.&lt;/p&gt;
+
+&lt;p&gt;Before I dive into describing all the packages and tools I used, I want to mention 2 things:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;This article assumes you’re planning to use GitHub to host your project’s repository. A lot of the tools used should integrate well with some other version control setup, but might not because it wasn’t written with any other setup in mind.&lt;/li&gt;
+  &lt;li&gt;There are a &lt;em&gt;lot&lt;/em&gt; of different tools and libraries covered in this post, and quite a few of them might be overkill for your needs. Feel free to pick and choose specific pieces based on your use-case!&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Alright, let’s get started!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;dependency-management-and-packaging-with-poetry&quot;&gt;Dependency Management and Packaging with poetry&lt;/h2&gt;
+&lt;p&gt;Almost every useful Python package relies on a plethora of other, existing Python packages. While there are many popular tools like &lt;a href=&quot;https://pypi.org/project/pip/&quot;&gt;pip&lt;/a&gt; and &lt;a href=&quot;https://docs.conda.io/en/latest/&quot;&gt;conda&lt;/a&gt; that help manage and maintain all the various packages and dependencies you might need to prevent the dreaded &lt;code class=&quot;highlighter-rouge&quot;&gt;ImportError&lt;/code&gt;, most of these are intended for personal use and don’t seamlessly support all the needs that arise when building an open-source package that will (hopefully) be used and contributed to by hundreds of people. This is where &lt;a href=&quot;https://python-poetry.org/&quot;&gt;poetry&lt;/a&gt; comes in.&lt;/p&gt;
+
+&lt;p&gt;Poetry is an easy-to-install tool that seamlessly handles pretty much all the use-cases you might have with developing an open-source package. It also has an intuitive CLI and some nice bells and whistles (one of my favorite: you can specify separate dependencies for developers and users and use these to make separate &lt;code class=&quot;highlighter-rouge&quot;&gt;virtualenvs&lt;/code&gt;!). Head over to &lt;a href=&quot;https://python-poetry.org/docs/#installation&quot;&gt;this page&lt;/a&gt; and follow the instructions to install and setup poetry. Then, look under the “Project Setup” heading at &lt;a href=&quot;https://python-poetry.org/docs/basic-usage/&quot;&gt;this page&lt;/a&gt; to generate a &lt;code class=&quot;highlighter-rouge&quot;&gt;pyproject.toml&lt;/code&gt; file which poetry treats as a one-stop-shop to manage your project. You can read &lt;a href=&quot;https://python-poetry.org/docs/basic-usage/&quot;&gt;this page&lt;/a&gt; to understand all the basic usecases, and &lt;a href=&quot;https://python-poetry.org/docs/cli/&quot;&gt;this page&lt;/a&gt; to see everything you can do with the CLI, but the general idea of how to use poetry is as follows:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Activate your poetry environment for development with &lt;code class=&quot;highlighter-rouge&quot;&gt;poetry shell&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Whenever you want to add a new dependency/import a new library as part of development, do &lt;code class=&quot;highlighter-rouge&quot;&gt;poetry add -D &amp;lt;library-name&amp;gt;&lt;/code&gt;. If this will be needed for project users (not just developers) as well, simply do &lt;code class=&quot;highlighter-rouge&quot;&gt;poetry add &amp;lt;library-name&amp;gt;&lt;/code&gt; (you can also optionally specify particular versions of requirements, and even the source from which to get a specific library).&lt;/li&gt;
+  &lt;li&gt;If someone else wants to start developing and contributing to your project, they can simply download the project repository and run &lt;code class=&quot;highlighter-rouge&quot;&gt;poetry shell&lt;/code&gt; followed by &lt;code class=&quot;highlighter-rouge&quot;&gt;poetry install&lt;/code&gt;, and they should have a nice, clean &lt;code class=&quot;highlighter-rouge&quot;&gt;virtualenv&lt;/code&gt; with everything needed to run and develop the code (ta-da!).
+    &lt;ul&gt;
+      &lt;li&gt;If someone just wants to use your package and isn’t interested in developing, they can run &lt;code class=&quot;highlighter-rouge&quot;&gt;poetry shell&lt;/code&gt; followed by &lt;code class=&quot;highlighter-rouge&quot;&gt;poetry install --no-dev&lt;/code&gt;.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;publishing-your-poetry-package-to-pypi&quot;&gt;Publishing your poetry package to PyPI&lt;/h3&gt;
+&lt;p&gt;One of Poetry’s nicest features is its ability to easily publish packages to &lt;a href=&quot;https://pypi.org/&quot;&gt;PyPI&lt;/a&gt; so users can install the package painlessly with a simple &lt;code class=&quot;highlighter-rouge&quot;&gt;pip install &amp;lt;package_name&amp;gt;&lt;/code&gt;. Before actually publishing your package though, it’s probably a good idea to test that it builds correctly and will upload to PyPI seamlessly.&lt;/p&gt;
+
+&lt;h4 id=&quot;testing-your-package-build-and-upload-with-test-pypi&quot;&gt;Testing your package build and upload with Test PyPI&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;If you haven’t already, add some miscellaneous, relevant fields to your &lt;code class=&quot;highlighter-rouge&quot;&gt;pyproject.toml&lt;/code&gt; file. Such nice-to-have fields might include a license, a list of package authors and maintainers, a link to a homepage website, etc. You can see the full list of possible fields &lt;a href=&quot;https://python-poetry.org/docs/pyproject/&quot;&gt;here&lt;/a&gt;; and as a sample, PGMax’s &lt;code class=&quot;highlighter-rouge&quot;&gt;pyproject.toml&lt;/code&gt; file can be found &lt;a href=&quot;https://github.com/vicariousinc/PGMax/blob/master/pyproject.toml&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Also, if you haven’t already, make an account on &lt;a href=&quot;https://test.pypi.org/&quot;&gt;Test PyPI&lt;/a&gt;. Note that this will be entirely separate from any PyPI account you may have registered for with the same username.&lt;/li&gt;
+  &lt;li&gt;Go ahead and build your package with the command: &lt;code class=&quot;highlighter-rouge&quot;&gt;poetry build&lt;/code&gt;. This should create a &lt;code class=&quot;highlighter-rouge&quot;&gt;dist&lt;/code&gt; folder with a &lt;code class=&quot;highlighter-rouge&quot;&gt;.whl&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;.tar.gz&lt;/code&gt; file. Note that it’s probably a good idea to add this &lt;code class=&quot;highlighter-rouge&quot;&gt;dist&lt;/code&gt; folder to your &lt;code class=&quot;highlighter-rouge&quot;&gt;.gitignore&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Try to install this &lt;code class=&quot;highlighter-rouge&quot;&gt;.whl&lt;/code&gt; file in a fresh environment (e.g. &lt;a href=&quot;https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html&quot;&gt;create a new Conda environment&lt;/a&gt; or &lt;a href=&quot;https://docs.python.org/3/library/venv.html&quot;&gt;venv&lt;/a&gt;) with the command: &lt;code class=&quot;highlighter-rouge&quot;&gt;pip install dist/&amp;lt;name_of_.whl_file&amp;gt;&lt;/code&gt;. If there are any dependency/other issues with this install, fix them now.
+    &lt;ol&gt;
+      &lt;li&gt;If your package has any tests/example code, try to run these to verify that the install really worked.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Add Test PyPI as an alternate package repository to publish to: &lt;code class=&quot;highlighter-rouge&quot;&gt;poetry config repositories.testpypi https://test.pypi.org/legacy/&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Now, publish your package to Test PyPI: &lt;code class=&quot;highlighter-rouge&quot;&gt;poetry publish -r testpypi&lt;/code&gt;. You will need your account credentials for this. If there are any dependency errors, etc. with this resolve them now.&lt;/li&gt;
+  &lt;li&gt;To verify that the upload looks good and works as intended, you can view it on &lt;a href=&quot;https://test.pypi.org/&quot;&gt;Test PyPI&lt;/a&gt; and then additionally try to install it in a fresh environment with the command: &lt;code class=&quot;highlighter-rouge&quot;&gt;pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple &amp;lt;your_package_name&amp;gt;&lt;/code&gt; (see &lt;a href=&quot;https://stackoverflow.com/questions/34514703/pip-install-from-pypi-works-but-from-testpypi-fails-cannot-find-requirements&quot;&gt;this StackOverflow answer&lt;/a&gt; if you’re curious about what this command does.)
+    &lt;ol&gt;
+      &lt;li&gt;Again, run any test/example code to verify that this install is all good.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;If this works, then congrats! You’re now ready to upload your package to PyPI and can be assured that everything will work seamlessly!&lt;/p&gt;
+
+&lt;h4 id=&quot;uploading-your-package-to-pypi&quot;&gt;Uploading your package to PyPI&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;If you haven’t already, then &lt;a href=&quot;https://pypi.org/account/register/&quot;&gt;register for a PyPI account&lt;/a&gt;. Note that this is entirely separate from any account you may have on Test PyPI.&lt;/li&gt;
+  &lt;li&gt;Publish your package with a simple &lt;code class=&quot;highlighter-rouge&quot;&gt;poetry publish&lt;/code&gt; command. You will need your PyPI account credentials.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Ta-da! Now you have a shiny new package on PyPI, ready for anyone to install with a simple &lt;code class=&quot;highlighter-rouge&quot;&gt;pip install &amp;lt;package-name&amp;gt;&lt;/code&gt; command!&lt;/p&gt;
+
+&lt;h2 id=&quot;code-formatting-linting-and-other-nice-to-haves&quot;&gt;Code Formatting, Linting and other nice-to-haves&lt;/h2&gt;
+&lt;p&gt;While these things are relatively minor, they can save you (and people who want to use your project) from significant headaches in the future. Since these things are straightforward to setup and become increasingly important as your project grows, I recommend setting them up right at the outset. Specifically, I recommend using:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://black.readthedocs.io/en/stable/&quot;&gt;black&lt;/a&gt; for code formatting&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pycqa.github.io/isort/&quot;&gt;isort&lt;/a&gt; to sort imports and make sure they’re always in the same order (this is extremely useful when reviewing changes on GitHub)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://flake8.pycqa.org/en/latest/&quot;&gt;flake8&lt;/a&gt; for linting&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://mypy.readthedocs.io/en/stable/&quot;&gt;mypy&lt;/a&gt; for type-checking all your code. This might be somewhat annoying during development, but is useful to keep-around because it can help catch some extremely subtle type bugs (plus, you can make it ignore files/functions/lines you don’t want it to look at).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;enforcing-code-formatting-with-pre-commit-hooks&quot;&gt;Enforcing Code Formatting with pre-commit hooks&lt;/h3&gt;
+&lt;p&gt;Now, it can be somewhat painful to install and use all these formatting and type-checking tools together. Fortunately, the &lt;a href=&quot;https://pre-commit.com/&quot;&gt;pre-commit&lt;/a&gt; tool can bundle and run all of these tools (and more) for you! What’s more, you can set this up to run whenever a &lt;code class=&quot;highlighter-rouge&quot;&gt;git commit&lt;/code&gt; command is executed. To do this, simply:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Install pre-commit by following &lt;a href=&quot;https://pre-commit.com/#installation&quot;&gt;these instructions&lt;/a&gt;
+    &lt;ol&gt;
+      &lt;li&gt;If you’re using poetry (which I hope you are!) be sure to add &lt;code class=&quot;highlighter-rouge&quot;&gt;pre-commit&lt;/code&gt; as a developer dependency and do this installation (preferably via pip) &lt;em&gt;within&lt;/em&gt; your poetry shell. You can accomplish all of this by running &lt;code class=&quot;highlighter-rouge&quot;&gt;poetry add -D pre-commit&lt;/code&gt; after having activated your poetry env with &lt;code class=&quot;highlighter-rouge&quot;&gt;poetry shell&lt;/code&gt;.&lt;/li&gt;
+      &lt;li&gt;Verify your installation by checking whether the &lt;code class=&quot;highlighter-rouge&quot;&gt;pre-commit --version&lt;/code&gt; command runs&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Add a &lt;code class=&quot;highlighter-rouge&quot;&gt;.pre-commit-config.yaml&lt;/code&gt; file to specify the tools you want &lt;code class=&quot;highlighter-rouge&quot;&gt;pre-commit&lt;/code&gt; to run
+    &lt;ol&gt;
+      &lt;li&gt;You can have the terminal spit out a sample &lt;code class=&quot;highlighter-rouge&quot;&gt;.pre-commit-config.yaml&lt;/code&gt; using the command &lt;code class=&quot;highlighter-rouge&quot;&gt;pre-commit sample-config&lt;/code&gt;. Copy pase the output of this command into &lt;code class=&quot;highlighter-rouge&quot;&gt;.pre-commit-config.yaml&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;If you want you’d like to use all the nice tools specified above (black, isort, flake8 and mypy), copy paste the below into your &lt;code class=&quot;highlighter-rouge&quot;&gt;.pre-commit-config.yaml&lt;/code&gt; file&lt;/p&gt;
+
+        &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; repos:
+ -   repo: https://github.com/PyCQA/isort
+     rev: 5.8.0
+     hooks:
+     -   id: isort
+
+ -   repo: https://github.com/ambv/black
+     rev:  21.6b0
+     hooks:
+     -   id: black
+         language_version: python3.7
+
+ -   repo: https://github.com/pre-commit/pre-commit-hooks
+     rev: v4.0.1
+     hooks:
+     -   id: check-added-large-files
+         args: ['--maxkb=5120']
+     -   id: trailing-whitespace
+         files: (\.py|\.rst|\.yaml|)$
+     -   id: check-merge-conflict
+
+ -   repo: https://gitlab.com/pycqa/flake8
+     rev: 3.9.2
+     hooks:
+     -   id: flake8
+         # To turn this into an error, remove --exit-zero below
+         args: ['--config', '.flake8.config','--exit-zero']
+         verbose: true
+
+ -   repo: https://github.com/pre-commit/mirrors-mypy
+     rev: 'v0.902'  # Use the sha / tag you want to point at
+     hooks:
+     -   id: mypy
+         additional_dependencies: [tokenize-rt==3.2.0]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Setup &lt;code class=&quot;highlighter-rouge&quot;&gt;pre-commit&lt;/code&gt; to run whenever you commit to GitHub by running the &lt;code class=&quot;highlighter-rouge&quot;&gt;pre-commit install&lt;/code&gt; command
+        &lt;ol&gt;
+          &lt;li&gt;If you’re using poetry, be sure to run this command within your poetry shell. Alternatively, you can run &lt;code class=&quot;highlighter-rouge&quot;&gt;poetry run pre-commit install&lt;/code&gt;.&lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+      &lt;li&gt;(Optional) Integrate &lt;code class=&quot;highlighter-rouge&quot;&gt;pre-commit&lt;/code&gt; with your IDE so you can run these checks for any file on save, etc. (&lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=MarkLarah.pre-commit-vscode&quot;&gt;VSCode extension&lt;/a&gt;, &lt;a href=&quot;https://plugins.jetbrains.com/plugin/9278-pre-commit-hook-plugin&quot;&gt;IntelliJ Plugin&lt;/a&gt;)
+        &lt;ol&gt;
+          &lt;li&gt;
+            &lt;p&gt;You can also just run the command &lt;code class=&quot;highlighter-rouge&quot;&gt;pre-commit run --files &amp;lt;path-to-your-files&amp;gt;&lt;/code&gt; to selectively run these tools on specific files. If you’re like me and don’t enjoy typing all this out, you can make a bash alias by adding the below lines to the end of your &lt;code class=&quot;highlighter-rouge&quot;&gt;~/.bashrc&lt;/code&gt; file.&lt;/p&gt;
+
+            &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; pc ()
+ {
+     pre-commit run --files &quot;$1&quot;
+ }
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;            &lt;/div&gt;
+            &lt;p&gt;Now, you can simply run &lt;code class=&quot;highlighter-rouge&quot;&gt;pc &amp;lt;path-to-yourfile&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+          &lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;managing-jupyter-notebooks-with-jupytext&quot;&gt;Managing Jupyter Notebooks with jupytext&lt;/h2&gt;
+&lt;p&gt;Jupyter Notebooks are better than plain old Python scripts for a variety of different purposes. Unfortunately, version control isn’t one of them. Keeping Jupyter Notebooks as part of your project can make code review and management an absolute nightmare. Fortunately, there is a solution: &lt;a href=&quot;https://github.com/mwouts/jupytext&quot;&gt;Jupytext&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Jupytext essentially creates a text version of your notebook and updates this version whenever you update the notebook (or vice-versa, so you can edit your notebook just by editing the jupytext-produced text file!). This way, you can just commit these text files (that are amenable to version control) to your repo and then generate + edit the corresponding Jupyter notebooks if and when they’re needed. Here’s how to integrate Jupytext into your repo:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Add &lt;code class=&quot;highlighter-rouge&quot;&gt;*.ipynb&lt;/code&gt; to your &lt;code class=&quot;highlighter-rouge&quot;&gt;.gitignore&lt;/code&gt; file within your GitHub repo&lt;/li&gt;
+  &lt;li&gt;Install Jupytext by following the instructions from &lt;a href=&quot;https://github.com/mwouts/jupytext#install&quot;&gt;here&lt;/a&gt;
+    &lt;ol&gt;
+      &lt;li&gt;If you’re using poetry (which I hope you are!) be sure to add jupytext as a developer dependency and do this installation (preferably via pip) &lt;em&gt;within&lt;/em&gt; your poetry shell!&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Pair all your notebooks with a file in text format by following the instructions &lt;a href=&quot;https://github.com/mwouts/jupytext#paired-notebooks&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;And that’s it! Be sure to commit the paired text files to GitHub’s version control.&lt;/p&gt;
+
+&lt;h2 id=&quot;testing-with-pytest&quot;&gt;Testing with pytest&lt;/h2&gt;
+&lt;p&gt;Having a good test suite is absolutely essential for any open-source library that expects to be widely adopted and improve with time. As of this writing, pytest is arguably the most popular choice for a python testing library because of its ease-of-use coupled with exhaustive features.&lt;/p&gt;
+
+&lt;p&gt;Installing and setting up PyTest is super easy: simmply follow the &lt;a href=&quot;https://docs.pytest.org/en/6.2.x/getting-started.html#install-pytest&quot;&gt;steps from the official documentation&lt;/a&gt;. If you’re using Poetry (which I hope you are!), make pytest a dependency of your project and install it within your poetry environment by running &lt;code class=&quot;highlighter-rouge&quot;&gt;poetry add pytest&lt;/code&gt; within your poetry shell.&lt;/p&gt;
+
+&lt;p&gt;You’re now ready to begin writing tests! To get started, follow the &lt;a href=&quot;https://docs.pytest.org/en/6.2.x/getting-started.html#install-pytest&quot;&gt;guide from the official documentation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;As you’re thinking about how to structure and organize your tests, I’d highly recommend checking out &lt;a href=&quot;https://docs.pytest.org/en/6.2.x/goodpractices.html&quot;&gt;this set of best practices&lt;/a&gt;. Ensuring that your tests follow as many of these pointers as is reasonable will save you a &lt;em&gt;lot&lt;/em&gt; of headache down the line.&lt;/p&gt;
+
+&lt;h2 id=&quot;generating-documentation-with-sphinx&quot;&gt;Generating documentation with Sphinx&lt;/h2&gt;
+&lt;p&gt;If you’ve ever experienced the abject horror of having to make changes to a sprawling codebase with no comments or documentation &lt;em&gt;after&lt;/em&gt; when everyone that’s worked on it is unavailable, you understand why documentation is important. Now of course, there’s a reason most people don’t like writing documentation: it’s an annoying overhead (especially when you’re just starting to work on your project). Fortunately, there are tools to make writing and maintaining documentation significantly &lt;em&gt;less&lt;/em&gt; annoying (and even quite a delight). Enter Sphinx.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.sphinx-doc.org/en/master/index.html&quot;&gt;Sphinx&lt;/a&gt; helps you turn documentation files into a beautiful website that makes it easy for users to navigate through your (potentially massive and sprawling) codebase and understand how different pieces work. What’s more, &lt;a href=&quot;https://docs.readthedocs.io/en/stable/index.html&quot;&gt;Read the Docs&lt;/a&gt; hosts this website (generally for FREE!) and can be configured to update it whenever you push changes to your repo on GitHub. This way, your documentation is always up-to-date, and accessible to anyone on the Internet (which makes it &lt;em&gt;much&lt;/em&gt; more likely that people will want to use and help improve your library!).&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, as of this writing, Sphinx can be a bit annoying and tricky to setup well, especially if you’d like to do non-default things to make your documentation look better. There are &lt;em&gt;a lot&lt;/em&gt; of different ways to configure Sphinx to build a great-looking website; I’ll describe the one I settled on for PGMax, which was inspired by the structure and setup of the &lt;a href=&quot;https://jax.readthedocs.io/en/latest/&quot;&gt;JAX documentation&lt;/a&gt;. In particular, this setup generates a separate page in the documentation for every function, class and exception in your codebase (which looks much nicer than cramming everything into a few pages).&lt;/p&gt;
+
+&lt;h3 id=&quot;writing-docstrings&quot;&gt;Writing DocStrings&lt;/h3&gt;
+&lt;p&gt;For Sphinx to actually do it’s magic, your code needs to have ‘docstrings’. If you haven’t heard of these before, the name is fairly self-explanatory: they’re strings placed throughout the codebase that document everything from a general description of each class to the input/output of a specific function. Docstrings have a specific structure and style to make them easily parseable, and there are 2 major styles to choose from: &lt;a href=&quot;https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html&quot;&gt;the Google Style&lt;/a&gt; and &lt;a href=&quot;https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_numpy.html#example-numpy&quot;&gt;the NumPy Style&lt;/a&gt;. PGMax chose to go the Google route, but there’s no significant reason to choose one over the other. Whatever you do choose, make sure to write docstrings for all applicable parts of your code!&lt;/p&gt;
+
+&lt;h3 id=&quot;configuring-sphinx&quot;&gt;Configuring Sphinx&lt;/h3&gt;
+&lt;p&gt;To get started, follow &lt;a href=&quot;https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html#quick-start&quot;&gt;these instructions&lt;/a&gt; to install Sphinx and walk through a setup process to create a documentation folder for you project. PGMax uses the &lt;a href=&quot;https://sphinx-rtd-theme.readthedocs.io/en/stable/installing.html&quot;&gt;readthedocs theme&lt;/a&gt; to format documentation, so I’d certainly recommend installing this as well. Once you’ve completed this, follow &lt;a href=&quot;https://stackoverflow.com/a/62613202/12014259&quot;&gt;this StackOverflow answer&lt;/a&gt; to setup your repo to use the &lt;code class=&quot;highlighter-rouge&quot;&gt;autosummary&lt;/code&gt; directive correctly (which generates separate pages for each module in your documentation). Feel free to look at &lt;a href=&quot;https://github.com/vicariousinc/PGMax/tree/master/docs&quot;&gt;PGMax’s documentation folder&lt;/a&gt; for reference. If all is now setup correctly, then if you navigate to your project’s documentation folder and run &lt;code class=&quot;highlighter-rouge&quot;&gt;make html&lt;/code&gt; command, you should see a &lt;code class=&quot;highlighter-rouge&quot;&gt;build&lt;/code&gt; directory get created containing html pages with your documentation. If you open these pages with your browser, you should be able to view what your documentation pages look like! Be sure to click through most if not all of you pages to make sure everything has been generated correctly.&lt;/p&gt;
+
+&lt;h3 id=&quot;setting-up-read-the-docs-with-github-integration&quot;&gt;Setting up Read the Docs with GitHub Integration&lt;/h3&gt;
+&lt;p&gt;Now that you have Sphinx building your documentation correctly locally, you can make your own website on &lt;a href=&quot;https://readthedocs.org/&quot;&gt;readthedocs.io&lt;/a&gt; to host and continuously update your documentation so any users can easily access it. To do this, simply follow &lt;a href=&quot;https://docs.readthedocs.io/en/stable/tutorial/index.html#sign-up-for-read-the-docs&quot;&gt;these instructions&lt;/a&gt; (though adapted to your project instead of their tutorial example). Importantly, this integration should automatically update the documentation upon new pull-requests, so all you need to do whenever you update code and documentation is simply make a PR!&lt;/p&gt;
+
+&lt;h2 id=&quot;automating-things-with-continuous-integration-via-github-actions&quot;&gt;Automating things with Continuous Integration via GitHub Actions&lt;/h2&gt;
+&lt;p&gt;If you’ve setup everything up till this point, then you should have a nice development environment and workflow ready-to-go. This is great, but there’s one subtle problem: what if you (or someone contributing to your open-source project) mess up? Suppose for example that you forget to run your pre-commit hooks before pushing to GitHub, or even worse, you forget to run all your tests with PyTest before a major change. There’s currently nothing that prevents you from doing any of these things, and while some of them (like forgetting to lint) might not matter as much, other slip-ups (like forgetting to test and thereby accidentally breaking things) could be extremely annoying and even costly to fix. Enter GitHub Actions.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://docs.github.com/en/actions/learn-github-actions/introduction-to-github-actions&quot;&gt;GitHub Actions&lt;/a&gt; essentially allow you to do various things (run tests, lint, publish the package, etc.) upon “triggers” like committing, pushing or opening a Pull Request (PR) on GitHub. There are &lt;em&gt;a lot&lt;/em&gt; of &lt;a href=&quot;https://github.com/sdras/awesome-actions&quot;&gt;useful, interesting and awesome GitHub Actions&lt;/a&gt; out there, but I’m going to try to keep things simple and focus on the ones that dovetail well with the tools described above. Specifically, whenever someone pushes a commit, an action should enforce all our pre-commit hooks on any changed code. And whenever someone opens a PR, various actions should:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Enforce all pre-commit hooks&lt;/li&gt;
+  &lt;li&gt;Try to install all the Poetry dependencies and make sure it works&lt;/li&gt;
+  &lt;li&gt;Run all tests with PyTest&lt;/li&gt;
+  &lt;li&gt;Test that all documentation can be generated, then publish this documentation after PR approval&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Additionally, after a new “release” of the repo is made, we want to automatically publish this new version to PyPi.&lt;/p&gt;
+
+&lt;p&gt;PGMax uses two different files within its &lt;code class=&quot;highlighter-rouge&quot;&gt;.github/workflows&lt;/code&gt; folder: &lt;a href=&quot;https://github.com/vicariousinc/PGMax/blob/master/.github/workflows/ci.yaml&quot;&gt;ci.yaml&lt;/a&gt; and &lt;a href=&quot;https://github.com/vicariousinc/PGMax/blob/master/.github/workflows/publish.yaml&quot;&gt;publish.yaml&lt;/a&gt;. Our &lt;code class=&quot;highlighter-rouge&quot;&gt;ci.yaml&lt;/code&gt; file specifies all the actions that are run on push and pull-request events, whereas the &lt;code class=&quot;highlighter-rouge&quot;&gt;publish.yaml&lt;/code&gt; file specifies actions to be run when a new release is made. Both files are fairly simple and reading their comments along with some of the &lt;a href=&quot;https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions&quot;&gt;official GitHub Actions docs&lt;/a&gt; should be sufficient to enable you to understand what each part of each file does (if that’s not the case, feel free to post a comment or shoot me a message and I’m happy to help clarify things!). The only piece of setup that’s needed to get these actions to run in any other repo is the creation of a &lt;a href=&quot;https://docs.github.com/en/actions/reference/encrypted-secrets&quot;&gt;GitHub Secret&lt;/a&gt; that enables GitHub to access my PyPI account when it needs to publish a new release of the package. To do this, simply &lt;a href=&quot;https://pypi.org/help/#apitoken&quot;&gt;create an API token&lt;/a&gt; on PyPI and then &lt;a href=&quot;https://docs.github.com/en/actions/reference/encrypted-secrets#creating-encrypted-secrets-for-a-repository&quot;&gt;crete a new GitHub Secret&lt;/a&gt; named &lt;code class=&quot;highlighter-rouge&quot;&gt;PYPI_TOKEN&lt;/code&gt; and paste your PyPI API token as the “value” of the secret.&lt;/p&gt;
+
+&lt;p&gt;Feel free to directly use PGMax’s YAML files for your own GitHub actions, or pick and choose specific sections adapted to your project’s needs!&lt;/p&gt;
+
+&lt;p&gt;Pro Tip: To make your GitHub repo look super professional, you can add a shiny badge to your README to display the status of your tests, documentation builds, etc. To do this, follow &lt;a href=&quot;https://docs.github.com/en/actions/managing-workflow-runs/adding-a-workflow-status-badge&quot;&gt;these steps&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;That’s all folks! I hope these tips and links are helpful, and that you don’t have to spend as much time as I did on figuring out how to setup your shiny new open-source Python library. If you do end up using this guide for your open-source library, do let me know; I’m excited to see what you build!&lt;/p&gt;</content><author><name>Nishanth J. Kumar</name><email>nishanth.kumar20@gmail.com</email></author><summary type="html">A while ago, I had the opportunity to develop and release a new open-source Python library: PGMax. Since this was to be my first open-source library release, I spent a lot of time figuring out a good set of developer tools to speed up development and enable (hopefully) lots of people to use and contribute to the project in the future. While there are already so many different articles, blog posts and resources on setting up open-source Python packages, none of them really presented a good integrated suite of tools for the various pieces (dependency management, documentation generation, continuous integration, etc.) that a well-engineered open-source project might want. So, I thought I would describe PGMax’s setup in the hopes that it might help others interested in setting up their own open-source library.</summary></entry><entry><title type="html">My Phd Statement Of Purpose</title><link href="http://localhost:4000/My-PhD-Statement-of-Purpose/" rel="alternate" type="text/html" title="My Phd Statement Of Purpose" /><published>2021-11-12T00:00:00-05:00</published><updated>2021-11-12T00:00:00-05:00</updated><id>http://localhost:4000/My-PhD-Statement-of-Purpose</id><content type="html" xml:base="http://localhost:4000/My-PhD-Statement-of-Purpose/">&lt;p&gt;Writing a good PhD SoP can be a daunting task. Fortunately, there are plenty of good posts out there about how to approach the writing process and what a good SoP looks like (in particular, I followed the structure laid out by &lt;a href=&quot;https://timdettmers.com/2018/11/26/phd-applications/&quot;&gt;this post&lt;/a&gt; by &lt;a href=&quot;https://timdettmers.com/&quot;&gt;Tim Dettmers&lt;/a&gt; and &lt;a href=&quot;https://h2r.cs.brown.edu/writing-a-research-statement-for-graduate-school-and-fellowships/&quot;&gt;this post&lt;/a&gt; by my undergrad advisor &lt;a href=&quot;https://scholar.google.com/citations?user=Pd8-ju0AAAAJ&amp;amp;hl=en&quot;&gt;Stefanie Tellex&lt;/a&gt;). When I was writing my own SoP, what I probably found most-helpful on top of the above-linked posts was reading SoP’s by students in related areas who had been successful with the PhD application process (in particular &lt;a href=&quot;https://blog.nelsonliu.me/2020/11/11/phd-personal-statement/&quot;&gt;this one&lt;/a&gt; from &lt;a href=&quot;https://cs.stanford.edu/~nfliu/&quot;&gt;Nelson Liu&lt;/a&gt;). Given how much I benefitted from these, I figured I’d try to give back and contribute to the genre. Below, you can read the SoP that helped me get admitted to MIT:&lt;/p&gt;
 
 &lt;div style=&quot;text-align: center&quot;&gt; 
 
@@ -426,133 +630,4 @@ people’s approval.&lt;/p&gt;
 
 &lt;p&gt;Unfortunately for us, it turned out that the paper-on-a-disco-ball wasn’t a stroke of genius. I walked in the next morning to find a dark room.&lt;/p&gt;
 
-&lt;p&gt;Moral of the story: if you choose to become a robotics researcher, know that you’ll encounter the weirdest, most unexpected and annoying bugs right before deadlines…&lt;/p&gt;</content><author><name>Nishanth J. Kumar</name><email>nishanth.kumar20@gmail.com</email></author><category term="Research" /><category term="For-Laughs" /><summary type="html">A while ago, I was attempting to run last-minute experiments to finish up a paper just in time for a conference deadline.</summary></entry><entry><title type="html">Some Thoughts And Robots From Icra 2019</title><link href="http://localhost:4000/Some-thoughts-and-robots-from-ICRA-2019/" rel="alternate" type="text/html" title="Some Thoughts And Robots From Icra 2019" /><published>2019-06-09T00:00:00-04:00</published><updated>2019-06-09T00:00:00-04:00</updated><id>http://localhost:4000/Some-thoughts-and-robots-from-ICRA-2019</id><content type="html" xml:base="http://localhost:4000/Some-thoughts-and-robots-from-ICRA-2019/">&lt;p&gt;Some weeks ago, I had the pleasure of attending the 36th International Conference on Robotics and Automation (ICRA) in Montreal, Canada. This was my first major Robotics and AI focused conference and it was probably one of the most interesting and learning-intensive weeks I’ve ever had. This post is an overview of my conference experience, most-interesting things I learnt, most-exciting research directions I saw and cool robots that were on display!&lt;/p&gt;
-
-&lt;p&gt;(If you’d prefer a tl;dr summary and my big takeaways from the conference, scroll all the way down)&lt;/p&gt;
-
-&lt;h1 id=&quot;interesting-ideas-and-learnings&quot;&gt;Interesting ideas and learnings&lt;/h1&gt;
-&lt;h2 id=&quot;1-causal-inference-for-deep-learning&quot;&gt;1. Causal Inference for Deep Learning&lt;/h2&gt;
-&lt;p&gt;Yoshua Bengio opened the conference with a talk that was about his current thoughts on Machine Learning – specifically Deep Learning – as a field and some corresponding research his group (MILA) has been working on. The big idea he presented was this: all current ML methods – Deep Learning included – cannot generalize from a distribution. Bengio believes the way to do this is to disentangle input data to discover causal relationships that will hold for other data. He believes this causal inference is a key feature of human intelligence and hat incorporating it could not only make Deep Learning generalize better, but also be more explainable.&lt;/p&gt;
-
-&lt;p&gt;He believes incorporating general priors/assumptions into ML models will help us learn with more sample-efficiency and discover causality. In particular, he wants to use the ‘independent mechanism’ idea which is inspired from Physics and the general independence of objects in the world and laid out in this paper. Some early experiments he’s conducted have shown that correct causal models leads to much faster adaptation to new tasks (I.e, better Transfer Learning) and much greater sample-efficiency – which is as one would expect. He also talked about achieving meta-learning with causal-inference agents: he envisions an outer loop that uses evolution to optimize an inner-loops causal-learning objective.&lt;/p&gt;
-
-&lt;p&gt;Given that Bengio is one of the people that invented modern Deep Learning (and recently won the Turing Award for it too!), I was hoping for more big-ideas and high-level thoughts and insights from his talk. However, he ended up getting pretty technical and moving fairly quickly, which made it difficult to really appreciate all the concepts he showed.&lt;/p&gt;
-
-&lt;p&gt;I definitely agree with Bengio’s motivation to incorporate more causal-inference into Deep Learning and ML in general. While I think there are many other things one might work on within Deep Learning, causal inference could very well be the ‘next big thing’ that pushes the field forward. I personally have not yet read too much about the theory of causal inference, but I have read some of Judea Pearl’s work and am convinced the lack of a causal model is a significant theoretical limitation of how intelligent our AI agents can actually become. Seeing that Bengio (and evidently many others) appear to be heeding Pearl’s latest call for more ML researchers to work on causal models makes me want to take a deep-dive into the theory of causality and into the current efforts to algorithmitize it.&lt;/p&gt;
-
-&lt;h2 id=&quot;2-drones&quot;&gt;2. Drones&lt;/h2&gt;
-&lt;p&gt;Robotics is a staggeringly huge field and consequently, there’s so many interesting sub-fields I just haven’t had the bandwidth to look into. Drones are one of these. Still, before this conference, I’d never really thought that drones had real-world applications the military or taking Facebook-worthy selfies. Boy was I wrong…&lt;/p&gt;
-
-&lt;p&gt;Vijay Kumar of UPenn’s GRASP Lab delivered perhaps my favorite plenary of the conference. He started off giving a brief representative diagram of where he thinks drone research is at the moment:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/ICRA-pics/VijayKumar.png&quot; alt=&quot;Vijay Kumar&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Evidently, no one thought drones would have significant commercial application until around 2010, when a low buzz of VC and consumer interest began. This grew until an explosion in 2015, when DJI (who happened to be at ICRA) sold tens of millions of drones worldwide buoyed by significant interest in drone selfies and photography/video in general. Interest in drones followed the Garner Hype Cycle [link!] till it petered out in 2018. Apparently, all the investors and entrepreneurs interested in the space didn’t give up; they simply moved to flying cars instead.&lt;/p&gt;
-
-&lt;p&gt;Kumar himself has a rather interesting opinion on drones both from a commercial and research perspective. As an entrepreneur, he believes there’s still significant business opportunity for drones: just not for personal or military applications. He’s excited by the opportunity to use drones to make solutions for large businesses, which apparently almost no one else is doing at the moment. In fact, he runs a startup that uses drones to create detailed maps of mines for mining companies: something that is incredibly painstaking and dangerous today (evidently, the company is very successful so far). As a researcher and professor, he believes the incremental improvements in drones (things like flight-stabilization and very reliable people/face-tracking, etc.) should be left to industry. He’s interested in what drones will need to be really good at for applications 10 years out from hitting the markets.&lt;/p&gt;
-
-&lt;p&gt;Vijay spent a significant portion of his talk explaining why drones are so hard. Essentially, there’s all the problems you would have with a mobile robot (partially-observable environments, noisy sensor data, etc.) plus the fact that the drone needs to remain in flight: a high-dimensional and difficult problem in of itself. However, at the end of the talk, he explained why drones still excite him despite all these issues. Aside from things like automated, quick deliveries, he’s extremely excited about the potential for swarms of drones to coordinate and create large-scale, highly-detailed semantic maps. This may not seem like a world-changing application at first, but Vijay pointed out efforts to apply such technology to search-and-rescue, exploration of difficult environments and even disaster recovery at Fukushima. He thinks that this is just one of the many use-cases for large-scale drone deployment.&lt;/p&gt;
-
-&lt;p&gt;While I still think mobile, ground based robots are cooler than drones, Vijay Kumar’s talk and work makes me think I could see myself working with drones if given the right opportunity.&lt;/p&gt;
-
-&lt;h2 id=&quot;3-robotics-as-the-maturation-of-machine-learning&quot;&gt;3. Robotics as the maturation of Machine Learning&lt;/h2&gt;
-&lt;p&gt;Perhaps the most unique (and totally unexpected) experience I had at ICRA was when I got the opportunity to meet a personal idol: &lt;a href=&quot;https://en.wikipedia.org/wiki/Ian_Goodfellow&quot;&gt;Ian Goodfellow&lt;/a&gt;. If you haven’t heard of him, Ian invented GAN’s (Generative Adversarial Networks), was a high-profile researcher at Google and OpenAI and is , generally considered one of the foremost Machine Learning experts on the planet. He recently left his job at Google to join Apple, which is why he was at the conference (Apple had a booth there).&lt;/p&gt;
-
-&lt;p&gt;Ian talked a bit about his views on current GAN and neural network research in general, along with other technical topics, but what I found most interesting was when we began talking about robotics. Ian wasn’t allowed to say much about the project(s) he joined Apple to work on, but it evidently has a lot to do with robotics; and I really wanted to know why. Why would he leave a high-ranking role at Google where he was doing what he worked on during his PhD?&lt;/p&gt;
-
-&lt;p&gt;Ian obviously had numerous reasons. Firstly, he views robotics as the next big frontier for machine learning. Thus far, most of ML and AI has progressed in the virtual world: run and evaluated in simulated worlds with often highly-controlled environments. But robots operate in the real world, where things aren’t perfectly deterministic, information is heavily noisy and every problem is incredibly high-dimensional. Goodfellow thinks that scaling ML up to tackle these problems is akin to the field “growing up” from infancy. Secondly, Ian is convinced that creating robust, real-world autonomous systems is the most significant engineering project humanity has ever undertaken. He referenced an article by Vinod Khosla [Link!] where Khosla attempted to answer the question “How much money would it take to create really good healthcare in India?”. The article essentially concludes it would take more than 100 billion dollars. Khosla consequently concludes that we can’t solve current major problems like healthcare with just policy solutions. Goodfellow believes that real-world autonomous systems like robots could be the technology that enables not only this, but helps us deal with climate change and aging populations. Finally, Ian said that he’s always really like robots. Apparently, just after he graduated from Stanford, he got an internship at Willow Garage. He loved the company and mission so much that his “Plan A” in life was to simply work for Willow. However, they wouldn’t hire him without a PhD, so he went to go do that with the full intent to come back and get the job he was promised. However, Willow Garage unfortunately went bankrupt and (fortunately), Ian’s deep learning research really took off. So, he stayed a deep learning researcher for a while until he got the opportunity from Apple to come back to doing what he originally intended to do.&lt;/p&gt;
-
-&lt;p&gt;Hearing this from Goodfellow was both surprising and incredibly reassuring. I’ve believed in robotics’ potential for a while now, but I do often wonder if I’m wrong, or if it will take longer than my lifetime for us to begin to see intelligent robots. The fact that Goodfellow and others like him believe in robotics as well seems to be a good sign that the field’s potential is bright and also soon-to-come.&lt;/p&gt;
-
-&lt;h2 id=&quot;4-if-running-a-startup-is-a-marathon-running-a-robotics-startup-is-a-decathlon&quot;&gt;4. If running a startup is a marathon, running a robotics startup is a decathlon&lt;/h2&gt;
-&lt;p&gt;At the start of the conference, the Greg Dudek (the General Chair), stated that this year’s ICRA was the largest robotics conference in history (2163 total paper submissions). A good portion of these attendees were people interested in business/industry applications of robotics and AI. Apparently, the organizing committee had sold out the original space planned for company booths, re-planned and doubled the space, and then sold that out too. So there were a lot of companies and thus a general interest in commercialization of the technologies being displayed.&lt;/p&gt;
-
-&lt;p&gt;Ryan Gariepy is the CTO of &lt;a href=&quot;https://clearpathrobotics.com/about-clearpath-story/&quot;&gt;Clearpath Robotics&lt;/a&gt; and has been a serial robotics entrepreneur for decades now. I got to attend his keynote talk where he talked about what starting a robotics company is like and how to be successful at one.&lt;/p&gt;
-
-&lt;p&gt;Here’s some points I thought were particularly insightful:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Robotics startups are hard because robots are often complicated and need hardware and software to work together seamlessly. This requires engineers that know both hardware and software&lt;/li&gt;
-  &lt;li&gt;Lots of robotics companies pitch themselves as a ‘platform’. They point to successes like Apple’s App Store or YouTube. However, a key thing they forget is that platform companies need to start with users. Apple sold millions of iPhones before the App Store launched. Launching a platform for developers/customers without first having users is generally not a good idea&lt;/li&gt;
-  &lt;li&gt;Companies should be very clear about how they plan to make money. They should validate the fact that people will pay for their robots/services before building them. One way to build a valid business is to be not just a robotics company. For example, Walmart is a profitable store chain, but they also have an invincible supply chain. Companies should explore models beyond simply building and selling robots&lt;/li&gt;
-  &lt;li&gt;Common failure modes for robotics companies:
-    &lt;ul&gt;
-      &lt;li&gt;There is no real value proposition&lt;/li&gt;
-      &lt;li&gt;The company is perpetually in pilot mode / research and the money eventually runs out&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Many people starting robotics companies come from academia / research. It’s easy to fall into the trap of thinking that running a company is like running a research lab, but this is not true.
-    &lt;ul&gt;
-      &lt;li&gt;Remember that you are running a company, not just building cool robots. The customer matters more than the robot’s technical complexity&lt;/li&gt;
-      &lt;li&gt;Know exactly where robotics fits into your businesses&lt;/li&gt;
-      &lt;li&gt;Don’t just declare a competitive advantage, validate it!&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Despite constantly reiterating that robotics companies are difficult, Ryan ended with some reasons why he thinks they present unparalleled opportunity&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Climate change will have massive economic side effects in the need for quick and significant infrastructure changes. It’s going to be incredibly difficult if not impossible to meet these requirements with manual labor. We need robots!&lt;/li&gt;
-  &lt;li&gt;The space of the three D’s (Dull, Dirty and Dangerous) tasks that robots could take over could disrupt trillion dollar industries like mining, transportation and construction. Demand for these services (and others in Maslow’s hierarchy of needs) isn’t going anywhere, so this could be extremely profitable in the long term.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;As someone who wanted to build a direct to consumer ‘platform’ robotics company, this talk was both educational and demoralizing. I stayed after the talk to chat with Ryan and am fairly convinced that he’s extremely knowledgeable about the robotics space and gave sound advice (so maybe I’ll start a robotics company that focuses on one of the 3 D’s instead). It was also incredibly exciting to hear about both the economic and world-changing potential of robotics (so perhaps I’m in the right field after all).&lt;/p&gt;
-
-&lt;h2 id=&quot;5-dealing-with-failure-as-a-robotics-researcher&quot;&gt;5. Dealing with failure as a robotics researcher&lt;/h2&gt;
-
-&lt;p&gt;This isn’t something technical at all, but I wanted to include it because I found it really significant. Matthew Mason – a long time roboticist and Professor at CMU’s legendary Robotics Institute – delivered a funny and interesting keynote that was all about failure. My takeaways from it were:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Ideas are cheap – success in research is all about the work you put into it&lt;/li&gt;
-  &lt;li&gt;If you talk a lot about your own failures, people will generally think that you’re cool&lt;/li&gt;
-  &lt;li&gt;When to give up on an idea: never! But that doesn’t mean keep bashing your head against the wall: simply move the idea lower in your priority queue.&lt;/li&gt;
-  &lt;li&gt;Don’t trust ideas from smart people (especially yourself). If you hear a good idea from a smart person, it may be that you think it’s good because of the person’s reputation. But if you hear a good idea from a person you think is generally stupid, then you can be fairly certain this is genuinely a good idea.&lt;/li&gt;
-  &lt;li&gt;Failure drives research and also the field. What doesn’t work is valuable knowledge because it guides the search for what does. So fail often and don’t be sad!&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;robots&quot;&gt;Robots!&lt;/h1&gt;
-&lt;p&gt;There were a lot of cool robots at ICRA this year (as one might expect). Unfortunately, I didn’t have the good sense to take pictures of all the things I saw. However, I did manage to get a few…&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/ICRA-pics/clearpath.jpg&quot; alt=&quot;Clearpath&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/ICRA-pics/hi.jpg&quot; alt=&quot;Robot saying hi&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/ICRA-pics/sly.jpg&quot; alt=&quot;Robot being sly&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/ICRA-pics/davinci.jpg&quot; alt=&quot;The da Vinci Robot&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/ICRA-pics/art.jpg&quot; alt=&quot;Robot Art!&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/ICRA-pics/spot.jpg&quot; alt=&quot;Boston Dynamics Spot!&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;my-general-takeaways-from-the-conference&quot;&gt;My general takeaways from the conference&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;This field is happening now! Lots of opportunity&lt;/p&gt;
-
-    &lt;p&gt;This year’s ICRA was the biggest every robotics conference, with over 100 different companies attending and (most) attempting to recruit people. There seems to be so much opportunity and (perhaps more importantly) plenty of people willing to invest heavily in the field, both in terms of time and money.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;AI + ML integrating more and more into robotics&lt;/p&gt;
-
-    &lt;p&gt;The top category of papers submitted was in Deep Learning for Robotics and Automation (and if you’re interested, here’s a really well-made tableau board allowing you to visualize all data about the people and papers from the conference). ‘Learning and Adaptive Systems’ and ‘Learning from Demonstration’ were also in the top 10 popular topics. It used to be that robotics conferences were dominated by work in controls, mechanics, etc. But more and more, they’re becoming dominated by AI and ML methods. I think this is a good idea for all fields involved; perhaps robotics truly is the ‘growing up’ of ML.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Self driving cars are the elephant in the room&lt;/p&gt;
-
-    &lt;p&gt;From Waymo  to Uber, almost every single self-driving company I know of was at ICRA. And all of them are pushing hard to be first-to-market. Many people seem to share the opinion that self-driving cars could be the first massively-successful and widespread consumer-facing robotics project to succeed. While this is exciting indeed, I’d be careful not to count my chickens before they hatch. Many technologies (and even many robots) have gone through a phase of hype and seemed like the ‘next big thing’. It remains to be seen whether self-driving cars will actually live up to the hype.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;All in all, the conference made me extremely excited to be a researcher in the field (which is perhaps by design). While it was great to see exciting new research and such interest from industry, there was also what seemed like a clear divide between the two (both at the conference venue and in general). Despite all the interesting papers, a lot of the research work was quite specific and seemed difficult to reproduce either because there was no shared code or because the setup would be too difficult to recreate. It doesn’t seem like most of the work will be integrated into work being done in industry anytime soon. While this isn’t the immediate explicit intent of research, I think we would benefit from creating more robust and reproducible systems that industry could use in the near future.&lt;/p&gt;
-
-&lt;p&gt;As insightful and eye-opening as this conference was for me, it also left me with some questions I hope to make some progress on.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;What support systems and architecture (along the line of things like ROS) would we need to enable more robust and reproducible research? How could we build platforms that the entire community would agree upon, adopt and build their own projects on?&lt;/li&gt;
-  &lt;li&gt;What do we need to work on to push the boundaries of robotics? How can we make widespread, intelligent and collaborative robots a reality?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I’m excited to see all the new things robots will do in the coming years!&lt;/p&gt;</content><author><name>Nishanth J. Kumar</name><email>nishanth.kumar20@gmail.com</email></author><category term="Research" /><category term="Conference" /><summary type="html">Some weeks ago, I had the pleasure of attending the 36th International Conference on Robotics and Automation (ICRA) in Montreal, Canada. This was my first major Robotics and AI focused conference and it was probably one of the most interesting and learning-intensive weeks I’ve ever had. This post is an overview of my conference experience, most-interesting things I learnt, most-exciting research directions I saw and cool robots that were on display!</summary></entry></feed>
+&lt;p&gt;Moral of the story: if you choose to become a robotics researcher, know that you’ll encounter the weirdest, most unexpected and annoying bugs right before deadlines…&lt;/p&gt;</content><author><name>Nishanth J. Kumar</name><email>nishanth.kumar20@gmail.com</email></author><category term="Research" /><category term="For-Laughs" /><summary type="html">A while ago, I was attempting to run last-minute experiments to finish up a paper just in time for a conference deadline.</summary></entry></feed>

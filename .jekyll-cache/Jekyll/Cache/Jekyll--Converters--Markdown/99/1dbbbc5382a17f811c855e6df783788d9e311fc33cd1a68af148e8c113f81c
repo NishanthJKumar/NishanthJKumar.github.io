@@ -1,4 +1,4 @@
-I"B<p><img src="/images/me_circle.png" alt="Me" style="float: right;padding:30px;" /></p>
+I"�<p><img src="/images/me_circle.png" alt="Me" style="float: right;padding:30px;" /></p>
 
 <p>Hi there, and welcome to my personal website! My name’s Nishanth and I’m a researcher and engineer focused on AI and ML applications to robotics. I also moonlight as a writer and entrepreneur.</p>
 
@@ -12,6 +12,7 @@
 
 <h2 id="recent-news">Recent News</h2>
 <ul>
+  <li>The first paper of my Ph.D. is out! Check out the Arxiv version <a href="https://arxiv.org/abs/2203.09634">here</a>, and stay tuned for more work in this vein!</li>
   <li>The project I worked on during my internship at <a href="https://www.vicarious.com/">Vicarious AI</a> has been released! Check out the <a href="https://www.vicarious.com/posts/pgmax-factor-graphs-for-discrete-probabilistic-graphical-models-and-loopy-belief-propagation-in-jax/">blog post</a> and <a href="https://arxiv.org/abs/2202.04110">paper</a>!</li>
   <li>Our <a href="https://arxiv.org/abs/2104.03956">paper</a> on ‘Fine-Grained’ Active Learning for Self-Driving Vehicles was accepted to CoRL 2021!</li>
   <li>I’ve started at MIT and can’t wait for all the new projects and collaborations to come!</li>

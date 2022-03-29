@@ -1,4 +1,4 @@
-I"Oc<p style="text-align: center;font-size:110%;padding-top:40px">Welcome to my Research page! I’m currently a 1st Year Ph.D. student with the <a href="https://lis.csail.mit.edu/">LIS Group</a> within <a href="https://www.csail.mit.edu/">MIT CSAIL</a>. I’m officially advised by <a href="https://www.csail.mit.edu/person/leslie-kaelbling">Leslie Kaelbling</a> and <a href="https://people.csail.mit.edu/tlp/">Tomás Lozano-Pérez</a>, though I frequently collaborate with <a href="https://scholar.google.com/citations?user=4mVPFQ8AAAAJ&amp;hl=en">Dylan Hadfield-Menell</a>, <a href="http://web.mit.edu/cocosci/josh.html">Josh Tenenbaum</a>, and many other wonderful people within CSAIL’s <a href="https://ei.csail.mit.edu/">Embodied Intelligence Initiative</a>. I’m extremely grateful for support from the <a href="https://engineering.brown.edu/news/2021-03-29/nsf-graduate-research-award">NSF Graduate Research Fellowship</a>.</p>
+I"Xd<p style="text-align: center;font-size:110%;padding-top:40px">Welcome to my Research page! I’m currently a 1st Year Ph.D. student with the <a href="https://lis.csail.mit.edu/">LIS Group</a> within <a href="https://www.csail.mit.edu/">MIT CSAIL</a>. I’m officially advised by <a href="https://www.csail.mit.edu/person/leslie-kaelbling">Leslie Kaelbling</a> and <a href="https://people.csail.mit.edu/tlp/">Tomás Lozano-Pérez</a>, though I frequently collaborate with <a href="https://scholar.google.com/citations?user=4mVPFQ8AAAAJ&amp;hl=en">Dylan Hadfield-Menell</a>, <a href="http://web.mit.edu/cocosci/josh.html">Josh Tenenbaum</a>, and many other wonderful people within CSAIL’s <a href="https://ei.csail.mit.edu/">Embodied Intelligence Initiative</a>. I’m extremely grateful for support from the <a href="https://engineering.brown.edu/news/2021-03-29/nsf-graduate-research-award">NSF Graduate Research Fellowship</a>.</p>
 
 <p style="text-align: center;font-size: 100%"><a href="/misc_files/Nishanth_Resume.pdf">Resume</a> | <a href="/misc_files/Nishanth_CV.pdf">CV</a> | <a href="https://scholar.google.com/citations?user=FE512o4AAAAJ&amp;hl=en">Google Scholar</a> | <a href="/misc_files/njk-bio.txt">Bio</a> | <a href="https://github.com/NishanthJKumar">GitHub</a> | <a href="https://twitter.com/nishanthkumar23">Twitter</a></p>
 
@@ -185,10 +185,10 @@
           Inventing relational state and action abstractions for effective and efficient bilevel planning
           </p>
           <a href="https://web.mit.edu/tslvr/www/">Tom Silver*</a>,
-          <a href="https://rohanchitnis.com/">Rohan Chitnis</a>,
+          <a href="https://rohanchitnis.com/">Rohan Chitnis*</a>,
           <strong>Nishanth Kumar</strong>,
           <a href="https://wmcclinton.github.io/">Willie McClinton</a>,
-          <a href="https://people.csail.mit.edu/tlp/">Tomas Lozano-Perez</a>,
+          <a href="https://people.csail.mit.edu/tlp/">Tomás Lozano-Pérez</a>,
           <a href="http://people.csail.mit.edu/lpk/">Leslie Kaelbling</a>,
           <a href="http://web.mit.edu/cocosci/josh.html">Joshua Tenenbaum</a>
           <br />
@@ -344,6 +344,8 @@
 
 <h2 id="talks">Talks</h2>
 <ul>
+  <li><a href="https://drive.google.com/file/d/17n7aTFQp9IGOnaU-ydCfvfSrJynpUkKp/view?usp=sharing">Learning Models with Side Effects for Efficient, Generalizable TAMP</a>
+<br /> <a href="https://lis.csail.mit.edu/">MIT LIS Group Meeting</a>. March 4, 2021.</li>
   <li><a href="https://drive.google.com/file/d/1eshvDUiBJJIbLqqRusdgCv5O7wK076f8/view">Task Scoping: Generating Task-Specific Abstractions for Planning</a>
 <br /> <a href="https://lis.csail.mit.edu/">MIT LIS Group Meeting</a>. February 12, 2021.</li>
   <li><a href="http://nishanthjkumar.com/research/">What I’m working on now: Task Scoping and Parameterized Imitation Learning</a>

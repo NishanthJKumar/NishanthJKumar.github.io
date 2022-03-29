@@ -195,7 +195,7 @@ I'm broadly interested in enabling robots to operate robustly in long-horizon, m
           Inventing relational state and action abstractions for effective and efficient bilevel planning
           </p>
           <a href="https://web.mit.edu/tslvr/www/">Tom Silver*</a>,
-          <a href="https://rohanchitnis.com/">Rohan Chitnis</a>,
+          <a href="https://rohanchitnis.com/">Rohan Chitnis*</a>,
           <strong>Nishanth Kumar</strong>,
           <a href="https://wmcclinton.github.io/">Willie McClinton</a>,
           <a href="https://people.csail.mit.edu/tlp/">Tomás Lozano-Pérez</a>,
@@ -356,6 +356,8 @@ I'm broadly interested in enabling robots to operate robustly in long-horizon, m
 
 
 ## Talks
+- [Learning Models with Side Effects for Efficient, Generalizable TAMP](https://drive.google.com/file/d/17n7aTFQp9IGOnaU-ydCfvfSrJynpUkKp/view?usp=sharing)
+<br/> [MIT LIS Group Meeting](https://lis.csail.mit.edu/). March 4, 2021.
 - [Task Scoping: Generating Task-Specific Abstractions for Planning](https://drive.google.com/file/d/1eshvDUiBJJIbLqqRusdgCv5O7wK076f8/view)
 <br/> [MIT LIS Group Meeting](https://lis.csail.mit.edu/). February 12, 2021.
 - [What I'm working on now: Task Scoping and Parameterized Imitation Learning](http://nishanthjkumar.com/research/)

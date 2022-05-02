@@ -12,7 +12,7 @@ Presently, I'm a Ph.D. student in the [LIS Group](https://lis.csail.mit.edu/) wi
 
 In the recent past, I graduated from [Brown University](https://www.brown.edu/) with honors in Computer Engineering. As an undergrad, I was fortunate to work on exciting [AI + Robotics research](https://nishanthjkumar.com/research/) under Brown’s [BigAI initiative](http://bigai.cs.brown.edu/) advised by Professors [Stefanie Tellex](https://cs.brown.edu/people/stellex/), [George Konidaris](http://cs.brown.edu/people/gdk/) and [Michael Littman](http://cs.brown.edu/~mlittman/). I've also been a Research Intern at [Uber ATG](https://www.uber.com/ca/en/atg/research-and-development/) under [Prof. Raquel Urtasun](http://www.cs.toronto.edu/~urtasun/) and at [Vicarious AI](https://www.vicarious.com/), and collaborated with researchers at [MERL](https://www.merl.com/research/). 
 
-Outside of all this, I help run a [coaching and college-counseling company](https://www.paragon.school/) for high-school students and sometimes make progress on a young-adult sci-fi novel and some short stories that I've been writing for longer than I care to admit.
+Outside of all this, I like to play basketball, philosophize, cook, and sometimes make progress on various sci-fi novels/short-stories that I've been writing for longer than I care to admit.
 
 If you're interested in learning more about me or reading some of my writing, check out my [resume](/misc_files/Nishanth_Resume.pdf), [blog]() or social links in the website footer. If you'd like to get in contact, check out [this page here](/contact-me/).
 

@@ -236,7 +236,6 @@ I'm broadly interested in enabling robots to operate robustly in long-horizon, m
           <a href="https://rohanchitnis.com/">Rohan Chitnis*</a>,
           <a href="https://people.csail.mit.edu/tlp/">Tomás Lozano-Pérez</a>,
           <a href="http://people.csail.mit.edu/lpk/">Leslie Kaelbling</a>,
-          <a href="http://web.mit.edu/cocosci/josh.html">Joshua Tenenbaum</a>
           <br>
           <em>arXiv</em>, 2022.
           <br>

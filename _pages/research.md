@@ -135,7 +135,7 @@ I'm broadly interested in enabling robots to operate robustly in long-horizon, m
           <strong>Nishanth Kumar</strong>,
           <a href="https://wmcclinton.github.io/">Willie McClinton</a>,
           <a href="https://people.csail.mit.edu/tlp/">Tomás Lozano-Pérez</a>,
-          <a href="http://people.csail.mit.edu/lpk/">Leslie Kaelbling</a>,
+          <a href="http://people.csail.mit.edu/lpk/">Leslie Pack Kaelbling</a>,
           <a href="http://web.mit.edu/cocosci/josh.html">Joshua Tenenbaum</a>
           <br>
           <em>RLDM</em>, 2022. <p style="color:red;display:inline;">(Spotlight Talk)</p>
@@ -170,7 +170,7 @@ I'm broadly interested in enabling robots to operate robustly in long-horizon, m
               <a href="https://www.linkedin.com/in/michael-fishman-9a0a11160/">Michael Fishman*</a>,
               <a href="https://scholar.google.com/citations?user=1HIu1uQAAAAJ&hl=en">Natasha Danas</a>,
               <a href="https://www.littmania.com/">Michael Littman</a>,
-              <a href="https://cs.brown.edu/people/stellex/">Stefanie Tellex</a>
+              <a href="https://cs.brown.edu/people/stellex/">Stefanie Tellex</a>,
               <a href="https://cs.brown.edu/people/gdk/">George Konidaris</a>              
               <br>
 							<em>AAAI Conference on Artificial Intelligence, Student Workshop,</em>, 2020.
@@ -235,7 +235,7 @@ I'm broadly interested in enabling robots to operate robustly in long-horizon, m
           <a href="https://rohanchitnis.com/">Rohan Chitnis</a>,
           <a href="https://web.mit.edu/tslvr/www/">Tom Silver</a>,
           <a href="https://people.csail.mit.edu/tlp/">Tomás Lozano-Pérez</a>,
-          <a href="http://people.csail.mit.edu/lpk/">Leslie Kaelbling</a>,
+          <a href="http://people.csail.mit.edu/lpk/">Leslie Pack Kaelbling</a>,
           <br>
           <em>arXiv</em>, 2022.
           <br>
@@ -308,7 +308,7 @@ I'm broadly interested in enabling robots to operate robustly in long-horizon, m
           <a href="https://www.linkedin.com/in/michael-fishman-9a0a11160/">Michael Fishman*</a>,
           <a href="https://scholar.google.com/citations?user=1HIu1uQAAAAJ&hl=en">Natasha Danas</a>,
           <a href="https://www.littmania.com/">Michael Littman</a>,
-          <a href="https://cs.brown.edu/people/stellex/">Stefanie Tellex</a>
+          <a href="https://cs.brown.edu/people/stellex/">Stefanie Tellex</a>,
           <a href="https://cs.brown.edu/people/gdk/">George Konidaris</a>
           <br>
           <em>arXiv</em>, 2020.

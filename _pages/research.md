@@ -223,7 +223,7 @@ I'm broadly interested in enabling robots to operate robustly in long-horizon, m
       <tr bgcolor="#ffffd0">
         <td style="padding:20px;width:25%;vertical-align:middle">
           <div>
-            <img src='/images/paper-images/ignore-effects.png' width="160">
+            <img src='/images/paper-images/ignore_effects.png' width="160">
           </div>
         </td>
         <td style="padding:20px;width:75%;vertical-align:middle">
@@ -394,8 +394,6 @@ I'm broadly interested in enabling robots to operate robustly in long-horizon, m
 ## Talks
 - [Task Scoping: Generating Task-Specific Abstractions for Planning](https://drive.google.com/file/d/1eshvDUiBJJIbLqqRusdgCv5O7wK076f8/view)
 <br/> [MIT LIS Group Meeting](https://lis.csail.mit.edu/). February 12, 2021.
-- [What I'm working on now: Task Scoping and Parameterized Imitation Learning](http://nishanthjkumar.com/research/)
-<br/> Intelligent Robot Lab meeting. November, 2019.
 - [Let's Talk about AI and Robotics](https://www.youtube.com/watch?v=OOAPni0ZUW8)
 <br/> I was interviewed about my work, experiences and advice on research for an episode of the [interSTEM](https://www.youtube.com/channel/UC-qYS_P9NvSRoWYUsV2FmYQ) YouTube channel.
 - [Action-Oriented Semantic Maps via Mixed Reality](http://awards.cs.brown.edu/2019/08/13/undergrad-nishanth-kumar-wins-best-plenary-presentation-ilurs/)
@@ -404,6 +402,14 @@ I'm broadly interested in enabling robots to operate robustly in long-horizon, m
 - [Building intelligent, collaborative robots](https://www.youtube.com/watch?v=FziEfTBAwvg)
 <br/> Machine Intelligence Conference 2019
 <br/> Boston University. September 2019.
+
+
+## Mentorship
+I love mentoring students with similar research interests to my own; I find that this not only leads to cool new papers and ideas, but also makes me a better researcher and teacher!
+
+### Mentees
+
+- **Varun Hariprasad** (mentored jointly with [Tom Silver](https://web.mit.edu/tslvr/www/)): high-school student at MIT via the [RSI program](https://www.cee.org/programs/research-science-institute); currently applying to colleges.
 
 
 ## Awards
@@ -425,11 +431,13 @@ I'm broadly interested in enabling robots to operate robustly in long-horizon, m
 - [Uber ATG Research](https://www.uber.com/us/en/atg/research-and-development/), Toronto, Canada.
 <br/>Worked with [Sean Segal](https://www.uber.com/us/en/atg/research-and-development/researchers/sean-segal/), [Sergio Casas](https://www.uber.com/us/en/atg/research-and-development/researchers/sergio-casas/), [Wenyuan Zeng](https://www.uber.com/us/en/atg/research-and-development/researchers/wenyuan-zeng/), [Jingkang Wang](http://www.cs.toronto.edu/~wangjk/), [Mengye Ren](https://www.cs.toronto.edu/~mren/) and others on a project exploring Active Learning for Self-Driving Vehicles that lead to a paper (read it [here](https://arxiv.org/abs/2104.03956)!). I had the honor of being advised by [Prof. Raquel Urtasun](http://www.cs.toronto.edu/~urtasun/).
 
+
 ## Teaching
 - **Head Teaching Assistant**, [CSCI 2951-F: Learning and Sequential Decision Making](http://cs.brown.edu/courses/cs2951f/)
 <br/> Brown University, Fall 2019
 - **Teaching Assistant**, [ENGN 0031: Honors Intro to Engineering](https://selfservice.brown.edu/ss/bwckctlg.p_disp_course_detail?cat_term_in=201610&subj_code_in=ENGN&crse_numb_in=0031)
 <br/> Brown University School of Engineering, Fall 2018
+
 
 ## Selected Press Coverage
 - [Engineering’s Dwyer, Dastin-van Rijn and Kumar Selected as NSF Graduate Research Fellows](https://engineering.brown.edu/news/2021-03-29/nsf-graduate-research-award)

@@ -413,6 +413,7 @@ I love mentoring students with similar research interests to my own; I find that
 
 
 ## Awards
+- [Qualcomm Innovation Fellowship Finalist](https://www.qualcomm.com/research/university-relations/innovation-fellowship/2022-north-america), 2022.
 - [NSF GRFP Fellow](https://www.nsfgrfp.org/), 2021.
 - [Berkeley Fellowship](https://grad.berkeley.edu/admissions/apply/fellowships-entering/) (declined), 2021.
 - [Sigma Xi Inductee](https://www.sigmaxi.org/), 2021.

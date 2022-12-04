@@ -1,4 +1,4 @@
-I"�j<p style="text-align: center;font-size:110%;padding-top:40px">Welcome to my Research page! I’m currently a 2nd Year Ph.D. student with the <a href="https://lis.csail.mit.edu/">LIS Group</a> within <a href="https://www.csail.mit.edu/">MIT CSAIL</a>. I’m officially advised by <a href="https://www.csail.mit.edu/person/leslie-kaelbling">Leslie Kaelbling</a> and <a href="https://people.csail.mit.edu/tlp/">Tomás Lozano-Pérez</a>, though I frequently collaborate with <a href="https://scholar.google.com/citations?user=4mVPFQ8AAAAJ&amp;hl=en">Dylan Hadfield-Menell</a>, <a href="http://web.mit.edu/cocosci/josh.html">Josh Tenenbaum</a>, and many other wonderful people within CSAIL’s <a href="https://ei.csail.mit.edu/">Embodied Intelligence Initiative</a>. I’m extremely grateful for support from the <a href="https://engineering.brown.edu/news/2021-03-29/nsf-graduate-research-award">NSF Graduate Research Fellowship</a>.</p>
+I"ao<p style="text-align: center;font-size:110%;padding-top:40px">Welcome to my Research page! I’m currently a 2nd Year Ph.D. student with the <a href="https://lis.csail.mit.edu/">LIS Group</a> within <a href="https://www.csail.mit.edu/">MIT CSAIL</a>. I’m officially advised by <a href="https://www.csail.mit.edu/person/leslie-kaelbling">Leslie Kaelbling</a> and <a href="https://people.csail.mit.edu/tlp/">Tomás Lozano-Pérez</a>, though I frequently collaborate with <a href="https://scholar.google.com/citations?user=4mVPFQ8AAAAJ&amp;hl=en">Dylan Hadfield-Menell</a>, <a href="http://web.mit.edu/cocosci/josh.html">Josh Tenenbaum</a>, and many other wonderful people within CSAIL’s <a href="https://ei.csail.mit.edu/">Embodied Intelligence Initiative</a>. I also spend time at the <a href="https://theaiinstitute.com/">Boston Dynamics AI Institute</a> where I primarily work with <a href="https://www.linkedin.com/in/jennifer-barry-742a0799/">Jennifer Barry</a>. I’m extremely grateful for support from the <a href="https://engineering.brown.edu/news/2021-03-29/nsf-graduate-research-award">NSF Graduate Research Fellowship</a>.</p>
 
 <p style="text-align: center;font-size: 100%"><a href="/misc_files/Nishanth_Resume.pdf">Resume</a> | <a href="/misc_files/Nishanth_CV.pdf">CV</a> | <a href="https://scholar.google.com/citations?user=FE512o4AAAAJ&amp;hl=en">Google Scholar</a> | <a href="/misc_files/njk-bio.txt">Bio</a> | <a href="https://github.com/NishanthJKumar">GitHub</a> | <a href="https://twitter.com/nishanthkumar23">Twitter</a></p>
 
@@ -393,8 +393,18 @@
 <br /> Boston University. September 2019.</li>
 </ul>
 
+<h2 id="mentorship">Mentorship</h2>
+<p>I love mentoring students with similar research interests to my own; I find that this not only leads to cool new papers and ideas, but also makes me a better researcher and teacher!</p>
+
+<h3 id="mentees">Mentees</h3>
+
+<ul>
+  <li><strong>Varun Hariprasad</strong> (mentored jointly with <a href="https://web.mit.edu/tslvr/www/">Tom Silver</a>): high-school student at MIT via the <a href="https://www.cee.org/programs/research-science-institute">RSI program</a>; currently applying to colleges.</li>
+</ul>
+
 <h2 id="awards">Awards</h2>
 <ul>
+  <li><a href="https://www.qualcomm.com/research/university-relations/innovation-fellowship/2022-north-america">Qualcomm Innovation Fellowship Finalist</a>, 2022.</li>
   <li><a href="https://www.nsfgrfp.org/">NSF GRFP Fellow</a>, 2021.</li>
   <li><a href="https://grad.berkeley.edu/admissions/apply/fellowships-entering/">Berkeley Fellowship</a> (declined), 2021.</li>
   <li><a href="https://www.sigmaxi.org/">Sigma Xi Inductee</a>, 2021.</li>
@@ -409,6 +419,7 @@
 
 <h2 id="industry-experience-and-research-collaborations">Industry Experience and Research Collaborations</h2>
 <ul>
+  <li><a href="https://theaiinstitute.com/">The Boston Dynamics AI Institute</a>, Cambridge, USA. <br />Working with <a href="https://www.linkedin.com/in/jennifer-barry-742a0799/">Jennifer Barry</a> and many other wonderful researchers on enabling robots to solve real-world long-horizon tasks. Stay tuned for more on this!</li>
   <li><a href="https://www.vicarious.com/">Vicarious AI</a>, Union City, USA. <br />Worked with <a href="https://stanniszhou.github.io/">Stannis Zhou</a>, <a href="https://scholar.google.com/citations?user=0vHt-XYAAAAJ&amp;hl=en">Wolfgang Lehrach</a>, and <a href="https://www.linkedin.com/in/miguel-l%C3%A1zaro-gredilla-133759a">Miguel Lázaro-Gredilla</a> on developing <a href="https://pgmax.readthedocs.io/">PGMax</a> - an open-source framework for ML with PGM’s.</li>
   <li><a href="https://www.merl.com/research/">MERL</a>, Cambridge, USA. <br />Worked with <a href="https://www.merl.com/people/romeres">Diego Romeres</a>, <a href="https://www.merl.com/people/jha">Devesh Jha</a> and <a href="https://www.merl.com/people/nikovski">Daniel Nikovski</a> on furthering Learning from Demonstration for industrial robots.</li>
   <li><a href="https://www.uber.com/us/en/atg/research-and-development/">Uber ATG Research</a>, Toronto, Canada.

@@ -4,7 +4,7 @@ layout: splash
 permalink: /research/
 ---
 
-Welcome to my Research page! I'm currently a 2nd Year Ph.D. student with the [LIS Group](https://lis.csail.mit.edu/) within [MIT CSAIL](https://www.csail.mit.edu/). I'm officially advised by [Leslie Kaelbling](https://www.csail.mit.edu/person/leslie-kaelbling) and [Tomás Lozano-Pérez](https://people.csail.mit.edu/tlp/), though I frequently collaborate with [Dylan Hadfield-Menell](https://scholar.google.com/citations?user=4mVPFQ8AAAAJ&hl=en), [Josh Tenenbaum](http://web.mit.edu/cocosci/josh.html), and many other wonderful people within CSAIL's [Embodied Intelligence Initiative](https://ei.csail.mit.edu/). I'm extremely grateful for support from the [NSF Graduate Research Fellowship](https://engineering.brown.edu/news/2021-03-29/nsf-graduate-research-award).
+Welcome to my Research page! I'm currently a 2nd Year Ph.D. student with the [LIS Group](https://lis.csail.mit.edu/) within [MIT CSAIL](https://www.csail.mit.edu/). I'm officially advised by [Leslie Kaelbling](https://www.csail.mit.edu/person/leslie-kaelbling) and [Tomás Lozano-Pérez](https://people.csail.mit.edu/tlp/), though I frequently collaborate with [Dylan Hadfield-Menell](https://scholar.google.com/citations?user=4mVPFQ8AAAAJ&hl=en), [Josh Tenenbaum](http://web.mit.edu/cocosci/josh.html), and many other wonderful people within CSAIL's [Embodied Intelligence Initiative](https://ei.csail.mit.edu/). I also spend time at the [Boston Dynamics AI Institute](https://theaiinstitute.com/) where I primarily work with [Jennifer Barry](https://www.linkedin.com/in/jennifer-barry-742a0799/). I'm extremely grateful for support from the [NSF Graduate Research Fellowship](https://engineering.brown.edu/news/2021-03-29/nsf-graduate-research-award).
 {: style="text-align: center;font-size:110%;padding-top:40px"}
 
 [Resume](/misc_files/Nishanth_Resume.pdf) \| [CV](/misc_files/Nishanth_CV.pdf) \| [Google Scholar](https://scholar.google.com/citations?user=FE512o4AAAAJ&hl=en) \| [Bio](/misc_files/njk-bio.txt) \| [GitHub](https://github.com/NishanthJKumar) \| [Twitter](https://twitter.com/nishanthkumar23)
@@ -427,6 +427,7 @@ I love mentoring students with similar research interests to my own; I find that
 
 
 ## Industry Experience and Research Collaborations
+- [The Boston Dynamics AI Institute](https://theaiinstitute.com/), Cambridge, USA. <br/>Working with [Jennifer Barry](https://www.linkedin.com/in/jennifer-barry-742a0799/) and many other wonderful researchers on enabling robots to solve real-world long-horizon tasks. Stay tuned for more on this!
 - [Vicarious AI](https://www.vicarious.com/), Union City, USA. <br/>Worked with [Stannis Zhou](https://stanniszhou.github.io/), [Wolfgang Lehrach](https://scholar.google.com/citations?user=0vHt-XYAAAAJ&hl=en), and [Miguel Lázaro-Gredilla](https://www.linkedin.com/in/miguel-l%C3%A1zaro-gredilla-133759a) on developing [PGMax](https://pgmax.readthedocs.io/) - an open-source framework for ML with PGM's.
 - [MERL](https://www.merl.com/research/), Cambridge, USA. <br/>Worked with [Diego Romeres](https://www.merl.com/people/romeres), [Devesh Jha](https://www.merl.com/people/jha) and [Daniel Nikovski](https://www.merl.com/people/nikovski) on furthering Learning from Demonstration for industrial robots.
 - [Uber ATG Research](https://www.uber.com/us/en/atg/research-and-development/), Toronto, Canada.

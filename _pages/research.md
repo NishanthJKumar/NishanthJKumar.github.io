@@ -17,6 +17,42 @@ I'm broadly interested in enabling robots to operate robustly in long-horizon, m
 ## Publications
 ### Conference Papers
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tbody>
+      <tr bgcolor="#ffffd0">
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <div>
+            <img src='/images/paper-images/predicators-image.png' width="160">
+          </div>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <p style="font-family:'Lato',Verdana,Helvetica,sans-serif; font-size:14px;font-weight:700">
+          Predicate Invention for Bilevel Planning
+          </p>
+          <a href="https://web.mit.edu/tslvr/www/">Tom Silver*</a>,
+          <a href="https://rohanchitnis.com/">Rohan Chitnis*</a>,
+          <strong>Nishanth Kumar</strong>,
+          <a href="https://wmcclinton.github.io/">Willie McClinton</a>,
+          <a href="https://people.csail.mit.edu/tlp/">Tomás Lozano-Pérez</a>,
+          <a href="http://people.csail.mit.edu/lpk/">Leslie Pack Kaelbling</a>,
+          <a href="http://web.mit.edu/cocosci/josh.html">Joshua Tenenbaum</a>
+          <br>
+          <em>AAAI</em>, 2023. Also appeared at RLDM, 2022 <p style="color:red;display:inline;">(Spotlight Talk)</p>
+          <br>
+          <a href="https://arxiv.org/abs/2203.09634">arxiv</a>
+          /
+          <a href="https://github.com/Learning-and-Intelligent-Systems/predicators/releases/tag/march-2022-experiments">code</a> 
+          <br>
+          <p>
+          Introduces a new, program-synthesis inspired approach for learning neuro-symbolic relational state and action abstractions (predicates and operators) from demonstrations. The abstractions are explicitly optimized for effective and efficient bilevel planning.
+          <br>
+          [* denotes equal contribution]
+          </p>
+        </td>
+      </tr>
+    </tbody>
+</table>
+
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
         <tbody>
           <!-- <tr bgcolor="#ffffd0"> -->
           <tr>
@@ -119,42 +155,6 @@ I'm broadly interested in enabling robots to operate robustly in long-horizon, m
 
 ### Workshop Papers and Extended Abstracts
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-    <tbody>
-      <tr bgcolor="#ffffd0">
-        <td style="padding:20px;width:25%;vertical-align:middle">
-          <div>
-            <img src='/images/paper-images/predicators-image.png' width="160">
-          </div>
-        </td>
-        <td style="padding:20px;width:75%;vertical-align:middle">
-          <p style="font-family:'Lato',Verdana,Helvetica,sans-serif; font-size:14px;font-weight:700">
-          Inventing relational state and action abstractions for effective and efficient bilevel planning
-          </p>
-          <a href="https://web.mit.edu/tslvr/www/">Tom Silver*</a>,
-          <a href="https://rohanchitnis.com/">Rohan Chitnis*</a>,
-          <strong>Nishanth Kumar</strong>,
-          <a href="https://wmcclinton.github.io/">Willie McClinton</a>,
-          <a href="https://people.csail.mit.edu/tlp/">Tomás Lozano-Pérez</a>,
-          <a href="http://people.csail.mit.edu/lpk/">Leslie Pack Kaelbling</a>,
-          <a href="http://web.mit.edu/cocosci/josh.html">Joshua Tenenbaum</a>
-          <br>
-          <em>RLDM</em>, 2022. <p style="color:red;display:inline;">(Spotlight Talk)</p>
-          <br>
-          <a href="https://arxiv.org/abs/2203.09634">arxiv</a>
-          /
-          <a href="https://github.com/Learning-and-Intelligent-Systems/predicators/releases/tag/march-2022-experiments">code</a> 
-          <br>
-          <p>
-          Introduces a new, program-synthesis inspired approach for learning neuro-symbolic and relational state and action abstractions from demonstrations. The abstractions are explicitly optimized for effective and efficient bilevel planning.
-          <br>
-          [* denotes equal contribution]
-          </p>
-        </td>
-      </tr>
-    </tbody>
-</table>
-
-<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
         <tbody>
           <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
@@ -173,7 +173,7 @@ I'm broadly interested in enabling robots to operate robustly in long-horizon, m
               <a href="https://cs.brown.edu/people/stellex/">Stefanie Tellex</a>,
               <a href="https://cs.brown.edu/people/gdk/">George Konidaris</a>              
               <br>
-							<em>AAAI Conference on Artificial Intelligence, Student Workshop,</em>, 2020.
+							<em>AAAI Conference on Artificial Intelligence, Student Workshop,</em> 2020.
               <br>
               <a href="https://ojs.aaai.org/index.php/AAAI/article/view/7195">paper</a>
               <br>

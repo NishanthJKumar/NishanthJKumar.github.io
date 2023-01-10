@@ -17,9 +17,9 @@ Outside of all this, I like to play basketball, philosophize, cook, and sometime
 If you're interested in learning more about me or reading some of my writing, check out my [resume](/misc_files/Nishanth_Resume.pdf), [blog](http://nishanthjkumar.com/blog/) or social links in the website footer. If you'd like to get in contact, check out [this page here](/contact-me/).
 
 ## Recent News
+* An article I wrote about my path to MIT got published in the Tech Review Alumni Magazine! Check it out [here](https://www.technologyreview.com/2022/12/19/1064005/rerouting/). 
 * I've started a part-time Research Internship at the [Boston Dynamics AI Institute](https://theaiinstitute.com/)!
 * New paper on learning action abstractions released! Check out the Arxiv version [here](https://arxiv.org/abs/2208.07737), and accompanying video [here](https://www.youtube.com/watch?v=FRb6nU5w0i0)!
 * Our work on [learning neurosymbolic abstractions for efficient and effective planning](https://arxiv.org/abs/2203.09634) will be a spotlight talk at [RLDM 2022](https://rldm.org/)! Come check out the poster and say hi if you're attending!
 * My proposal has been selected as a [Finalist for the 2022 Qualcomm Innovation Fellowship](https://www.qualcomm.com/research/university-relations/innovation-fellowship/2022-north-america) in North America!
 * The first paper of my Ph.D. is out! Check out the Arxiv version [here](https://arxiv.org/abs/2203.09634), and stay tuned for more work in this vein!
-* The project I worked on during my internship at [Vicarious AI](https://www.vicarious.com/) has been released! Check out the [blog post](https://www.vicarious.com/posts/pgmax-factor-graphs-for-discrete-probabilistic-graphical-models-and-loopy-belief-propagation-in-jax/) and [paper](https://arxiv.org/abs/2202.04110)!

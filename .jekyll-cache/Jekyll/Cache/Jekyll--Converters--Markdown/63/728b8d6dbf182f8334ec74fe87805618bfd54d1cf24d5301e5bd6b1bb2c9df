@@ -1,4 +1,4 @@
-I"\o<p style="text-align: center;font-size:110%;padding-top:40px">Welcome to my Research page! I’m currently a 2nd Year Ph.D. student with the <a href="https://lis.csail.mit.edu/">LIS Group</a> within <a href="https://www.csail.mit.edu/">MIT CSAIL</a>. I’m officially advised by <a href="https://www.csail.mit.edu/person/leslie-kaelbling">Leslie Kaelbling</a> and <a href="https://people.csail.mit.edu/tlp/">Tomás Lozano-Pérez</a>, though I frequently collaborate with <a href="https://scholar.google.com/citations?user=4mVPFQ8AAAAJ&amp;hl=en">Dylan Hadfield-Menell</a>, <a href="http://web.mit.edu/cocosci/josh.html">Josh Tenenbaum</a>, and many other wonderful people within CSAIL’s <a href="https://ei.csail.mit.edu/">Embodied Intelligence Initiative</a>. I also spend time at the <a href="https://theaiinstitute.com/">Boston Dynamics AI Institute</a> where I primarily work with <a href="https://www.linkedin.com/in/jennifer-barry-742a0799/">Jennifer Barry</a>. I’m extremely grateful for support from the <a href="https://engineering.brown.edu/news/2021-03-29/nsf-graduate-research-award">NSF Graduate Research Fellowship</a>.</p>
+I"6q<p style="text-align: center;font-size:110%;padding-top:40px">Welcome to my Research page! I’m currently a 2nd Year Ph.D. student with the <a href="https://lis.csail.mit.edu/">LIS Group</a> within <a href="https://www.csail.mit.edu/">MIT CSAIL</a>. I’m officially advised by <a href="https://www.csail.mit.edu/person/leslie-kaelbling">Leslie Kaelbling</a> and <a href="https://people.csail.mit.edu/tlp/">Tomás Lozano-Pérez</a>, though I frequently collaborate with <a href="https://scholar.google.com/citations?user=4mVPFQ8AAAAJ&amp;hl=en">Dylan Hadfield-Menell</a>, <a href="http://web.mit.edu/cocosci/josh.html">Josh Tenenbaum</a>, and many other wonderful people within CSAIL’s <a href="https://ei.csail.mit.edu/">Embodied Intelligence Initiative</a>. I also spend time at the <a href="https://theaiinstitute.com/">Boston Dynamics AI Institute</a> where I primarily work with <a href="https://www.linkedin.com/in/jennifer-barry-742a0799/">Jennifer Barry</a>. I’m extremely grateful for support from the <a href="https://engineering.brown.edu/news/2021-03-29/nsf-graduate-research-award">NSF Graduate Research Fellowship</a>.</p>
 
 <p style="text-align: center;font-size: 100%"><a href="/misc_files/Nishanth_Resume.pdf">Resume</a> | <a href="/misc_files/Nishanth_CV.pdf">CV</a> | <a href="https://scholar.google.com/citations?user=FE512o4AAAAJ&amp;hl=en">Google Scholar</a> | <a href="/misc_files/njk-bio.txt">Bio</a> | <a href="https://github.com/NishanthJKumar">GitHub</a> | <a href="https://twitter.com/nishanthkumar23">Twitter</a></p>
 
@@ -394,12 +394,18 @@
 </ul>
 
 <h2 id="mentorship">Mentorship</h2>
-<p>I love mentoring students with similar research interests to my own; I find that this not only leads to cool new papers and ideas, but also makes me a better researcher and teacher!</p>
+<p>I love mentoring students and junior researchers with interests related to my own; I find that this not only leads to cool new papers and ideas, but also helps me become a better researcher and teacher!</p>
 
 <h3 id="mentees">Mentees</h3>
-
+<p><em>Current</em></p>
 <ul>
-  <li><strong>Varun Hariprasad</strong> (mentored jointly with <a href="https://web.mit.edu/tslvr/www/">Tom Silver</a>): high-school student at MIT via the <a href="https://www.cee.org/programs/research-science-institute">RSI program</a>; currently applying to colleges.</li>
+  <li><a href="https://www.linkedin.com/in/avaliveru/">Anirudh Valiveru</a>: working on a to-be-determined project at the intersection of planning and learning.</li>
+  <li><a href="https://www.linkedin.com/in/kathrynle/">Kathryn Le</a> (mentoring jointly with <a href="https://wmcclinton.github.io/">Willie McClinton</a>): working on using Task and Motion Planning to solve tasks from the BEHAVIOR benchmark.</li>
+</ul>
+
+<p><em>Past</em></p>
+<ul>
+  <li>Varun Hariprasad (mentored jointly with <a href="https://web.mit.edu/tslvr/www/">Tom Silver</a>): high-school student at MIT via the <a href="https://www.cee.org/programs/research-science-institute">RSI program</a>; currently applying to colleges.</li>
 </ul>
 
 <h2 id="awards">Awards</h2>

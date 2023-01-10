@@ -1,5 +1,5 @@
 ---
-tags: Meditations Resources
+tags: Meditations External
 ---
 
 One of my favorite blogs in the whole wide Internet is the [MIT Admissions Blog](https://mitadmissions.org/blogs/). Admittedly, this used to be because I wanted nothing more than to become an MIT undergrad. However, I've continued to keep up with these blogs even after being rejected from MIT because many of the posts have been exceptionally genuine, relatable, and even insightful. In fact, I actually kept a copy of [one of my favorite advice posts](https://mitadmissions.org/blogs/entry/50_things/) pinned to my phone's notes app throughout my time in college and it stayed relevant and insightful over all 4 years.

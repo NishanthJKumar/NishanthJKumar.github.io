@@ -41,7 +41,7 @@ var store = [{
         "teaser":null},{
         "title": "Featured On The Mit Admissions Blogs!",
         "excerpt":"One of my favorite blogs in the whole wide Internet is the MIT Admissions Blog. Admittedly, this used to be because I wanted nothing more than to become an MIT undergrad. However, I’ve continued to keep up with these blogs even after being rejected from MIT because many of the...","categories": [],
-        "tags": ["Meditations","Resources"],
+        "tags": ["Meditations","External"],
         "url": "http://localhost:4000/Featured-on-the-MIT-Admissions-Blogs!/",
         "teaser":null},{
         "title": "My Nsf Grfp Application Materials",

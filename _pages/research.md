@@ -405,11 +405,16 @@ I'm broadly interested in enabling robots to operate robustly in long-horizon, m
 
 
 ## Mentorship
-I love mentoring students with similar research interests to my own; I find that this not only leads to cool new papers and ideas, but also makes me a better researcher and teacher!
+I love mentoring students and junior researchers with interests related to my own; I find that this not only leads to cool new papers and ideas, but also helps me become a better researcher and teacher!
 
 ### Mentees
+*Current*
+- [Anirudh Valiveru](https://www.linkedin.com/in/avaliveru/): working on a to-be-determined project at the intersection of planning and learning.
+- [Kathryn Le](https://www.linkedin.com/in/kathrynle/) (mentoring jointly with [Willie McClinton](https://wmcclinton.github.io/)): working on using Task and Motion Planning to solve tasks from the BEHAVIOR benchmark.
 
-- **Varun Hariprasad** (mentored jointly with [Tom Silver](https://web.mit.edu/tslvr/www/)): high-school student at MIT via the [RSI program](https://www.cee.org/programs/research-science-institute); currently applying to colleges.
+
+*Past*
+- Varun Hariprasad (mentored jointly with [Tom Silver](https://web.mit.edu/tslvr/www/)): high-school student at MIT via the [RSI program](https://www.cee.org/programs/research-science-institute); currently applying to colleges.
 
 
 ## Awards

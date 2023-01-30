@@ -4,7 +4,7 @@ layout: splash
 permalink: /
 ---
 
-![Me](/images/me_circle.png){:style="float: right;padding:30px;"}
+![Me](/images/me_circle.png){:style="float:right; padding:30px; height:auto; max-width:35%"}
 
 Hi there, and welcome to my personal website! My name's Nishanth and I'm a researcher and engineer focused on AI and ML applications to robotics. I also moonlight as a writer and entrepreneur.
 

@@ -409,7 +409,7 @@ I love mentoring students and junior researchers with interests related to my ow
 
 ### Mentees
 *Current*
-- [Anirudh Valiveru](https://www.linkedin.com/in/avaliveru/): working on a to-be-determined project at the intersection of planning and learning.
+- [Anirudh Valiveru](https://www.linkedin.com/in/avaliveru/): working on leveraging Large Language Models (LLM's) for efficient exploration in relational environments.
 - [Kathryn Le](https://www.linkedin.com/in/kathrynle/) (mentoring jointly with [Willie McClinton](https://wmcclinton.github.io/)): working on using Task and Motion Planning to solve tasks from the BEHAVIOR benchmark.
 
 

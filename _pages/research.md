@@ -11,7 +11,7 @@ Welcome to my Research page! I'm currently a 2nd Year Ph.D. student with the [LI
 {: style="text-align: center;font-size: 100%"}
 
 ## Research Areas
-I'm broadly interested in enabling robots to operate robustly in long-horizon, multi-task settings so that they can accomplish tasks like multi-object manipulation, cooking, or even performing household chores. To this end, I'm interested in combining classical AI planning and reasoning approaches with modern machine learning techniques. My research draws on ideas from reinforcement learning, task and motion planning (TAMP), continual learning, and neurosymbolic AI.
+I'm broadly interested in enabling robots to operate robustly in long-horizon, multi-task settings so that they can accomplish tasks like multi-object manipulation, cooking, or even performing household chores. To this end, I'm interested in combining classical AI planning and reasoning approaches with modern machine learning techniques. My research draws on ideas from reinforcement learning, task and motion planning (TAMP), deep learning, and neurosymbolic AI.
 
 
 ## Publications
@@ -255,6 +255,41 @@ I'm broadly interested in enabling robots to operate robustly in long-horizon, m
 
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
     <tbody>
+      <!-- <tr bgcolor="#ffffd0"> -->
+      <tr>
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <div>
+            <img src='/images/paper-images/task-scoping-image.png' width="160">
+          </div>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <p style="font-family:'Lato',Verdana,Helvetica,sans-serif; font-size:14px;font-weight:700">
+          Task Scoping: Generating Task-Specific Abstractions for Planning in Open-Scope Models
+          </p>
+          <a href="https://www.linkedin.com/in/michael-fishman-9a0a11160/">Michael Fishman*</a>,
+          <strong>Nishanth Kumar*</strong>,
+          <a href="https://camallen.net/">Cameron Allen</a>,
+          <a href="https://scholar.google.com/citations?user=1HIu1uQAAAAJ&hl=en">Natasha Danas</a>,
+          <a href="https://www.littmania.com/">Michael Littman</a>,
+          <a href="https://cs.brown.edu/people/stellex/">Stefanie Tellex</a>,
+          <a href="https://cs.brown.edu/people/gdk/">George Konidaris</a>
+          <br>
+          <em>arXiv</em>, 2023.
+          <br>
+          <a href="https://arxiv.org/pdf/2010.08869">arxiv</a>
+          <br>
+          <p>
+          Introduces a method for how large classical planning problems can be efficiently pruned to exclude states and actions that are irrelevant to a particular goal so that agents can solve very large, 'open-scope' domains that are capable of supporting multiple goals.
+          <br>
+          [* denotes equal contribution]
+          </p>
+        </td>
+      </tr>
+    </tbody>
+</table>
+
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tbody>
       <tr>
       <!-- <tr bgcolor="#ffffd0"> -->
         <td style="padding:20px;width:25%;vertical-align:middle">
@@ -282,39 +317,6 @@ I'm broadly interested in enabling robots to operate robustly in long-horizon, m
           <br>
           <p>
           Introduces a new JAX-based framework that aims to make it easy to build and run inference on probabilistic graphical models (PGM's).
-          <br>
-          [* denotes equal contribution]
-          </p>
-        </td>
-      </tr>
-    </tbody>
-</table>
-
-<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-    <tbody>
-      <tr bgcolor="#ffffd0">
-        <td style="padding:20px;width:25%;vertical-align:middle">
-          <div>
-            <img src='/images/paper-images/task-scoping-image.png' width="160">
-          </div>
-        </td>
-        <td style="padding:20px;width:75%;vertical-align:middle">
-          <p style="font-family:'Lato',Verdana,Helvetica,sans-serif; font-size:14px;font-weight:700">
-          Task Scoping: Building Goal-Specific Abstractions for Planning in Complex Domains
-          </p>
-          <strong>Nishanth Kumar*</strong>,
-          <a href="https://www.linkedin.com/in/michael-fishman-9a0a11160/">Michael Fishman*</a>,
-          <a href="https://scholar.google.com/citations?user=1HIu1uQAAAAJ&hl=en">Natasha Danas</a>,
-          <a href="https://www.littmania.com/">Michael Littman</a>,
-          <a href="https://cs.brown.edu/people/stellex/">Stefanie Tellex</a>,
-          <a href="https://cs.brown.edu/people/gdk/">George Konidaris</a>
-          <br>
-          <em>arXiv</em>, 2020.
-          <br>
-          <a href="https://arxiv.org/pdf/2010.08869">arxiv</a>
-          <br>
-          <p>
-          Introduces a method for how large classical planning problems can be efficiently pruned to exclude states and actions that are irrelevant to a particular goal so that agents can solve very large, 'open-scope' domains that are capable of supporting multiple goals.
           <br>
           [* denotes equal contribution]
           </p>

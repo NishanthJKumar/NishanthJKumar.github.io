@@ -228,25 +228,23 @@ I'm broadly interested in enabling robots to operate robustly in long-horizon, m
         </td>
         <td style="padding:20px;width:75%;vertical-align:middle">
           <p style="font-family:'Lato',Verdana,Helvetica,sans-serif; font-size:14px;font-weight:700">
-          Learning Operators with Ignore Effects for Bilevel Planning in Continuous Domains
+          Overcoming the Pitfalls of Prediction Error in Operator Learning for Bilevel Planning
           </p>
           <strong>Nishanth Kumar*</strong>,
           <a href="https://wmcclinton.github.io/">Willie McClinton*</a>,
           <a href="https://rohanchitnis.com/">Rohan Chitnis</a>,
           <a href="https://web.mit.edu/tslvr/www/">Tom Silver</a>,
           <a href="https://people.csail.mit.edu/tlp/">Tomás Lozano-Pérez</a>,
-          <a href="http://people.csail.mit.edu/lpk/">Leslie Pack Kaelbling</a>,
+          <a href="http://people.csail.mit.edu/lpk/">Leslie Pack Kaelbling</a>.
           <br>
-          <em>arXiv</em>, 2022.
+          <em>arXiv</em>, 2023.
           <br>
           <a href="https://arxiv.org/pdf/2208.07737.pdf">paper</a>
           /
-          <a href="https://youtu.be/FRb6nU5w0i0">video</a>
-          /
-          <a href="https://github.com/Learning-and-Intelligent-Systems/predicators/releases/tag/ignore-effects-august-2022">code</a> 
+          <a href="http://nishanthjkumar.com/tamp-operator-learning.github.io/">website</a>
           <br>
           <p>
-          Introduces "operators with ignore effects": a generalization of the standard STRIPS operators that enables operators to decline to model particular effects and thus better serve as a high-level action abstraction that is <em>incorrect</em> but <em>useful</em> for efficient bilevel planning. Also introduces an algorithm to learn such operators from a handful of demonstrations. 
+          Shows that existing methods of learning operators for TAMP/bilevel planning struggle in complex environments with large numbers of objects. Introduces a novel operator learning approach based on local search that encourages operators to only model changes *necessary* for high-level search.
           <br>
           [* denotes equal contribution]
           </p>

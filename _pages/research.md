@@ -424,7 +424,9 @@ I'm broadly interested in enabling robots to operate robustly in long-horizon, m
 </table>
 
 
-## Talks
+## Invited Talks
+- Inventing Plannable Abstractions from Demonstrations
+<br/> [Brown Robotics Group](http://robotics.cs.brown.edu/). April 28, 2023.
 - [Task Scoping: Generating Task-Specific Abstractions for Planning](https://drive.google.com/file/d/1eshvDUiBJJIbLqqRusdgCv5O7wK076f8/view)
 <br/> [MIT LIS Group Meeting](https://lis.csail.mit.edu/). February 12, 2021.
 - [Let's Talk about AI and Robotics](https://www.youtube.com/watch?v=OOAPni0ZUW8)

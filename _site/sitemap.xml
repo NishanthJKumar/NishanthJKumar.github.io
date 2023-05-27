@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://localhost:4001/fiction_writings/the-wave/</loc>
+<lastmod>2023-05-21T00:00:00-04:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4001/More-than-a-45-a-reflection-on-my-time-in-High-School/</loc>
 <lastmod>2017-09-23T00:00:00-04:00</lastmod>
 </url>
@@ -58,6 +62,9 @@
 </url>
 <url>
 <loc>http://localhost:4001/contact-me/</loc>
+</url>
+<url>
+<loc>http://localhost:4001/fiction/</loc>
 </url>
 <url>
 <loc>http://localhost:4001/blog/</loc>

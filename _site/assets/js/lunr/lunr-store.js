@@ -1,4 +1,9 @@
 var store = [{
+        "title": "The Wave",
+        "excerpt":"The Wave You didn’t believe us when we first told you that you’d died. We don’t blame you, though. You died suddenly, with almost no warning. You were at the supermarket, thinking about your shopping list, and your job, and that trip to Greece that was only a week away....","categories": [],
+        "tags": [],
+        "url": "http://localhost:4001/fiction_writings/the-wave/",
+        "teaser":null},{
         "title": "More Than A 45: A Reflection On My Time In High School",
         "excerpt":"So this post is actually an article I wrote for my school’s student newsletter. I was asked to submit this some time before my TA internship at my school ended and I think it really encompasses my experience and views toward the IB. I’ve put it here in the hopes...","categories": [],
         "tags": ["Meditations","IB"],

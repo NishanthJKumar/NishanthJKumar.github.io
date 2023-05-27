@@ -6,5 +6,7 @@ main:
     url: /research/
   - title: "Blog"
     url: /blog
+  - title: "Fiction"
+    url: /fiction
  # - title: "Sitemap"
  #   url: /sitemap/

@@ -1,4 +1,4 @@
-I"&w<p style="text-align: center;font-size:110%;padding-top:40px">Welcome to my Research page! I’m currently a 2nd Year Ph.D. student with the <a href="https://lis.csail.mit.edu/">LIS Group</a> within <a href="https://www.csail.mit.edu/">MIT CSAIL</a>. I’m officially advised by <a href="https://www.csail.mit.edu/person/leslie-kaelbling">Leslie Kaelbling</a> and <a href="https://people.csail.mit.edu/tlp/">Tomás Lozano-Pérez</a>, though I frequently collaborate with <a href="https://scholar.google.com/citations?user=4mVPFQ8AAAAJ&amp;hl=en">Dylan Hadfield-Menell</a>, <a href="http://web.mit.edu/cocosci/josh.html">Josh Tenenbaum</a>, and many other wonderful people within CSAIL’s <a href="https://ei.csail.mit.edu/">Embodied Intelligence Initiative</a>. I also spend time at the <a href="https://theaiinstitute.com/">Boston Dynamics AI Institute</a> where I primarily work with <a href="https://www.linkedin.com/in/jennifer-barry-742a0799/">Jennifer Barry</a>. I’m extremely grateful for support from the <a href="https://engineering.brown.edu/news/2021-03-29/nsf-graduate-research-award">NSF Graduate Research Fellowship</a>.</p>
+I"Lx<p style="text-align: center;font-size:110%;padding-top:40px">Welcome to my Research page! I’m currently a 2nd Year Ph.D. student with the <a href="https://lis.csail.mit.edu/">LIS Group</a> within <a href="https://www.csail.mit.edu/">MIT CSAIL</a>. I’m officially advised by <a href="https://www.csail.mit.edu/person/leslie-kaelbling">Leslie Kaelbling</a> and <a href="https://people.csail.mit.edu/tlp/">Tomás Lozano-Pérez</a>, though I frequently collaborate with <a href="https://scholar.google.com/citations?user=4mVPFQ8AAAAJ&amp;hl=en">Dylan Hadfield-Menell</a>, <a href="http://web.mit.edu/cocosci/josh.html">Josh Tenenbaum</a>, and many other wonderful people within CSAIL’s <a href="https://ei.csail.mit.edu/">Embodied Intelligence Initiative</a>. I also spend time at the <a href="https://theaiinstitute.com/">Boston Dynamics AI Institute</a> where I primarily work with <a href="https://www.linkedin.com/in/jennifer-barry-742a0799/">Jennifer Barry</a>. I’m extremely grateful for support from the <a href="https://engineering.brown.edu/news/2021-03-29/nsf-graduate-research-award">NSF Graduate Research Fellowship</a>.</p>
 
 <p style="text-align: center;font-size: 100%"><a href="/misc_files/Nishanth_Resume.pdf">Resume</a> | <a href="/misc_files/Nishanth_CV.pdf">CV</a> | <a href="https://scholar.google.com/citations?user=FE512o4AAAAJ&amp;hl=en">Google Scholar</a> | <a href="/misc_files/njk-bio.txt">Bio</a> | <a href="https://github.com/NishanthJKumar">GitHub</a> | <a href="https://twitter.com/nishanthkumar23">Twitter</a></p>
 
@@ -412,8 +412,10 @@
     </tbody>
 </table>
 
-<h2 id="talks">Talks</h2>
+<h2 id="invited-talks">Invited Talks</h2>
 <ul>
+  <li>Inventing Plannable Abstractions from Demonstrations
+<br /> <a href="http://robotics.cs.brown.edu/">Brown Robotics Group</a>. April 28, 2023.</li>
   <li><a href="https://drive.google.com/file/d/1eshvDUiBJJIbLqqRusdgCv5O7wK076f8/view">Task Scoping: Generating Task-Specific Abstractions for Planning</a>
 <br /> <a href="https://lis.csail.mit.edu/">MIT LIS Group Meeting</a>. February 12, 2021.</li>
   <li><a href="https://www.youtube.com/watch?v=OOAPni0ZUW8">Let’s Talk about AI and Robotics</a>
@@ -432,13 +434,13 @@
 <h3 id="mentees">Mentees</h3>
 <p><em>Current</em></p>
 <ul>
-  <li><a href="https://www.linkedin.com/in/avaliveru/">Anirudh Valiveru</a>: working on leveraging Large Language Models (LLM’s) for efficient exploration in relational environments.</li>
-  <li><a href="https://www.linkedin.com/in/kathrynle/">Kathryn Le</a> (mentoring jointly with <a href="https://wmcclinton.github.io/">Willie McClinton</a>): working on using Task and Motion Planning to solve tasks from the BEHAVIOR benchmark.</li>
+  <li><a href="https://www.linkedin.com/in/kathrynle/">Kathryn Le</a> (mentoring jointly with <a href="https://wmcclinton.github.io/">Willie McClinton</a>)(IAP 2023 - Present): working on using Task and Motion Planning to solve tasks from the BEHAVIOR benchmark.</li>
 </ul>
 
 <p><em>Past</em></p>
 <ul>
-  <li>Varun Hariprasad (mentored jointly with <a href="https://web.mit.edu/tslvr/www/">Tom Silver</a>): high-school student at MIT via the <a href="https://www.cee.org/programs/research-science-institute">RSI program</a>; currently applying to colleges.</li>
+  <li><a href="https://www.linkedin.com/in/avaliveru/">Anirudh Valiveru</a>(IAP 2023): worked on leveraging Large Language Models (LLM’s) for efficient exploration in relational environments; currently continuing undergrad at MIT and pursuing research with a different group.</li>
+  <li>Varun Hariprasad (mentored jointly with <a href="https://web.mit.edu/tslvr/www/">Tom Silver</a>)(Summer 2022): high-school student at MIT via the <a href="https://www.cee.org/programs/research-science-institute">RSI program</a>; currently an undergrad at MIT.</li>
 </ul>
 
 <h2 id="awards">Awards</h2>

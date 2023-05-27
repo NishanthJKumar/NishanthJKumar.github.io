@@ -395,7 +395,7 @@ I'm broadly interested in enabling robots to operate robustly in long-horizon, m
 </table>
 
 
-### Theses and Misc. Publications
+<!-- ### Theses and Misc. Publications
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
     <tbody>
       <tr>
@@ -421,7 +421,7 @@ I'm broadly interested in enabling robots to operate robustly in long-horizon, m
         </td>
       </tr>
     </tbody>
-</table>
+</table> -->
 
 
 ## Invited Talks
@@ -449,7 +449,7 @@ I love mentoring students and junior researchers with interests related to my ow
 
 *Past*
 - [Anirudh Valiveru](https://www.linkedin.com/in/avaliveru/)(IAP 2023): worked on leveraging Large Language Models (LLM's) for efficient exploration in relational environments; currently continuing undergrad at MIT and pursuing research with a different group.
-- Varun Hariprasad (mentored jointly with [Tom Silver](https://web.mit.edu/tslvr/www/))(Summer 2022): high-school student at MIT via the [RSI program](https://www.cee.org/programs/research-science-institute); currently applying to colleges.
+- Varun Hariprasad (mentored jointly with [Tom Silver](https://web.mit.edu/tslvr/www/))(Summer 2022): high-school student at MIT via the [RSI program](https://www.cee.org/programs/research-science-institute); currently an undergrad at MIT.
 
 
 ## Awards

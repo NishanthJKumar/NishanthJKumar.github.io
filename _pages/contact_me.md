@@ -16,8 +16,7 @@ Email me at **njk[at]mit.edu** or **njk[at]csail.mit.edu** if:
 - you're a student looking for advice/help that you think I'm well-equipped to provide. I love helping people with similar interests/backgrounds in any way I can --- I benefitted significantly from advice from more senior students and mentors, and paying this forward is very important to me.
 
 Email me at **nishanth.kumar20[at]gmail.com** if:
-- you have questions/comments/concerns about any of my non-research writing.
+- you have questions or comments about any of my fiction writing.
 - you met me somewhere/saw me give a talk (unrelated to research) and want to follow-up.
-- you're interested in getting my professional help with anything related to college applications (essays, where to apply, etc.).
 - you're interested in chatting with me for some other professional reason.
-- you have good YA sci-fi novel/short story recommendations or funny memes you'd like to share with me :).
+- you have good sci-fi/fantasy novel/short story recommendations or funny memes you'd like to share with me :).

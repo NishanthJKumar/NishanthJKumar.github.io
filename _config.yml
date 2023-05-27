@@ -27,6 +27,9 @@ repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-m
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+collections              :
+  fiction_writings       :
+    output: true
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -114,8 +117,8 @@ analytics:
 author:
   name             : "Nishanth J. Kumar"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "AI + Robotics Research and SWE, Author, Entrepreneur"
-  location         : "Providence, RI"
+  bio              : "AI + Robotics Researcher and SWE, Author, Entrepreneur"
+  location         : "Cambridge, MA"
   email            : "nishanth.kumar20@gmail.com"
   links:
     - label: "Email"

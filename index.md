@@ -14,7 +14,7 @@ In the recent past, I graduated from [Brown University](https://www.brown.edu/) 
 
 Outside of all this, I like to play basketball, read, philosophize, cook, and sometimes make progress on various sci-fi novels/short-stories that I've been writing for longer than I care to admit.
 
-If you're interested in learning more about me or reading some of my writing, check out my [resume](/misc_files/Nishanth_Resume.pdf), [blog](http://nishanthjkumar.com/blog/) or social links in the website footer. If you'd like to get in contact, check out [this page here](/contact-me/).
+If you're interested in learning more about me or reading some of my writing, check out my [resume](/misc_files/Nishanth_Resume.pdf), [blog](http://nishanthjkumar.com/blog/), [fiction writing](http://nishanthjkumar.com/fiction/), or social links in the website footer. If you'd like to get in contact, check out [this page here](/contact-me/).
 
 ## Recent News
 * I'm giving an invited talk on "Inventing Plannable Abstractions from Demonstrations" at the [Brown University Robotics](http://robotics.cs.brown.edu/) group meeting!

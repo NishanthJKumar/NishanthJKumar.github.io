@@ -236,5 +236,5 @@ We can only smile and wave farewell as I'm sent off to be born.
 
 ---
 
-Author's Note: This story was heavily inspired by Andy Weir's ['The Egg'](http://www.galactanet.com/oneoff/theegg_mod.html). Many thanks to Ryan Adell and Shreya Chowdhary for feedback on earlier drafts.
+Author's Note: This story was heavily inspired by Andy Weir's ['The Egg'](http://www.galactanet.com/oneoff/theegg_mod.html). Many thanks to Ryan Adell and Shreya Chowdhary for feedback on earlier drafts of this work.
 {: style="text-align: center;font-size: 90%"}

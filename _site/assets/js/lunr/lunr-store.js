@@ -4,6 +4,11 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4001/fiction_writings/the-wave/",
         "teaser":null},{
+        "title": "The Traveller",
+        "excerpt":"The Traveller “The truth here”, the professor says with a raised chin and the smugness of surety, “is that travelling backwards through time is simply impossible”. I raise my hand. “Even putting aside all the theory we’ve just discussed”, the professor continues, sweeping a glance across the room, “if travel...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4001/fiction_writings/the-traveller/",
+        "teaser":null},{
         "title": "More Than A 45: A Reflection On My Time In High School",
         "excerpt":"So this post is actually an article I wrote for my school’s student newsletter. I was asked to submit this some time before my TA internship at my school ended and I think it really encompasses my experience and views toward the IB. I’ve put it here in the hopes...","categories": [],
         "tags": ["Meditations","IB"],

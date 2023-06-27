@@ -444,11 +444,12 @@ I love mentoring students and junior researchers with interests related to my ow
 
 ### Mentees
 *Current*
+- [Annie Feng](https://www.linkedin.com/in/annie-feng-a21bb516b/https://www.linkedin.com/in/annie-feng-a21bb516b/) (Fall 2023 - Present): working on using Large Language Models (LLM's) for model-based learning and exploration.
 - [Kathryn Le](https://www.linkedin.com/in/kathrynle/) (mentoring jointly with [Willie McClinton](https://wmcclinton.github.io/))(IAP 2023 - Present): working on using Task and Motion Planning to solve tasks from the BEHAVIOR benchmark.
 
 
 *Past*
-- [Anirudh Valiveru](https://www.linkedin.com/in/avaliveru/)(IAP 2023): worked on leveraging Large Language Models (LLM's) for efficient exploration in relational environments; currently continuing undergrad at MIT and pursuing research with a different group.
+- [Anirudh Valiveru] (https://www.linkedin.com/in/avaliveru/)(IAP 2023): worked on leveraging Large Language Models (LLM's) for efficient exploration in relational environments; currently continuing undergrad at MIT and pursuing research with a different group.
 - Varun Hariprasad (mentored jointly with [Tom Silver](https://web.mit.edu/tslvr/www/))(Summer 2022): high-school student at MIT via the [RSI program](https://www.cee.org/programs/research-science-institute); currently an undergrad at MIT.
 
 

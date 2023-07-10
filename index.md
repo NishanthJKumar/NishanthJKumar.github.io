@@ -17,7 +17,7 @@ Outside of all this, I like to play basketball, read, philosophize, cook, and so
 If you're interested in learning more about me or reading some of my writing, check out my [resume](/misc_files/Nishanth_Resume.pdf), [blog](http://nishanthjkumar.com/blog/), [fiction writing](http://nishanthjkumar.com/fiction/), or social links in the website footer. If you'd like to get in contact, check out [this page here](/contact-me/).
 
 ## Recent News
-* Our work on learning efficient operators for TAMP is a spotlight at the [RSS Workshop on Learning for TAMP](https://zt-yang.github.io/rss23-l4tamp-workshop/)!
+* Our work on learning efficient operators for TAMP is a spotlight talk at the [RSS Workshop on Learning for TAMP](https://zt-yang.github.io/rss23-l4tamp-workshop/)! (Update: the work was also honored with the 'Best Paper' award!)
 * I'm giving an invited talk on "Inventing Plannable Abstractions from Demonstrations" at the [Brown University Robotics](http://robotics.cs.brown.edu/) group meeting!
 * Our paper on [inventing predicates for TAMP from demonstrations](https://arxiv.org/abs/2203.09634) will be presented as an Oral at AAAI 2023! Come check out the talk and poster + chat with my coauthors and I if you're attending!
 * An article I wrote about my path to MIT got published in the Tech Review Alumni Magazine! Check it out [here](https://www.technologyreview.com/2022/12/19/1064005/rerouting/). 

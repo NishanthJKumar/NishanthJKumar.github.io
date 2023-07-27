@@ -449,7 +449,7 @@ I love mentoring students and junior researchers with interests related to my ow
 
 
 *Past*
-- [Anirudh Valiveru] (https://www.linkedin.com/in/avaliveru/)(IAP 2023): worked on leveraging Large Language Models (LLM's) for efficient exploration in relational environments; currently continuing undergrad at MIT and pursuing research with a different group.
+- [Anirudh Valiveru](https://www.linkedin.com/in/avaliveru/)(IAP 2023): worked on leveraging Large Language Models (LLM's) for efficient exploration in relational environments; currently continuing undergrad at MIT and pursuing research with a different group.
 - Varun Hariprasad (mentored jointly with [Tom Silver](https://web.mit.edu/tslvr/www/))(Summer 2022): high-school student at MIT via the [RSI program](https://www.cee.org/programs/research-science-institute); currently an undergrad at MIT.
 
 

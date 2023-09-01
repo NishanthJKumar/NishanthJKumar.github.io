@@ -21,6 +21,41 @@ I'm broadly interested in enabling robots to operate robustly in long-horizon, m
       <tr bgcolor="#ffffd0">
         <td style="padding:20px;width:25%;vertical-align:middle">
           <div>
+            <img src='/images/paper-images/ignore_effects.png' width="160">
+          </div>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <p style="font-family:'Lato',Verdana,Helvetica,sans-serif; font-size:14px;font-weight:700">
+          Learning Efficient Abstract Planning Models that Choose What to Predict
+          </p>
+          <strong>Nishanth Kumar*</strong>,
+          <a href="https://wmcclinton.github.io/">Willie McClinton*</a>,
+          <a href="https://rohanchitnis.com/">Rohan Chitnis</a>,
+          <a href="https://web.mit.edu/tslvr/www/">Tom Silver</a>,
+          <a href="https://people.csail.mit.edu/tlp/">Tomás Lozano-Pérez</a>,
+          <a href="http://people.csail.mit.edu/lpk/">Leslie Pack Kaelbling</a>.
+          <br>
+          <em>Conference on Robot Learning (CoRL)</em>, 2023. Also appeared at <a href="https://zt-yang.github.io/rss23-l4tamp-workshop/">RSS Workshop on Learning for Task and Motion Planning</a> <p style="color:red;display:inline;">(Best Paper Award)</p>.
+          <br>
+          <a href="http://nishanthjkumar.com/tamp-operator-learning.github.io/">website</a>
+          /
+          <a href="https://openreview.net/forum?id=_gZLyRGGuo">OpenReview</a>
+          <br>
+          <p>
+          Shows that existing methods of learning operators for TAMP/bilevel planning struggle in complex environments with large numbers of objects. Introduces a novel operator learning approach based on local search that encourages operators to only model changes *necessary* for high-level search.
+          <br>
+          [* denotes equal contribution]
+          </p>
+        </td>
+      </tr>
+    </tbody>
+</table>
+
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tbody>
+      <tr bgcolor="#ffffd0">
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <div>
             <img src='/images/paper-images/predicators-image.png' width="160">
           </div>
         </td>
@@ -72,7 +107,7 @@ I'm broadly interested in enabling robots to operate robustly in long-horizon, m
               <a href="http://www.cs.toronto.edu/~wangjk/">Jingkang Wang</a>,
               <a href="http://www.cs.toronto.edu/~urtasun/">Raquel Urtasun</a>
               <br>
-							<em>Conference on Robot Learning (CoRL)</em> poster, 2021.
+							<em>Conference on Robot Learning (CoRL)</em>, 2021.
               <br>
               <a href="https://openreview.net/forum?id=xQ8rr3-zpiH">OpenReview</a>
               /
@@ -154,41 +189,6 @@ I'm broadly interested in enabling robots to operate robustly in long-horizon, m
 
 
 ### Workshop Papers and Extended Abstracts
-<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-    <tbody>
-      <tr bgcolor="#ffffd0">
-        <td style="padding:20px;width:25%;vertical-align:middle">
-          <div>
-            <img src='/images/paper-images/ignore_effects.png' width="160">
-          </div>
-        </td>
-        <td style="padding:20px;width:75%;vertical-align:middle">
-          <p style="font-family:'Lato',Verdana,Helvetica,sans-serif; font-size:14px;font-weight:700">
-          Overcoming the Pitfalls of Prediction Error in Operator Learning for Bilevel Planning
-          </p>
-          <strong>Nishanth Kumar*</strong>,
-          <a href="https://wmcclinton.github.io/">Willie McClinton*</a>,
-          <a href="https://rohanchitnis.com/">Rohan Chitnis</a>,
-          <a href="https://web.mit.edu/tslvr/www/">Tom Silver</a>,
-          <a href="https://people.csail.mit.edu/tlp/">Tomás Lozano-Pérez</a>,
-          <a href="http://people.csail.mit.edu/lpk/">Leslie Pack Kaelbling</a>.
-          <br>
-          <em><a href="https://zt-yang.github.io/rss23-l4tamp-workshop/">RSS Workshop on Learning for Task and Motion Planning</a></em>, 2023 <p style="color:red;display:inline;">(Best Paper Award)</p>.
-          <br>
-          <a href="http://nishanthjkumar.com/tamp-operator-learning.github.io/">website</a>
-          /
-          <a href="https://openreview.net/forum?id=om70D3__925">OpenReview</a>
-          <br>
-          <p>
-          Shows that existing methods of learning operators for TAMP/bilevel planning struggle in complex environments with large numbers of objects. Introduces a novel operator learning approach based on local search that encourages operators to only model changes *necessary* for high-level search.
-          <br>
-          [* denotes equal contribution]
-          </p>
-        </td>
-      </tr>
-    </tbody>
-</table>
-
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
         <tbody>
           <tr>

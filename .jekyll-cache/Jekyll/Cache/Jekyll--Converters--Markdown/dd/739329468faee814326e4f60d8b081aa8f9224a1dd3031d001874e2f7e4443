@@ -1,4 +1,4 @@
-I"�y<p style="text-align: center;font-size:110%;padding-top:40px">Welcome to my Research page! I’m currently a 2nd Year Ph.D. student with the <a href="https://lis.csail.mit.edu/">LIS Group</a> within <a href="https://www.csail.mit.edu/">MIT CSAIL</a>. I’m officially advised by <a href="https://www.csail.mit.edu/person/leslie-kaelbling">Leslie Kaelbling</a> and <a href="https://people.csail.mit.edu/tlp/">Tomás Lozano-Pérez</a>, though I frequently collaborate with <a href="https://scholar.google.com/citations?user=4mVPFQ8AAAAJ&amp;hl=en">Dylan Hadfield-Menell</a>, <a href="http://web.mit.edu/cocosci/josh.html">Josh Tenenbaum</a>, and many other wonderful people within CSAIL’s <a href="https://ei.csail.mit.edu/">Embodied Intelligence Initiative</a>. I also spend time at the <a href="https://theaiinstitute.com/">Boston Dynamics AI Institute</a> where I primarily work with <a href="https://www.linkedin.com/in/jennifer-barry-742a0799/">Jennifer Barry</a>. I’m extremely grateful for support from the <a href="https://engineering.brown.edu/news/2021-03-29/nsf-graduate-research-award">NSF Graduate Research Fellowship</a>.</p>
+I" z<p style="text-align: center;font-size:110%;padding-top:40px">Welcome to my Research page! I’m currently a 2nd Year Ph.D. student with the <a href="https://lis.csail.mit.edu/">LIS Group</a> within <a href="https://www.csail.mit.edu/">MIT CSAIL</a>. I’m officially advised by <a href="https://www.csail.mit.edu/person/leslie-kaelbling">Leslie Kaelbling</a> and <a href="https://people.csail.mit.edu/tlp/">Tomás Lozano-Pérez</a>, though I frequently collaborate with <a href="https://scholar.google.com/citations?user=4mVPFQ8AAAAJ&amp;hl=en">Dylan Hadfield-Menell</a>, <a href="http://web.mit.edu/cocosci/josh.html">Josh Tenenbaum</a>, and many other wonderful people within CSAIL’s <a href="https://ei.csail.mit.edu/">Embodied Intelligence Initiative</a>. I also spend time at the <a href="https://theaiinstitute.com/">Boston Dynamics AI Institute</a> where I primarily work with <a href="https://www.linkedin.com/in/jennifer-barry-742a0799/">Jennifer Barry</a>. I’m extremely grateful for support from the <a href="https://engineering.brown.edu/news/2021-03-29/nsf-graduate-research-award">NSF Graduate Research Fellowship</a>.</p>
 
 <p style="text-align: center;font-size: 100%"><a href="/misc_files/Nishanth_Resume.pdf">Resume</a> | <a href="/misc_files/Nishanth_CV.pdf">CV</a> | <a href="https://scholar.google.com/citations?user=FE512o4AAAAJ&amp;hl=en">Google Scholar</a> | <a href="/misc_files/njk-bio.txt">Bio</a> | <a href="https://github.com/NishanthJKumar">GitHub</a> | <a href="https://twitter.com/nishanthkumar23">Twitter</a></p>
 
@@ -7,6 +7,41 @@
 
 <h2 id="publications">Publications</h2>
 <h3 id="conference-papers">Conference Papers</h3>
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tbody>
+      <tr bgcolor="#ffffd0">
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <div>
+            <img src="/images/paper-images/ignore_effects.png" width="160" />
+          </div>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <p style="font-family:'Lato',Verdana,Helvetica,sans-serif; font-size:14px;font-weight:700">
+          Learning Efficient Abstract Planning Models that Choose What to Predict
+          </p>
+          <strong>Nishanth Kumar*</strong>,
+          <a href="https://wmcclinton.github.io/">Willie McClinton*</a>,
+          <a href="https://rohanchitnis.com/">Rohan Chitnis</a>,
+          <a href="https://web.mit.edu/tslvr/www/">Tom Silver</a>,
+          <a href="https://people.csail.mit.edu/tlp/">Tomás Lozano-Pérez</a>,
+          <a href="http://people.csail.mit.edu/lpk/">Leslie Pack Kaelbling</a>.
+          <br />
+          <em>Conference on Robot Learning (CoRL)</em>, 2023. Also appeared at <a href="https://zt-yang.github.io/rss23-l4tamp-workshop/">RSS Workshop on Learning for Task and Motion Planning</a> <p style="color:red;display:inline;">(Best Paper Award)</p>.
+          <br />
+          <a href="http://nishanthjkumar.com/tamp-operator-learning.github.io/">website</a>
+          /
+          <a href="https://openreview.net/forum?id=_gZLyRGGuo">OpenReview</a>
+          <br />
+          <p>
+          Shows that existing methods of learning operators for TAMP/bilevel planning struggle in complex environments with large numbers of objects. Introduces a novel operator learning approach based on local search that encourages operators to only model changes *necessary* for high-level search.
+          <br />
+          [* denotes equal contribution]
+          </p>
+        </td>
+      </tr>
+    </tbody>
+</table>
+
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
     <tbody>
       <tr bgcolor="#ffffd0">
@@ -63,7 +98,7 @@
               <a href="http://www.cs.toronto.edu/~wangjk/">Jingkang Wang</a>,
               <a href="http://www.cs.toronto.edu/~urtasun/">Raquel Urtasun</a>
               <br />
-							<em>Conference on Robot Learning (CoRL)</em> poster, 2021.
+							<em>Conference on Robot Learning (CoRL)</em>, 2021.
               <br />
               <a href="https://openreview.net/forum?id=xQ8rr3-zpiH">OpenReview</a>
               /
@@ -144,41 +179,6 @@
 </table>
 
 <h3 id="workshop-papers-and-extended-abstracts">Workshop Papers and Extended Abstracts</h3>
-<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-    <tbody>
-      <tr bgcolor="#ffffd0">
-        <td style="padding:20px;width:25%;vertical-align:middle">
-          <div>
-            <img src="/images/paper-images/ignore_effects.png" width="160" />
-          </div>
-        </td>
-        <td style="padding:20px;width:75%;vertical-align:middle">
-          <p style="font-family:'Lato',Verdana,Helvetica,sans-serif; font-size:14px;font-weight:700">
-          Overcoming the Pitfalls of Prediction Error in Operator Learning for Bilevel Planning
-          </p>
-          <strong>Nishanth Kumar*</strong>,
-          <a href="https://wmcclinton.github.io/">Willie McClinton*</a>,
-          <a href="https://rohanchitnis.com/">Rohan Chitnis</a>,
-          <a href="https://web.mit.edu/tslvr/www/">Tom Silver</a>,
-          <a href="https://people.csail.mit.edu/tlp/">Tomás Lozano-Pérez</a>,
-          <a href="http://people.csail.mit.edu/lpk/">Leslie Pack Kaelbling</a>.
-          <br />
-          <em><a href="https://zt-yang.github.io/rss23-l4tamp-workshop/">RSS Workshop on Learning for Task and Motion Planning</a></em>, 2023 <p style="color:red;display:inline;">(Best Paper Award)</p>.
-          <br />
-          <a href="http://nishanthjkumar.com/tamp-operator-learning.github.io/">website</a>
-          /
-          <a href="https://openreview.net/forum?id=om70D3__925">OpenReview</a>
-          <br />
-          <p>
-          Shows that existing methods of learning operators for TAMP/bilevel planning struggle in complex environments with large numbers of objects. Introduces a novel operator learning approach based on local search that encourages operators to only model changes *necessary* for high-level search.
-          <br />
-          [* denotes equal contribution]
-          </p>
-        </td>
-      </tr>
-    </tbody>
-</table>
-
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
         <tbody>
           <tr>
@@ -435,12 +435,12 @@
 <p><em>Current</em></p>
 <ul>
   <li><a href="https://www.linkedin.com/in/annie-feng-a21bb516b/https://www.linkedin.com/in/annie-feng-a21bb516b/">Annie Feng</a> (Fall 2023 - Present): working on using Large Language Models (LLM’s) for model-based learning and exploration.</li>
-  <li><a href="https://www.linkedin.com/in/kathrynle/">Kathryn Le</a> (mentoring jointly with <a href="https://wmcclinton.github.io/">Willie McClinton</a>)(IAP 2023 - Present): working on using Task and Motion Planning to solve tasks from the BEHAVIOR benchmark.</li>
 </ul>
 
 <p><em>Past</em></p>
 <ul>
-  <li>[Anirudh Valiveru] (https://www.linkedin.com/in/avaliveru/)(IAP 2023): worked on leveraging Large Language Models (LLM’s) for efficient exploration in relational environments; currently continuing undergrad at MIT and pursuing research with a different group.</li>
+  <li><a href="https://www.linkedin.com/in/kathrynle/">Kathryn Le</a> (mentoring jointly with <a href="https://wmcclinton.github.io/">Willie McClinton</a>)(IAP 2023 and Spring 2023): worked on using Task and Motion Planning to solve tasks from the BEHAVIOR benchmark; currently continuing undergrad at MIT.</li>
+  <li><a href="https://www.linkedin.com/in/avaliveru/">Anirudh Valiveru</a>(IAP 2023): worked on leveraging Large Language Models (LLM’s) for efficient exploration in relational environments; currently continuing undergrad at MIT and pursuing research with a different group.</li>
   <li>Varun Hariprasad (mentored jointly with <a href="https://web.mit.edu/tslvr/www/">Tom Silver</a>)(Summer 2022): high-school student at MIT via the <a href="https://www.cee.org/programs/research-science-institute">RSI program</a>; currently an undergrad at MIT.</li>
 </ul>
 

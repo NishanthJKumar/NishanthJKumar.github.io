@@ -1,0 +1,23 @@
+I"�<p><img src="/images/me_circle.png" alt="Me" style="float:right; padding:10px; height:auto; max-width:35%" /></p>
+
+<p>Hi there, and welcome to my personal website! My name’s Nishanth and I’m a researcher and engineer focused on AI and ML applied to robotics. I also moonlight as a writer.</p>
+
+<p>Presently, I’m a Ph.D. student in the <a href="https://lis.csail.mit.edu/">LIS Group</a> within <a href="https://www.csail.mit.edu/">MIT CSAIL</a>. I’m officially advised by <a href="https://www.csail.mit.edu/person/leslie-kaelbling">Leslie Kaelbling</a> and <a href="https://people.csail.mit.edu/tlp/">Tomás Lozano-Pérez</a>. I also spend time at and collaborate with the <a href="https://theaiinstitute.com/">Boston Dynamics AI Institute</a> where I primarily work with <a href="https://www.linkedin.com/in/jennifer-barry-742a0799/">Jennifer Barry</a>. I’m extremely grateful for support from the <a href="https://engineering.brown.edu/news/2021-03-29/nsf-graduate-research-award">NSF Graduate Research Fellowship</a>.</p>
+
+<p>In the recent past, I graduated from <a href="https://www.brown.edu/">Brown University</a> with honors in Computer Engineering. As an undergrad, I was fortunate to work on exciting <a href="https://nishanthjkumar.com/research/">AI + Robotics research</a> under Brown’s <a href="http://bigai.cs.brown.edu/">BigAI initiative</a> advised by Professors <a href="https://cs.brown.edu/people/stellex/">Stefanie Tellex</a>, <a href="http://cs.brown.edu/people/gdk/">George Konidaris</a> and <a href="http://cs.brown.edu/~mlittman/">Michael Littman</a>. I spent time as a Research Intern at <a href="https://www.uber.com/ca/en/atg/research-and-development/">Uber ATG</a> and <a href="https://www.vicarious.com/">Vicarious AI</a>, and even had the opportunity to collaborate with researchers at <a href="https://www.merl.com/research/">MERL</a>.</p>
+
+<p>Outside of all this, I like to play basketball, read, philosophize, cook, and sometimes make progress on various sci-fi novels/short-stories that I’ve been writing for longer than I care to admit.</p>
+
+<p>If you’re interested in learning more about me or reading some of my writing, check out my <a href="/misc_files/Nishanth_Resume.pdf">resume</a>, <a href="http://nishanthjkumar.com/blog/">blog</a>, <a href="http://nishanthjkumar.com/fiction/">fiction writing</a>, or social links in the website footer. If you’d like to get in contact, check out <a href="/contact-me/">this page here</a>.</p>
+
+<h2 id="recent-news">Recent News</h2>
+<ul>
+  <li>Our work on learning efficient operators for TAMP has been accepted at <a href="https://www.corl2023.org/">CoRL 2023</a>! Come check out the poster and chat with me if you’ll be attending!</li>
+  <li>Our work on learning efficient operators for TAMP is a spotlight talk at the <a href="https://zt-yang.github.io/rss23-l4tamp-workshop/">RSS Workshop on Learning for TAMP</a>! (Update: the work was also honored with the ‘Best Paper’ award!)</li>
+  <li>I’m giving an invited talk on “Inventing Plannable Abstractions from Demonstrations” at the <a href="http://robotics.cs.brown.edu/">Brown University Robotics</a> group meeting!</li>
+  <li>Our paper on <a href="https://arxiv.org/abs/2203.09634">inventing predicates for TAMP from demonstrations</a> will be presented as an Oral at AAAI 2023! Come check out the talk and poster + chat with my coauthors and I if you’re attending!</li>
+  <li>An article I wrote about my path to MIT got published in the Tech Review Alumni Magazine! Check it out <a href="https://www.technologyreview.com/2022/12/19/1064005/rerouting/">here</a>.</li>
+  <li>I’ve started a part-time Research Internship at the <a href="https://theaiinstitute.com/">Boston Dynamics AI Institute</a>!</li>
+  <li>New paper on learning efficient operators for TAMP released! Check out the Arxiv version <a href="https://arxiv.org/abs/2208.07737">here</a>, and accompanying video <a href="https://www.youtube.com/watch?v=FRb6nU5w0i0">here</a>!</li>
+</ul>
+:ET

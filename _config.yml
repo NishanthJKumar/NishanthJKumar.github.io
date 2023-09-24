@@ -20,7 +20,7 @@ title                    : "Nishanth J. Kumar"
 title_separator          : "|"
 subtitle                 : # Make this better.... site tagline that appears below site title in masthead
 name                     : "Nishanth J. Kumar"
-description              : "My personal homepage and blog for non-fictional musings"
+description              : "My personal homepage and blog"
 url                      : "https://nishanthjkumar.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"

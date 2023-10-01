@@ -4,7 +4,7 @@ layout: splash
 permalink: /research/
 ---
 
-Welcome to my Research page! I'm currently a 2nd Year Ph.D. student with the [LIS Group](https://lis.csail.mit.edu/) within [MIT CSAIL](https://www.csail.mit.edu/). I'm officially advised by [Leslie Kaelbling](https://www.csail.mit.edu/person/leslie-kaelbling) and [Tomás Lozano-Pérez](https://people.csail.mit.edu/tlp/), though I frequently collaborate with [Dylan Hadfield-Menell](https://scholar.google.com/citations?user=4mVPFQ8AAAAJ&hl=en), [Josh Tenenbaum](http://web.mit.edu/cocosci/josh.html), and many other wonderful people within CSAIL's [Embodied Intelligence Initiative](https://ei.csail.mit.edu/). I also spend time at the [Boston Dynamics AI Institute](https://theaiinstitute.com/) where I primarily work with [Jennifer Barry](https://www.linkedin.com/in/jennifer-barry-742a0799/). I'm extremely grateful for support from the [NSF Graduate Research Fellowship](https://engineering.brown.edu/news/2021-03-29/nsf-graduate-research-award).
+Welcome to my Research page! I'm currently a 3rd Year Ph.D. student with the [LIS Group](https://lis.csail.mit.edu/) within [MIT CSAIL](https://www.csail.mit.edu/). I'm officially advised by [Leslie Kaelbling](https://www.csail.mit.edu/person/leslie-kaelbling) and [Tomás Lozano-Pérez](https://people.csail.mit.edu/tlp/), though I frequently collaborate with [Dylan Hadfield-Menell](https://scholar.google.com/citations?user=4mVPFQ8AAAAJ&hl=en), [Josh Tenenbaum](http://web.mit.edu/cocosci/josh.html), and many other wonderful people within CSAIL's [Embodied Intelligence Initiative](https://ei.csail.mit.edu/). I also spend time at the [Boston Dynamics AI Institute](https://theaiinstitute.com/) where I primarily work with [Jennifer Barry](https://www.linkedin.com/in/jennifer-barry-742a0799/). I'm extremely grateful for support from the [NSF Graduate Research Fellowship](https://engineering.brown.edu/news/2021-03-29/nsf-graduate-research-award).
 {: style="text-align: center;font-size:110%;padding-top:40px"}
 
 [Resume](/misc_files/Nishanth_Resume.pdf) \| [CV](/misc_files/Nishanth_CV.pdf) \| [Google Scholar](https://scholar.google.com/citations?user=FE512o4AAAAJ&hl=en) \| [Bio](/misc_files/njk-bio.txt) \| [GitHub](https://github.com/NishanthJKumar) \| [Twitter](https://twitter.com/nishanthkumar23)
@@ -444,11 +444,11 @@ I love mentoring students and junior researchers with interests related to my ow
 
 ### Mentees
 *Current*
-- [Annie Feng](https://www.linkedin.com/in/annie-feng-a21bb516b/https://www.linkedin.com/in/annie-feng-a21bb516b/) (Fall 2023 - Present): working on using Large Language Models (LLM's) for model-based learning and exploration.
+- [Annie Feng](https://www.linkedin.com/in/annie-feng-a21bb516b/https://www.linkedin.com/in/annie-feng-a21bb516b/)(Fall 2023 - Present): working on using Large Language Models (LLM's) for model-based learning and exploration.
 
 
 *Past*
-- [Kathryn Le](https://www.linkedin.com/in/kathrynle/) (mentoring jointly with [Willie McClinton](https://wmcclinton.github.io/))(IAP 2023 and Spring 2023): worked on using Task and Motion Planning to solve tasks from the BEHAVIOR benchmark; currently continuing undergrad at MIT.
+- [Kathryn Le](https://www.linkedin.com/in/kathrynle/)(mentored jointly with [Willie McClinton](https://wmcclinton.github.io/))(IAP 2023 and Spring 2023): worked on using Task and Motion Planning to solve tasks from the BEHAVIOR benchmark; currently continuing undergrad at MIT.
 - [Anirudh Valiveru](https://www.linkedin.com/in/avaliveru/)(IAP 2023): worked on leveraging Large Language Models (LLM's) for efficient exploration in relational environments; currently continuing undergrad at MIT and pursuing research with a different group.
 - Varun Hariprasad (mentored jointly with [Tom Silver](https://web.mit.edu/tslvr/www/))(Summer 2022): high-school student at MIT via the [RSI program](https://www.cee.org/programs/research-science-institute); currently an undergrad at MIT.
 

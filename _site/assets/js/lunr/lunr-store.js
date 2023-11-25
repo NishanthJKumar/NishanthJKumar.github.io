@@ -78,4 +78,9 @@ var store = [{
         "excerpt":"A while ago, I had the opportunity to develop and release a new open-source Python library: PGMax. Since this was to be my first open-source library release, I spent a lot of time figuring out a good set of developer tools to speed up development and enable (hopefully) lots of...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/A-Beginner's-Guide-To-Creating-An-Open-Source-Python-Package/",
+        "teaser":null},{
+        "title": "Will Scaling Solve Robotics?: Perspectives From Corl 2023",
+        "excerpt":"This year’s CoRL was the biggest CoRL yet, with over 900 attendees, 11 workshops, and almost 200 accepted papers. While there were a lot of cool new ideas (see this great set of notes for an overview of technical content), one particular debate seemed to be front-and-center: “is training a...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/Will-Scaling-Solve-Robotics-Perspectives-from-CoRL-2023/",
         "teaser":null}]

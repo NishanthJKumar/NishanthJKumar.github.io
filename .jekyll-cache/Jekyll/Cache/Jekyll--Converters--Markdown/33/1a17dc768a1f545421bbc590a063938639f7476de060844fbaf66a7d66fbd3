@@ -1,4 +1,4 @@
-I" z<p style="text-align: center;font-size:110%;padding-top:40px">Welcome to my Research page! I’m currently a 3rd Year Ph.D. student with the <a href="https://lis.csail.mit.edu/">LIS Group</a> within <a href="https://www.csail.mit.edu/">MIT CSAIL</a>. I’m officially advised by <a href="https://www.csail.mit.edu/person/leslie-kaelbling">Leslie Kaelbling</a> and <a href="https://people.csail.mit.edu/tlp/">Tomás Lozano-Pérez</a>, though I frequently collaborate with <a href="https://scholar.google.com/citations?user=4mVPFQ8AAAAJ&amp;hl=en">Dylan Hadfield-Menell</a>, <a href="http://web.mit.edu/cocosci/josh.html">Josh Tenenbaum</a>, and many other wonderful people within CSAIL’s <a href="https://ei.csail.mit.edu/">Embodied Intelligence Initiative</a>. I also spend time at the <a href="https://theaiinstitute.com/">Boston Dynamics AI Institute</a> where I primarily work with <a href="https://www.linkedin.com/in/jennifer-barry-742a0799/">Jennifer Barry</a>. I’m extremely grateful for support from the <a href="https://engineering.brown.edu/news/2021-03-29/nsf-graduate-research-award">NSF Graduate Research Fellowship</a>.</p>
+I"�z<p style="text-align: center;font-size:110%;padding-top:40px">Welcome to my Research page! I’m currently a 3rd Year Ph.D. student with the <a href="https://lis.csail.mit.edu/">LIS Group</a> within <a href="https://www.csail.mit.edu/">MIT CSAIL</a>. I’m officially advised by <a href="https://www.csail.mit.edu/person/leslie-kaelbling">Leslie Kaelbling</a> and <a href="https://people.csail.mit.edu/tlp/">Tomás Lozano-Pérez</a>, though I frequently collaborate with <a href="https://scholar.google.com/citations?user=4mVPFQ8AAAAJ&amp;hl=en">Dylan Hadfield-Menell</a>, <a href="http://web.mit.edu/cocosci/josh.html">Josh Tenenbaum</a>, and many other wonderful people within CSAIL’s <a href="https://ei.csail.mit.edu/">Embodied Intelligence Initiative</a>. I also spend time at the <a href="https://theaiinstitute.com/">Boston Dynamics AI Institute</a> where I primarily work with <a href="https://www.linkedin.com/in/jennifer-barry-742a0799/">Jennifer Barry</a>. I’m extremely grateful for support from the <a href="https://engineering.brown.edu/news/2021-03-29/nsf-graduate-research-award">NSF Graduate Research Fellowship</a>.</p>
 
 <p style="text-align: center;font-size: 100%"><a href="/misc_files/Nishanth_Resume.pdf">Resume</a> | <a href="/misc_files/Nishanth_CV.pdf">CV</a> | <a href="https://scholar.google.com/citations?user=FE512o4AAAAJ&amp;hl=en">Google Scholar</a> | <a href="/misc_files/njk-bio.txt">Bio</a> | <a href="https://github.com/NishanthJKumar">GitHub</a> | <a href="https://twitter.com/nishanthkumar23">Twitter</a></p>
 
@@ -278,31 +278,33 @@
 <h3 id="preprints">Preprints</h3>
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
     <tbody>
-      <!-- <tr bgcolor="#ffffd0"> -->
-      <tr>
+      <tr bgcolor="#ffffd0">
         <td style="padding:20px;width:25%;vertical-align:middle">
           <div>
-            <img src="/images/paper-images/task-scoping-image.png" width="160" />
+            <img src="/images/paper-images/ptp-img.png" width="160" />
           </div>
         </td>
         <td style="padding:20px;width:75%;vertical-align:middle">
           <p style="font-family:'Lato',Verdana,Helvetica,sans-serif; font-size:14px;font-weight:700">
-          Task Scoping: Generating Task-Specific Abstractions for Planning in Open-Scope Models
+          Practice Makes Perfect: Planning to Learn Skill Parameter Policies
           </p>
-          <a href="https://www.linkedin.com/in/michael-fishman-9a0a11160/">Michael Fishman*</a>,
           <strong>Nishanth Kumar*</strong>,
-          <a href="https://camallen.net/">Cameron Allen</a>,
-          <a href="https://scholar.google.com/citations?user=1HIu1uQAAAAJ&amp;hl=en">Natasha Danas</a>,
-          <a href="https://www.littmania.com/">Michael Littman</a>,
-          <a href="https://cs.brown.edu/people/stellex/">Stefanie Tellex</a>,
-          <a href="https://cs.brown.edu/people/gdk/">George Konidaris</a>
+          <a href="https://web.mit.edu/tslvr/www/">Tom Silver*</a>,
+          <a href="https://wmcclinton.github.io/">Willie McClinton</a>,
+          <a href="https://lfzhao.com/">Linfeng Zhao</a>,
+          <a href="https://www.linkedin.com/in/stephen-proulx/?trk=public_profile_samename-profile">Stephen Proulx</a>,
+          <a href="https://people.csail.mit.edu/tlp/">Tomás Lozano-Pérez</a>,
+          <a href="http://people.csail.mit.edu/lpk/">Leslie Pack Kaelbling</a>,
+          <a href="https://www.linkedin.com/in/jennifer-barry-742a0799/">Jennifer Barry</a>.
           <br />
-          <em>arXiv</em>, 2023.
+          <em>arxiv</em>, 2024.
           <br />
-          <a href="https://arxiv.org/pdf/2010.08869">arxiv</a>
+          <a href="https://planning-to-practice.github.io/">website</a>
+          /
+          <a href="https://arxiv.org/abs/2402.15025">arxiv</a>
           <br />
           <p>
-          Introduces a method for how large classical planning problems can be efficiently pruned to exclude states and actions that are irrelevant to a particular goal so that agents can solve very large, 'open-scope' domains that are capable of supporting multiple goals.
+          Introduces a new framework for robots to improve performance by efficiently learning online <em>during deployment</em>. Demonstrates that the proposed approach and framework can be implemented on a real robot and help significantly improve its ability to solve complex, long-horizon tasks in the real-world with no human intervention or environment resets!
           <br />
           [* denotes equal contribution]
           </p>

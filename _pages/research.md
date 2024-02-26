@@ -34,7 +34,7 @@ I'm broadly interested in enabling robots to operate robustly in long-horizon, m
               <a href="https://www.tedsumers.info/">Theodore R. Sumers</a>,
               <a href="https://ilia10000.github.io/">Ilia Sucholotsky</a>,
               <strong>Nishanth Kumar</strong>,
-              <a href="https://cocosci.princeton.edu/tom/index.php">Thomas L. Griffiths</a>
+              <a href="https://cocosci.princeton.edu/tom/index.php">Thomas L. Griffiths</a>,
               <a href="https://interactive.mit.edu/about/people/julie">Julie A. Shah</a>.
               <br>
 							<em>Human-Robot Interaction (HRI)</em>, 2024.

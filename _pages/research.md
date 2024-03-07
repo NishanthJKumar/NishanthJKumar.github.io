@@ -493,7 +493,17 @@ I'm broadly interested in enabling robots to operate robustly in long-horizon, m
 </table> -->
 
 
+## Industry Experience and Research Collaborations
+- [The Boston Dynamics AI Institute](https://theaiinstitute.com/), Cambridge, USA. <br/>Working with [Jennifer Barry](https://www.linkedin.com/in/jennifer-barry-742a0799/) and many other wonderful researchers on combining planning and learning to enable robots to solve real-world long-horizon tasks. These efforts resulted in one publication (so far), check it out [here](https://planning-to-practice.github.io/)!
+- [Vicarious AI](https://www.vicarious.com/), Union City, USA. <br/>Worked with [Stannis Zhou](https://stanniszhou.github.io/), [Wolfgang Lehrach](https://scholar.google.com/citations?user=0vHt-XYAAAAJ&hl=en), and [Miguel Lázaro-Gredilla](https://www.linkedin.com/in/miguel-l%C3%A1zaro-gredilla-133759a) on developing [PGMax](https://pgmax.readthedocs.io/) - an open-source framework for ML with PGM's.
+- [MERL](https://www.merl.com/research/), Cambridge, USA. <br/>Worked with [Diego Romeres](https://www.merl.com/people/romeres), [Devesh Jha](https://www.merl.com/people/jha) and [Daniel Nikovski](https://www.merl.com/people/nikovski) on furthering Learning from Demonstration for industrial robots.
+- [Uber ATG Research](https://www.uber.com/us/en/atg/research-and-development/), Toronto, Canada.
+<br/>Worked with [Sean Segal](https://www.uber.com/us/en/atg/research-and-development/researchers/sean-segal/), [Sergio Casas](https://www.uber.com/us/en/atg/research-and-development/researchers/sergio-casas/), [Wenyuan Zeng](https://www.uber.com/us/en/atg/research-and-development/researchers/wenyuan-zeng/), [Jingkang Wang](http://www.cs.toronto.edu/~wangjk/), [Mengye Ren](https://www.cs.toronto.edu/~mren/) and others on a project exploring Active Learning for Self-Driving Vehicles that lead to a paper (read it [here](https://arxiv.org/abs/2104.03956)!). I had the honor of being advised by [Prof. Raquel Urtasun](http://www.cs.toronto.edu/~urtasun/).
+
+
 ## Invited Talks
+- Practice Makes Perfect: Planning to Learn Skill Parameter Policies.
+<br/> Manipulation and Learning Reading Group at [the AI Insitute](https://theaiinstitute.com/). March 5, 2024.
 - Inventing Plannable Abstractions from Demonstrations
 <br/> [Brown Robotics Group](http://robotics.cs.brown.edu/). April 28, 2023.
 - [Task Scoping: Generating Task-Specific Abstractions for Planning](https://drive.google.com/file/d/1eshvDUiBJJIbLqqRusdgCv5O7wK076f8/view)
@@ -520,14 +530,6 @@ I love mentoring students and junior researchers with interests related to my ow
 - [Kathryn Le](https://www.linkedin.com/in/kathrynle/) (mentored jointly with [Willie McClinton](https://wmcclinton.github.io/)) (IAP 2023 and Spring 2023): worked on using Task and Motion Planning to solve tasks from the BEHAVIOR benchmark; currently continuing undergrad at MIT.
 - [Anirudh Valiveru](https://www.linkedin.com/in/avaliveru/) (IAP 2023): worked on leveraging Large Language Models (LLM's) for efficient exploration in relational environments; currently continuing undergrad at MIT and pursuing research with a different group.
 - Varun Hariprasad (mentored jointly with [Tom Silver](https://web.mit.edu/tslvr/www/))(Summer 2022): high-school student at MIT via the [RSI program](https://www.cee.org/programs/research-science-institute); currently an undergrad at MIT.
-
-
-## Industry Experience and Research Collaborations
-- [The Boston Dynamics AI Institute](https://theaiinstitute.com/), Cambridge, USA. <br/>Working with [Jennifer Barry](https://www.linkedin.com/in/jennifer-barry-742a0799/) and many other wonderful researchers on combining planning and learning to enable robots to solve real-world long-horizon tasks. These efforts resulted in one publication (so far), check it out [here](https://planning-to-practice.github.io/)!
-- [Vicarious AI](https://www.vicarious.com/), Union City, USA. <br/>Worked with [Stannis Zhou](https://stanniszhou.github.io/), [Wolfgang Lehrach](https://scholar.google.com/citations?user=0vHt-XYAAAAJ&hl=en), and [Miguel Lázaro-Gredilla](https://www.linkedin.com/in/miguel-l%C3%A1zaro-gredilla-133759a) on developing [PGMax](https://pgmax.readthedocs.io/) - an open-source framework for ML with PGM's.
-- [MERL](https://www.merl.com/research/), Cambridge, USA. <br/>Worked with [Diego Romeres](https://www.merl.com/people/romeres), [Devesh Jha](https://www.merl.com/people/jha) and [Daniel Nikovski](https://www.merl.com/people/nikovski) on furthering Learning from Demonstration for industrial robots.
-- [Uber ATG Research](https://www.uber.com/us/en/atg/research-and-development/), Toronto, Canada.
-<br/>Worked with [Sean Segal](https://www.uber.com/us/en/atg/research-and-development/researchers/sean-segal/), [Sergio Casas](https://www.uber.com/us/en/atg/research-and-development/researchers/sergio-casas/), [Wenyuan Zeng](https://www.uber.com/us/en/atg/research-and-development/researchers/wenyuan-zeng/), [Jingkang Wang](http://www.cs.toronto.edu/~wangjk/), [Mengye Ren](https://www.cs.toronto.edu/~mren/) and others on a project exploring Active Learning for Self-Driving Vehicles that lead to a paper (read it [here](https://arxiv.org/abs/2104.03956)!). I had the honor of being advised by [Prof. Raquel Urtasun](http://www.cs.toronto.edu/~urtasun/).
 
 
 ## Awards

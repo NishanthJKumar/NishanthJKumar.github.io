@@ -525,7 +525,7 @@ I love mentoring students and junior researchers with interests related to my ow
 *Current*
 - [Annie Feng](https://www.linkedin.com/in/annie-feng-a21bb516b/https://www.linkedin.com/in/annie-feng-a21bb516b/) (Fall 2023 - Present): working on using Large Language Models (LLM's) for model-based learning and exploration.
 - [Alicia Li](https://www.mit.edu/~aliciali/) (Spring 2024 - Present): working at the intersection of planning and deep RL for robotics tasks.
-- [Jing Cao](https://www.linkedin.com/in/jingcao26/) (Spring 2024 - Present): working on combining different Foundation Models together to solve long-horizon robotics tasks via planning.
+- [Jing Cao](https://www.linkedin.com/in/jingcao26/) (mentored jointly with [Aidan Curtis](https://aidanreececurtis.com/))(Spring 2024 - Present): working on combining different Foundation Models together to solve long-horizon robotics tasks via planning.
 
 *Past*
 - [Kathryn Le](https://www.linkedin.com/in/kathrynle/) (mentored jointly with [Willie McClinton](https://wmcclinton.github.io/)) (IAP 2023 and Spring 2023): worked on using Task and Motion Planning to solve tasks from the BEHAVIOR benchmark; currently continuing undergrad at MIT.

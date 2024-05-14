@@ -17,6 +17,43 @@ I'm broadly interested in enabling robots to operate robustly in long-horizon, m
 ## Publications
 ### Conference Papers
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tbody>
+      <tr bgcolor="#ffffd0">
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <div>
+            <img src='/images/paper-images/ptp-img.png' width="160">
+          </div>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <p style="font-family:'Lato',Verdana,Helvetica,sans-serif; font-size:14px;font-weight:700">
+          Practice Makes Perfect: Planning to Learn Skill Parameter Policies
+          </p>
+          <strong>Nishanth Kumar*</strong>,
+          <a href="https://web.mit.edu/tslvr/www/">Tom Silver*</a>,
+          <a href="https://wmcclinton.github.io/">Willie McClinton</a>,
+          <a href="https://lfzhao.com/">Linfeng Zhao</a>,
+          <a href="https://www.linkedin.com/in/stephen-proulx/?trk=public_profile_samename-profile">Stephen Proulx</a>,
+          <a href="https://people.csail.mit.edu/tlp/">Tomás Lozano-Pérez</a>,
+          <a href="http://people.csail.mit.edu/lpk/">Leslie Pack Kaelbling</a>,
+          <a href="https://www.linkedin.com/in/jennifer-barry-742a0799/">Jennifer Barry</a>.
+          <br>
+          <em>arxiv</em>, 2024.
+          <br>
+          <a href="https://planning-to-practice.github.io/">website</a>
+          /
+          <a href="https://arxiv.org/abs/2402.15025">arxiv</a>
+          <br>
+          <p>
+          Introduces a new framework for robots to improve performance by efficiently learning online <em>during deployment</em>. Demonstrates that the proposed approach and framework can be implemented on a real robot and help significantly improve its ability to solve complex, long-horizon tasks in the real-world with no human intervention or environment resets!
+          <br>
+          [* denotes equal contribution]
+          </p>
+        </td>
+      </tr>
+    </tbody>
+</table>
+
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
         <tbody>
           <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
@@ -353,43 +390,6 @@ I'm broadly interested in enabling robots to operate robustly in long-horizon, m
 </table>
 
 ### Preprints
-<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-    <tbody>
-      <tr bgcolor="#ffffd0">
-        <td style="padding:20px;width:25%;vertical-align:middle">
-          <div>
-            <img src='/images/paper-images/ptp-img.png' width="160">
-          </div>
-        </td>
-        <td style="padding:20px;width:75%;vertical-align:middle">
-          <p style="font-family:'Lato',Verdana,Helvetica,sans-serif; font-size:14px;font-weight:700">
-          Practice Makes Perfect: Planning to Learn Skill Parameter Policies
-          </p>
-          <strong>Nishanth Kumar*</strong>,
-          <a href="https://web.mit.edu/tslvr/www/">Tom Silver*</a>,
-          <a href="https://wmcclinton.github.io/">Willie McClinton</a>,
-          <a href="https://lfzhao.com/">Linfeng Zhao</a>,
-          <a href="https://www.linkedin.com/in/stephen-proulx/?trk=public_profile_samename-profile">Stephen Proulx</a>,
-          <a href="https://people.csail.mit.edu/tlp/">Tomás Lozano-Pérez</a>,
-          <a href="http://people.csail.mit.edu/lpk/">Leslie Pack Kaelbling</a>,
-          <a href="https://www.linkedin.com/in/jennifer-barry-742a0799/">Jennifer Barry</a>.
-          <br>
-          <em>arxiv</em>, 2024.
-          <br>
-          <a href="https://planning-to-practice.github.io/">website</a>
-          /
-          <a href="https://arxiv.org/abs/2402.15025">arxiv</a>
-          <br>
-          <p>
-          Introduces a new framework for robots to improve performance by efficiently learning online <em>during deployment</em>. Demonstrates that the proposed approach and framework can be implemented on a real robot and help significantly improve its ability to solve complex, long-horizon tasks in the real-world with no human intervention or environment resets!
-          <br>
-          [* denotes equal contribution]
-          </p>
-        </td>
-      </tr>
-    </tbody>
-</table>
-
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
     <tbody>
       <tr>

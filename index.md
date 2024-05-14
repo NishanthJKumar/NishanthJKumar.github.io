@@ -17,7 +17,7 @@ Outside of all this, I like to lift heavy things, [read](https://www.goodreads.c
 If you're interested in learning more about me or reading some of my writing, check out my [resume](/misc_files/Nishanth_Resume.pdf), [blog](http://nishanthjkumar.com/blog/), [fiction writing](http://nishanthjkumar.com/fiction/), or social links in the website footer. If you'd like to get in contact, check out [this page here](/contact-me/).
 
 ## Recent News
-* New paper from my internship at the [Boston Dynamics AI Institute](https://theaiinstitute.com/) is out! Check it out [here](https://planning-to-practice.github.io/).
+* New paper from my internship at the [Boston Dynamics AI Institute](https://theaiinstitute.com/) is out! Check it out [here](https://planning-to-practice.github.io/). [Update] This work has been accepted at [RSS 2024](https://roboticsconference.org/)!
 * Released a new blog post on the lab website that provides an intro to bilevel planning; check it out [here](https://lis.csail.mit.edu/bilevel-planning-for-robots-an-illustrated-introduction/)!
 * Our work on learning efficient operators for TAMP has been accepted at [CoRL 2023](https://www.corl2023.org/)! Come check out the poster and chat with me if you'll be attending!
 * Our work on learning efficient operators for TAMP is a spotlight talk at the [RSS Workshop on Learning for TAMP](https://zt-yang.github.io/rss23-l4tamp-workshop/)! (Update: the work was also honored with the 'Best Paper' award!)

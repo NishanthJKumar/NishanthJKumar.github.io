@@ -1,4 +1,4 @@
-I"�z<p style="text-align: center;font-size:110%;padding-top:40px">Welcome to my Research page! I’m currently a 3rd Year Ph.D. student with the <a href="https://lis.csail.mit.edu/">LIS Group</a> within <a href="https://www.csail.mit.edu/">MIT CSAIL</a>. I’m officially advised by <a href="https://www.csail.mit.edu/person/leslie-kaelbling">Leslie Kaelbling</a> and <a href="https://people.csail.mit.edu/tlp/">Tomás Lozano-Pérez</a>, though I frequently collaborate with <a href="https://scholar.google.com/citations?user=4mVPFQ8AAAAJ&amp;hl=en">Dylan Hadfield-Menell</a>, <a href="http://web.mit.edu/cocosci/josh.html">Josh Tenenbaum</a>, and many other wonderful people within CSAIL’s <a href="https://ei.csail.mit.edu/">Embodied Intelligence Initiative</a>. I also spend time at the <a href="https://theaiinstitute.com/">Boston Dynamics AI Institute</a> where I primarily work with <a href="https://www.linkedin.com/in/jennifer-barry-742a0799/">Jennifer Barry</a>. I’m extremely grateful for support from the <a href="https://engineering.brown.edu/news/2021-03-29/nsf-graduate-research-award">NSF Graduate Research Fellowship</a>.</p>
+I"Ӌ<p style="text-align: center;font-size:110%;padding-top:40px">Welcome to my Research page! I’m currently a 3rd Year Ph.D. student with the <a href="https://lis.csail.mit.edu/">LIS Group</a> within <a href="https://www.csail.mit.edu/">MIT CSAIL</a>. I’m officially advised by <a href="https://www.csail.mit.edu/person/leslie-kaelbling">Leslie Kaelbling</a> and <a href="https://people.csail.mit.edu/tlp/">Tomás Lozano-Pérez</a>, though I frequently collaborate with <a href="https://scholar.google.com/citations?user=4mVPFQ8AAAAJ&amp;hl=en">Dylan Hadfield-Menell</a>, <a href="http://web.mit.edu/cocosci/josh.html">Josh Tenenbaum</a>, and many other wonderful people within CSAIL’s <a href="https://ei.csail.mit.edu/">Embodied Intelligence Initiative</a>. I also spend time at the <a href="https://theaiinstitute.com/">Boston Dynamics AI Institute</a> where I primarily work with <a href="https://www.linkedin.com/in/jennifer-barry-742a0799/">Jennifer Barry</a>. I’m extremely grateful for support from the <a href="https://engineering.brown.edu/news/2021-03-29/nsf-graduate-research-award">NSF Graduate Research Fellowship</a>.</p>
 
 <p style="text-align: center;font-size: 100%"><a href="/misc_files/Nishanth_Resume.pdf">Resume</a> | <a href="/misc_files/Nishanth_CV.pdf">CV</a> | <a href="https://scholar.google.com/citations?user=FE512o4AAAAJ&amp;hl=en">Google Scholar</a> | <a href="/misc_files/njk-bio.txt">Bio</a> | <a href="https://github.com/NishanthJKumar">GitHub</a> | <a href="https://twitter.com/nishanthkumar23">Twitter</a></p>
 
@@ -7,6 +7,75 @@
 
 <h2 id="publications">Publications</h2>
 <h3 id="conference-papers">Conference Papers</h3>
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tbody>
+      <tr bgcolor="#ffffd0">
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <div>
+            <img src="/images/paper-images/ptp-img.png" width="160" />
+          </div>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <p style="font-family:'Lato',Verdana,Helvetica,sans-serif; font-size:14px;font-weight:700">
+          Practice Makes Perfect: Planning to Learn Skill Parameter Policies
+          </p>
+          <strong>Nishanth Kumar*</strong>,
+          <a href="https://web.mit.edu/tslvr/www/">Tom Silver*</a>,
+          <a href="https://wmcclinton.github.io/">Willie McClinton</a>,
+          <a href="https://lfzhao.com/">Linfeng Zhao</a>,
+          <a href="https://www.linkedin.com/in/stephen-proulx/?trk=public_profile_samename-profile">Stephen Proulx</a>,
+          <a href="https://people.csail.mit.edu/tlp/">Tomás Lozano-Pérez</a>,
+          <a href="http://people.csail.mit.edu/lpk/">Leslie Pack Kaelbling</a>,
+          <a href="https://www.linkedin.com/in/jennifer-barry-742a0799/">Jennifer Barry</a>.
+          <br />
+          <em>arxiv</em>, 2024.
+          <br />
+          <a href="https://planning-to-practice.github.io/">website</a>
+          /
+          <a href="https://arxiv.org/abs/2402.15025">arxiv</a>
+          <br />
+          <p>
+          Introduces a new framework for robots to improve performance by efficiently learning online <em>during deployment</em>. Demonstrates that the proposed approach and framework can be implemented on a real robot and help significantly improve its ability to solve complex, long-horizon tasks in the real-world with no human intervention or environment resets!
+          <br />
+          [* denotes equal contribution]
+          </p>
+        </td>
+      </tr>
+    </tbody>
+</table>
+
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <tbody>
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div>
+                <img src="/images/paper-images/plga-img.png" width="160" />
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <p style="font-family:'Lato',Verdana,Helvetica,sans-serif; font-size:14px;font-weight:700">
+              Preference-Conditioned Language-Guided Abstractions
+              </p>
+              <a href="https://andipeng.com/">Andi Peng</a>,
+              <a href="https://andreea7b.github.io/">Andreea Bobu</a>,
+              <a href="https://belindal.github.io/">Belinda Z. Li</a>,
+              <a href="https://www.tedsumers.info/">Theodore R. Sumers</a>,
+              <a href="https://ilia10000.github.io/">Ilia Sucholotsky</a>,
+              <strong>Nishanth Kumar</strong>,
+              <a href="https://cocosci.princeton.edu/tom/index.php">Thomas L. Griffiths</a>,
+              <a href="https://interactive.mit.edu/about/people/julie">Julie A. Shah</a>.
+              <br />
+							<em>Human-Robot Interaction (HRI)</em>, 2024.
+              <br />
+              <a href="https://arxiv.org/pdf/2402.03081.pdf">paper</a>
+              <br />
+              <p>Introduces a method for enabling a robot to learn state abstractions for solving tasks that are tailored to a human's specific preferences.<br />
+              </p>
+            </td>
+          </tr>
+        </tbody>
+</table>
+
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
     <tbody>
       <tr bgcolor="#ffffd0">
@@ -180,6 +249,41 @@
 
 <h3 id="workshop-papers-and-extended-abstracts">Workshop Papers and Extended Abstracts</h3>
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tbody>
+      <!-- <tr bgcolor="#ffffd0"> -->
+      <tr>
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <div>
+            <img src="/images/paper-images/task-scoping-image.png" width="160" />
+          </div>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <p style="font-family:'Lato',Verdana,Helvetica,sans-serif; font-size:14px;font-weight:700">
+          Task Scoping: Generating Task-Specific Simplifications of Open-Scope Planning Problems
+          </p>
+          <a href="https://www.linkedin.com/in/michael-fishman-9a0a11160/">Michael Fishman*</a>,
+          <strong>Nishanth Kumar*</strong>,
+          <a href="https://camallen.net/">Cameron Allen</a>,
+          <a href="https://scholar.google.com/citations?user=1HIu1uQAAAAJ&amp;hl=en">Natasha Danas</a>,
+          <a href="https://www.littmania.com/">Michael Littman</a>,
+          <a href="https://cs.brown.edu/people/stellex/">Stefanie Tellex</a>,
+          <a href="https://cs.brown.edu/people/gdk/">George Konidaris</a>
+          <br />
+          <em>IJCAI Workshop on Bridging the Gap Between AI Planning and Reinforcement Learning</em>, 2023.
+          <br />
+          <a href="http://irl.cs.brown.edu/pubs/task_scoping_prl2023.pdf">paper</a>
+          <br />
+          <p>
+          Introduces a method for how large classical planning problems can be efficiently pruned to exclude states and actions that are irrelevant to a particular goal so that agents can solve very large, 'open-scope' domains that are capable of supporting multiple goals.
+          <br />
+          [* denotes equal contribution]
+          </p>
+        </td>
+      </tr>
+    </tbody>
+</table>
+
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
         <tbody>
           <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
@@ -276,43 +380,6 @@
 </table>
 
 <h3 id="preprints">Preprints</h3>
-<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-    <tbody>
-      <tr bgcolor="#ffffd0">
-        <td style="padding:20px;width:25%;vertical-align:middle">
-          <div>
-            <img src="/images/paper-images/ptp-img.png" width="160" />
-          </div>
-        </td>
-        <td style="padding:20px;width:75%;vertical-align:middle">
-          <p style="font-family:'Lato',Verdana,Helvetica,sans-serif; font-size:14px;font-weight:700">
-          Practice Makes Perfect: Planning to Learn Skill Parameter Policies
-          </p>
-          <strong>Nishanth Kumar*</strong>,
-          <a href="https://web.mit.edu/tslvr/www/">Tom Silver*</a>,
-          <a href="https://wmcclinton.github.io/">Willie McClinton</a>,
-          <a href="https://lfzhao.com/">Linfeng Zhao</a>,
-          <a href="https://www.linkedin.com/in/stephen-proulx/?trk=public_profile_samename-profile">Stephen Proulx</a>,
-          <a href="https://people.csail.mit.edu/tlp/">Tomás Lozano-Pérez</a>,
-          <a href="http://people.csail.mit.edu/lpk/">Leslie Pack Kaelbling</a>,
-          <a href="https://www.linkedin.com/in/jennifer-barry-742a0799/">Jennifer Barry</a>.
-          <br />
-          <em>arxiv</em>, 2024.
-          <br />
-          <a href="https://planning-to-practice.github.io/">website</a>
-          /
-          <a href="https://arxiv.org/abs/2402.15025">arxiv</a>
-          <br />
-          <p>
-          Introduces a new framework for robots to improve performance by efficiently learning online <em>during deployment</em>. Demonstrates that the proposed approach and framework can be implemented on a real robot and help significantly improve its ability to solve complex, long-horizon tasks in the real-world with no human intervention or environment resets!
-          <br />
-          [* denotes equal contribution]
-          </p>
-        </td>
-      </tr>
-    </tbody>
-</table>
-
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
     <tbody>
       <tr>
@@ -414,8 +481,19 @@
     </tbody>
 </table> -->
 
+<h2 id="industry-experience-and-research-collaborations">Industry Experience and Research Collaborations</h2>
+<ul>
+  <li><a href="https://theaiinstitute.com/">The Boston Dynamics AI Institute</a>, Cambridge, USA. <br />Working with <a href="https://www.linkedin.com/in/jennifer-barry-742a0799/">Jennifer Barry</a> and many other wonderful researchers on combining planning and learning to enable robots to solve real-world long-horizon tasks. These efforts have resulted in one publication (so far), check it out <a href="https://planning-to-practice.github.io/">here</a>! I was also the first ever intern to start at the AI Institute :).</li>
+  <li><a href="https://www.vicarious.com/">Vicarious AI</a>, Union City, USA. <br />Worked with <a href="https://stanniszhou.github.io/">Stannis Zhou</a>, <a href="https://scholar.google.com/citations?user=0vHt-XYAAAAJ&amp;hl=en">Wolfgang Lehrach</a>, and <a href="https://www.linkedin.com/in/miguel-l%C3%A1zaro-gredilla-133759a">Miguel Lázaro-Gredilla</a> on developing <a href="https://pgmax.readthedocs.io/">PGMax</a> - an open-source framework for ML with PGM’s.</li>
+  <li><a href="https://www.merl.com/research/">MERL</a>, Cambridge, USA. <br />Worked with <a href="https://www.merl.com/people/romeres">Diego Romeres</a>, <a href="https://www.merl.com/people/jha">Devesh Jha</a> and <a href="https://www.merl.com/people/nikovski">Daniel Nikovski</a> on furthering Learning from Demonstration for industrial robots.</li>
+  <li><a href="https://www.uber.com/us/en/atg/research-and-development/">Uber ATG Research</a>, Toronto, Canada.
+<br />Worked with <a href="https://www.uber.com/us/en/atg/research-and-development/researchers/sean-segal/">Sean Segal</a>, <a href="https://www.uber.com/us/en/atg/research-and-development/researchers/sergio-casas/">Sergio Casas</a>, <a href="https://www.uber.com/us/en/atg/research-and-development/researchers/wenyuan-zeng/">Wenyuan Zeng</a>, <a href="http://www.cs.toronto.edu/~wangjk/">Jingkang Wang</a>, <a href="https://www.cs.toronto.edu/~mren/">Mengye Ren</a> and others on a project exploring Active Learning for Self-Driving Vehicles that lead to a paper (read it <a href="https://arxiv.org/abs/2104.03956">here</a>!). I had the honor of being advised by <a href="http://www.cs.toronto.edu/~urtasun/">Prof. Raquel Urtasun</a>.</li>
+</ul>
+
 <h2 id="invited-talks">Invited Talks</h2>
 <ul>
+  <li>Practice Makes Perfect: Planning to Learn Skill Parameter Policies.
+<br /> Manipulation and Learning Reading Group at <a href="https://theaiinstitute.com/">the AI Insitute</a>. March 5, 2024.</li>
   <li>Inventing Plannable Abstractions from Demonstrations
 <br /> <a href="http://robotics.cs.brown.edu/">Brown Robotics Group</a>. April 28, 2023.</li>
   <li><a href="https://drive.google.com/file/d/1eshvDUiBJJIbLqqRusdgCv5O7wK076f8/view">Task Scoping: Generating Task-Specific Abstractions for Planning</a>
@@ -437,6 +515,8 @@
 <p><em>Current</em></p>
 <ul>
   <li><a href="https://www.linkedin.com/in/annie-feng-a21bb516b/https://www.linkedin.com/in/annie-feng-a21bb516b/">Annie Feng</a> (Fall 2023 - Present): working on using Large Language Models (LLM’s) for model-based learning and exploration.</li>
+  <li><a href="https://www.mit.edu/~aliciali/">Alicia Li</a> (Spring 2024 - Present): working at the intersection of planning and deep RL for robotics tasks.</li>
+  <li><a href="https://www.linkedin.com/in/jingcao26/">Jing Cao</a> (mentored jointly with <a href="https://aidanreececurtis.com/">Aidan Curtis</a>)(Spring 2024 - Present): working on combining different Foundation Models together to solve long-horizon robotics tasks via planning.</li>
 </ul>
 
 <p><em>Past</em></p>
@@ -459,15 +539,6 @@
   <li><a href="http://awards.cs.brown.edu/2020/02/04/bayazit-galgana-kumar-and-safranchik-win-cra-outstanding-undergraduate-researcher-honorable-mentions/">CRA Outstanding Undergraduate Research Award Honorable Mention</a>, 2020.</li>
   <li><a href="https://www.brown.edu/academics/college/fellowships/utra/named">Karen T. Romer Undergraduate Teaching and Research Award</a>, 2019.</li>
   <li>Best Plenary Presentation, The Second Ivy League Undergraduate Research Symposium, 2019.</li>
-</ul>
-
-<h2 id="industry-experience-and-research-collaborations">Industry Experience and Research Collaborations</h2>
-<ul>
-  <li><a href="https://theaiinstitute.com/">The Boston Dynamics AI Institute</a>, Cambridge, USA. <br />Working with <a href="https://www.linkedin.com/in/jennifer-barry-742a0799/">Jennifer Barry</a> and many other wonderful researchers on enabling robots to solve real-world long-horizon tasks. Stay tuned for more on this!</li>
-  <li><a href="https://www.vicarious.com/">Vicarious AI</a>, Union City, USA. <br />Worked with <a href="https://stanniszhou.github.io/">Stannis Zhou</a>, <a href="https://scholar.google.com/citations?user=0vHt-XYAAAAJ&amp;hl=en">Wolfgang Lehrach</a>, and <a href="https://www.linkedin.com/in/miguel-l%C3%A1zaro-gredilla-133759a">Miguel Lázaro-Gredilla</a> on developing <a href="https://pgmax.readthedocs.io/">PGMax</a> - an open-source framework for ML with PGM’s.</li>
-  <li><a href="https://www.merl.com/research/">MERL</a>, Cambridge, USA. <br />Worked with <a href="https://www.merl.com/people/romeres">Diego Romeres</a>, <a href="https://www.merl.com/people/jha">Devesh Jha</a> and <a href="https://www.merl.com/people/nikovski">Daniel Nikovski</a> on furthering Learning from Demonstration for industrial robots.</li>
-  <li><a href="https://www.uber.com/us/en/atg/research-and-development/">Uber ATG Research</a>, Toronto, Canada.
-<br />Worked with <a href="https://www.uber.com/us/en/atg/research-and-development/researchers/sean-segal/">Sean Segal</a>, <a href="https://www.uber.com/us/en/atg/research-and-development/researchers/sergio-casas/">Sergio Casas</a>, <a href="https://www.uber.com/us/en/atg/research-and-development/researchers/wenyuan-zeng/">Wenyuan Zeng</a>, <a href="http://www.cs.toronto.edu/~wangjk/">Jingkang Wang</a>, <a href="https://www.cs.toronto.edu/~mren/">Mengye Ren</a> and others on a project exploring Active Learning for Self-Driving Vehicles that lead to a paper (read it <a href="https://arxiv.org/abs/2104.03956">here</a>!). I had the honor of being advised by <a href="http://www.cs.toronto.edu/~urtasun/">Prof. Raquel Urtasun</a>.</li>
 </ul>
 
 <h2 id="teaching">Teaching</h2>

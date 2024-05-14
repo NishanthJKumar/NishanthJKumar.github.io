@@ -1,4 +1,4 @@
-I"0<p><img src="/images/me_circle.png" alt="Me" style="float:right; padding:1%; height:auto; max-width:35%" /></p>
+I"�<p><img src="/images/me_circle.png" alt="Me" style="float:right; padding:1%; height:auto; max-width:35%" /></p>
 
 <p>Hi there, and welcome to my personal website! My name’s Nishanth and I’m a researcher and engineer focused on AI and ML applied to robotics. I also moonlight as a writer.</p>
 
@@ -12,7 +12,7 @@
 
 <h2 id="recent-news">Recent News</h2>
 <ul>
-  <li>New paper from my internship at the <a href="https://theaiinstitute.com/">Boston Dynamics AI Institute</a> is out! Check it out <a href="https://planning-to-practice.github.io/">here</a>.</li>
+  <li>New paper from my internship at the <a href="https://theaiinstitute.com/">Boston Dynamics AI Institute</a> is out! Check it out <a href="https://planning-to-practice.github.io/">here</a>. [Update] This work has been accepted at <a href="https://roboticsconference.org/">RSS 2024</a>!</li>
   <li>Released a new blog post on the lab website that provides an intro to bilevel planning; check it out <a href="https://lis.csail.mit.edu/bilevel-planning-for-robots-an-illustrated-introduction/">here</a>!</li>
   <li>Our work on learning efficient operators for TAMP has been accepted at <a href="https://www.corl2023.org/">CoRL 2023</a>! Come check out the poster and chat with me if you’ll be attending!</li>
   <li>Our work on learning efficient operators for TAMP is a spotlight talk at the <a href="https://zt-yang.github.io/rss23-l4tamp-workshop/">RSS Workshop on Learning for TAMP</a>! (Update: the work was also honored with the ‘Best Paper’ award!)</li>

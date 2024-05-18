@@ -37,7 +37,7 @@ I'm broadly interested in enabling robots to operate robustly in long-horizon, m
           <a href="http://people.csail.mit.edu/lpk/">Leslie Pack Kaelbling</a>,
           <a href="https://www.linkedin.com/in/jennifer-barry-742a0799/">Jennifer Barry</a>.
           <br>
-          <em>arxiv</em>, 2024.
+          <em>RSS</em>, 2024.
           <br>
           <a href="https://planning-to-practice.github.io/">website</a>
           /

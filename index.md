@@ -22,6 +22,3 @@ If you're interested in learning more about me or reading some of my writing, ch
 * Released a new blog post on the lab website that provides an intro to bilevel planning; check it out [here](https://lis.csail.mit.edu/bilevel-planning-for-robots-an-illustrated-introduction/)!
 * Our work on learning efficient operators for TAMP has been accepted at [CoRL 2023](https://www.corl2023.org/)! Come check out the poster and chat with me if you'll be attending!
 * Our work on learning efficient operators for TAMP is a spotlight talk at the [RSS Workshop on Learning for TAMP](https://zt-yang.github.io/rss23-l4tamp-workshop/)! (Update: the work was also honored with the 'Best Paper' award!)
-* I'm giving an invited talk on "Inventing Plannable Abstractions from Demonstrations" at the [Brown University Robotics](http://robotics.cs.brown.edu/) group meeting!
-* Our paper on [inventing predicates for TAMP from demonstrations](https://arxiv.org/abs/2203.09634) will be presented as an Oral at AAAI 2023! Come check out the talk and poster + chat with my coauthors and I if you're attending!
-* An article I wrote about my path to MIT got published in the Tech Review Alumni Magazine! Check it out [here](https://www.technologyreview.com/2022/12/19/1064005/rerouting/). 

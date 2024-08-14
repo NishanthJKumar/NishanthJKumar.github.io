@@ -556,9 +556,9 @@ I love mentoring students and junior researchers with interests related to my ow
 
 
 ## Selected Press Coverage
+- [Helping robots practice skills independently to adapt to unfamiliar environments](https://news.mit.edu/2024/helping-robots-practice-skills-independently-adapt-unfamiliar-environments-0808)
 - [Engineering’s Dwyer, Dastin-van Rijn and Kumar Selected as NSF Graduate Research Fellows](https://engineering.brown.edu/news/2021-03-29/nsf-graduate-research-award)
 - [Bawabe, Kumar, Sam, And Walke Receive CRA Outstanding Undergraduate Researcher Honors](https://cs.brown.edu/news/2021/01/13/bawabe-kumar-sam-walker-receive-cra-undergraduate-outstanding-researcher-honors/)
 - [Nishanth Kumar named 2020 Barry M. Goldwater Scholar](https://engineering.brown.edu/news/2020-04-15/student-awards)
 - [2020 Barry Goldwater Scholars Include Many Impressive Indian American Researchers ](https://www.indiawest.com/news/global_indian/2020-barry-goldwater-scholars-include-many-impressive-indian-american-researchers/article_38eaa6d6-88bd-11ea-842a-b3d73797025a.html)
 - [Undergrad Nishanth Kumar Wins Best Plenary Presentation At ILURS](https://cs.brown.edu/news/2019/08/13/undergrad-nishanth-kumar-wins-best-plenary-presentation-ilurs/)
-- [Bayazit, Galgana, Kumar, And Safranchik Win CRA Outstanding Undergraduate Researcher Honorable Mentions ](http://cs.brown.edu/news/2020/02/04/bayazit-galgana-kumar-and-safranchik-win-cra-outstanding-undergraduate-researcher-honorable-mentions/)

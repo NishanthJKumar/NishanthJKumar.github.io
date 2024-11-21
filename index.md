@@ -6,13 +6,11 @@ permalink: /
 
 ![Me](/images/me_circle.png){:style="float:right; padding:1%; height:auto; max-width:35%"}
 
-Hi there, and welcome to my personal website! My name's Nishanth and I'm a researcher and engineer focused on AI and ML applied to robotics. I also moonlight as a writer.
+Hi there, and welcome to my personal website! My name's Nishanth and I'm a researcher and engineer focused on AI, ML and robotics. I also moonlight as a writer.
 
-Presently, I'm a Ph.D. student in the [LIS Group](https://lis.csail.mit.edu/) within [MIT CSAIL](https://www.csail.mit.edu/). I'm officially advised by [Leslie Kaelbling](https://www.csail.mit.edu/person/leslie-kaelbling) and [Tomás Lozano-Pérez](https://people.csail.mit.edu/tlp/) and work within the greater [Embodied Intelligence](https://ei.csail.mit.edu/) community of research at CSAIL. I'm extremely grateful for support from the [NSF Graduate Research Fellowship](https://engineering.brown.edu/news/2021-03-29/nsf-graduate-research-award).
+Presently, I'm a Ph.D. student in the [LIS Group](https://lis.csail.mit.edu/) within [MIT CSAIL](https://www.csail.mit.edu/). I'm officially advised by [Leslie Kaelbling](https://www.csail.mit.edu/person/leslie-kaelbling) and [Tomás Lozano-Pérez](https://people.csail.mit.edu/tlp/) and work within the greater [Embodied Intelligence](https://ei.csail.mit.edu/) community of research at CSAIL. I'm extremely grateful for support from the [NSF Graduate Research Fellowship](https://engineering.brown.edu/news/2021-03-29/nsf-graduate-research-award). You can read more about my research [here](http://nishanthjkumar.com/research/).
 
-In the recent past, I graduated from [Brown University](https://www.brown.edu/) with honors in Computer Engineering. As an undergrad, I was fortunate to work on exciting [AI + Robotics research](https://nishanthjkumar.com/research/) under Brown’s [BigAI initiative](http://bigai.cs.brown.edu/) advised by Professors [Stefanie Tellex](https://cs.brown.edu/people/stellex/), [George Konidaris](http://cs.brown.edu/people/gdk/) and [Michael Littman](http://cs.brown.edu/~mlittman/). I spent time as a Research Intern at [Uber ATG](https://www.uber.com/ca/en/atg/research-and-development/) and [Vicarious AI](https://www.vicarious.com/), and even had the opportunity to collaborate with researchers at [MERL](https://www.merl.com/research/). 
-
-Outside of all this, I like to lift heavy things, [read](https://www.goodreads.com/user/show/36308161-nishanth-kumar), play basketball, philosophize, cook, and sometimes make progress on various sci-fi novels/short-stories that I've been writing for longer than I care to admit.
+Outside of research, I like to lift heavy things, [read](https://www.goodreads.com/user/show/36308161-nishanth-kumar), play basketball, philosophize, cook, and sometimes make progress on various sci-fi novels/short-stories that I've been writing for longer than I care to admit.
 
 If you're interested in learning more about me or reading some of my writing, check out my [resume](/misc_files/Nishanth_Resume.pdf), [blog](http://nishanthjkumar.com/blog/), [fiction writing](http://nishanthjkumar.com/fiction/), or social links in the website footer. If you'd like to get in contact, check out [this page here](/contact-me/).
 

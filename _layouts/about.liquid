@@ -1,0 +1,119 @@
+---
+layout: default
+---
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">
+      {% if site.title == 'blank' %}
+        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
+        {{ site.last_name }}
+      {% else %}
+        {{ site.title }}
+      {% endif %}
+    </h1>
+    <p class="desc">{{ page.subtitle }}</p>
+  </header>
+
+  <article>
+    {% if page.profile %}
+      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+        {% if page.profile.image %}
+          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+          {% if page.profile.image_circular %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+          {% else %}
+            {% assign profile_image_class = 'img-fluid z-depth-1
+      rounded' %}
+          {% endif %}
+          {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
+      30vw, 95vw"{% endcapture %}
+          {%
+            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
+            cache_bust=true
+          %}
+        {% endif %}
+        {% if page.profile.more_info %}
+          <div class="more-info">{{ page.profile.more_info }}</div>
+        {% endif %}
+      </div>
+    {% endif %}
+
+    <div class="clearfix">{{ content }}</div>
+
+    <!-- News -->
+    {% if page.news and site.announcements.enabled %}
+      <h2>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+      </h2>
+      {% include news.liquid limit=true %}
+    {% endif %}
+
+    <!-- Research Areas -->
+    <h3 id="research">research areas</h3>
+
+    <p>My recent research has been organized around a few distinct directions, which are highlighted below. For a complete and up-to-date list of papers, please see my <a href="https://scholar.google.com/citations?user=FE512o4AAAAJ&hl=en">Google Scholar</a> page.</p>
+
+
+    <div class="container">
+      <!-- Planning and Learning with Foundation Models -->
+      <div class="row" style="padding-top: 25px;">
+        <div class="col-sm-5">
+        <p><video controls playsinline autoplay muted loop width="300" style="float: left; margin-top:5px; margin-right:50px;margin-bottom: 25px;"><source src="/assets/video/apple-orange-replace.mp4" type="video/mp4" /></video></p>
+        </div>
+        <div class="col-sm-7">
+          <h5 id="learning-to-accelerate-planning">Planning and Learning with Foundation Models</h5>
+          <p>Foundation models have an implicit ability to sequence high-level skills --- like 'pick', 'place', or 'move to' --- to accomplish a goal, but are unable to reason over low-level joint angles or torques. By combining foundation models with structured planning methods like <a href="https://arxiv.org/abs/2406.05572">constraint satisfaction</a> or <a href="https://arxiv.org/abs/2411.08253">TAMP</a>, we can create sophisticated and general-purpose systems capable of solving complex tasks directly from vision and natural language input.</p>
+        </div>
+      </div>
+ 
+      <!-- Learning to plan -->
+      <div class="row">
+        <div class="col-sm-5">
+          <p><img src="/assets/img/behavior-blog-post-image12.gif" style="width: 300px; height: 200px;"></p>
+        </div>
+        <div class="col-sm-7">
+          <h5 id="learning-abstractions-for-planning">Learning to Plan from Demonstrations</h5>
+          <p>Abstractions allow robots to first focus on the high-level aspects of a task before getting bogged down in details. We would like a robot to automatically learn abstractions&mdash;<a href="https://arxiv.org/abs/2203.09634" target="_blank" rel="noopener noreferrer">state abstractions (predicates)</a> and <a href="https://arxiv.org/abs/2206.10680" target="_blank" rel="noopener noreferrer">action abstractions (skills)</a>&mdash;that are specialized for planning in its domain. We are especially interested in abstractions for <a href="https://arxiv.org/abs/2010.01083">task and motion planning</a>.</p>
+        </div>
+      </div>
+
+      <!-- Planning to learn -->
+      <div class="row" style="padding-top: 25px;">
+        <div class="col-sm-5">
+        <p><video controls playsinline autoplay muted loop width="300" style="float: left; margin-top:5px; margin-right:50px;margin-bottom: 25px;"><source src="/assets/video/spot-sweeping-compressed-v2.mp4" type="video/mp4" /></video></p>
+        </div>
+        <div class="col-sm-7">
+          <h5 id="planning-to-learn">Planning to Learn in Deployment</h5>
+          <p>Robots should plan to practice to get better at planning. They should rapidly learn to specialize to the objects, goals, preferences, and constraints that are unique to their deployment. We can plan to learn <a href="https://arxiv.org/abs/2402.15025">samplers</a>, <a href="https://arxiv.org/abs/2303.04912">predicates</a>, and <a href="https://arxiv.org/abs/2001.08299">operators</a> for bilevel planning. Our ultimate goal is to create a virtuous cycle of learning and planning.</p>
+        </div>
+      </div>
+
+
+    </div>
+
+    <!-- Latest posts -->
+    {% if site.latest_posts.enabled %}
+      <h2>
+        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
+      </h2>
+      {% include latest_posts.liquid %}
+    {% endif %}
+
+    <!-- Selected papers -->
+    {% if page.selected_papers %}
+      <h2>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+      </h2>
+      {% include selected_papers.liquid %}
+    {% endif %}
+
+    <!-- Social -->
+    {% if page.social %}
+      <div class="social">
+        <div class="contact-icons">{% include social.liquid %}</div>
+
+        <div class="contact-note">{{ site.contact_note }}</div>
+      </div>
+    {% endif %}
+  </article>
+</div>

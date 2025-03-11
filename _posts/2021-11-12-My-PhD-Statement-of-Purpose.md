@@ -1,5 +1,7 @@
 ---
-tags: Research Resources
+layout: default
+title: My PhD SoP
+date: 2021-11-12 00:00:01
 ---
 
 Writing a good PhD SoP can be a daunting task. Fortunately, there are plenty of good posts out there about how to approach the writing process and what a good SoP looks like (in particular, I followed the structure laid out by [this post](https://timdettmers.com/2018/11/26/phd-applications/) by [Tim Dettmers](https://timdettmers.com/) and [this post](https://h2r.cs.brown.edu/writing-a-research-statement-for-graduate-school-and-fellowships/) by my undergrad advisor [Stefanie Tellex](https://scholar.google.com/citations?user=Pd8-ju0AAAAJ&hl=en)). When I was writing my own SoP, what I probably found most-helpful on top of the above-linked posts was reading SoP's by students in related areas who had been successful with the PhD application process (in particular [this one](https://blog.nelsonliu.me/2020/11/11/phd-personal-statement/) from [Nelson Liu](https://cs.stanford.edu/~nfliu/)). Given how much I benefitted from these, I figured I'd try to give back and contribute to the genre. Below, you can read the SoP that helped me get admitted to MIT:

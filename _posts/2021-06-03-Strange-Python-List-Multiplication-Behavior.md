@@ -1,5 +1,7 @@
 ---
-tags: Resources Technical
+layout: default
+title: Strange Python list multiplication behavior.
+date: 2021-06-23 00:00:01
 ---
 
 I recently spent on the order of 2 hours debugging some code that it only took me 1 hour to write. This post is partially intended to be informational for a reader and partially intended to serve as a future warning/reminder for me.

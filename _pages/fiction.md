@@ -1,17 +1,13 @@
 ---
-title: "Fiction"
-layout: splash
+title: "fiction"
+layout: default
 permalink: /fiction/
 ---
+# Short Stories
 
-<br>
-
-# Creative Writing
-
-## Short Stories
 {% for story in site.fiction_writings %}
   <p>
-    <a href="{{ story.url }}" style="font-size: 25px">
+    <a href="{{ story.url }}" style="font-size: 20px">
       <strong> {{ story.title }} </strong>
     </a>
   </p>

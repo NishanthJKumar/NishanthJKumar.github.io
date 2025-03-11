@@ -1,6 +1,6 @@
 ---
 title: The Traveller
-layout: splash
+layout: default
 date: 2023-06-18
 ---
 

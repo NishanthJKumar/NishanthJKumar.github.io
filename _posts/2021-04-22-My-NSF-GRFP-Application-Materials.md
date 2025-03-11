@@ -1,5 +1,7 @@
 ---
-tags: Research Resources
+layout: default
+title: My NSF GRFP Application Materials
+date: 2021-04-22 00:00:01
 ---
 
 Recently, I was incredibly excited and humbled to learn that I was selected as a [2021 NSF GRFP Fellow](https://www.nsfgrfp.org/). Like most of my accomplishments, this one was only made possible by the support of friends and colleagues, and the mentorship of my incredible advisors at Brown. One resource I found particularly helpful for this application was previous successful applications, specifically [Victoria Dean's](https://vdean.github.io/) and [Nelson Liu's](https://blog.nelsonliu.me/2020/10/13/nsf-grfp-materials/). Given how useful these were for me, I figured I'd share my own application materials to contribute to the genre and help any future applicants. You can find both my research and personal essays linked below.

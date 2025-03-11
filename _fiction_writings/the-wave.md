@@ -1,6 +1,6 @@
 ---
 title: The Wave
-layout: splash
+layout: default
 date: 2023-05-21
 ---
 

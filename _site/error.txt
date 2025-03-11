@@ -1,0 +1,540 @@
+Ignoring debug-1.6.3 because its extensions are not built. Try: gem pristine debug --version 1.6.3
+Ignoring rbs-2.7.0 because its extensions are not built. Try: gem pristine rbs --version 2.7.0
+Source locally installed gems is ignoring #<Bundler::StubSpecification name=rbs version=2.7.0 platform=ruby> because it is missing extensions
+Source locally installed gems is ignoring #<Bundler::StubSpecification name=debug version=1.6.3 platform=ruby> because it is missing extensions
+Configuration file: /Users/njk/Documents/GitHub/tomsilver.github.io/_config.yml
+            Source: /Users/njk/Documents/GitHub/tomsilver.github.io
+       Destination: /Users/njk/Documents/GitHub/tomsilver.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+DEPRECATION WARNING: to_time will always preserve the timezone offset of the receiver in Rails 8.0. To opt in to the new behavior, set `ActiveSupport.to_time_preserves_timezone = true`. (called from load at /Users/njk/.gem/ruby/3.1.3/bin/jekyll:25)
+         AutoPages: Disabled/Not configured in site.config.
+        Pagination: Disabled in site.config.
+       Imagemagick: Searching files in /Users/njk/Documents/GitHub/tomsilver.github.io/assets/img/
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/1-480.webp"
+[31m       Imagemagick: Command returned pid 32132 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/1-800.webp"
+[31m       Imagemagick: Command returned pid 32133 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/1-1400.webp"
+[31m       Imagemagick: Command returned pid 32134 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/10-480.webp"
+[31m       Imagemagick: Command returned pid 32135 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/10-800.webp"
+[31m       Imagemagick: Command returned pid 32136 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/10-1400.webp"
+[31m       Imagemagick: Command returned pid 32137 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/11-480.webp"
+[31m       Imagemagick: Command returned pid 32138 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/11-800.webp"
+[31m       Imagemagick: Command returned pid 32139 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/11-1400.webp"
+[31m       Imagemagick: Command returned pid 32140 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/12-480.webp"
+[31m       Imagemagick: Command returned pid 32141 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/12-800.webp"
+[31m       Imagemagick: Command returned pid 32142 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/12-1400.webp"
+[31m       Imagemagick: Command returned pid 32143 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/2-480.webp"
+[31m       Imagemagick: Command returned pid 32144 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/2-800.webp"
+[31m       Imagemagick: Command returned pid 32145 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/2-1400.webp"
+[31m       Imagemagick: Command returned pid 32146 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/3-480.webp"
+[31m       Imagemagick: Command returned pid 32147 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/3-800.webp"
+[31m       Imagemagick: Command returned pid 32148 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/3-1400.webp"
+[31m       Imagemagick: Command returned pid 32149 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/4-480.webp"
+[31m       Imagemagick: Command returned pid 32150 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/4-800.webp"
+[31m       Imagemagick: Command returned pid 32151 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/4-1400.webp"
+[31m       Imagemagick: Command returned pid 32152 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/5-480.webp"
+[31m       Imagemagick: Command returned pid 32153 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/5-800.webp"
+[31m       Imagemagick: Command returned pid 32154 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/5-1400.webp"
+[31m       Imagemagick: Command returned pid 32155 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/6-480.webp"
+[31m       Imagemagick: Command returned pid 32156 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/6-800.webp"
+[31m       Imagemagick: Command returned pid 32157 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/6-1400.webp"
+[31m       Imagemagick: Command returned pid 32158 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/7-480.webp"
+[31m       Imagemagick: Command returned pid 32159 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/7-800.webp"
+[31m       Imagemagick: Command returned pid 32160 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/7-1400.webp"
+[31m       Imagemagick: Command returned pid 32161 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/8-480.webp"
+[31m       Imagemagick: Command returned pid 32162 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/8-800.webp"
+[31m       Imagemagick: Command returned pid 32163 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/8-1400.webp"
+[31m       Imagemagick: Command returned pid 32164 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/9-480.webp"
+[31m       Imagemagick: Command returned pid 32165 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/9-800.webp"
+[31m       Imagemagick: Command returned pid 32166 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/9-1400.webp"
+[31m       Imagemagick: Command returned pid 32167 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/HRI-pics/AR_Arm-480.webp"
+[31m       Imagemagick: Command returned pid 32168 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/HRI-pics/AR_Arm-800.webp"
+[31m       Imagemagick: Command returned pid 32169 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/HRI-pics/AR_Arm-1400.webp"
+[31m       Imagemagick: Command returned pid 32170 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/HRI-pics/AR_Arm-480.webp"
+[31m       Imagemagick: Command returned pid 32171 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/HRI-pics/AR_Arm-800.webp"
+[31m       Imagemagick: Command returned pid 32172 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/HRI-pics/AR_Arm-1400.webp"
+[31m       Imagemagick: Command returned pid 32173 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/HRI-pics/AR_Prezi-480.webp"
+[31m       Imagemagick: Command returned pid 32174 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/HRI-pics/AR_Prezi-800.webp"
+[31m       Imagemagick: Command returned pid 32175 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/HRI-pics/AR_Prezi-1400.webp"
+[31m       Imagemagick: Command returned pid 32176 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/HRI-pics/AR_small-480.webp"
+[31m       Imagemagick: Command returned pid 32177 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/HRI-pics/AR_small-800.webp"
+[31m       Imagemagick: Command returned pid 32178 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/HRI-pics/AR_small-1400.webp"
+[31m       Imagemagick: Command returned pid 32179 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/HRI-pics/CAD_arm-480.webp"
+[31m       Imagemagick: Command returned pid 32180 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/HRI-pics/CAD_arm-800.webp"
+[31m       Imagemagick: Command returned pid 32181 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/HRI-pics/CAD_arm-1400.webp"
+[31m       Imagemagick: Command returned pid 32182 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/HRI-pics/classification-480.webp"
+[31m       Imagemagick: Command returned pid 32183 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/HRI-pics/classification-800.webp"
+[31m       Imagemagick: Command returned pid 32184 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/HRI-pics/classification-1400.webp"
+[31m       Imagemagick: Command returned pid 32185 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/HRI-pics/furhat-480.webp"
+[31m       Imagemagick: Command returned pid 32186 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/HRI-pics/furhat-800.webp"
+[31m       Imagemagick: Command returned pid 32187 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/HRI-pics/furhat-1400.webp"
+[31m       Imagemagick: Command returned pid 32188 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/HRI-pics/robotis_hands-480.webp"
+[31m       Imagemagick: Command returned pid 32189 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/HRI-pics/robotis_hands-800.webp"
+[31m       Imagemagick: Command returned pid 32190 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/HRI-pics/robotis_hands-1400.webp"
+[31m       Imagemagick: Command returned pid 32191 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/ICRA-pics/VijayKumar-480.webp"
+[31m       Imagemagick: Command returned pid 32192 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/ICRA-pics/VijayKumar-800.webp"
+[31m       Imagemagick: Command returned pid 32193 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/ICRA-pics/VijayKumar-1400.webp"
+[31m       Imagemagick: Command returned pid 32194 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/ICRA-pics/VijayKumar-480.webp"
+[31m       Imagemagick: Command returned pid 32195 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/ICRA-pics/VijayKumar-800.webp"
+[31m       Imagemagick: Command returned pid 32196 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/ICRA-pics/VijayKumar-1400.webp"
+[31m       Imagemagick: Command returned pid 32197 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/ICRA-pics/art-480.webp"
+[31m       Imagemagick: Command returned pid 32198 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/ICRA-pics/art-800.webp"
+[31m       Imagemagick: Command returned pid 32199 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/ICRA-pics/art-1400.webp"
+[31m       Imagemagick: Command returned pid 32200 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/ICRA-pics/clearpath-480.webp"
+[31m       Imagemagick: Command returned pid 32201 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/ICRA-pics/clearpath-800.webp"
+[31m       Imagemagick: Command returned pid 32202 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/ICRA-pics/clearpath-1400.webp"
+[31m       Imagemagick: Command returned pid 32203 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/ICRA-pics/davinci-480.webp"
+[31m       Imagemagick: Command returned pid 32204 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/ICRA-pics/davinci-800.webp"
+[31m       Imagemagick: Command returned pid 32205 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/ICRA-pics/davinci-1400.webp"
+[31m       Imagemagick: Command returned pid 32206 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/ICRA-pics/hi-480.webp"
+[31m       Imagemagick: Command returned pid 32207 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/ICRA-pics/hi-800.webp"
+[31m       Imagemagick: Command returned pid 32208 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/ICRA-pics/hi-1400.webp"
+[31m       Imagemagick: Command returned pid 32209 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/ICRA-pics/scout-480.webp"
+[31m       Imagemagick: Command returned pid 32210 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/ICRA-pics/scout-800.webp"
+[31m       Imagemagick: Command returned pid 32211 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/ICRA-pics/scout-1400.webp"
+[31m       Imagemagick: Command returned pid 32212 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/ICRA-pics/sly-480.webp"
+[31m       Imagemagick: Command returned pid 32213 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/ICRA-pics/sly-800.webp"
+[31m       Imagemagick: Command returned pid 32214 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/ICRA-pics/sly-1400.webp"
+[31m       Imagemagick: Command returned pid 32215 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/ICRA-pics/spot-480.webp"
+[31m       Imagemagick: Command returned pid 32216 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/ICRA-pics/spot-800.webp"
+[31m       Imagemagick: Command returned pid 32217 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/ICRA-pics/spot-1400.webp"
+[31m       Imagemagick: Command returned pid 32218 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/behavior-blog-post-image12-480.webp"
+[31m       Imagemagick: Command returned pid 32219 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/behavior-blog-post-image12-800.webp"
+[31m       Imagemagick: Command returned pid 32220 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/behavior-blog-post-image12-1400.webp"
+[31m       Imagemagick: Command returned pid 32221 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/favicon-16x16-480.webp"
+[31m       Imagemagick: Command returned pid 32222 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/favicon-16x16-800.webp"
+[31m       Imagemagick: Command returned pid 32223 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/favicon-16x16-1400.webp"
+[31m       Imagemagick: Command returned pid 32224 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/favicon-32x32-480.webp"
+[31m       Imagemagick: Command returned pid 32225 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/favicon-32x32-800.webp"
+[31m       Imagemagick: Command returned pid 32226 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/favicon-32x32-1400.webp"
+[31m       Imagemagick: Command returned pid 32227 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/good-swe-helps-480.webp"
+[31m       Imagemagick: Command returned pid 32228 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/good-swe-helps-800.webp"
+[31m       Imagemagick: Command returned pid 32229 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/good-swe-helps-1400.webp"
+[31m       Imagemagick: Command returned pid 32230 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/innovation-pics/Robot_Experiment-480.webp"
+[31m       Imagemagick: Command returned pid 32231 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/innovation-pics/Robot_Experiment-800.webp"
+[31m       Imagemagick: Command returned pid 32232 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/innovation-pics/Robot_Experiment-1400.webp"
+[31m       Imagemagick: Command returned pid 32233 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/innovation-pics/Robot_Experiment-480.webp"
+[31m       Imagemagick: Command returned pid 32234 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/innovation-pics/Robot_Experiment-800.webp"
+[31m       Imagemagick: Command returned pid 32235 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/innovation-pics/Robot_Experiment-1400.webp"
+[31m       Imagemagick: Command returned pid 32236 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/innovation-pics/disco_ball-480.webp"
+[31m       Imagemagick: Command returned pid 32237 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/innovation-pics/disco_ball-800.webp"
+[31m       Imagemagick: Command returned pid 32238 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/innovation-pics/disco_ball-1400.webp"
+[31m       Imagemagick: Command returned pid 32239 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/innovation-pics/disco_ball-480.webp"
+[31m       Imagemagick: Command returned pid 32240 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/innovation-pics/disco_ball-800.webp"
+[31m       Imagemagick: Command returned pid 32241 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/innovation-pics/disco_ball-1400.webp"
+[31m       Imagemagick: Command returned pid 32242 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/innovation-pics/switch-480.webp"
+[31m       Imagemagick: Command returned pid 32243 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/innovation-pics/switch-800.webp"
+[31m       Imagemagick: Command returned pid 32244 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/innovation-pics/switch-1400.webp"
+[31m       Imagemagick: Command returned pid 32245 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/innovation-pics/switch-480.webp"
+[31m       Imagemagick: Command returned pid 32246 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/innovation-pics/switch-800.webp"
+[31m       Imagemagick: Command returned pid 32247 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/innovation-pics/switch-1400.webp"
+[31m       Imagemagick: Command returned pid 32248 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/meditation-pics/screenshot-480.webp"
+[31m       Imagemagick: Command returned pid 32249 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/meditation-pics/screenshot-800.webp"
+[31m       Imagemagick: Command returned pid 32250 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/meditation-pics/screenshot-1400.webp"
+[31m       Imagemagick: Command returned pid 32251 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/meditation-pics/shifu-480.webp"
+[31m       Imagemagick: Command returned pid 32252 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/meditation-pics/shifu-800.webp"
+[31m       Imagemagick: Command returned pid 32253 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/meditation-pics/shifu-1400.webp"
+[31m       Imagemagick: Command returned pid 32254 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/more-than-45-pics/tips_2016-480.webp"
+[31m       Imagemagick: Command returned pid 32255 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/more-than-45-pics/tips_2016-800.webp"
+[31m       Imagemagick: Command returned pid 32256 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/more-than-45-pics/tips_2016-1400.webp"
+[31m       Imagemagick: Command returned pid 32257 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/njk-headshot-high-res-480.webp"
+[31m       Imagemagick: Command returned pid 32258 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/njk-headshot-high-res-800.webp"
+[31m       Imagemagick: Command returned pid 32259 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/njk-headshot-high-res-1400.webp"
+[31m       Imagemagick: Command returned pid 32260 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/paper-images/PDDL-with-LLMs-480.webp"
+[31m       Imagemagick: Command returned pid 32263 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/paper-images/PDDL-with-LLMs-800.webp"
+[31m       Imagemagick: Command returned pid 32264 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/paper-images/PDDL-with-LLMs-1400.webp"
+[31m       Imagemagick: Command returned pid 32265 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/paper-images/active-learning-480.webp"
+[31m       Imagemagick: Command returned pid 32267 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/paper-images/active-learning-800.webp"
+[31m       Imagemagick: Command returned pid 32270 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/paper-images/active-learning-1400.webp"
+[31m       Imagemagick: Command returned pid 32271 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/paper-images/aosm-paper-480.webp"
+[31m       Imagemagick: Command returned pid 32272 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/paper-images/aosm-paper-800.webp"
+[31m       Imagemagick: Command returned pid 32273 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/paper-images/aosm-paper-1400.webp"
+[31m       Imagemagick: Command returned pid 32274 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/paper-images/ignore_effects-480.webp"
+[31m       Imagemagick: Command returned pid 32275 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/paper-images/ignore_effects-800.webp"
+[31m       Imagemagick: Command returned pid 32276 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/paper-images/ignore_effects-1400.webp"
+[31m       Imagemagick: Command returned pid 32277 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/paper-images/mr-pick-place-480.webp"
+[31m       Imagemagick: Command returned pid 32278 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/paper-images/mr-pick-place-800.webp"
+[31m       Imagemagick: Command returned pid 32279 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/paper-images/mr-pick-place-1400.webp"
+[31m       Imagemagick: Command returned pid 32280 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/paper-images/oopomcp-480.webp"
+[31m       Imagemagick: Command returned pid 32281 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/paper-images/oopomcp-800.webp"
+[31m       Imagemagick: Command returned pid 32282 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/paper-images/oopomcp-1400.webp"
+[31m       Imagemagick: Command returned pid 32283 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/paper-images/parameterized-bc-480.webp"
+[31m       Imagemagick: Command returned pid 32284 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/paper-images/parameterized-bc-800.webp"
+[31m       Imagemagick: Command returned pid 32285 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/paper-images/parameterized-bc-1400.webp"
+[31m       Imagemagick: Command returned pid 32286 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/paper-images/pgmax-480.webp"
+[31m       Imagemagick: Command returned pid 32287 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/paper-images/pgmax-800.webp"
+[31m       Imagemagick: Command returned pid 32288 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/paper-images/pgmax-1400.webp"
+[31m       Imagemagick: Command returned pid 32289 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/paper-images/plga-img-480.webp"
+[31m       Imagemagick: Command returned pid 32290 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/paper-images/plga-img-800.webp"
+[31m       Imagemagick: Command returned pid 32291 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/paper-images/plga-img-1400.webp"
+[31m       Imagemagick: Command returned pid 32292 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/paper-images/predicators-image-480.webp"
+[31m       Imagemagick: Command returned pid 32293 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/paper-images/predicators-image-800.webp"
+[31m       Imagemagick: Command returned pid 32294 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/paper-images/predicators-image-1400.webp"
+[31m       Imagemagick: Command returned pid 32295 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/paper-images/ptp-img-480.webp"
+[31m       Imagemagick: Command returned pid 32296 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/paper-images/ptp-img-800.webp"
+[31m       Imagemagick: Command returned pid 32297 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/paper-images/ptp-img-1400.webp"
+[31m       Imagemagick: Command returned pid 32298 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/paper-images/task-scoping-image-480.webp"
+[31m       Imagemagick: Command returned pid 32299 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/paper-images/task-scoping-image-800.webp"
+[31m       Imagemagick: Command returned pid 32300 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/paper-images/task-scoping-image-1400.webp"
+[31m       Imagemagick: Command returned pid 32301 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/paper-images/taxi-scoping-480.webp"
+[31m       Imagemagick: Command returned pid 32302 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/paper-images/taxi-scoping-800.webp"
+[31m       Imagemagick: Command returned pid 32303 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/paper-images/taxi-scoping-1400.webp"
+[31m       Imagemagick: Command returned pid 32304 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/paper-images/undergrad-thesis-image-480.webp"
+[31m       Imagemagick: Command returned pid 32305 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/paper-images/undergrad-thesis-image-800.webp"
+[31m       Imagemagick: Command returned pid 32306 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/paper-images/undergrad-thesis-image-1400.webp"
+[31m       Imagemagick: Command returned pid 32307 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/publication_preview/brownian-motion-480.webp"
+[31m       Imagemagick: Command returned pid 32309 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/publication_preview/brownian-motion-800.webp"
+[31m       Imagemagick: Command returned pid 32311 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/publication_preview/brownian-motion-1400.webp"
+[31m       Imagemagick: Command returned pid 32312 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/publication_preview/wave-mechanics-480.webp"
+[31m       Imagemagick: Command returned pid 32313 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/publication_preview/wave-mechanics-800.webp"
+[31m       Imagemagick: Command returned pid 32314 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/publication_preview/wave-mechanics-1400.webp"
+[31m       Imagemagick: Command returned pid 32315 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/why-robots-pics/before_the_internet-480.webp"
+[31m       Imagemagick: Command returned pid 32316 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/why-robots-pics/before_the_internet-800.webp"
+[31m       Imagemagick: Command returned pid 32317 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/why-robots-pics/before_the_internet-1400.webp"
+[31m       Imagemagick: Command returned pid 32318 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/why-robots-pics/flying_cars-480.webp"
+[31m       Imagemagick: Command returned pid 32319 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/why-robots-pics/flying_cars-800.webp"
+[31m       Imagemagick: Command returned pid 32320 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/why-robots-pics/flying_cars-1400.webp"
+[31m       Imagemagick: Command returned pid 32321 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/why-robots-pics/machine_learning-480.webp"
+[31m       Imagemagick: Command returned pid 32322 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/why-robots-pics/machine_learning-800.webp"
+[31m       Imagemagick: Command returned pid 32323 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/why-robots-pics/machine_learning-1400.webp"
+[31m       Imagemagick: Command returned pid 32324 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/why-robots-pics/roomba_vet-480.webp"
+[31m       Imagemagick: Command returned pid 32325 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/why-robots-pics/roomba_vet-800.webp"
+[31m       Imagemagick: Command returned pid 32326 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generating image "/Users/njk/Documents/GitHub/tomsilver.github.io/_site/assets/img/why-robots-pics/roomba_vet-1400.webp"
+[31m       Imagemagick: Command returned pid 32327 exit 127 with error sh: convert: command not found [0m
+       Imagemagick: Generated 189 file(s)
+       Jekyll Feed: Generating feed for posts
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+7 │   "variables",
+  │   ^^^^^^^^^^^
+  ╵
+    /Users/njk/Documents/GitHub/tomsilver.github.io/assets/css/main.scss 7:3  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+8 │   "themes",
+  │   ^^^^^^^^
+  ╵
+    /Users/njk/Documents/GitHub/tomsilver.github.io/assets/css/main.scss 8:3  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+9 │   "layout",
+  │   ^^^^^^^^
+  ╵
+    /Users/njk/Documents/GitHub/tomsilver.github.io/assets/css/main.scss 9:3  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+10 │   "base",
+   │   ^^^^^^
+   ╵
+    /Users/njk/Documents/GitHub/tomsilver.github.io/assets/css/main.scss 10:3  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+11 │   "distill",
+   │   ^^^^^^^^^
+   ╵
+    /Users/njk/Documents/GitHub/tomsilver.github.io/assets/css/main.scss 11:3  root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+13 │ $light-cyan-color: lighten($cyan-color, 25%);
+   │                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    _variables.scss 13:20                                                     @import
+    /Users/njk/Documents/GitHub/tomsilver.github.io/assets/css/main.scss 7:3  root stylesheet
+DEPRECATION WARNING [color-functions]: lighten() is deprecated. Suggestions:
+
+color.scale($color, $lightness: 44.5804195804%)
+color.adjust($color, $lightness: 25%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+13 │ $light-cyan-color: lighten($cyan-color, 25%);
+   │                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    _variables.scss 13:20                                                     @import
+    /Users/njk/Documents/GitHub/tomsilver.github.io/assets/css/main.scss 7:3  root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+20 │ $light-purple-color: lighten($purple-color, 25%);
+   │                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    _variables.scss 20:22                                                     @import
+    /Users/njk/Documents/GitHub/tomsilver.github.io/assets/css/main.scss 7:3  root stylesheet
+DEPRECATION WARNING [color-functions]: lighten() is deprecated. Suggestions:
+
+color.scale($color, $lightness: 39.84375%)
+color.adjust($color, $lightness: 25%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+20 │ $light-purple-color: lighten($purple-color, 25%);
+   │                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    _variables.scss 20:22                                                     @import
+    /Users/njk/Documents/GitHub/tomsilver.github.io/assets/css/main.scss 7:3  root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+26 │ $grey-color-light: lighten($grey-color, 40%);
+   │                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    _variables.scss 26:20                                                     @import
+    /Users/njk/Documents/GitHub/tomsilver.github.io/assets/css/main.scss 7:3  root stylesheet
+DEPRECATION WARNING [color-functions]: lighten() is deprecated. Suggestions:
+
+color.scale($color, $lightness: 81.6%)
+color.adjust($color, $lightness: 40%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+26 │ $grey-color-light: lighten($grey-color, 40%);
+   │                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    _variables.scss 26:20                                                     @import
+    /Users/njk/Documents/GitHub/tomsilver.github.io/assets/css/main.scss 7:3  root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use string.unquote instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+9 │     content: unquote('"#{ $icon }"');
+  │              ^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    /Users/njk/Documents/GitHub/tomsilver.github.io/_sass/font-awesome/_icons.scss 9:14  @import
+    font-awesome/fontawesome.scss 20:9                                                   @import
+    /Users/njk/Documents/GitHub/tomsilver.github.io/assets/css/main.scss 13:3            root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use string.unquote instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+32 │     content: unquote('"#{ $icon }"');
+   │              ^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    font-awesome/brands.scss 32:14                                             @import
+    /Users/njk/Documents/GitHub/tomsilver.github.io/assets/css/main.scss 14:3  root stylesheet
+WARNING: 39 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+[NbConvertApp] Converting notebook /var/folders/tn/pz0hmzk11qq2bsy979txb0080000gn/T/jekyll-jupyter-notebook20250310-32117-jnb9cj.ipynb to html
+                    done in 1.957 seconds.
+ Auto-regeneration: enabled for '/Users/njk/Documents/GitHub/tomsilver.github.io'
+    Server address: http://127.0.0.1:4000
+  Server running... press ctrl-c to stop.

@@ -1,6 +1,11 @@
 ---
-tags: Meditations Research
+layout: default
+title: Why robots? Deciding what I want to do with my life.
+date: 2019-05-01 00:00:01
 ---
+
+<style> .scaled-image { max-width: 100%; height: auto; } </style>
+
 Ever since my parents bought me my first robotic toy as a kid, I’ve been excited about robots. Over the years, I’ve been lucky enough to have had numerous opportunities to work with robots. I’ve played with toys, spent multiple years building Lego and heavy-metal robots for competitions, and most-recently done research with robots. So, when it came time for me to seriously consider what I want to do with the rest of my life, ‘work with robots’ was the first and natural choice.
 
 A while ago, a friend asked me a simple question: ‘why robots?’. I was quite surprised that this was a question at all: there are so many obvious answers. The more relevant question should’ve been ‘why not robots?’. When my friend pointed out that that wasn’t a sufficient answer, I realized I hadn’t really thought through all my reasons for wanting to work with robots. I’m a big believer in carefully and consciously reasoning from first principles when it comes to major life decisions, so it was quite alarming that I didn’t have a satisfactory answer to the simple question of ‘why robots?’.
@@ -16,7 +21,7 @@ However, the Sapiens made an important discovery. They realized that these ubiqu
 
 Our ancestors’ discovery and use of rocks might seem trivial or irrelevant, but it is arguably one of the most significant events in human history. Those rocks were our first tools. The discovery and use of tools is considered a unique sign of intelligence. In fact, it is this ability to create tools that’s enabled modern life. From crude spears and axes, we moved on to fire, then clothing, then bricks for construction, then metalworking, then the wheel, then eventually the printing press and later the steam engine, then the electric motor and generator, then the telephone and the electric light bulb, then the transistor which paved the way for the computer and more recently, the Internet. The entire field of technology, the reason that our species expanded from a few scattered tribes to occupy every continent with 8 billion total individuals, is essentially an exercise in understanding the laws of the natural world and using these laws to build tools that will help us exploit it.
 
-![Flying Cars](/images/why-robots-pics/flying_cars.png){: .align-center}
+![Flying Cars](/assets/img/why-robots-pics/flying_cars.png){: .align-center .scaled-image}
 
 And intelligent robots might just be the greatest tool we’ve ever invented.
 
@@ -29,7 +34,7 @@ Robots might just be the next big world-changing tool; the tool that our descend
 ## A Marriage of Bits and Atoms
 The computer is currently arguably the greatest tool ever invented. It’s quite awe-inducing to consider just how much computers have impacted our lives in only 50 years since they were invented. Indeed, it’s quite difficult to imagine human life before computers.
 
-![Pre-Internet](/images/why-robots-pics/before_the_internet.png){: .align-center}
+![Pre-Internet](/assets/img/why-robots-pics/before_the_internet.png){: .align-center .scaled-image}
 
 While it may seem that computers can solve literally any problem, they do have an important limitation that’s been pointed out to me. Computers operate in a world of bits, but the real world operates on atoms [1]. At their core, computers are information processing machines. And while information is incredibly valuable, it is useless in of itself. The power of information -and by extension the computer – comes when it is used to manipulate the atoms of the physical world. For all their processing power and capabilities, computers cannot directly manipulate atoms, humans must constantly interpret and use computers’ information to affect the world.
 
@@ -44,7 +49,7 @@ If computers have impacted the world this much in such a short span of time whil
 
 We want to answer the intelligence question not only out of curiosity, but also out of utility. Intelligence has probably been humanity’s single greatest asset. Understanding it and being able to replicate intelligent behavior would be incredibly useful to us. The entire field of Artificial Intelligence (AI) is devoted to attempting to answer this question and replicate an intelligence computationally. While we’ve had significant successes so far, it doesn’t seem that a solution is in sight.
 
-![Machine Learning](/images/why-robots-pics/machine_learning.png){: .align-center}
+![Machine Learning](/assets/img/why-robots-pics/machine_learning.png){: .align-center}
 
 I believe that a significant reason for this is that we’ve been attempting to implement intelligence on disembodied computers. Personally, I’m a believer in embodied cognition – the idea that our cognition and our intelligence are significantly shaped by our bodies. If we were simply brains in vats, and did not have any method of perceiving and acting in our environments, I’m fairly certain that we would not be intelligent in the way that we currently are. Of course, this view of embodied cognition has criticisms and strong counter-arguments, but I think most people would agree that attempting to study and implement intelligence algorithms on robots can only help us.
 
@@ -61,7 +66,7 @@ However, regardless of whether a vast majority of humans think robots are cool, 
 
 I recognize that I’m quite biased when it comes to robots. It’s very possible that robotics could lead to a dead-end. Robots might never realize the potential I’ve talked about. They might never be even semi-intelligent or used outside of large industrial settings. Worse, they could become an active threat to humanity (a la ‘The Terminator’). There’s only one way to find out what’ll become of the field: to try it. I hope to do everything I can to ensure that we develop robots that will be a great enabler of humanity and never a threat. I acknowledge that all my efforts could be futile: whatever work I do could simply never pan out and the entire field could reveal a dead-end. While I hope this won’t happen, even if it does, then at least I’ll have gotten to play with some really cool robots for a while.
 
-![Roomba Vet](/images/why-robots-pics/roomba_vet.png){: .align-center}
+![Roomba Vet](/assets/img/why-robots-pics/roomba_vet.png){: .align-center .scaled-image}
 
 ## A Thought Experiment
 I’m a big fan of thought experiments. I think that a really powerful and humbling thought experiment is to imagine one’s own funeral and think about what one would like said for one’s eulogy. I’ve personally spent more time than I’d care to admit engaging in this experiment. I’ve run through hundreds of different eulogies and thought hard about what I’d like people to remember about me and my life. I’ve also run through multiple scenarios of what I could do with my life so that people would say these things and remember me fondly…

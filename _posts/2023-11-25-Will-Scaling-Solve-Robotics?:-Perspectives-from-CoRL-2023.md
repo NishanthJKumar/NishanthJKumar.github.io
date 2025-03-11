@@ -1,6 +1,15 @@
-This year's [CoRL](https://www.corl2023.org/) was the biggest CoRL yet, with over 900 attendees, 11 workshops, and almost 200 accepted papers. While there were *a lot* of cool new ideas (see [this great set of notes](https://seungchan-kim.github.io/notes/CoRL_2023_Note.pdf) for an overview of technical content), one particular debate seemed to be front-and-center: "is training a large neural network on a very large dataset a feasible way to solve robotics?"[^1].
+---
+layout: default
+title: Will scaling solve robotics? Perspectives from CoRL 2023.
+date: 2023-11-25 00:00:01
+excerpt_separator: <!--more-->
+---
 
-Of course, some version of this question has been on researchers' minds for a few years now. However, in the aftermath of the unprecedented success of [ChatGPT](https://chat.openai.com/) and other large-scale ['foundation models'](https://arxiv.org/abs/2108.07258) on tasks that were thought to be unsolvable just a few years ago, the question was especially topical at this year's CoRL. Developing a general-purpose robot, one that can competently and robustly execute a wide variety of tasks of interest in *any* home or office environment that humans can, has been perhaps the holy grail of robotics since the inception of the field. And given the recent progress of foundation models, it seems possible that scaling existing network architectures by training them on very large datasets might actually be the key to that grail.
+This year's [CoRL](https://www.corl2023.org/) was the biggest CoRL yet, with over 900 attendees, 11 workshops, and almost 200 accepted papers. While there were *a lot* of cool new ideas (see [this great set of notes](https://seungchan-kim.github.io/notes/CoRL_2023_Note.pdf) for an overview of technical content), one particular debate seemed to be front-and-center: "is training a large neural network on a very large dataset a feasible way to solve robotics?".
+
+<!--more-->
+
+Of course, some version of this question has been on researchers' minds for a few years now[^1]. However, in the aftermath of the unprecedented success of [ChatGPT](https://chat.openai.com/) and other large-scale ['foundation models'](https://arxiv.org/abs/2108.07258) on tasks that were thought to be unsolvable just a few years ago, the question was especially topical at this year's CoRL. Developing a general-purpose robot, one that can competently and robustly execute a wide variety of tasks of interest in *any* home or office environment that humans can, has been perhaps the holy grail of robotics since the inception of the field. And given the recent progress of foundation models, it seems possible that scaling existing network architectures by training them on very large datasets might actually be the key to that grail.
 
 Given how timely and significant this debate seems to be, I thought it might be useful to write a post centered around it. My main goal here is to try to present the different sides of the argument as I heard them, without bias towards any side. Almost all the content is taken directly from talks I attended or conversations I had with fellow attendees. My hope is that this serves to deepen people's understanding around the debate, and maybe even inspire future research ideas and directions. If you read this and feel that I've misrepresented any of the ideas of positions below, then do write to me or post a clarifying comment below.
 

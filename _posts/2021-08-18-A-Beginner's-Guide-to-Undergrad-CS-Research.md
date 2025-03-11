@@ -1,5 +1,7 @@
 ---
-tags: Resources Advice Research Grad-School
+layout: default
+title: A Beginner's Guide to Undergrad CS Research
+date: 2021-08-18 00:00:01
 ---
 
 Computer Science has become quite the popular field these days, [especially amongst undergraduates](https://cra.org/wp-content/uploads/2017/02/Generation-CS.pdf). As a result, there are a *lot* more CS-related resources now than there ever were before. There are tons of books, lecture videos, guides, articles, and even memes about everything from understanding difficult CS concepts for coursework, to 'cracking' technical interviews, to applying to CS grad school. However, one aspect of an undergrad CS education that often gets left a bit in the dark is research [1]. While most University undergrads are probably aware that undergrad research opportunities exist, a surprising amount don't *really* know (1) what undergrad research entails, (2) why they should care/potentially try to get involved, and (3) how to actually get a research opportunity. This is unfortunate because there's been an overwhelming recent interest from students in going to CS graduate school or pursuing research-related jobs in industry, which both increasingly require at least *some* undergrad research experience.

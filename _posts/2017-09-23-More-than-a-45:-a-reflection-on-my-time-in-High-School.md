@@ -1,5 +1,7 @@
 ---
-tags: Meditations IB
+layout: default
+title: More than a 45 - a reflection on my time in the IB
+date: 2017-09-23 00:00:01
 ---
 
 So this post is actually an article I wrote for my school’s student newsletter. I was asked to submit this some time before my TA internship at my school ended and I think it really encompasses my experience and views toward the IB. I’ve put it here in the hopes that it might be useful to student coming into the IB or trying to decide on their IB school. I hope you guys have as fulfilling an experience as I did 🙂
@@ -14,7 +16,7 @@ When I started the IB DP, I was obsessed with the numbers like all the aforement
 
 Yes, I got a 45: a perfect score. But that doesn’t even begin to quantify my IB experience.
 
-{% include figure image_path="/images/more-than-45-pics/tips_2016.jpg" alt="My IB Class" caption="A picture of everyone from my graduating IB Class" %}
+{% include figure.liquid image_path="/assets/img/more-than-45-pics/tips_2016.jpg" alt="My IB Class" caption="A picture of everyone from my graduating IB Class" %}
 
 
 When I joined the IB, I was scared to stand-up and talk to a class of my peers. But now, I teach confidently in front of people I’ve never met before. I’ve even given a speech to the whole school. I’ve made friends with previous strangers and attempted to understand their worldviews. 45 doesn’t quantify that humongous growth in my confidence.

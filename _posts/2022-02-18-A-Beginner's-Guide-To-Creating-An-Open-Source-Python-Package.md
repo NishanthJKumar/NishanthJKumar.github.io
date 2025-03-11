@@ -1,3 +1,9 @@
+---
+layout: default
+title: A Beginner's Guide to Creating an Open-Source Python Package
+date: 2022-02-18 00:00:01
+---
+
 A while ago, I had the opportunity to develop and release a new open-source Python library: [PGMax](https://github.com/vicariousinc/PGMax). Since this was to be my first open-source library release, I spent a lot of time figuring out a good set of developer tools to speed up development and enable (hopefully) lots of people to use and contribute to the project in the future. While there are already [so](https://towardsdatascience.com/build-your-first-open-source-python-project-53471c9942a7) [many](https://d39l7znklsxxzt.cloudfront.net/zh/blog/2021/01/19/publishing-a-proprietary-python-package-on-pypi-using-poetry/) [different](https://www.martinmcbride.org/post/2021/creating-python-oss-project/) [articles](https://medium.com/free-code-camp/from-a-python-project-to-an-open-source-package-an-a-to-z-guide-c34cb7139a22), blog posts and resources on setting up open-source Python packages, none of them really presented a good integrated suite of tools for the various pieces (dependency management, documentation generation, continuous integration, etc.) that a well-engineered open-source project might want. So, I thought I would describe PGMax's setup in the hopes that it might help others interested in setting up their own open-source library.
 
 Before I dive into describing all the packages and tools I used, I want to mention 2 things:

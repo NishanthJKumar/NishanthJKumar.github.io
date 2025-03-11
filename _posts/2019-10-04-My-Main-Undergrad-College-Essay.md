@@ -1,6 +1,10 @@
 ---
-tags: Meditations
+layout: default
+title: My main undergrad college essay.
+date: 2019-10-04 00:00:01
 ---
+
+
 I’ve been asked this a bunch of times and here it finally is: the essay I wrote for the CommonApp. I think it’s really representative of the headspace I was in at the time (and admittedly still am in, to some degree). If you’re reading this and struggling with college essay, then let me say that I’ve been there too and I’ve got advice: just write the most honest reflection of yourself. That’s it. And that’s what I attempted to do below.
 
 In case you’re wondering, I was accepted into Brown with this essay, but rejected pretty much everywhere else; though I don’t think you should read too much into that.

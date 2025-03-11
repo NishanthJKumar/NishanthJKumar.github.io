@@ -3,3 +3,5 @@
 .jekyll-cache/*
 .bundle/
 .sass_cache/
+.ruby-version
+.Gemfile.lock

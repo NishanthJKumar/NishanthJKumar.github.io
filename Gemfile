@@ -19,7 +19,6 @@ group :jekyll_plugins do
     gem 'mini_racer'
     gem 'unicode_utils'
     gem 'webrick'
-    gem 'sass-embedded', '~> 1.54.9'
 end
 group :other_plugins do
     gem 'feedjira'

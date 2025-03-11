@@ -13,12 +13,6 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4  # Updated to latest version
 
-    - name: Set up Ruby
-      uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: '3.1.2'
-        bundler-cache: true  # Enables caching to speed up builds
-
     - name: Install dependencies
       run: |
         sudo apt-get update
@@ -30,6 +24,12 @@ jobs:
         tar -xzf sass.tar.gz
         sudo mv dart-sass /usr/local/bin/sass-embedded
         echo "/usr/local/bin/sass-embedded" >> $GITHUB_PATH
+
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.1.2'
+        bundler-cache: true  # Enables caching to speed up builds
 
     - name: Configure Bundler
       run: bundle config set force_ruby_platform true  # Prevents platform-specific gem issues

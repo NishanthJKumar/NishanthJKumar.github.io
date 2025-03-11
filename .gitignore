@@ -4,4 +4,4 @@
 .bundle/
 .sass_cache/
 .ruby-version
-.Gemfile.lock
+Gemfile.lock

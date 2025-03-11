@@ -73,7 +73,7 @@ layout: default
         </div>
         <div class="col-sm-7">
           <h5 id="learning-abstractions-for-planning">Learning to Plan from Demonstrations</h5>
-          <p>Abstractions allow robots to first focus on the high-level aspects of a task before getting bogged down in details. We would like a robot to automatically learn abstractions&mdash;<a href="https://arxiv.org/abs/2203.09634" target="_blank" rel="noopener noreferrer">state abstractions (predicates)</a> and <a href="https://arxiv.org/abs/2206.10680" target="_blank" rel="noopener noreferrer">action abstractions (skills)</a>&mdash;that are specialized for planning in its domain. We are especially interested in abstractions for <a href="https://arxiv.org/abs/2010.01083">task and motion planning</a>.</p>
+          <p>Structured search-based methods like TAMP work well with tediously hand-engineered components. By leveraging ideas from program synthesis, we can instead output the components of planning domains --- such as <a href="https://arxiv.org/abs/2501.00296">symbolic predicates</a> and <a href="https://arxiv.org/abs/2208.07737">operators</a> --- directly from demonstrations and potentially scale planning systems with data instead of human effort. Running a planner at test-time to zero-shot complex new tasks via reasoning.</p>
         </div>
       </div>
 
@@ -84,7 +84,7 @@ layout: default
         </div>
         <div class="col-sm-7">
           <h5 id="planning-to-learn">Planning to Learn in Deployment</h5>
-          <p>Robots should plan to practice to get better at planning. They should rapidly learn to specialize to the objects, goals, preferences, and constraints that are unique to their deployment. We can plan to learn <a href="https://arxiv.org/abs/2402.15025">samplers</a>, <a href="https://arxiv.org/abs/2303.04912">predicates</a>, and <a href="https://arxiv.org/abs/2001.08299">operators</a> for bilevel planning. Our ultimate goal is to create a virtuous cycle of learning and planning.</p>
+          <p>Robots and web agents are bound to encounter unexpected failures in their deployment environments (new objects, layouts, websites, etc.). Ideally, they should rapidly learn to overcome these failures online. We can <a href="https://arxiv.org/abs/2402.15025">leverage planning</a> to not only find alternative ways to recover from failures, but also autonomoously explore an environment to collect data most useful to prevent future failures of the same kind.</p>
         </div>
       </div>
 

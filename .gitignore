@@ -1,2 +1,5 @@
 *.rb
 /vendor/*
+.jekyll-cache/*
+.bundle/
+.sass_cache/

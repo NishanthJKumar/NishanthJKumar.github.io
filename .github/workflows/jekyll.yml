@@ -18,6 +18,14 @@ jobs:
         ruby-version: '3.1.2'
 
     - name: Install dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y build-essential libxml2-dev libxslt1-dev zlib1g-dev
+
+    - name: Install Bundler
+      run: gem install bundler
+
+    - name: Install project dependencies
       run: bundle install
 
     - name: Build the site

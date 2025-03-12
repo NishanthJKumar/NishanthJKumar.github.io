@@ -5,3 +5,4 @@
 .sass_cache/
 .ruby-version
 Gemfile.lock
+.DS_Store

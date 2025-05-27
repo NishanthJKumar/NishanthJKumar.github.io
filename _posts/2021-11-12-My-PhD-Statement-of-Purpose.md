@@ -8,7 +8,7 @@ Writing a good PhD SoP can be a daunting task. Fortunately, there are plenty of 
 
 <div style="text-align: center"> 
 
-<a href="/misc_files/MIT_SoP.pdf"> <p style="font-size:20px"> PhD Statement of Purpose </p> </a>
+<a href="/assets/pdf/MIT_SoP.pdf"> <p style="font-size:20px"> PhD Statement of Purpose </p> </a>
 
 </div>
 

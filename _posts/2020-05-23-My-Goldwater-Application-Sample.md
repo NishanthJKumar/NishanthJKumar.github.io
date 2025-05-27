@@ -78,6 +78,6 @@ I should emphasize that I’ve had the good fortune of being supported by great 
 My experiences have taught me that it's important to encourage and support students everywhere to pursue opportunity, no matter how scarce it may be. Sometimes, this support can change a life, as it did mine. In this spirit, I hope that my career and life can contribute to making the world have more opportunity for everyone, everywhere.<br>
 
 ---
-<div style="text-align: center"> <a href="/misc_files/Goldwater_Research_Essay.pdf"> <p style="font-size:20px"> My Research Essay </p> </a></div>
+<div style="text-align: center"> <a href="/assets/pdf/Goldwater_Research_Essay.pdf"> <p style="font-size:20px"> My Research Essay </p> </a></div>
 
 (PS: If you're looking to write your Research Essay in LaTex, I'd highly recommend [this free, open-source template](https://www.overleaf.com/latex/templates/goldwater-scholarship-research-essay-template/pmhbjqwgvdvb) by 2019 Goldwater Scholar Hannah Richards).

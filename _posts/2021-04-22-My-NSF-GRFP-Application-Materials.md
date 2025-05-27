@@ -8,8 +8,8 @@ Recently, I was incredibly excited and humbled to learn that I was selected as a
 
 <div style="text-align: center"> 
 
-<a href="/misc_files/GRFP_personal.pdf"> <p style="font-size:20px"> Personal Essay </p> </a>
-<a href="/misc_files/GRFP_research.pdf"> <p style="font-size:20px"> Research Essay </p> </a>
+<a href="/assets/pdf/GRFP_personal.pdf"> <p style="font-size:20px"> Personal Essay </p> </a>
+<a href="/assets/pdf/GRFP_research.pdf"> <p style="font-size:20px"> Research Essay </p> </a>
 
 </div>
 

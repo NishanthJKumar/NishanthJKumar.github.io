@@ -22,7 +22,7 @@ I'm currently a final year Ph.D. student with the [LIS Group](https://lis.csail.
 Outside of research, I like to lift heavy things, [read](https://www.goodreads.com/user/show/36308161-nishanth-kumar), play basketball, philosophize, cook, and write both fiction and non-fiction. If you're interested in learning more about me or reading some of my writing, check out my [blog](http://nishanthjkumar.com/blog/), [fiction writing](http://nishanthjkumar.com/fiction/), or social links in the website footer. If you'd like to get in contact, check out [this page here](/contact-me/). If you'd like to leave me some anonymous feedback (preferably constructive!), see [this form](https://www.admonymous.co/nishanth-kumar).
 
 <div class="centered-links">
-<a href="/assets/pdf/Nishanth_Resume.pdf">Resume</a> / <a href="/assets/pdf/Nishanth_CV.pdf">CV</a> / <a href="https://scholar.google.com/citations?hl=en&user=FE512o4AAAAJ&view_op=list_works&sortby=pubdate">Scholar</a> / <a href="https://x.com/nishanthkumar23">Twitter</a>
+<a href="/assets/pdf/Nishanth_Resume.pdf">Resume</a> / <a href="/assets/pdf/Nishanth_CV.pdf">CV</a> / <a href="https://scholar.google.com/citations?hl=en&user=FE512o4AAAAJ&view_op=list_works&sortby=pubdate">Scholar</a> / <a href="https://www.linkedin.com/in/nishanth-kumar/">LinkedIn</a> / <a href="https://x.com/nishanthkumar23">X/Twitter</a>
 </div>
 
 <style>

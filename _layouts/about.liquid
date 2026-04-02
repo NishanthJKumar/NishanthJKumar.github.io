@@ -48,45 +48,191 @@ layout: default
       {% include news.liquid limit=true %}
     {% endif %}
 
-    <!-- Research Areas -->
-    <h3 id="research">research areas</h3>
+    <!-- Research Overview -->
+    <h3 id="research">research</h3>
 
-    <p>Some recent research themes are highlighted below. For a complete and up-to-date list of papers, please see my <a href="https://scholar.google.com/citations?user=FE512o4AAAAJ&hl=en">Google Scholar</a> page.</p>
+    <p>I'm broadly interested in creating AI systems that can autonomously solve complex, long-horizon tasks in the real world. Much of my research has been at the intersection of learning, planning, and foundation models. I've sought to create general-purpose agents that scale well with data (at training time), and additional computation (at test time).</p>
 
+    <p>I've listed some selected publications below. For a complete and up-to-date list of papers, please see my <a href="https://scholar.google.com/citations?user=FE512o4AAAAJ&hl=en">Google Scholar</a> page.</p>
 
-    <div class="container">
-      <!-- Planning and Learning with Foundation Models -->
-      <div class="row" style="padding-top: 25px;">
-        <div class="col-sm-5">
-        <p><video controls playsinline autoplay muted loop width="300" style="float: left; margin-top:5px; margin-right:50px;margin-bottom: 25px;"><source src="/assets/video/apple-orange-replace.mp4" type="video/mp4" /></video></p>
+    <style>
+      .projects-list {
+        margin-bottom: 40px;
+      }
+      .project-entry {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        padding: 20px 0;
+        border-bottom: 1px solid #eee;
+      }
+      .project-media {
+        flex: 0 0 280px;
+        max-width: 280px;
+        height: 180px;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+      }
+      .project-media video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 4px;
+      }
+      .project-text {
+        flex: 1;
+      }
+      .project-text .project-title {
+        font-size: 1.05em;
+        font-weight: 600;
+        margin-bottom: 4px;
+      }
+      .project-text .project-title a {
+        color: var(--global-theme-color);
+      }
+      .project-text .project-authors {
+        font-size: 0.92em;
+        color: #555;
+        margin-bottom: 2px;
+      }
+      .project-text .project-venue {
+        font-size: 0.92em;
+        font-style: italic;
+        color: #777;
+        margin-bottom: 8px;
+      }
+      .project-text .project-desc {
+        font-size: 0.95em;
+        margin-bottom: 6px;
+      }
+      .project-text .project-links {
+        font-size: 0.9em;
+      }
+      .project-text .project-links a {
+        margin-right: 4px;
+      }
+      @media (max-width: 768px) {
+        .project-entry {
+          flex-direction: column;
+        }
+        .project-media {
+          flex: none;
+          max-width: 100%;
+          height: 200px;
+        }
+      }
+    </style>
+
+    <div class="projects-list">
+
+      <!-- TipTop (arXiv, 2025) -->
+      <div class="project-entry">
+        <div class="project-media">
+          <video playsinline autoplay muted loop><source src="/assets/video/tiptop-mit-down.mp4" type="video/mp4" /></video>
         </div>
-        <div class="col-sm-7">
-          <h5 id="learning-to-accelerate-planning">Planning and Learning with Foundation Models</h5>
-          <p>Foundation models have an implicit ability to sequence high-level skills --- like 'pick', 'place', or 'move to' --- to accomplish a goal, but are unable to reason over low-level joint angles or torques. By combining foundation models with structured planning methods like <a href="https://arxiv.org/abs/2406.05572">constraint satisfaction</a> or <a href="https://arxiv.org/abs/2411.08253">TAMP</a>, we can create sophisticated and general-purpose systems capable of solving complex tasks directly from vision and natural language input.</p>
+        <div class="project-text">
+          <div class="project-title"><a href="https://tiptop-robot.github.io/">TiPToP: A Modular, Open-Vocabulary Planner That Just Works on Pixels</a></div>
+          <div class="project-authors">William Shen*, <strong>Nishanth Kumar</strong>*, Sahit Chintalapudi, Jie Wang, Christopher Watson, Edward S. Hu, Jing Cao, Dinesh Jayaraman, Leslie Pack Kaelbling, Tom&aacute;s Lozano-P&eacute;rez</div>
+          <div class="project-venue">arXiv, 2025</div>
+          <div class="project-links">
+            <a href="https://arxiv.org/abs/2603.09971">[Paper]</a>
+            <a href="https://github.com/tiptop-robot/tiptop">[Code]</a>
+            <a href="https://tiptop-robot.github.io/">[Website]</a>
+          </div>
+          <div class="project-desc">TiPToP is a modular, open-vocabulary planning system that accepts natural language commands and raw pixel inputs to execute long-horizon manipulation tasks&mdash;without any robot-specific training data. It compares favorably to a state-of-the-art end-to-end trained VLA, and generalizes across multiple robot platforms with minimal setup required.</div>
         </div>
       </div>
- 
-      <!-- Learning to plan -->
-      <div class="row">
-        <div class="col-sm-5">
-          <p><video controls playsinline autoplay muted loop width="300" style="float: left; margin-top:5px; margin-right:50px;margin-bottom: 25px;"><source src="/assets/video/ours-stata-kitchen-down.mp4" type="video/mp4"></source></video></p>
+
+      <!-- From Pixels to Predicates (RA-L, 2026) -->
+      <div class="project-entry">
+        <div class="project-media">
+          <video playsinline autoplay muted loop><source src="/assets/video/ours-stata-kitchen-down.mp4" type="video/mp4" /></video>
         </div>
-        <div class="col-sm-7">
-          <h5 id="learning-abstractions-for-planning">Learning to Plan from Demonstrations</h5>
-          <p>Structured search-based methods like TAMP work well with tediously hand-engineered components. By leveraging ideas from program synthesis, we can instead output the components of planning domains --- such as <a href="https://arxiv.org/abs/2501.00296" rel="external nofollow noopener" target="_blank">symbolic predicates</a> and <a href="https://arxiv.org/abs/2208.07737" rel="external nofollow noopener" target="_blank">operators</a> --- directly from demonstrations and potentially scale systems with data instead of human effort. After learning, we run a planner at test-time to zero-shot complex new tasks via reasoning.</p>
+        <div class="project-text">
+          <div class="project-title"><a href="https://pix2pred.csail.mit.edu/">From Pixels to Predicates: Learning Symbolic World Models via Pretrained Vision-Language Models</a></div>
+          <div class="project-authors">Ashay Athalye*, <strong>Nishanth Kumar</strong>*, Tom Silver, Yichao Liang, Jiuguang Wang, Tom&aacute;s Lozano-P&eacute;rez, Leslie Pack Kaelbling</div>
+          <div class="project-venue">RA-L, 2026</div>
+          <div class="project-links">
+            <a href="https://arxiv.org/abs/2501.00296">[Paper]</a>
+            <a href="https://github.com/Learning-and-Intelligent-Systems/predicators/releases/tag/pix2pred-april2025">[Code]</a>
+            <a href="https://pix2pred.csail.mit.edu/">[Website]</a>
+          </div>
+          <div class="project-desc"> We learn symbolic predicates and operators from human video demonstrations, constructing a "symbolic world model" that enables zero-shot generalization to new scenes and tasks via efficient planning.</div>
         </div>
       </div>
 
-      <!-- Planning to learn -->
-      <div class="row" style="padding-top: 25px;">
-        <div class="col-sm-5">
-        <p><video controls playsinline autoplay muted loop width="300" style="float: left; margin-top:5px; margin-right:50px;margin-bottom: 25px;"><source src="/assets/video/spot-sweeping-compressed-v2.mp4" type="video/mp4"></source></video></p>
+      <!-- Open-World TAMP (RA-L, 2026) -->
+      <div class="project-entry">
+        <div class="project-media">
+          <video playsinline autoplay muted loop><source src="/assets/video/apple-orange-replace.mp4" type="video/mp4" /></video>
         </div>
-        <div class="col-sm-7">
-          <h5 id="planning-to-learn">Planning to Learn in Deployment</h5>
-          <p>Robots and web agents are bound to encounter unexpected failures in their deployment environments (new objects, layouts, websites, etc.). Ideally, they should rapidly learn to overcome these failures online. We can <a href="https://arxiv.org/abs/2402.15025">leverage planning</a> to not only find alternative ways to recover from failures, but also autonomoously explore an environment to collect data most useful to prevent future failures of the same kind.</p>
+        <div class="project-text">
+          <div class="project-title"><a href="https://nishanthjkumar.com/owl-tamp/">Open-World Task and Motion Planning via Vision-Language Model Inferred Constraints</a></div>
+          <div class="project-authors"><strong>Nishanth Kumar</strong>, William Shen, Fabio Ramos, Dieter Fox, Tom&aacute;s Lozano-P&eacute;rez, Leslie Pack Kaelbling, Caelan Reed Garrett</div>
+          <div class="project-venue">RA-L, 2026</div>
+          <div class="project-links">
+            <a href="https://arxiv.org/abs/2411.08253">[Paper]</a>
+            <a href="https://nishanthjkumar.com/owl-tamp/">[Website]</a>
+          </div>
+          <div class="project-desc">We use VLMs to write constraints directly into TAMP systems at runtime. This leverages the common-sense and code generation capabilities of VLMs to enable TAMP to solve 'open-world' tasks it does not originally have the concepts to tackle.</div>
         </div>
       </div>
+
+      <!-- PRoC3S (CoRL, 2024) -->
+      <div class="project-entry">
+        <div class="project-media">
+          <video playsinline autoplay muted loop><source src="/assets/video/proc3s-teaser-down.mp4" type="video/mp4" /></video>
+        </div>
+        <div class="project-text">
+          <div class="project-title"><a href="https://aidan-curtis.github.io/proc3s.github.io/">Trust the PRoC3S: Solving Long-Horizon Robotics Problems with LLMs and Constraint Satisfaction</a></div>
+          <div class="project-authors">Aidan Curtis*, <strong>Nishanth Kumar</strong>*, Jing Cao, Tom&aacute;s Lozano-P&eacute;rez, Leslie Pack Kaelbling</div>
+          <div class="project-venue">CoRL, 2024</div>
+          <div class="project-links">
+            <a href="https://arxiv.org/abs/2406.05572">[Paper]</a>
+            <a href="https://github.com/Learning-and-Intelligent-Systems/proc3s">[Code]</a>
+            <a href="https://aidan-curtis.github.io/proc3s.github.io/">[Website]</a>
+            <a href="https://www.youtube.com/watch?v=hBq0EeFSsPo">[Spotlight Video]</a>
+          </div>
+          <div class="project-desc">LLMs are great at common sense but bad at physics; constraint solvers are the reverse. PRoC3S pairs the two so a robot can go from a natural-language instruction and a camera image to a long-horizon manipulation plan&mdash; no task-specific engineering required.</div>
+        </div>
+      </div>
+
+      <!-- Practice Makes Perfect (RSS, 2024) -->
+      <div class="project-entry">
+        <div class="project-media">
+          <video playsinline autoplay muted loop><source src="/assets/video/spot-sweeping-compressed-v2.mp4" type="video/mp4" /></video>
+        </div>
+        <div class="project-text">
+          <div class="project-title"><a href="https://ees.csail.mit.edu/">Practice Makes Perfect: Planning to Learn Skill Parameter Policies</a></div>
+          <div class="project-authors"><strong>Nishanth Kumar</strong>*, Tom Silver*, Willie McClinton, Linfeng Zhao, Stephen Proulx, Tom&aacute;s Lozano-P&eacute;rez, Leslie Pack Kaelbling, Jennifer Barry</div>
+          <div class="project-venue">RSS, 2024</div>
+          <div class="project-links">
+            <a href="https://arxiv.org/abs/2402.15025">[Paper]</a>
+            <a href="https://ees.csail.mit.edu/">[Website]</a>
+          </div>
+          <div class="project-desc">We use planning to guide exploration and data collection in deployment environments so a robot can efficiently and autonomously learn to handle unexpected deployment failures when solving long-horizon tasks.</div>
+        </div>
+      </div>
+
+      <!-- Learning Efficient Abstract Planning Models (CoRL, 2023) -->
+      <div class="project-entry">
+        <div class="project-media">
+          <video playsinline autoplay muted loop><source src="/assets/video/operator-learning-down.mp4" type="video/mp4" /></video>
+        </div>
+        <div class="project-text">
+          <div class="project-title"><a href="https://nishanthjkumar.com/tamp-operator-learning.github.io/">Learning Efficient Abstract Planning Models that Choose What to Predict</a></div>
+          <div class="project-authors"><strong>Nishanth Kumar</strong>*, Willie McClinton*, Rohan Chitnis, Tom Silver, Tom&aacute;s Lozano-P&eacute;rez, Leslie Pack Kaelbling</div>
+          <div class="project-venue">CoRL, 2023</div>
+          <div class="project-links">
+            <a href="https://arxiv.org/abs/2208.07737">[Paper]</a>
+            <a href="https://github.com/Learning-and-Intelligent-Systems/predicators_behavior/releases/tag/ijcai-23-submission">[Code]</a>
+            <a href="https://nishanthjkumar.com/tamp-operator-learning.github.io/">[Website]</a>
+          </div>
+          <div class="project-desc">Most learned transition models predict everything; ours learns to ignore what doesn't matter. Using program synthesis on demonstrations, we discover compact planning operators that focus only on decision-relevant state&mdash;making abstract planning dramatically more efficient.</div>
+        </div>
+      </div>
+
     </div>
 
     <!-- Latest posts -->

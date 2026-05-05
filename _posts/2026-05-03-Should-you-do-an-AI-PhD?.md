@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Should you do an AI PhD? Thoughts and advice from a 2026 PhD grad.
-date: 2026-05-05 00:00:01
+date: 2026-05-04 00:00:01
 excerpt_separator: <!--more-->
 ---
 

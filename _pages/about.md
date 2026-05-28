@@ -2,7 +2,6 @@
 layout: about
 title: about
 permalink: /
-subtitle: AI, ML, and Robotics researcher + Ph.D. Student @ <a href="https://www.csail.mit.edu/">MIT CSAIL</a>
 
 profile:
   align: right
@@ -15,11 +14,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 ---
-<!-- Hello, and welcome to my personal website! I am an AI Research Scientist at [Meta Robotics Studio](https://tech.facebook.com/reality-labs/) working on making useful generalist robots a practical reality.
+I am an AI Research Scientist at [Meta Robotics Studio](https://tech.facebook.com/reality-labs/) working on making useful generalist robots a practical reality.
 
-Previously, I completed my Ph.D. at [MIT CSAIL](https://www.csail.mit.edu/) working with [Leslie Kaelbling](https://www.csail.mit.edu/person/leslie-kaelbling) and [Tomás Lozano-Pérez](https://people.csail.mit.edu/tlp/). During my PhD and undergrad, I spent time at [FAIR @ Meta](https://ai.meta.com/research/), [NVIDIA Research](https://research.nvidia.com/labs/srl/), the [RAI Institute](https://rai-inst.com/), [Vicarious AI](https://www.vicarious.com/), and [Uber ATG](https://www.uber.com/us/en/autonomous/?id=14490). I received an [Sc.B. with honors](/assets/pdf/Nishanth_Undergrad_Honors_Thesis.pdf) from [Brown University](https://www.brown.edu/), and completed the [IB Diploma](https://www.ibo.org/programmes/diploma-programme/) in my hometown of [Coimbatore](https://en.wikipedia.org/wiki/Coimbatore), India. -->
-
-I am currently a final year Ph.D. student with the [LIS Group](https://lis.csail.mit.edu/) within [MIT CSAIL](https://www.csail.mit.edu/). My official advisors are [Leslie Kaelbling](https://www.csail.mit.edu/person/leslie-kaelbling) and [Tomás Lozano-Pérez](https://people.csail.mit.edu/tlp/), but I have the pleasure of collaborating with many other wonderful people within CSAIL's [Embodied Intelligence Initiative](https://ei.csail.mit.edu/). I'm extremely grateful for support from the [NSF Graduate Research Fellowship](https://engineering.brown.edu/news/2021-03-29/nsf-graduate-research-award). I've also been lucky to intern at [FAIR @ Meta](https://ai.meta.com/research/), [NVIDIA Research](https://research.nvidia.com/labs/srl/), the [RAI Institute](https://rai-inst.com/), [Vicarious AI](https://www.vicarious.com/), and [Uber ATG](https://www.uber.com/us/en/autonomous/?id=14490). Previously, I received an [S.M. degree](https://dspace.mit.edu/handle/1721.1/156279) from [MIT](https://web.mit.edu/), an [Sc.B. with honors](/assets/pdf/Nishanth_Undergrad_Honors_Thesis.pdf) from [Brown University](https://www.brown.edu/), and completed the [IB Diploma](https://www.ibo.org/programmes/diploma-programme/) in my hometown of [Coimbatore](https://en.wikipedia.org/wiki/Coimbatore), India.
+Previously, I completed my Ph.D. at [MIT CSAIL](https://www.csail.mit.edu/) working with [Leslie Kaelbling](https://www.csail.mit.edu/person/leslie-kaelbling) and [Tomás Lozano-Pérez](https://people.csail.mit.edu/tlp/). I've had the pleasure of doing research internships at [FAIR @ Meta](https://ai.meta.com/research/), [NVIDIA Research](https://research.nvidia.com/labs/srl/), the [RAI Institute](https://rai-inst.com/), [Vicarious AI](https://www.vicarious.com/), and [Uber ATG](https://www.uber.com/us/en/autonomous/?id=14490). I received an [Sc.B. with honors](/assets/pdf/Nishanth_Undergrad_Honors_Thesis.pdf) from [Brown University](https://www.brown.edu/), and completed the [IB Diploma](https://www.ibo.org/programmes/diploma-programme/) in my hometown of [Coimbatore](https://en.wikipedia.org/wiki/Coimbatore), India.
 
 Outside of research, I like to lift heavy things, [read](https://www.goodreads.com/user/show/36308161-nishanth-kumar), play basketball, philosophize, cook, and write both fiction and non-fiction. If you're interested in learning more about me or reading some of my writing, check out my [blog](http://nishanthjkumar.com/blog/), [fiction writing](http://nishanthjkumar.com/fiction/), or social links in the website footer. If you'd like to get in contact, check out [this page here](/contact-me/). If you'd like to leave me some anonymous feedback (preferably constructive!), see [this form](https://www.admonymous.co/nishanth-kumar).
 

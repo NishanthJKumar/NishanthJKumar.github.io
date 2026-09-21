@@ -1,5 +1,328 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-09-02T10:38:51-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Nishanth J. Kumar</title><subtitle>Nishanth J. Kumar&apos;s personal website. Based on [*folio](https://github.com/bogoli/-folio) design.
-</subtitle><entry><title type="html">Navigating the Industry Job Search as a Robotics PhD in 2026.</title><link href="http://localhost:4000/blog/2026/Navigating-the-Industry-Job-Search-as-a-Robotics-PhD-in-2026/" rel="alternate" type="text/html" title="Navigating the Industry Job Search as a Robotics PhD in 2026." /><published>2026-05-04T17:00:01-07:00</published><updated>2026-05-04T17:00:01-07:00</updated><id>http://localhost:4000/blog/2026/Navigating-the-Industry-Job-Search-as-a-Robotics-PhD-in-2026</id><content type="html" xml:base="http://localhost:4000/blog/2026/Navigating-the-Industry-Job-Search-as-a-Robotics-PhD-in-2026/"><![CDATA[<p>After having decided to wrap up my PhD and graduate, I recently found myself having to go through the actual industry job search process. Fortunately for me, a number of other people have written useful guides and advice on how to effectively search for a research-adjacent job in AI (see <a href="https://twopug.com/interview-prep/">this</a>, <a href="https://mimansajaiswal.github.io/posts/llm-ml-job-interviews-fall-2024-process/">this</a>, <a href="https://careerservices.fas.harvard.edu/resources/rora-technical-interview-guide-for-research-scientists/">this</a>, and <a href="https://natolambert.com/writing/ai-phd-job-hunt">this</a>). However, my experience looking for jobs in robotics ended up being different enough that I thought it might be useful for me to write up. So here is my contribution to the “job search advice for PhD’s” genre.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-09-20T21:44:59-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Nishanth J. Kumar</title><subtitle>Nishanth J. Kumar&apos;s personal website. Based on [*folio](https://github.com/bogoli/-folio) design.
+</subtitle><entry><title type="html">Tackling Robotics with (V)LM Agents</title><link href="http://localhost:4000/blog/2026/Tackling-Robotics-with-(V)LM-Agents/" rel="alternate" type="text/html" title="Tackling Robotics with (V)LM Agents" /><published>2026-09-19T17:00:01-07:00</published><updated>2026-09-19T17:00:01-07:00</updated><id>http://localhost:4000/blog/2026/Tackling-Robotics-with-(V)LM-Agents</id><content type="html" xml:base="http://localhost:4000/blog/2026/Tackling-Robotics-with-(V)LM-Agents/"><![CDATA[<p>Recently, there have been some interesting new results showing that some of the latest large-scale VLMs (Vision-Language Models) can directly control robots to solve a variety of real-world tasks.
+This has led to some claims and excitement that progress in robotics might happen as an emergent effect of scaling current multi-modal models instead of training different robotics-specific models.
+As someone who’s been doing research in the field for a few years now, I decided to dive into trying to understand these results and sort through the various potential implications and future directions.
+<!--more--></p>
+
+<h1 id="what-are-the-new-results">What are the new results?</h1>
+<p>One <a href="https://openai.robocurve.org/gpt-6-astra/">widely-circulated result</a> that also has a clear description of the testing protocol is from <a href="https://bounty.robocurve.org/">Robocurve</a>.
+Researchers asked a few recent frontier VLMs (Claude Fable 5, Claude Fable 5.1, GPT-6 Astra) to perform some simple tasks (placing a block into a bowl, placing a puzzle piece into a groove) by controlling some <a href="https://i2rt.com/">YAM arms</a>.
+The model takes the task description and camera images (and a history of previous images and actions if available) and outputs end-effector positions and orientation for each end-effector<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup>.
+Another related result is from the <a href="https://robodojo-benchmark.com/report/gpt-6-astra-eval">RoboDojo team</a><sup id="fnref:robodojo"><a href="#fn:robodojo" class="footnote" rel="footnote" role="doc-noteref">2</a></sup>, who ran GPT-6 Astra and GPT-5.5 through much the same kind of interface on their official simulation benchmark: 42 tasks, 50 episodes each, ranked against the 40 policies on their public leaderboard.
+Here, Astra placed first, ahead of every learned policy on the board.
+In both cases there is no other learned policy anywhere between the model and the robot.</p>
+
+<p>The full reported results are worth looking at because they yield at least two useful conclusions:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th>Robocurve (real arms, 20 trials/task)</th>
+      <th>RoboDojo (simulation, 42 tasks × 50 episodes)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Overall</td>
+      <td>—</td>
+      <td>Astra 28.97, 1st of 43; best learned policy DM0.5 24.90, <a href="https://www.pi.website/blog/pi05">π0.5</a><sup id="fnref:pi05"><a href="#fn:pi05" class="footnote" rel="footnote" role="doc-noteref">3</a></sup> 11.41</td>
+    </tr>
+    <tr>
+      <td><a href="https://openai.robocurve.org/gpt-6-astra/">Geometry and semantics</a><sup id="fnref:rcastra"><a href="#fn:rcastra" class="footnote" rel="footnote" role="doc-noteref">4</a></sup></td>
+      <td>95% Astra, 40% Fable 5.1, 5% Fable 5</td>
+      <td>Generalization 33.36 and Open 34.36, both 1st (next best 23.54 and 6.50)</td>
+    </tr>
+    <tr>
+      <td><a href="https://anthropic.robocurve.org/fable-5.1/">Precision and contact</a><sup id="fnref:rcfable"><a href="#fn:rcfable" class="footnote" rel="footnote" role="doc-noteref">5</a></sup></td>
+      <td>10% Astra, 10% Fable 5.1, 0% Fable 5</td>
+      <td>Precision 12.65 (4.0% SR) against 28.25 for the best VLA</td>
+    </tr>
+    <tr>
+      <td>Long-horizon</td>
+      <td>not evaluated</td>
+      <td>21.45 (8.25% SR) against 44.12 for the best VLA</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /></p>
+
+<p>The first thing is the trend line across model generations on the easy task(s): (e.g. 5% → 40% → 95% from Robocurve’s results), over models released within about a year of each other, none of which was built with these specific robot arms in mind.
+RoboDojo’s results show that GPT-5.5 and Astra scored 1.13 and 28.97 respectively on the same set of tasks with the same harness, which suggests the improvement is directly due to capability improvements in the underlying model.
+The second thing is that this trend does not seem to manifest on the harder task, where the newest and by far the strongest model does no better than one two generations older.
+In Robocurve’s testing of a contact-rich puzzle-piece insertion task, both models get the puzzle piece to the groove and then stall at the insertion — the part that requires reacting to contact rather than reasoning about geometry.
+RoboDojo’s per-axis scores show the same split, and show it more starkly: Astra places first overall only by dominating the generalization and open-instruction axes, and is beaten on precision (12.65 against 28.25) and long-horizon execution (21.45 against 44.12) by policies it otherwise outranks.
+Its success rate on the precision tasks is 4%.<sup id="fnref:6"><a href="#fn:6" class="footnote" rel="footnote" role="doc-noteref">6</a></sup></p>
+
+<p>There have been a handful of more anecdotal results. <a href="https://x.com/aryanmadhaverma/status/2096904943471145041?s=20">One X user</a> found that GPT-6 Astra is able to solve a range of tasks much more quickly (in terms of number of turns) and successfully than other recent frontier VLMs. However, they allowed the model to write functions and use helper tools (e.g. SAM for perception) instead of directly having it output end-effector commands. 
+A number of other users demonstrated Astra performing a variety of other impressive real-world tasks (e.g. <a href="https://x.com/cdngdev/status/2097339677128982873?s=20">painting the golden-gate bridge</a>, <a href="https://x.com/dimentary/status/2097141042214797801?s=20">setting up a MuJoCo simulation and drawing a dove inside it</a>, <a href="https://x.com/walterzhu8/status/2100212420840989112">training a dexterous pen-spinning behavior</a> or <a href="https://x.com/ARXrobotics/status/2096328304794210604?s=20">turning the knob on a real-world washing machine</a>).
+However, these were largely demonstrations lacking thorough empirical results, comparisons to baselines, or clarity on the robot’s exact I/O specification or prompting setup.</p>
+
+<p>It is important for context to note that this is not the first time that VLMs or LLMs have been used to directly control robots.
+There are a number of research works dating back to at least 2022 (<a href="https://say-can.github.io/">SayCan</a><sup id="fnref:saycan"><a href="#fn:saycan" class="footnote" rel="footnote" role="doc-noteref">7</a></sup>, <a href="https://code-as-policies.github.io/">Code as Policies</a><sup id="fnref:cap"><a href="#fn:cap" class="footnote" rel="footnote" role="doc-noteref">8</a></sup>, <a href="https://progprompt.github.io/">ProgPrompt</a><sup id="fnref:progprompt"><a href="#fn:progprompt" class="footnote" rel="footnote" role="doc-noteref">9</a></sup>, <a href="https://innermonologue.github.io/">Inner Monologue</a><sup id="fnref:innermono"><a href="#fn:innermono" class="footnote" rel="footnote" role="doc-noteref">10</a></sup>) that explore this idea, and it remains an extremely active area of investigation (e.g. <a href="https://research.nvidia.com/labs/gear/aspire/">this</a><sup id="fnref:aspire"><a href="#fn:aspire" class="footnote" rel="footnote" role="doc-noteref">11</a></sup>, or <a href="https://capgym.github.io/">this</a><sup id="fnref:capx"><a href="#fn:capx" class="footnote" rel="footnote" role="doc-noteref">12</a></sup>).
+Anthropic has even studied their latest models’ capabilities on robotics tasks for the past year or so (<a href="https://www.anthropic.com/research/project-fetch-robot-dog">Project Fetch</a><sup id="fnref:fetch"><a href="#fn:fetch" class="footnote" rel="footnote" role="doc-noteref">13</a></sup>, and more recently <a href="https://www.anthropic.com/research/claude-plays-robotics">an evaluation across quadrupeds, humanoids, and arms</a><sup id="fnref:claudebots"><a href="#fn:claudebots" class="footnote" rel="footnote" role="doc-noteref">14</a></sup>).
+What is noteworthy about these new results though is that the VLM is controlling the robot at a fairly low-level (end-effector targets) instead of via an intricate harness or a number of purpose-built tools, and that performance seems to have improved somewhat dramatically with recent improved model releases.</p>
+
+<h1 id="why-are-these-results-exciting">Why are these results exciting?</h1>
+<p><sup id="fnref:2"><a href="#fn:2" class="footnote" rel="footnote" role="doc-noteref">15</a></sup> Recent prevailing wisdom in robotics has been that robotics fundamentally requires capabilities that VLMs and LLMs cannot possess because of their <a href="https://www.youtube.com/watch?v=5PQtJxd4U0M">structure</a>, <a href="https://drfeifei.substack.com/p/from-words-to-worlds-spatial-intelligence">training data</a><sup id="fnref:feifei"><a href="#fn:feifei" class="footnote" rel="footnote" role="doc-noteref">16</a></sup>, and/or training objectives.
+The vast majority of recent state-of-the-art robotics demos (e.g. <a href="https://www.pi.website/blog/pi07">this</a>, or <a href="https://generalistai.com/blog/towards-machines-with-a-thousand-hands">this</a><sup id="fnref:generalist"><a href="#fn:generalist" class="footnote" rel="footnote" role="doc-noteref">17</a></sup>, or <a href="https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/">this</a><sup id="fnref:gr2"><a href="#fn:gr2" class="footnote" rel="footnote" role="doc-noteref">18</a></sup>) have come from training models on robotics data that are specialized to robotics.
+However, these new results and demos referenced above illustrate that VLMs might possess sparks of embodied intelligence and robotic control despite not being explicitly trained for these things.
+Moreover, it seems that newer generations of models are increasingly capable at these tasks.
+Given this, perhaps scaling up existing models and training techniques will lead to models that can do ever more complex robotics tasks.
+Thus, perhaps progress in robotics could happen as a by-product of large-scale foundation model training instead of requiring purpose-built robotics-specific models.</p>
+
+<p>This is quite significant if true, and could have several important implications for current directions in the field.</p>
+<ol>
+  <li><em>Perhaps very little robotics data will be required</em>. Many recent results have been built atop extremely large-scale, often proprietary, data-collection efforts, and there is significant interest and effort being expended to obtain the largest useful robotics dataset (<a href="https://www.genrobot.ai/data/open-dataset">RealOmni-Open</a><sup id="fnref:realomni"><a href="#fn:realomni" class="footnote" rel="footnote" role="doc-noteref">19</a></sup>, <a href="https://www.figure.ai/news/introducing-index">Index</a><sup id="fnref:index"><a href="#fn:index" class="footnote" rel="footnote" role="doc-noteref">20</a></sup>). However, if VLMs can learn to do well on robotics tasks from being trained (largely) on internet text, image, and coding data, then perhaps we don’t need much robotics data and these data collection efforts  are unnecessary.</li>
+  <li><em>Transferring across embodiments might not be hard</em>. A frequent challenge for robotics models has been having the same model control a variety of different robot hardware form-factors. There is significant effort (e.g. described <a href="https://deepmind.google/blog/scaling-up-learning-across-many-different-robot-types/">here</a><sup id="fnref:rtx"><a href="#fn:rtx" class="footnote" rel="footnote" role="doc-noteref">21</a></sup>, or <a href="https://arxiv.org/abs/2510.03342">here</a><sup id="fnref:gr15"><a href="#fn:gr15" class="footnote" rel="footnote" role="doc-noteref">22</a></sup>) required to train models to exhibit cross-embodiment generalization. If VLMs are able to solve robotics problems by writing programs or outputting controls specific to the problem and environment, then perhaps cross-embodiment generalization emerges without any significant or explicit attempts to train for it.</li>
+  <li><em>Harnesses and tools might be invaluable</em>. A significant enabler for VLMs to be useful at coding has been good tooling and harnesses for developers (e.g. <a href="https://www.claude.com/product/claude-code">Claude Code</a>). Indeed, research in leveraging such models for robotics (which has been ongoing for a number of years) has had similar findings (<a href="https://code-as-policies.github.io/">Code as Policies</a>, <a href="https://capgym.github.io/">CaP-X</a><sup id="fnref:capx:1"><a href="#fn:capx" class="footnote" rel="footnote" role="doc-noteref">12</a></sup>, <a href="https://www.waddlelabs.ai/research/introducing-waddle">Waddle</a><sup id="fnref:waddle"><a href="#fn:waddle" class="footnote" rel="footnote" role="doc-noteref">23</a></sup>): building the right tools and abstractions around the model might determine success or failure for end-to-end robot behavior.</li>
+</ol>
+
+<h2 id="a-related-thought-experiment">A related thought experiment</h2>
+<p>In some sense, building a general-purpose robot by training a model to be extremely good at programming and physical reasoning is not an altogether surprising strategy. 
+We’ve known for a long time that it’s possible to program any specific robot to do any specific task.
+Assuming the environment is roughly static, and given enough time to think through the specific motions and measure out the relevant distances, a skilled robot programmer or <a href="https://en.wikipedia.org/wiki/Automation_integrator">automation integrator</a> can write out a program that performs that specific task in that specific environment.
+This is, in fact, most of what industrial robotics <em>is</em>: the integration, programming and commissioning work wrapped around an arm <a href="https://standardbots.com/blog/how-much-do-robots-cost">routinely costs as much as the arm itself or more</a>, and it has to be redone for every new robot and environment.
+The trouble has been generalizing the program to produce the correct motion in new tasks and environments.</p>
+
+<p>Imagine for a moment a future where a general-purpose robot is widely and easily available. From any customer’s point of view, they can simply buy a robot, bring it to their environment of choice (e.g. a home, cafe, factory, etc.) and just ask it to start doing useful tasks. However, unbeknownst to the customer, each robot has a little (and invisible) elf that operates it. Whenever a human asks the robot to do something, the elf quickly runs around with a measuring tape and then writes out the precise program that generates the motions that accomplish that specific task in that environment.</p>
+
+<p>This is an admittedly contrived setup, but I believe it is a useful lens for thinking about a particular approach to building such a general-purpose robot. Instead of trying to mimic/automate human brains (i.e., training a robotics-specific model) by having a model go directly from pixels to torques, we have a model that automates the <em>programmer</em> of robots, which is able to achieve tasks in a fully general way by writing hyper-specific programs for each task and environment it encounters.</p>
+
+<h1 id="whats-missing">What’s missing?</h1>
+<p>While current results and what they promise are certainly exciting, there are several important and substantial hurdles to be cleared before it is clearly practical to build and deply general-purpose robots by scaling VLMs.</p>
+
+<h3 id="thorough-experimentation-and-strong-evidence-of-generalization">Thorough experimentation and (strong) evidence of generalization</h3>
+<p>The bulk of current evidence is either a demonstration with no quantitative results, or a set of preliminary quantitative results that lacks scale and statistical rigor (i.e., hundreds or more trials with results over several random seeeds). 
+Moreover, many of them do not directly compare against established baselines from the research literature: <a href="https://code-as-policies.github.io/">Code as Policies</a> or <a href="https://capgym.github.io/">more recent improvements</a><sup id="fnref:capx:2"><a href="#fn:capx" class="footnote" rel="footnote" role="doc-noteref">12</a></sup> run on the same frontier models, recent VLAs like <a href="https://www.pi.website/blog/pi07">π0.7</a><sup id="fnref:pi07"><a href="#fn:pi07" class="footnote" rel="footnote" role="doc-noteref">24</a></sup>, <a href="https://arxiv.org/abs/2605.02881">MolmoAct2</a><sup id="fnref:molmo"><a href="#fn:molmo" class="footnote" rel="footnote" role="doc-noteref">25</a></sup> or <a href="https://research.nvidia.com/labs/gear/gr00t-n1_5/">GR00T N1.5</a><sup id="fnref:groot15"><a href="#fn:groot15" class="footnote" rel="footnote" role="doc-noteref">26</a></sup>, and recent WAMs like <a href="https://arxiv.org/abs/2602.15922">DreamZero</a><sup id="fnref:dreamzero"><a href="#fn:dreamzero" class="footnote" rel="footnote" role="doc-noteref">27</a></sup>.
+These are currently far from the type of thorough result that could be published in a robotics research paper that would be accepted at a top conference or journal.</p>
+
+<p>Additionally, a significant part of the excitement around these results comes from the idea that the underlying models were trained on a very small amount (if any) of robotics data.
+If in fact they were trained on large quantities of relevant robotics data (perhaps even on the tested embodiments) <sup id="fnref:4"><a href="#fn:4" class="footnote" rel="footnote" role="doc-noteref">28</a></sup>, then these results do not really demonstrate that physical commonsense is coming as an emergent phenomenon of large-scale training on non-robotics data.
+Even if they were not trained on robotics data, it is not guaranteed that performance on robotics tasks will continue to scale with training in any meaningful way (i.e., the <a href="https://arxiv.org/pdf/2001.08361">scaling laws</a><sup id="fnref:kaplan"><a href="#fn:kaplan" class="footnote" rel="footnote" role="doc-noteref">29</a></sup> of these models on robotics tasks are entirely unclear).
+Thorough experimentation and some insight into the training data for these latest frontier models would help determine the extent to which there is substantial evidence of <a href="https://generalistai.com/blog/physical-commonsense">physical commonsense</a><sup id="fnref:commonsense"><a href="#fn:commonsense" class="footnote" rel="footnote" role="doc-noteref">30</a></sup> emerging from scaling these models.</p>
+
+<h3 id="task-complexity">Task complexity</h3>
+<p>Current results demonstrate behavior on relatively simple, often short-horizon tasks with limited contact and physical interaction. 
+However, a significant challenge in robotics is solving long-horizon, contact-rich tasks that require significant dexterity — <a href="https://www.pi.website/blog/pi0">folding laundry out of a dryer</a><sup id="fnref:pi0"><a href="#fn:pi0" class="footnote" rel="footnote" role="doc-noteref">31</a></sup>, <a href="https://generalistai.com/blog/towards-machines-with-a-thousand-hands">assembling and packing deformable goods</a>, <a href="https://www.sunday.ai/blog/act-2-preview">making a bed or a coffee end-to-end</a>, or <a href="https://x.com/deepakpathak/status/2041939631860482211?s=20">cracking + beating eggs and using them to make an omelette</a>.
+There is, as of yet, limited evidence that VLMs will be able to solve such tasks on robots directly<sup id="fnref:3"><a href="#fn:3" class="footnote" rel="footnote" role="doc-noteref">32</a></sup>.
+Indeed, VLMs - even augmented with tools and harnesses - might be simply incapable of solving certain tasks.
+In the above-discussed thought experiment of the elf, it is possible that even an extremely competent elf would be unable to write the correct program without precisely measuring distances involved, or without a sense of touch, which could be impossible for a VLM operating just from robot cameras without any additional sensors.
+However, several research works have demonstrated that such models are able to leverage tools or ML (e.g. <a href="https://eureka-research.github.io/">Eureka</a><sup id="fnref:eureka"><a href="#fn:eureka" class="footnote" rel="footnote" role="doc-noteref">33</a></sup>, <a href="https://eureka-research.github.io/dr-eureka/">DrEureka</a><sup id="fnref:dreureka"><a href="#fn:dreureka" class="footnote" rel="footnote" role="doc-noteref">34</a></sup>) to perform dexterous behavior, so perhaps this could be a feasible path forward.</p>
+
+<!-- ========== SUGGESTION (Claude, Sep 16) — S5 · NEW SUBSECTION. Your post currently has no reliability/safety failure mode, and this is the sharpest sim-doesn't-transfer evidence available. Order it wherever it fits best.
+     Not your words. Rewrite, trim, or delete the whole block. ========== -->
+<h3 id="reliability-and-safety-on-real-hardware">Reliability and safety on real hardware</h3>
+<p>There is much evidence that current models are not particularly safe or reliable at executing useful behavior on real robots.
+Robodojo’s results show that Astra solves their tasks with an average success rate of 28.97%, which is far from reliable completion.
+Moroever, the RoboDojo team <a href="https://robodojo-benchmark.com/report/gpt-6-astra-eval">had to hald their real-robot campaign for safety</a> after Astra repeatedly issued physically unreasonable or unsafe actions, including incidents that damaged hardware.
+Robocurve <a href="https://robocurve.org/roboharm/">found that several recent VLMs will execute harmful and dangerous tasks</a> on real hardware without refusal.
+Model alignment <a href="https://openai.com/index/hugging-face-incident-and-the-road-ahead/">remains a challenging problems even for disembodied VLMs</a>: ensuring models will safely execute actions on hardware could be even more challenging.</p>
+
+<!-- ========== END SUGGESTION ========== -->
+<h3 id="speed-and-cost-in-deployment">Speed and cost in deployment</h3>
+<p>One issue noted as part of all the recent results is speed.
+Frontier VLMs take on the order of seconds (at best) to produce a turn of output.
+However, some tasks - such as walking even a quadruped robot - require commands to be output at a much higher frequency (e.g. <a href="https://arxiv.org/pdf/2211.07638">50 Hz</a><sup id="fnref:legged"><a href="#fn:legged" class="footnote" rel="footnote" role="doc-noteref">35</a></sup>).
+This control frequency is not feasible for modern large frontier VLMs <sup id="fnref:5"><a href="#fn:5" class="footnote" rel="footnote" role="doc-noteref">36</a></sup>, and it is unclear that it will ever be.
+A related issue is the current paradigm for querying large models: it may not be feasible for every robot to assume constant connection to a large centralized model server simply because wifi might have too much latency or too little bandwidth to be reliable.</p>
+
+<p>Related to the issue of speed is that of cost.
+Each of the trials in Robocurve’s results cost between $0.94 and $2.69 in API calls for a single pick-and-place.
+If frequency issues are resolved, then robots might be querying models at 50 Hz for commands, and any useful physical task might involve tens of millions of queries.
+At current rates, the end-user cost of doing this is likely infeasible.</p>
+
+<p>It is worth noting though that inference speeds and costs for VLMs are improving.
+Robocurve notes that <a href="https://x.com/chooi_jeq/status/2090453423682633891?s=20">“LLM token output speed increases by 2-7x per year”</a>, and projects that VLMs could potentially control robots at the required control frequency by the end of this year, or by 2029.
+Costs are falling on a <a href="https://epoch.ai/data-insights/llm-inference-price-trends">similar kind of curve</a><sup id="fnref:epoch"><a href="#fn:epoch" class="footnote" rel="footnote" role="doc-noteref">37</a></sup>.
+Both of these concerns could additionally be addressed by distilling large models into smaller ones that can be run locally.
+ßHowever, it is unclear whether these trends will continue to hold in the coming months and years.</p>
+
+<h1 id="conclusion">Conclusion</h1>
+<p>Recent results and demonstrations show that frontier VLMs are surprisingly capable at solving tasks on robot hardware despite seemingly not having been trained to do so.
+If these results and demonstrations are early sparks of physical intelligence emerging from large-scale foundation-model training, then progress in robotics might happen in a different and perhaps faster way than is currently projected.
+However, there is a lot of additional work to be done before this path of scaling VLMs can feasibly be used to power and ship general-purpose robots.</p>
+
+<p>While this post has generally contrasted scaling VLMs for robotics against training and developing robotics-specific models, there is no reason why these approaches cannot be combined.
+Indeed, <a href="https://www.anthropic.com/research/claude-plays-robotics">several</a> <a href="https://anonymous-report-421.github.io/public-website/?lang=en&amp;view=1">recent results</a> demonstrate that combining frontier VLMs with VLAs outperforms either approach individually.
+Indeed, several robotics researchers argue that arming these models with models trained specifically for robots, as well as tools and techniques from classical robotics, is a promising path forward. <sup id="fnref:8"><a href="#fn:8" class="footnote" rel="footnote" role="doc-noteref">38</a></sup></p>
+
+<hr />
+
+<p><em>Thanks to <a href="https://ryanhoque.github.io/">Ryan Hoque</a>, <a href="https://www.zacharysiegel.org/">Zachary Siegel</a>, and <a href="https://lucasmanuelli.com/">Lucas Manuelli</a> for helpful comments on draft versions of this post, and to Chao Chen, <a href="https://jonathantompson.github.io/">Jonathan Tompson</a>, and <a href="https://meche.mit.edu/people/faculty/SANGBAE@MIT.EDU">Sangbae Kim</a> for helpful discussion on the ideas it contains.</em></p>
+
+<h2 id="citation">Citation</h2>
+
+<p>If you found this post useful in your own work or writing, please feel free to cite it. You can use the BibTeX below, or just link to the post directly.</p>
+
+<div class="cite-box">
+  <button type="button" class="cite-copy" onclick="copyCite(this)" aria-label="Copy BibTeX citation to clipboard">Copy BibTeX</button>
+  <pre class="cite-pre"><code id="cite-bibtex">@misc{kumar2026vlmagents,
+  title        = {Tackling Robotics with (V)LM Agents},
+  author       = {Kumar, Nishanth},
+  year         = {2026},
+  month        = {September},
+  howpublished = {Blog post},
+  url          = {https://nishanthjkumar.com/blog/2026/Tackling-Robotics-with-VLM-Agents/}
+}</code></pre>
+</div>
+
+<style>
+.cite-box{position:relative;margin:1.5em 0}
+.cite-box .cite-pre{overflow-x:auto;padding:1em 1em 1em 1.1em;border:1px solid rgba(128,128,128,.35);border-radius:4px;font-size:.85em;line-height:1.5;margin:0}
+.cite-box .cite-pre code{white-space:pre;background:none;padding:0;border:0;font-size:inherit}
+.cite-copy{position:absolute;top:.6em;right:.6em;z-index:1;font:inherit;font-size:.78em;line-height:1;padding:.45em .7em;cursor:pointer;color:inherit;background:transparent;border:1px solid rgba(128,128,128,.5);border-radius:3px;opacity:.75;transition:opacity .15s ease}
+.cite-copy:hover,.cite-copy:focus-visible{opacity:1}
+.cite-copy[data-done="1"]{opacity:1;border-color:currentColor}
+@media (prefers-reduced-motion:reduce){.cite-copy{transition:none}}
+</style>
+
+<script>
+function copyCite(btn){
+  var el = document.getElementById('cite-bibtex');
+  if(!el) return;
+  var text = el.innerText;
+  var done = function(){
+    var old = btn.textContent;
+    btn.textContent = 'Copied';
+    btn.setAttribute('data-done','1');
+    setTimeout(function(){ btn.textContent = old; btn.removeAttribute('data-done'); }, 1800);
+  };
+  if(navigator.clipboard && navigator.clipboard.writeText){
+    navigator.clipboard.writeText(text).then(done, function(){ fallback(text, done); });
+  } else { fallback(text, done); }
+  function fallback(t, cb){
+    var ta = document.createElement('textarea');
+    ta.value = t; ta.setAttribute('readonly','');
+    ta.style.position = 'absolute'; ta.style.left = '-9999px';
+    document.body.appendChild(ta); ta.select();
+    try { document.execCommand('copy'); cb(); } catch(e) {}
+    document.body.removeChild(ta);
+  }
+}
+</script>
+
+<hr />
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1">
+      <p>This is a pretty low-level way to control a robot (though there are a few services - such as <a href="https://en.wikipedia.org/wiki/Inverse_kinematics">Inverse Kinematics (IK)</a> - that still need to run between the model’s outputs and the actual motors for this to be viable) and could translate to any other robot arm setup in theory. It’s worth appreciating how thin this interface is: the model gets three camera images and the arm’s joint state, and emits a target pose and gripper state as a tool call. That’s it — no motion primitives, no trajectory optimizer, no task-specific code. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:robodojo">
+      <p>Zhang, W. et al. (2026). <a href="https://robodojo-benchmark.com/report/gpt-6-astra-eval">An Unexpected Robot Policy: Early Evaluations of GPT-6 Astra on RoboDojo and Beyond</a>. See also Chen, T. et al. (2026). <a href="https://arxiv.org/abs/2607.04434">RoboDojo: A Unified Sim-and-Real Benchmark for Comprehensive Evaluation of Generalist Robot Manipulation Policies</a>. <a href="#fnref:robodojo" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:pi05">
+      <p>Physical Intelligence et al. (2025). <a href="https://arxiv.org/abs/2504.16054">π₀.₅: a Vision-Language-Action Model with Open-World Generalization</a>. <a href="#fnref:pi05" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:rcastra">
+      <p>Robocurve (2026). <a href="https://openai.robocurve.org/gpt-6-astra/">GPT-6 Astra on robot arms</a>. <a href="#fnref:rcastra" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:rcfable">
+      <p>Robocurve (2026). <a href="https://anthropic.robocurve.org/fable-5.1/">Fable 5.1 on robot arms</a>. <a href="#fnref:rcfable" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:6">
+      <p>New <a href="https://openai.robocurve.org/stationerybench/">results from robocurve</a> show Astra outscoring the open-source <a href="https://arxiv.org/abs/2605.02881">MolmoAct2</a> VLA on a few relatively complex manipulation tasks. <a href="#fnref:6" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:saycan">
+      <p>Ahn, M. et al. (2022). <a href="https://arxiv.org/abs/2204.01691">Do As I Can, Not As I Say: Grounding Language in Robotic Affordances</a>. <a href="#fnref:saycan" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:cap">
+      <p>Liang, J. et al. (2022). <a href="https://arxiv.org/abs/2209.07753">Code as Policies: Language Model Programs for Embodied Control</a>. <a href="#fnref:cap" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:progprompt">
+      <p>Singh, I. et al. (2022). <a href="https://arxiv.org/abs/2209.11302">ProgPrompt: Generating Situated Robot Task Plans using Large Language Models</a>. <a href="#fnref:progprompt" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:innermono">
+      <p>Huang, W. et al. (2022). <a href="https://arxiv.org/abs/2207.05608">Inner Monologue: Embodied Reasoning through Planning with Language Models</a>. <a href="#fnref:innermono" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:aspire">
+      <p>Lu, R. et al. (2026). <a href="https://arxiv.org/abs/2607.00272">ASPIRE: Agentic Skills Discovery for Robotics</a>. <a href="#fnref:aspire" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:capx">
+      <p>CaP-X (2026). <a href="https://capgym.github.io/">CaP-X: Benchmarking Coding Agents for Robot Manipulation</a>. <a href="#fnref:capx" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:capx:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a> <a href="#fnref:capx:2" class="reversefootnote" role="doc-backlink">&#8617;<sup>3</sup></a></p>
+    </li>
+    <li id="fn:fetch">
+      <p>Anthropic (2025). <a href="https://www.anthropic.com/research/project-fetch-robot-dog">Project Fetch: Can Claude train a robot dog?</a>. <a href="#fnref:fetch" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:claudebots">
+      <p>Anthropic (2026). <a href="https://www.anthropic.com/research/claude-plays-robotics">How Claude performs on robotics tasks</a>. <a href="#fnref:claudebots" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>Prof. Phillip Isola at MIT articulated these points very well in a <a href="https://web.mit.edu/phillipi/www/writing/robot-use-agents.html">recent blog post</a>. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:feifei">
+      <p>Li, F.-F. (2025). <a href="https://drfeifei.substack.com/p/from-words-to-worlds-spatial-intelligence">From Words to Worlds: Spatial Intelligence is AI’s Next Frontier</a>. <a href="#fnref:feifei" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:generalist">
+      <p>Generalist AI (2026). <a href="https://generalistai.com/blog/towards-machines-with-a-thousand-hands">Towards machines with a thousand hands</a>. <a href="#fnref:generalist" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:gr2">
+      <p>Google DeepMind (2026). <a href="https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/">Gemini Robotics 2 brings whole body intelligence to robots</a>. <a href="#fnref:gr2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:realomni">
+      <p>GenRobot AI (2025). <a href="https://www.genrobot.ai/data/open-dataset">10Kh RealOmni-Open Dataset</a>. <a href="#fnref:realomni" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:index">
+      <p>Figure AI (2026). <a href="https://www.figure.ai/news/introducing-index">Index: the largest useful robot training dataset in the world</a>. <a href="#fnref:index" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:rtx">
+      <p>Google DeepMind (2023). <a href="https://deepmind.google/blog/scaling-up-learning-across-many-different-robot-types/">Scaling up learning across many different robot types</a>. <a href="#fnref:rtx" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:gr15">
+      <p>Gemini Robotics Team (2025). <a href="https://arxiv.org/abs/2510.03342">Gemini Robotics 1.5: Pushing the Frontier of Generalist Robots with Advanced Embodied Reasoning, Thinking, and Motion Transfer</a>. <a href="#fnref:gr15" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:waddle">
+      <p>Waddle Labs (2026). <a href="https://www.waddlelabs.ai/research/introducing-waddle">Introducing Waddle: agents that control robots</a>. <a href="#fnref:waddle" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:pi07">
+      <p>Physical Intelligence (2026). <a href="https://www.pi.website/blog/pi07">π₀.₇</a>. <a href="#fnref:pi07" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:molmo">
+      <p>Fang, H. et al. (2026). <a href="https://arxiv.org/abs/2605.02881">MolmoAct2: Action Reasoning Models for Real-world Deployment</a>. <a href="#fnref:molmo" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:groot15">
+      <p>NVIDIA GEAR (2025). <a href="https://research.nvidia.com/labs/gear/gr00t-n1_5/">GR00T N1.5: An Improved Open Foundation Model for Generalist Humanoid Robots</a>. <a href="#fnref:groot15" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:dreamzero">
+      <p>Ye, S. et al. (2026). <a href="https://arxiv.org/abs/2602.15922">World Action Models are Zero-shot Policies</a>. <a href="#fnref:dreamzero" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:4">
+      <p>There appears to be some <a href="https://x.com/DJiafei/status/2098681827703808480?s=20">early evidence</a> that GPT-6 Astra may have been trained on open-source robotics data. <a href="#fnref:4" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:kaplan">
+      <p>Kaplan, J. et al. (2020). <a href="https://arxiv.org/abs/2001.08361">Scaling Laws for Neural Language Models</a>. <a href="#fnref:kaplan" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:commonsense">
+      <p>Generalist AI (2026). <a href="https://generalistai.com/blog/physical-commonsense">Physical commonsense</a>. <a href="#fnref:commonsense" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:pi0">
+      <p>Black, K. et al. (2024). <a href="https://arxiv.org/abs/2410.24164">π₀: A Vision-Language-Action Flow Model for General Robot Control</a>. <a href="#fnref:pi0" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:3">
+      <p>Prof. Jitendra Malik raised exactly this point in a <a href="https://x.com/JitendraMalikCV/status/2097173961264284039?s=20">recent tweet</a> in response to some of the above-mentioned results. <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:eureka">
+      <p>Ma, Y. J. et al. (2023). <a href="https://arxiv.org/abs/2310.12931">Eureka: Human-Level Reward Design via Coding Large Language Models</a>. <a href="#fnref:eureka" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:dreureka">
+      <p>Ma, Y. J. et al. (2024). <a href="https://arxiv.org/abs/2406.01967">DrEureka: Language Model Guided Sim-To-Real Transfer</a>. <a href="#fnref:dreureka" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:legged">
+      <p>Agarwal, A. et al. (2022). <a href="https://arxiv.org/abs/2211.07638">Legged Locomotion in Challenging Terrains using Egocentric Vision</a>. <a href="#fnref:legged" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:5">
+      <p>The gap, from <a href="https://www.anthropic.com/research/claude-plays-robotics">Anthropic’s own robotics evals</a>: current non-reasoning inference runs at <strong>~0.2–0.4 Hz</strong>, against the <strong>~83 Hz</strong> needed for real-time quadruped control — “roughly two orders of magnitude.” <a href="#fnref:5" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:epoch">
+      <p>Epoch AI (2025). <a href="https://epoch.ai/data-insights/llm-inference-price-trends">LLM inference prices have fallen rapidly but unequally across tasks</a>. <a href="#fnref:epoch" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:8">
+      <p>See <a href="https://x.com/GeorgiaChal/article/2101335513558929868">this article</a> from Georgia Chalvatzaki, and <a href="https://x.com/Ken_Goldberg/status/2100986412762087909">this one</a> from Ken Goldberg. <a href="#fnref:8" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[Recently, there have been some interesting new results showing that some of the latest large-scale VLMs (Vision-Language Models) can directly control robots to solve a variety of real-world tasks. This has led to some claims and excitement that progress in robotics might happen as an emergent effect of scaling current multi-modal models instead of training different robotics-specific models. As someone who’s been doing research in the field for a few years now, I decided to dive into trying to understand these results and sort through the various potential implications and future directions.]]></summary></entry><entry><title type="html">Navigating the Industry Job Search as a Robotics PhD in 2026.</title><link href="http://localhost:4000/blog/2026/Navigating-the-Industry-Job-Search-as-a-Robotics-PhD-in-2026/" rel="alternate" type="text/html" title="Navigating the Industry Job Search as a Robotics PhD in 2026." /><published>2026-05-04T17:00:01-07:00</published><updated>2026-05-04T17:00:01-07:00</updated><id>http://localhost:4000/blog/2026/Navigating-the-Industry-Job-Search-as-a-Robotics-PhD-in-2026</id><content type="html" xml:base="http://localhost:4000/blog/2026/Navigating-the-Industry-Job-Search-as-a-Robotics-PhD-in-2026/"><![CDATA[<p>After having decided to wrap up my PhD and graduate, I recently found myself having to go through the actual industry job search process. Fortunately for me, a number of other people have written useful guides and advice on how to effectively search for a research-adjacent job in AI (see <a href="https://twopug.com/interview-prep/">this</a>, <a href="https://mimansajaiswal.github.io/posts/llm-ml-job-interviews-fall-2024-process/">this</a>, <a href="https://careerservices.fas.harvard.edu/resources/rora-technical-interview-guide-for-research-scientists/">this</a>, and <a href="https://natolambert.com/writing/ai-phd-job-hunt">this</a>). However, my experience looking for jobs in robotics ended up being different enough that I thought it might be useful for me to write up. So here is my contribution to the “job search advice for PhD’s” genre.</p>
 
 <!--more-->
 
@@ -826,62 +1149,4 @@ Another set of people argued that we can leverage existing vision, language, and
 
 <p>If you happen to be reading this and are currently feeling a bit disappointed or hopeless by a recent rejection or setback (hello future me!), I hope this story brings you some comfort, motivation or hope to keep persisting toward goals you care about.</p>
 
-<p>You can read the actual blog post on MIT Admissions’ site <a href="https://mitadmissions.org/blogs/entry/denied-by-mit-now-a-phd-student-at-csail/">here</a>.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[One of my favorite blogs in the whole wide Internet is the MIT Admissions Blog. Admittedly, this used to be because I wanted nothing more than to become an MIT undergrad. However, I’ve continued to keep up with these blogs even after being rejected from MIT because many of the posts have been exceptionally genuine, relatable, and even insightful. In fact, I actually kept a copy of one of my favorite advice posts pinned to my phone’s notes app throughout my time in college and it stayed relevant and insightful over all 4 years.]]></summary></entry><entry><title type="html">My goldwater application sample.</title><link href="http://localhost:4000/blog/2020/My-Goldwater-Application-Sample/" rel="alternate" type="text/html" title="My goldwater application sample." /><published>2020-05-22T17:00:01-07:00</published><updated>2020-05-22T17:00:01-07:00</updated><id>http://localhost:4000/blog/2020/My-Goldwater-Application-Sample</id><content type="html" xml:base="http://localhost:4000/blog/2020/My-Goldwater-Application-Sample/"><![CDATA[<p>Earlier this year, I had the incredible privilege of being named a Goldwater Scholar. While winning the scholarship was rather validating and motivating, I thought the application process worthwhile in of itself because it forced me to think hard about my research direction and career goals for the future. During the application process, I found it incredibly helpful to read past sample applications. However, such samples are pretty few and far between, especially within the Computer Science or Mathematics categories.</p>
-
-<!--more-->
-
-<p>Given this, I thought I’d put my own application online in the hopes that future Goldwater applicants find it helpful. Below, you’ll find my responses to all the short essay questions + my research essay; which represent the bulk of the Goldwater application. If you’re reading this and considering applying to the Goldwater but currently on the fence, I’d highly recommend you try it (especially if you’re a sophomore because you can apply again next year!). If you’re in no way planning to apply for the scholarship but just reading this anyways, I hope it’s at least mildly interesting / entertaining…</p>
-
-<hr />
-
-<p><br />
-<em>In one or two sentences, describe your career goals and professional aspirations (see example below). This statement will be used in publications if you are selected as a scholar or honorable mention.</em></p>
-
-<p>Obtain a PhD in Artificial Intelligence. Conduct research aiming to develop intelligence algorithms to enable practical and collaborative robots.</p>
-
-<p><br /></p>
-
-<p><em>What are your career goals and professional aspirations? Indicate which area(s) of mathematics, science or engineering you are considering pursuing in your research career and specify how your current academic program and your overall educational plans will assist you in achieving your career goals and professional aspirations.</em></p>
-
-<p>Humans have been dreaming of creating intelligent robots for many centuries now. Intelligent and collaborative robots could enable everything from creating an extraterrestrial habitat on Mars to making nuclear fusion reactors a viable source of clean and safe energy. The potential applications of these robots are so vast that it seems like their development could fundamentally change the world for the better, similar to how computers have changed our world by an unprecedented factor in only the last 50 years. The prospect of having widespread intelligent and collaborative machines at our disposal is thus exciting indeed.</p>
-
-<p>Given this, my primary career goal is to accelerate the development of such intelligent and collaborative robots.</p>
-
-<p>I recognize that creating such robots is not a simple task in the slightest. Such intelligent and collaborative robots have not even been created in a laboratory setting yet. Hence, it is clear to me that I need to spend time learning as much as I can about these fields and attempt to advance the state-of-the-art in research as much as I can.</p>
-
-<p>To this end, I am pursuing an undergraduate degree in Computer Engineering. I believe that to create truly useful robots, we must make progress in creating increasingly intelligent algorithms in addition to cheaper, more accurate sensors and actuators. Thus, I see the challenges of robotics as fundamentally being challenges of computer science and engineering.</p>
-
-<p>I chose to study computer engineering because it enables me to gain foundational knowledge in both fields.</p>
-
-<p>Outside of my curriculum, I am a member of a Robotics and Artificial Intelligence lab on campus. As a lab member, I am able to learn and work on independent research projects to advance the current state-of-the-art in various sub-fields like Planning, Reinforcement Learning, Imitation Learning and Human-Robot Interaction. I am also able to constantly learn about the field from my fellow researchers within the lab and around the world.</p>
-
-<p>After graduation, I intend to pursue a Ph.D. in Computer Science with a focus on artificial intelligence for robots. I want to build upon the foundation I will have laid to focus both on developing intelligence algorithms for robots and on creating interfaces to facilitate better human-robot collaboration. At the completion of my Ph.D., I hope to have made significant contributions to the state-of-the-art for robot learning and be well-equipped to help build the robots of our dreams.</p>
-
-<p><br /></p>
-
-<p><em>Describe an activity or experience that has been important in helping shape or reinforce your desire to pursue a research career in science, mathematics or engineering</em></p>
-
-<p>My first research internship involved helping a colleague with his project: using data from expert demonstrations to teach a robot how to press buttons. My colleague already had an algorithm; all that was left was to implement it on our lab’s mobile robot. We didn’t think this would take more than two months.</p>
-
-<p>As it turned out, we were very wrong. Our initial attempts resulted in our robot’s arm frequently hitting obstacles. Some weeks of debugging yielded a flaw in our algorithm. Some more weeks and extensive tests revealed our data-collection programs weren’t actually collecting data. Weeks continued to pass until my colleague graduated and we lost hope that the idea would work.</p>
-
-<p>However, on the urging of an advisor, another colleague and I began re-examining the project. We ran meticulous experiments until we finally discovered a small error with our data collection. Days later, approximately one year after having gotten involved in the project, I held my breath and watched the robot press a button.</p>
-
-<p>While button-pressing may seem a trivial task, that moment was one of the most profound experiences of my life. Despite the many setbacks and frustrations, I continue with research to this day because such moments of discovery, of knowing that I have created something significant, novel and potentially impactful, have made everything else well worth it. Research is the most exciting and fulfilling pursuit I have ever known and I’m excited to spend the rest of my life doing it.</p>
-
-<p><br /></p>
-
-<p><em>Goldwater Scholars will be representative of the diverse economic, ethnic and occupational backgrounds of families in the United States. Describe any social and/or economic impacts you have encountered that influenced your education - either positively or negatively - and how you have dealt with them.</em></p>
-
-<p>I grew up in my father’s relatively small hometown in South India where opportunities were scarce. My high school had no guidance counselor and the nearest SAT Testing Center was a three-hour drive. However, my parents are both hard-working immigrants to the US who taught me to dream big and then persevere relentlessly for those dreams. So, I did.</p>
-
-<p>I taught myself electronics and computer programming and began competing in national - and eventually international - robotics competitions and science fairs. I took a ninety-minute bus ride every day for six years to attend my city’s only international school. Eventually, I was able to achieve my dream of being accepted to study engineering at a research-driven college in the U.S.</p>
-
-<p>I should emphasize that I’ve had the good fortune of being supported by great people throughout my journey thus far. My parents have never spared expenses on my education or pursuit of opportunity. My high school teachers nominated me for every relevant extracurricular opportunity they could and stayed after school hours to mentor me. My school’s chairman even fully-sponsored our Robotics team when costs became prohibitive.</p>
-
-<p>My experiences have taught me that it’s important to encourage and support students everywhere to pursue opportunity, no matter how scarce it may be. Sometimes, this support can change a life, as it did mine. In this spirit, I hope that my career and life can contribute to making the world have more opportunity for everyone, everywhere.<br /></p>
-
-<hr />
-<div style="text-align: center"> <a href="/assets/pdf/Goldwater_Research_Essay.pdf"> <p style="font-size:20px"> My Research Essay </p> </a></div>
-
-<p>(PS: If you’re looking to write your Research Essay in LaTex, I’d highly recommend <a href="https://www.overleaf.com/latex/templates/goldwater-scholarship-research-essay-template/pmhbjqwgvdvb">this free, open-source template</a> by 2019 Goldwater Scholar Hannah Richards).</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Earlier this year, I had the incredible privilege of being named a Goldwater Scholar. While winning the scholarship was rather validating and motivating, I thought the application process worthwhile in of itself because it forced me to think hard about my research direction and career goals for the future. During the application process, I found it incredibly helpful to read past sample applications. However, such samples are pretty few and far between, especially within the Computer Science or Mathematics categories.]]></summary></entry></feed>
+<p>You can read the actual blog post on MIT Admissions’ site <a href="https://mitadmissions.org/blogs/entry/denied-by-mit-now-a-phd-student-at-csail/">here</a>.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[One of my favorite blogs in the whole wide Internet is the MIT Admissions Blog. Admittedly, this used to be because I wanted nothing more than to become an MIT undergrad. However, I’ve continued to keep up with these blogs even after being rejected from MIT because many of the posts have been exceptionally genuine, relatable, and even insightful. In fact, I actually kept a copy of one of my favorite advice posts pinned to my phone’s notes app throughout my time in college and it stayed relevant and insightful over all 4 years.]]></summary></entry></feed>

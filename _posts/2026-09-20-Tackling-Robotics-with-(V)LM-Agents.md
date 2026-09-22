@@ -18,7 +18,7 @@ Another related result is from the [RoboDojo team](https://robodojo-benchmark.co
 Here, Astra placed first, ahead of every learned policy on the board.
 In both cases there is no other learned policy anywhere between the model and the robot.
 
-The full reported results are worth looking at because they yield at least two useful conclusions:
+The full reported results are worth looking at because they yield at least two useful trends:
 
 
 | | Robocurve (real arms, 20 trials/task) | RoboDojo (simulation, 42 tasks × 50 episodes) |
@@ -38,7 +38,7 @@ RoboDojo's per-axis scores show the same split, and show it more starkly: Astra 
 Its success rate on the precision tasks is 4%.[^6]
 
 There have been a handful of more anecdotal results. [One X user](https://x.com/aryanmadhaverma/status/2096904943471145041?s=20) found that GPT-6 Astra is able to solve a range of tasks much more quickly (in terms of number of turns) and successfully than other recent frontier VLMs. However, they allowed the model to write functions and use helper tools (e.g. SAM for perception) instead of directly having it output end-effector commands. 
-A number of other users demonstrated Astra performing a variety of other impressive real-world tasks (e.g. [painting the golden-gate bridge](https://x.com/cdngdev/status/2097339677128982873?s=20), [setting up a MuJoCo simulation and drawing a dove inside it](https://x.com/dimentary/status/2097141042214797801?s=20), [training a dexterous pen-spinning behavior](https://x.com/walterzhu8/status/2100212420840989112) or [turning the knob on a real-world washing machine](https://x.com/ARXrobotics/status/2096328304794210604?s=20)).
+A number of other users demonstrated Astra performing a variety of other impressive real-world tasks (e.g. [painting the golden-gate bridge](https://x.com/cdngdev/status/2097339677128982873?s=20), [setting up a MuJoCo simulation and drawing a dove inside it](https://x.com/dimentary/status/2097141042214797801?s=20), [training a dexterous pen-spinning behavior](https://x.com/walterzhu8/status/2100212420840989112), [maneuvering complex interlocking puzzle pieces to be unstuck](https://x.com/qineng_wang/status/2099893504658866561?s=20), or [turning the knob on a real-world washing machine](https://x.com/ARXrobotics/status/2096328304794210604?s=20)).
 However, these were largely demonstrations lacking thorough empirical results, comparisons to baselines, or clarity on the robot's exact I/O specification or prompting setup.
 
 
@@ -191,7 +191,7 @@ function copyCite(btn){
 
 ---
 
-[^1]: This is a pretty low-level way to control a robot (though there are a few services - such as [Inverse Kinematics (IK)](https://en.wikipedia.org/wiki/Inverse_kinematics) - that still need to run between the model's outputs and the actual motors for this to be viable) and could translate to any other robot arm setup in theory. It's worth appreciating how thin this interface is: the model gets three camera images and the arm's joint state, and emits a target pose and gripper state as a tool call. That's it — no motion primitives, no trajectory optimizer, no task-specific code.
+[^1]: This is a pretty low-level way to control a robot (though there are a few services - such as [Inverse Kinematics (IK)](https://en.wikipedia.org/wiki/Inverse_kinematics) - that still need to run between the model's outputs and the actual motors for this to be viable) and could translate to any other robot arm setup in theory.
 
 [^2]: Prof. Phillip Isola at MIT articulated these points very well in a [recent blog post](https://web.mit.edu/phillipi/www/writing/robot-use-agents.html).
 

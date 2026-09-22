@@ -200,7 +200,7 @@ Another related result is from the <a href="https://robodojo-benchmark.com/repor
 Here, Astra placed first, ahead of every learned policy on the board.
 In both cases there is no other learned policy anywhere between the model and the robot.</p>
 
-<p>The full reported results are worth looking at because they yield at least two useful conclusions:</p>
+<p>The full reported results are worth looking at because they yield at least two useful trends:</p>
 
 <table>
   <thead>
@@ -248,7 +248,7 @@ RoboDojo’s per-axis scores show the same split, and show it more starkly: Astr
 Its success rate on the precision tasks is 4%.<sup id="fnref:6"><a href="#fn:6" class="footnote" rel="footnote" role="doc-noteref">6</a></sup></p>
 
 <p>There have been a handful of more anecdotal results. <a href="https://x.com/aryanmadhaverma/status/2096904943471145041?s=20" rel="external nofollow noopener" target="_blank">One X user</a> found that GPT-6 Astra is able to solve a range of tasks much more quickly (in terms of number of turns) and successfully than other recent frontier VLMs. However, they allowed the model to write functions and use helper tools (e.g. SAM for perception) instead of directly having it output end-effector commands. 
-A number of other users demonstrated Astra performing a variety of other impressive real-world tasks (e.g. <a href="https://x.com/cdngdev/status/2097339677128982873?s=20" rel="external nofollow noopener" target="_blank">painting the golden-gate bridge</a>, <a href="https://x.com/dimentary/status/2097141042214797801?s=20" rel="external nofollow noopener" target="_blank">setting up a MuJoCo simulation and drawing a dove inside it</a>, <a href="https://x.com/walterzhu8/status/2100212420840989112" rel="external nofollow noopener" target="_blank">training a dexterous pen-spinning behavior</a> or <a href="https://x.com/ARXrobotics/status/2096328304794210604?s=20" rel="external nofollow noopener" target="_blank">turning the knob on a real-world washing machine</a>).
+A number of other users demonstrated Astra performing a variety of other impressive real-world tasks (e.g. <a href="https://x.com/cdngdev/status/2097339677128982873?s=20" rel="external nofollow noopener" target="_blank">painting the golden-gate bridge</a>, <a href="https://x.com/dimentary/status/2097141042214797801?s=20" rel="external nofollow noopener" target="_blank">setting up a MuJoCo simulation and drawing a dove inside it</a>, <a href="https://x.com/walterzhu8/status/2100212420840989112" rel="external nofollow noopener" target="_blank">training a dexterous pen-spinning behavior</a>, <a href="https://x.com/qineng_wang/status/2099893504658866561?s=20" rel="external nofollow noopener" target="_blank">maneuvering complex interlocking puzzle pieces to be unstuck</a>, or <a href="https://x.com/ARXrobotics/status/2096328304794210604?s=20" rel="external nofollow noopener" target="_blank">turning the knob on a real-world washing machine</a>).
 However, these were largely demonstrations lacking thorough empirical results, comparisons to baselines, or clarity on the robot’s exact I/O specification or prompting setup.</p>
 
 <p>It is important for context to note that this is not the first time that VLMs or LLMs have been used to directly control robots.
@@ -403,7 +403,7 @@ function copyCite(btn){
 <div class="footnotes" role="doc-endnotes">
   <ol>
     <li id="fn:1">
-      <p>This is a pretty low-level way to control a robot (though there are a few services - such as <a href="https://en.wikipedia.org/wiki/Inverse_kinematics" rel="external nofollow noopener" target="_blank">Inverse Kinematics (IK)</a> - that still need to run between the model’s outputs and the actual motors for this to be viable) and could translate to any other robot arm setup in theory. It’s worth appreciating how thin this interface is: the model gets three camera images and the arm’s joint state, and emits a target pose and gripper state as a tool call. That’s it — no motion primitives, no trajectory optimizer, no task-specific code. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">↩</a></p>
+      <p>This is a pretty low-level way to control a robot (though there are a few services - such as <a href="https://en.wikipedia.org/wiki/Inverse_kinematics" rel="external nofollow noopener" target="_blank">Inverse Kinematics (IK)</a> - that still need to run between the model’s outputs and the actual motors for this to be viable) and could translate to any other robot arm setup in theory. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">↩</a></p>
     </li>
     <li id="fn:robodojo">
       <p>Zhang, W. et al. (2026). <a href="https://robodojo-benchmark.com/report/gpt-6-astra-eval" rel="external nofollow noopener" target="_blank">An Unexpected Robot Policy: Early Evaluations of GPT-6 Astra on RoboDojo and Beyond</a>. See also Chen, T. et al. (2026). <a href="https://arxiv.org/abs/2607.04434" rel="external nofollow noopener" target="_blank">RoboDojo: A Unified Sim-and-Real Benchmark for Comprehensive Evaluation of Generalist Robot Manipulation Policies</a>. <a href="#fnref:robodojo" class="reversefootnote" role="doc-backlink">↩</a></p>
@@ -533,7 +533,7 @@ function copyCite(btn){
 
       
       
-        Last updated: September 20, 2026.
+        Last updated: September 22, 2026.
       
     </div>
   </footer>

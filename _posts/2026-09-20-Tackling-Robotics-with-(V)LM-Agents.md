@@ -14,7 +14,7 @@ As someone who's been doing research in the field for a few years now, I decided
 One [widely-circulated result](https://openai.robocurve.org/gpt-6-astra/) that also has a clear description of the testing protocol is from [Robocurve](https://bounty.robocurve.org/).
 Researchers asked a few recent frontier VLMs (Claude Fable 5, Claude Fable 5.1, GPT-6 Astra) to perform some simple tasks (placing a block into a bowl, placing a puzzle piece into a groove) by controlling some [YAM arms](https://i2rt.com/).
 The model takes the task description and camera images (and a history of previous images and actions if available) and outputs end-effector positions and orientation for each end-effector[^1].
-Another related result is from the [RoboDojo team](https://robodojo-benchmark.com/report/gpt-6-astra-eval)[^robodojo], who ran GPT-6 Astra and GPT-5.5 through much the same kind of interface on their official simulation benchmark: 42 tasks, 50 episodes each, ranked against the 40 policies on their public leaderboard.
+Another related result is from the [RoboDojo team](https://robodojo-benchmark.com/report/gpt-6-astra-eval)[^robodojo], who ran GPT-6 Astra and GPT-5.5 through much the same kind of interface on their official simulation benchmark: 42 tasks, 50 episodes each, ranked against the 43 policies on their public leaderboard.
 Here, Astra placed first, ahead of every learned policy on the board.
 In both cases there is no other learned policy anywhere between the model and the robot.
 
@@ -73,11 +73,11 @@ This is an admittedly contrived setup, but I believe it is a useful lens for thi
 
 
 # What's missing?
-While current results and what they promise are certainly exciting, there are several important and substantial hurdles to be cleared before it is clearly practical to build and deply general-purpose robots by scaling VLMs.
+While current results and what they promise are certainly exciting, there are several important and substantial hurdles to be cleared before it is clearly practical to build and deploy general-purpose robots by scaling VLMs.
 
 
 ### Thorough experimentation and (strong) evidence of generalization
-The bulk of current evidence is either a demonstration with no quantitative results, or a set of preliminary quantitative results that lacks scale and statistical rigor (i.e., hundreds or more trials with results over several random seeeds). 
+The bulk of current evidence is either a demonstration with no quantitative results, or a set of preliminary quantitative results that lacks scale and statistical rigor (i.e., hundreds or more trials with results over several random seeds). 
 Moreover, many of them do not directly compare against established baselines from the research literature: [Code as Policies](https://code-as-policies.github.io/) or [more recent improvements](https://capgym.github.io/)[^capx] run on the same frontier models, recent VLAs like [π0.7](https://www.pi.website/blog/pi07)[^pi07], [MolmoAct2](https://arxiv.org/abs/2605.02881)[^molmo] or [GR00T N1.5](https://research.nvidia.com/labs/gear/gr00t-n1_5/)[^groot15], and recent WAMs like [DreamZero](https://arxiv.org/abs/2602.15922)[^dreamzero].
 These are currently far from the type of thorough result that could be published in a robotics research paper that would be accepted at a top conference or journal.
 
@@ -99,10 +99,10 @@ However, several research works have demonstrated that such models are able to l
      Not your words. Rewrite, trim, or delete the whole block. ========== -->
 ### Reliability and safety on real hardware
 There is much evidence that current models are not particularly safe or reliable at executing useful behavior on real robots.
-Robodojo's results show that Astra solves their tasks with an average success rate of 28.97%, which is far from reliable completion.
-Moroever, the RoboDojo team [had to hald their real-robot campaign for safety](https://robodojo-benchmark.com/report/gpt-6-astra-eval) after Astra repeatedly issued physically unreasonable or unsafe actions, including incidents that damaged hardware.
+Robodojo results show that Astra solves their tasks with an average success rate of 22.48%, which is far from reliable completion.
+Moreover, the RoboDojo team [had to halt their real-robot campaign for safety](https://robodojo-benchmark.com/report/gpt-6-astra-eval) after Astra repeatedly issued physically unreasonable or unsafe actions, including incidents that damaged hardware.
 Robocurve [found that several recent VLMs will execute harmful and dangerous tasks](https://robocurve.org/roboharm/) on real hardware without refusal.
-Model alignment [remains a challenging problems even for disembodied VLMs](https://openai.com/index/hugging-face-incident-and-the-road-ahead/): ensuring models will safely execute actions on hardware could be even more challenging.
+Model alignment [remains a challenging problem even for disembodied VLMs](https://openai.com/index/hugging-face-incident-and-the-road-ahead/): ensuring models will safely execute actions on hardware could be even more challenging.
 
 <!-- ========== END SUGGESTION ========== -->
 ### Speed and cost in deployment
@@ -118,7 +118,7 @@ If frequency issues are resolved, then robots might be querying models at 50 Hz 
 At current rates, the end-user cost of doing this is likely infeasible.
 
 It is worth noting though that inference speeds and costs for VLMs are improving.
-Robocurve notes that ["LLM token output speed increases by 2-7x per year"](https://x.com/chooi_jeq/status/2090453423682633891?s=20), and projects that VLMs could potentially control robots at the required control frequency by the end of this year, or by 2029.
+A researcher at Robocurve notes that ["LLM token output speed increases by 2-7x per year"](https://x.com/chooi_jeq/status/2090453423682633891?s=20), and projects that VLMs could potentially control robots at the required control frequency by the end of this year, or by 2029.
 Costs are falling on a [similar kind of curve](https://epoch.ai/data-insights/llm-inference-price-trends)[^epoch].
 Both of these concerns could additionally be addressed by distilling large models into smaller ones that can be run locally.
 ßHowever, it is unclear whether these trends will continue to hold in the coming months and years.
@@ -149,7 +149,7 @@ If you found this post useful in your own work or writing, please feel free to c
   year         = {2026},
   month        = {September},
   howpublished = {Blog post},
-  url          = {https://nishanthjkumar.com/blog/2026/Tackling-Robotics-with-VLM-Agents/}
+  url          = {https://nishanthjkumar.com/blog/2026/Tackling-Robotics-with-(V)LM-Agents/}
 }</code></pre>
 </div>
 
